@@ -18,15 +18,15 @@ logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG f
 # visit (session). Only the dark mode setting is "manual",
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
-night_mode: "auto"
+night_mode: manual
 
 logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: Simona Cella # add your name
-author-pic: Myself_Neon_grey.jpg
-about-author: # add description of yourself 
+author: Simona Cella
+author-pic: Myself.jpeg
+about-author: Scriptwriter, Producer, Film Critic 
 
 # Contact links
 email: simona.reichmann@gmail.com # Add your Email address
