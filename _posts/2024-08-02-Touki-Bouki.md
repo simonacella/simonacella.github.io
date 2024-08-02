@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "Touki Bouki"
 date: 2024-08-02
-img: posts/20240802/touki_bouki.jpg
+img: posts/20240802-touki-bouki.jpg
 tags: [Touki Bouki, Djibril Diop Mambéty, Senegal, Art]
 category: movie
 author: Somebody

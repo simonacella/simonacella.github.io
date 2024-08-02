@@ -1,6 +1,6 @@
 # Site settings
-title: The Minimum Model
-description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
+title: Simona Cella
+description: 'Scriptwriter, Producer, Film Critic'
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://simonacella.github.io" # the base hostname & protocol for your site, e.g. http://example.com
