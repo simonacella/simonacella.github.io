@@ -1,0 +1,2 @@
+assets/img/posts/** filter=lfs diff=lfs merge=lfs -text
+assets/img/posts/** !text !filter !merge !diff
