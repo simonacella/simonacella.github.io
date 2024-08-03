@@ -32,6 +32,12 @@ permalink: about:output_ext
       {% if site.bandcamp %}
         <li class="bandcamp"><a class="bandcamp" href="https://{{site.bandcamp}}.bandcamp.com" target="_blank"><i class="fa fa-bandcamp" aria-hidden="true"></i></a></li>
       {% endif %}
+      {% if site.instagram %}
+      <li class="instagram"><a class="instagram" href="https://www.instagram.com/{{site.instagram}}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.facebook %}
+      <li class="facebook"><a class="facebook" href="https://www.facebook.com/{{site.facebook}}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      {% endif %}
       {% if site.stackoverflow %}
       <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank">
         <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
