@@ -3,7 +3,7 @@ title: Simona Cella
 description: 'Scriptwriter, Producer, Film Critic'
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://simonacella.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://simonacella.github.io"
 logo: "/assets/img/branding/MVM-logo-full.svg"
 logo-icon: "/assets/img/branding/MVM-symbol.svg"
 logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
@@ -29,14 +29,16 @@ author-pic: Myself.jpeg
 about-author: Scriptwriter, Producer, Film Critic 
 
 # Contact links
-email: simona.reichmann@gmail.com # Add your Email address
+email: simona.reichmann@gmail.com
 phone: # Add your Phone number
-website: https://simonacella.github.io # Add your website
+website: https://simonacella.github.io
 linkedin: simona-cella-a531b4b/
 github:  # Add your Github handle
 twitter:  # Add your Twitter handle
 bandcamp:  # Add your Bandcamp username
 stackoverflow:  # Add your stackoverflow account
+facebook: simona.cella.9
+instagram: simona_reichmann
 
 # Newsletter
 mailchimp: # mailchimp newsletter
