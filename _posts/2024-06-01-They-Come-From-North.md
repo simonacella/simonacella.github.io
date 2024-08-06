@@ -2,13 +2,13 @@
 layout: post
 read_time: true
 show_date: true
-title: "They come from North"
+title: They come from North
 date: 2024-06-01
 img: posts/theycomefromnorth1.jpg
 tags: [Prasad Hettiarachchi, Sri Lanka, Esposizione]
 category: Esposizione
 author: Simona Cella
-description: "Personale di Prasad Hettiarachchi"
+description: Personale di Prasad Hettiarachchi
 ---
 
 **Visioni e narrazioni di una città estinta**  \

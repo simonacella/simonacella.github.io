@@ -2,13 +2,13 @@
 layout: post
 read_time: true
 show_date: true
-title: "Touki Bouki"
+title: Touki Bouki
 date: 1973-05-01
 img: posts/touki-bouki.jpg
 tags: [Djibril Diop Mambéty, Senegal, Cinema]
 category: Cinema
 author: Wikipedia
-description: "Film drammatico senegalese diretto da Djibril Diop Mambéty"
+description: Film drammatico senegalese diretto da Djibril Diop Mambéty
 ---
 
 Mory è un adolescente asociale che vaga solitario per la città a bordo della sua moto. Nell'infanzia è stato un pastore ma la sua mandria è stata portata al mattatoio. Anta è una studentessa dagli atteggiamenti anticonformisti. Ossessionati dal desiderio di partire per Parigi, i due amanti organizzano truffe e furti per recuperare la somma necessaria per il viaggio, riuscendo infine a derubare un ricco omosessuale e comperare i biglietti per il viaggio in nave.
