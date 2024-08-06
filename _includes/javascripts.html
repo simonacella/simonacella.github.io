@@ -19,17 +19,6 @@
 
 {% if page.layout == "post" %}
   <script>
-    function toggle_comments(){
-      var commentCurtain = document.getElementById('comment-curtain')
-      if (commentCurtain) {
-        commentCurtain.classList.toggle('hide')
-      }
-      var disqusThread = document.getElementById('comment-layout')
-      if (disqusThread) {
-        disqusThread.classList.toggle('show')
-      }
-    }
-
     function copyToClipboard() {
       navigator.clipboard.writeText('{{ site.url }}{{ page.url }}').then(function() {
       alerts = document.getElementsByClassName('alert')

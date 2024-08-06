@@ -972,44 +972,7 @@ svg.menu-icon-house {
     right: 10px;
   }
 }
-/* = = = = = = = = = = Post's comments = = = = = = = = = = */
-.hide {display:none}
-#comment-layout {display:none}
-#comment-layout.show {display:block}
 
-.comments {
-  margin-bottom: 2em;
-}
-
-.ml-auto, .mx-auto {
-  margin-left: auto!important;
-}
-
-.mr-auto, .mx-auto {
-  margin-right: auto!important;
-}
-
-.col-lg-8 {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.comments-trigger {
-  position: relative;
-  background: var(--grey5);
-  color: var(--grey1);
-  outline: 0;
-  display: block;
-  padding: 30px;
-  transition-timing-function: cubic-bezier(0.2,1,0.3,1);
-  text-decoration: none;
-  font-size: 18px;
-  cursor: pointer;
-  transition: all 0.5s;
-}
 /* = = = = = = = = = = Left sidebar  = = = = = = = = = = */
 .sidebar.side .tag-cloud{
   display:none;
