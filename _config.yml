@@ -43,10 +43,6 @@ instagram: simona_reichmann
 # Newsletter
 mailchimp: # mailchimp newsletter
 
-# Tracker
-analytics: # Analytics tracker 
-fbadmin: # Tracker admin
-
 # Paginate
 paginate: 6
 paginate_path: 'page:num'
