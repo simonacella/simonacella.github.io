@@ -589,7 +589,7 @@ svg {
 .main-header .logo a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 27px;
+  font-size: 47px;
   font-weight: var(--font2-light);
   color: var(--accent-dark);
 }
@@ -1983,8 +1983,8 @@ a.read-more:hover {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .main-header .logo {
-  width: 90%;
-}
+    width: 90%;
+  }
   .main-header .logo a {
     font-size: 24px;
   }
@@ -2038,8 +2038,8 @@ a.read-more:hover {
     font-size: 14px;
   }
   .main-header .logo {
-  width: 100%;
-}
+    width: 100%;
+  }
   .main-header .logo a {
     font-size: 21px;
   }
