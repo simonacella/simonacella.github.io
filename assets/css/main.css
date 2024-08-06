@@ -25,23 +25,6 @@ html {
   --font2-regular:    400;
   --font2-bold:       700;
 }
-
-html[data-theme="dark"]  {
-  --accent:       #d14c47;    /* accent     */
-  --accent-dark:  #DBBEA1;    /* accent 2   */
-  --main:         #5F8081;    /* main color */
-  --main-dim:     #333D47;    /* dimmed version of main color */
-  --text:         #CBCCCD;
-  --grey1:        #B1B1AE;
-  --grey2:        #959692;
-  --grey3:        #7C7E7B;
-  --grey4:        #636564;
-  --grey5:        #3B3D40;
-  --background:   #2B323B;
-  --shadow:       rgba(0,0,0,.3);
-  --github:       #000;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -657,80 +640,6 @@ svg.menu-icon-house {
 .left{text-align:left; float:left;}
 .right{text-align:right;}
 
-/* = = = = = = = = = = Theme toggle = = = = = = = = = = */
-
-.theme-toggle {
-  position: relative;
-  width: 3.75rem;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  transition: .3s cubic-bezier(.4,.03,0,1);
-}
-  
-.theme-toggle label {
-  display: block;
-  background-color: rgba(120,120,120,.15);
-  cursor: pointer;
-}
-
-.theme-toggle label, .toggle {
-  border-radius: 100px;
-  }
-
-.theme-toggle .toggle {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  background-color: var(--background);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, .08);
-  transition: transform .2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.theme-toggle .names {
-  font-size: 0.4em;
-  width: 76%;
-  margin-left: 12%;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  -webkit-user-select: none;
-  -ms-user-select:  none;
-  user-select: none;
-}
-
-.theme-toggle .dark {
-  opacity: .5;
-}
-
-.theme-toggle p {
-  color: var(--grey3);
-}
-
-.theme-toggle  [type="checkbox"] {
-  display: none;
-}
-
-  /* Toggle */
-.theme-toggle  [type="checkbox"]:checked ~ label .toggle {
-  transform: translateX(100%);
-  background-color: var(--background);
-  opacity: 0.75;
-}
-
-.theme-toggle  [type="checkbox"]:checked ~ label .dark{
-  opacity: .75;
-}
-
-.theme-toggle  [type="checkbox"]:checked ~ label .light{
-  opacity: .5;
-}
-
-@media (max-width:768px) {
-  .theme-toggle {
-    width: 3.2rem;
-  }
-}
 
 /* = = = = = = = = = = Search Page = = = = = = = = = = */
 .search-box {
