@@ -27,9 +27,6 @@ stackoverflow:  # Add your stackoverflow account
 facebook: simona.cella.9
 instagram: simona_reichmann
 
-# Newsletter
-mailchimp: # mailchimp newsletter
-
 # Paginate
 paginate: 6
 paginate_path: 'page:num'
