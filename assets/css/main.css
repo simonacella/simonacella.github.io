@@ -924,7 +924,8 @@ svg.menu-icon-house {
 /* = = = = = = = = = = Footer  = = = = = = = = = = */
 .main-footer {
   padding: 5px 15px 5px 15px;
-  background-color: var(--main-dim);
+  color: rgba(26, 26, 26, 0.7);
+  background-color: rgb(44, 79, 99);
   box-shadow: 0 5px 5px -6px var(--shadow) inset;
 }
 .footer-wrapper {
