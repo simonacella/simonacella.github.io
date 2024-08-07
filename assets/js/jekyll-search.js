@@ -272,9 +272,6 @@ var relativebase = "./";
         const own_url = window.location.href;
         var countOfSlashes = (own_url.match(/\//g) || []).length;
         var minimumSlashes = 3;
-        if (own_url.includes("/ipfs/")){
-          minimumSlashes = 5;
-        }
         if (countOfSlashes > minimumSlashes){
             relativebase = "";
             var i = 0;
