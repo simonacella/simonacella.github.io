@@ -42,6 +42,9 @@ permalink: about:output_ext
       <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank">
         <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
       {% endif %}
+      {% if site.imdb %}
+      <li class="imdb"><a class="imdb" href="https://www.imdb.com/name/{{site.imdb}}"><i class="fa fa-imdb"></i></a></li>
+      {% endif %}
       </ul>
     </section> <!-- End About Body-->
   </div> <!-- End About Container -->
