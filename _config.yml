@@ -15,15 +15,16 @@ about-author: Scriptwriter, Producer, Film Critic
 
 # Contact links
 email: simona.reichmann@gmail.com
-phone: # Add your Phone number
+phone:
 website: https://simonacella.github.io
 linkedin: simona-cella-a531b4b/
-github:  # Add your Github handle
-twitter:  # Add your Twitter handle
-bandcamp:  # Add your Bandcamp username
-stackoverflow:  # Add your stackoverflow account
+github:  simonacella
+twitter:
+bandcamp:
+stackoverflow:
 facebook: simona.cella.9
 instagram: simona_reichmann
+imdb: nm7677685
 
 # Paginate
 paginate: 6
