@@ -1,7 +1,5 @@
 ---
 layout: post
-read_time: true
-show_date: true
 title: Touki Bouki
 date: 1973-05-01
 img: posts/touki-bouki.jpg

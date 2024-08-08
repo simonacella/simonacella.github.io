@@ -1,7 +1,5 @@
 ---
 layout: post
-read_time: true
-show_date: true
 title: Io Capitano
 date: 2023-09-08
 img: posts/iocapitano.jpg
@@ -9,6 +7,8 @@ tags: [Matteo Garrone, Senegal, Cinema, Migrazione]
 category: Cinema
 author: Simona Cella
 description: Recensione del film Io Capitano
+publisher: Nigrizia
+publication_link: https://www.nigrizia.it/notizia/venezia-garrone-inciampa-nei-luoghi-comuni-sullafrica
 ---
 
 ## Venezia, Garrone inciampa nei luoghi comuni sull’Africa
