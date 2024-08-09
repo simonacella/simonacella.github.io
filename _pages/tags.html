@@ -18,7 +18,7 @@ permalink: tags:output_ext
       {% include remove_double_slash.html %}
         <div class="list-item">
           <a href="{{ post_url }}">{{ post.title }}</a>
-          {% include post_meta.html type="post-card-meta" %}
+          {% include post_meta.html type="post-card-meta" publisher="none" %}
         </div>
       {% endif %}{% endfor %}
        </div>
