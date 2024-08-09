@@ -8,7 +8,7 @@
   {% endif %}
   {% unless include.date == "none" %}
     {% if document.publication_link and document.publisher and include.publisher != "none" %}
-      Originally published in&nbsp;<a href="{{document.publication_link}}">{{document.publisher}}</a>
+      Originally published in&nbsp;<a href="{{document.publication_link}}" target="_blank">{{document.publisher}}</a>
       <span class="meta-sep"></span>
     {% endif %}
     {% assign date = document.date %}
