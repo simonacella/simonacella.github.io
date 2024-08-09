@@ -26,7 +26,7 @@ Il riferimento più diretto e più ardito è però l’_Odissea_ che Garrone cit
 
 ### La troupe italiana
 
-Eppure nonostante questi nobili riferimenti Io Capitano risulta un film ambiguo che oscilla pericolosamente tra un registro realista e uno più favolistico. Due anni di ricerca, un budget importante (8 milioni di euro) non sono sufficienti, forse, a raccontare un tema così drammaticamente attuale e complesso.
+Eppure nonostante questi nobili riferimenti _Io Capitano_ risulta un film ambiguo che oscilla pericolosamente tra un registro realista e uno più favolistico. Due anni di ricerca, un budget importante (8 milioni di euro) non sono sufficienti, forse, a raccontare un tema così drammaticamente attuale e complesso.
 
 E il fatto che Garrone abbia lavorato con una troupe completamente italiana è un limite evidente, che forse si sarebbe potuto evitare collaborando con professionalità senegalesi che negli ultimi anni hanno lavorato a produzioni franco-senegalesi approdate e premiate a Cannes.
 
@@ -40,9 +40,9 @@ Ma la storia di Seydou e Moussa risente di problemi di drammaturgia e veridicit�
 
 Garrone ha dichiarato: «Mi sembrava che mancasse un racconto in forma visiva del viaggio, soprattutto della parte del viaggio che si svolge dall’altra parte del mare. Volevo fare un controcampo, ribaltare la prospettiva, guardare a cosa succede prima».
 
-Avrà visto La Pirogue di Moussa Traoré, Atlantics e Atlantique di Mati Diop, Yoolé di Moussa Sene Absa? Garrone pecca di ingenuità o presunzione?
+Avrà visto [La Pirogue](https://www.youtube.com/watch?v=uJYyC6S7QnY) di Moussa Traoré, [Atlantics](https://mubi.com/it/films/atlantiques/trailer) e [Atlantique](https://www.youtube.com/watch?v=Atbk7kYwQ_k) di Mati Diop, [Yoolé](https://www.youtube.com/watch?v=FehKoqNG-zg) di Moussa Sene Absa? Garrone pecca di ingenuità o presunzione?
 
 In conferenza stampa si è rifiutato di rispondere a domande sulla politica migratoria italiana, mentre Mamadou Kouassi, seduto accanto a lui insieme ai due giovani attori, è stato più diretto parlando del sogno dell’Europa come terra di diritti (per esempio scuola pubblica gratuita) e sul ruolo di Libia e Tunisia, chiedendo che l’Italia non dia più soldi a quei governi.
 
-Io Capitano, è un film ambiguo, ma va visto. Guardatelo con occhio critico. Ma guardate anche i film dei registi senegalesi, che hanno raccontato, loro sì, il viaggio dei loro connazionali.
+_Io Capitano_, è un film ambiguo, ma va visto. Guardatelo con occhio critico. Ma guardate anche i film dei registi senegalesi, che hanno raccontato, loro sì, il viaggio dei loro connazionali.
 
