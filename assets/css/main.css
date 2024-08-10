@@ -1191,57 +1191,7 @@ div.tag-cloud{
     color: white !important;
     text-decoration: none}
 
-/* = = = = = = = = = = Github Link Button = = = = = = = = = = */
-.center-container {
-  display: flex;
-  overflow-x: visible;
-}
-.github-button {
-  margin-top:1em;
-  margin-bottom:1em;
-  padding: 3px 10px 3px 10px;
-  will-change: transform;
-  font-size: 13px;
-  border:1px solid var(--main);
-  border-radius: 20px;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
-  transition-timing-function: cubic-bezier(0.2,1,0.3,1);
-  height: 28px;
-  flex-flow: nowrap;
-  white-space: nowrap;
-  overflow-x: visible;
-}
-.button-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 4px;
-  display: block;
-  float: left;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
-  transition-timing-function: cubic-bezier(0.2,1,0.3,1);
-}
-.button-icon > svg {
-  vertical-align: super;
-}
-.button-icon, .github-button a{
-color:var(--main);
-}
-.github-button a{
-  font-family: var(--font2);
-  white-space: nowrap;
-  text-decoration: none;
-}
-.github-button:hover,.github-button:focus{
-  border: 1px solid var(--accent);
-  cursor:pointer;
-  }
-.github-button:hover>a, .github-button:hover>.button-icon{
-color: var(--accent);
-}
+
 /* = = = = = = = = = = Code = = = = = = = = = = */
 .highlighter-rouge {
   color: var(--main);
@@ -1691,7 +1641,6 @@ a.read-more:hover {
 .about-container,
 .post-card-box,
 .blog-tags,
-.github-button,
 .tag-master,
 .tag-cloud,
 .toc,
@@ -1720,7 +1669,6 @@ a.read-more:hover {
 .blog-tags,
 .page_meta,
 .toc,
-.github-button,
 .sidebar,
 .about-container,
 .pnf-image,
