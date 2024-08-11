@@ -24,7 +24,7 @@ Seydou, anima pura ed ingenua, disobbedisce alla madre per avventurarsi in un vi
 
 Il riferimento più diretto e più ardito è però l’_Odissea_ che Garrone cita dichiarando la dimensione epica del viaggio dei migranti.
 
-![Traversata del deserto](.assets/img/posts/iocapitano2.jpg)
+![Traversata del deserto](./assets/img/posts/iocapitano2.jpg)
 ### La troupe italiana
 
 Eppure nonostante questi nobili riferimenti _Io Capitano_ risulta un film ambiguo che oscilla pericolosamente tra un registro realista e uno più favolistico. Due anni di ricerca, un budget importante (8 milioni di euro) non sono sufficienti, forse, a raccontare un tema così drammaticamente attuale e complesso.
