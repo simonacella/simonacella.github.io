@@ -35,7 +35,7 @@ $(function() {
   // If there's no spinner, it's not a page where posts should be fetched
   if ($(".spinner").length < 1)
     shouldFetchPosts = false;
-	
+  
   // Are we close to the end of the page? If we are, load more posts
   $(window).scroll(function(e){
     if (!shouldFetchPosts || isFetchingPosts) return;
@@ -77,13 +77,13 @@ $(function() {
             isFetchingPosts = false;
           }
         };
-		
+    
     fetchPostWithIndex(postCount + loadedPosts, callback);
   }
-	
+  
   function fetchPostWithIndex(index, callback) {
     var postURL = postURLs[index];
-		
+    
     $.get(postURL, function(data) {
       $(data).find(".post").appendTo(".tag-master:not(.hidden) .post-list");
       callback();
@@ -95,5 +95,5 @@ $(function() {
     isFetchingPosts = false;
     $(".spinner").fadeOut();
   }
-	
+  
 });
