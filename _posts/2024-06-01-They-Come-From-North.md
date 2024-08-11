@@ -14,6 +14,8 @@ publication_link: https://kaiyacollective.com/projects/theycomefromnorth/index_i
 **Visioni e narrazioni di una città estinta**  \
 _Personale di Prasad Hettiarachchi_
 
+A cura di Simona Cella
+
 Con _They come from North_ Kaiya Collective, in collaborazione con Terzo Paesaggio, 5e6 e Fondazione Pianoterra, continua la ricerca sui linguaggi artistici, i territori e gli immaginari esplorati nella costellazione artistica e laboratoriale scaturita dalla produzione del lungometraggio _Still Here_ di Suranga Katugampala.
 La residenza, in linea con la filosofia di Kaiya Collective, risponde ad un’urgenza creativa disobbediente, sganciata da un sistema economico e da meccanismi neocoloniali di sfruttamento di artisti del Global South. L’intera operazione, ideata collettivamente, si appoggia ad una struttura organizzativa leggera e ad un budget sostenibile e nelle prime fasi interamente autofinanziato.
 
