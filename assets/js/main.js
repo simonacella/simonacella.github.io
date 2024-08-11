@@ -79,9 +79,9 @@ $(function () {
     searchInput.focus()
     if (searchBox.hasClass('search-active')) {
       searchClose.click(function (e) {
-    		e.preventDefault()
-    		searchBox.removeClass('search-active')
-    	})
+        e.preventDefault()
+        searchBox.removeClass('search-active')
+      })
     }
   })
 });
