@@ -1,6 +1,6 @@
 # Site settings
 title: Simona Cella
-description: Scriptwriter, Producer, Film Critic
+description: Il cinema come amuleto
 permalink: :title:output_ext
 baseurl: /
 url: https://simonacella.github.io
