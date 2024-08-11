@@ -12,7 +12,7 @@ publication_link: https://www.nigrizia.it/notizia/venezia-garrone-inciampa-nei-l
 ---
 
 ## Venezia, Garrone inciampa nei luoghi comuni sull’Africa
-[Io Capitano](https://www.youtube.com/watch?v=idErmD0bA_M), undicesimo lungometraggio di Matteo Garrone, presentato in Concorso alla 80ª Mostra internazionale d’arte cinematografica di Venezia e accolto con entusiasmo dalla critica è la storia di due ragazzini, Seydou e Moussa, che dal Senegal intraprendono un viaggio attraverso il deserto, la Libia e il Mar Mediterraneo che li porterà sani e salvi in Italia.
+_Io Capitano_, undicesimo lungometraggio di Matteo Garrone, presentato in Concorso alla 80ª Mostra internazionale d’arte cinematografica di Venezia e accolto con entusiasmo dalla critica è la storia di due ragazzini, Seydou e Moussa, che dal Senegal intraprendono un viaggio attraverso il deserto, la Libia e il Mar Mediterraneo che li porterà sani e salvi in Italia.
 
 La sceneggiatura, scritta in sei mesi con Massimo Ceccherini, Massimo Gaudioso e Andrea Tagliaferri mescola le storie di [Mamadou Kouassi](https://www.vanityfair.it/news/storie-news/2021/06/28/mamadou-centro-sociale-movimento-migranti-rifugiati-caserta) (originario della Costa d’Avorio e ora mediatore a Caserta) e Fofana Amara (accusato di favoreggiamento dell’immigrazione clandestina e finito in carcere per sei mesi per aver portato in salvo centinaia di persone su un’imbarcazione portata dalla Libia) alle testimonianze di Brhane Tareka, Siaka Doumbia.
 
