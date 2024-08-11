@@ -1,14 +1,14 @@
 # Site settings
 title: Simona Cella
 description: Il cinema come amuleto
-permalink: :title:output_ext
-baseurl: /
-url: https://simonacella.github.io
 logo: /assets/img/logo.webp
+timezone: Europe/Rome
+paginate: 6
+words_per_minute: 200
 
 # Author settings
 author: Simona Cella
-author-pic: Myself.jpeg
+author-pic: /assets/img/Myself.jpeg
 about-author: Scriptwriter, Producer, Film Critic 
 about-author-long: |
   Esperta di cinema africano e terzo cinema, dopo una lunga esperienza nel mondo della produzione
@@ -21,7 +21,6 @@ about-author-long: |
 
 # Contact links
 email: simona.reichmann@gmail.com
-phone:
 website: https://simonacella.github.io
 linkedin: simona-cella-a531b4b/
 github:  simonacella
@@ -29,20 +28,20 @@ facebook: simona.cella.9
 instagram: simona_reichmann
 imdb: nm7677685
 
-# Paginate
-paginate: 6
-paginate_path: 'page:num'
-words_per_minute: 200
+
+### Do not change the settings below unless you know what you are doing ###
 
 # Build settings
+baseurl: /
+paginate_path: 'page:num'
+permalink: :title:output_ext
+url: https://simonacella.github.io
 markdown: kramdown
 highlighter: rouge
 compress_html:
   clippings: all
   comments: all
   startings: [html, head, body]
-
-timezone: Europe/Rome
 
 category_archive:
   type: liquid
