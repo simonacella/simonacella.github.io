@@ -4,7 +4,7 @@ description: Scriptwriter, Producer, Film Critic
 permalink: :title:output_ext
 baseurl: /
 url: https://simonacella.github.io
-logo-icon-SEO: /assets/img/favicon/favicon.ico
+logo: /assets/img/logo.webp
 
 # Author settings
 author: Simona Cella
