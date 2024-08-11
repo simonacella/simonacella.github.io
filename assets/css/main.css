@@ -576,6 +576,9 @@ svg {
   font-weight: var(--font2-light);
   color: var(--accent-dark);
 }
+.main-header .logo img {
+  height: 80px;
+}
 .main-nav {
   position: fixed;
   top: 0;
