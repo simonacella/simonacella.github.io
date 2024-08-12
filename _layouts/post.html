@@ -29,6 +29,11 @@ layout: default
         {% include sidebar.html context="post" class="side" id="sidebar" %}
         {% if page.toc %}{% include sidebar-toc.html %}{% endif %}
         {{page.content | markdownify}}
+        {% if page.publication_link and page.publisher %}
+          <p class="page_meta">
+            Originally published in&nbsp;<a href="{{document.publication_link}}" target="_blank">{{page.publisher}}</a>
+          </p>
+        {% endif %}
         {% include sidebar.html context="post" class="inline" id="post-end" %}
         <div class="separator"></div>
         {% include author-box.html %}
