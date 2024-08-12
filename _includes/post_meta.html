@@ -7,10 +7,6 @@
     <span class="meta-pre"></span>
   {% endif %}
   {% unless include.date == "none" %}
-    {% if document.publication_link and document.publisher and include.publisher != "none" %}
-      Originally published in&nbsp;<a href="{{document.publication_link}}" target="_blank">{{document.publisher}}</a>
-      <span class="meta-sep"></span>
-    {% endif %}
     {% assign date = document.date %}
     <{% if include.type == "recent-item-meta" %}p{% else %}span{% endif %} class="page_meta-date">
       <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: "%B %-d, %Y" }}</time>
