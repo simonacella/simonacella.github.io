@@ -9,9 +9,9 @@ author: Wikipedia
 description: Film drammatico senegalese diretto da Djibril Diop Mambéty
 ---
 
-{% youtube "https://www.youtube.com/watch?v=xaWmfqrQjU4" %}
-
 Mory è un adolescente asociale che vaga solitario per la città a bordo della sua moto. Nell'infanzia è stato un pastore ma la sua mandria è stata portata al mattatoio. Anta è una studentessa dagli atteggiamenti anticonformisti. Ossessionati dal desiderio di partire per Parigi, i due amanti organizzano truffe e furti per recuperare la somma necessaria per il viaggio, riuscendo infine a derubare un ricco omosessuale e comperare i biglietti per il viaggio in nave.
+
+{% youtube "https://www.youtube.com/watch?v=xaWmfqrQjU4" %}
 
 La critica è unanime nel sottolineare l'originalità della scrittura cinematografica che attraverso un montaggio sperimentale inserisce nella trama narrativa immagini simboliche della cultura africana tradizionale conferendo al film una forte cifra onirica e allegorica. Pur affrontando il classico tema del confronto tra modernità e tradizione, il film non usa il linguaggio didascalico e lineare tipico del cinema africano dell'epoca, ma è alla ricerca di un nuovo stile. Considerato film originale e atipico, Touki Bouki è spesso paragonato dai critici a Pierrot le fou di Jean Luc Godard e al Cinema Novo brasiliano.
 
