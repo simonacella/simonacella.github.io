@@ -23,9 +23,7 @@ L’opera dell’artista diventa magnete aggregante di una costellazione tempora
 
 Nel corso della residenza Prasad Hettiarachchi oltre a confrontarsi con soggetti artistici e culturali si interfaccerà con il circuito diasporico srilankese con il quale progetterà un laboratorio di arte pubblica.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m4D731xkPiY" title="&quot;They come from North &quot; Brescia - Prasad Hettiarachchi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+{% youtube "https://www.youtube.com/watch?v=m4D731xkPiY" %}
 
 Artista raffinato e engagé, da anni Hettiarachchi osserva e rappresenta le grandi trasformazioni sociali ed urbane causate dalla neocolonizzazione indiana e cinese dello Sri Lanka. I Visitatori (They) arrivano da un Nord che non rappresenta più, o almeno non solo, gli ex colonizzatori europei o gli Stati Uniti bensì nuove potenze mondiali come Cina e India interessate a sfruttare le risorse naturali e sociali dello Sri Lanka, snodo centrale per la Nuova Via della Seta. Fuoco generativo dell’intera ricerca dell’artista è Colombo e in particolare l’impatto del recente sviluppo urbanistico ed architettonico sulla capitale dell’isola. _They come from North_ include una selezione della produzione dell’artista a partire dal 2019 fino ad arrivare alle opere più recenti.
 

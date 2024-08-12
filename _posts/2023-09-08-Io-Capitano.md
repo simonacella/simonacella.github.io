@@ -13,7 +13,7 @@ publication_link: https://www.nigrizia.it/notizia/venezia-garrone-inciampa-nei-l
 
 ## Venezia, Garrone inciampa nei luoghi comuni sull’Africa
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/idErmD0bA_M" title="IO CAPITANO di Matteo Garrone (2023) - Trailer Ufficiale HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% youtube "https://www.youtube.com/watch?v=idErmD0bA_M" %}
 
 _Io Capitano_, undicesimo lungometraggio di Matteo Garrone, presentato in Concorso alla 80ª Mostra internazionale d’arte cinematografica di Venezia e accolto con entusiasmo dalla critica è la storia di due ragazzini, Seydou e Moussa, che dal Senegal intraprendono un viaggio attraverso il deserto, la Libia e il Mar Mediterraneo che li porterà sani e salvi in Italia.
 
