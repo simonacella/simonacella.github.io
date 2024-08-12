@@ -2,7 +2,7 @@
 layout: post
 title: They come from North
 date: 2024-06-01
-img: posts/theycomefromnorth1.jpg
+img: posts/theycomefromnorth.jpg
 tags: [Prasad Hettiarachchi, Sri Lanka, Esposizione]
 category: Esposizione
 author: Simona Cella
