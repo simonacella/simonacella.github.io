@@ -862,9 +862,9 @@ svg.menu-icon-house {
 }
 .copyright {
   text-align: center;
-  color: var(--grey4);
+  color: white;
   font-size: 0.6em;
-  opacity: 0.75;
+  text-decoration: none;
 }
 .footer-nav {
   display: flex;
