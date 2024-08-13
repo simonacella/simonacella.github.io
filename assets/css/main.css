@@ -499,7 +499,7 @@ svg {
 }
 
 .flex-container.active.transparent::after {
-  opacity: 0;
+  opacity: 0.01;
 }
 
 .flex-container.active::after {
@@ -1679,7 +1679,7 @@ a.read-more:hover {
 
 @-webkit-keyframes fadeInDown {
   from {
-    opacity: 0;
+    opacity: 0.01;
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
   }
@@ -1692,7 +1692,7 @@ a.read-more:hover {
 
 @keyframes fadeInDown {
   from {
-    opacity: 0;
+    opacity: 0.01;
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
   }
