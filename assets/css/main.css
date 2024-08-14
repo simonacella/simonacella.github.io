@@ -845,10 +845,6 @@ svg.menu-icon-house {
   grid-template-columns: 1fr 2fr 1fr;
   align-items:center;
 }
-.logo-symbol {
-  max-width: 45px;
-  max-height: 80%;
-}
 .logo-link {
   display:block;
   color: var(--grey4);
