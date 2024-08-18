@@ -11,8 +11,6 @@ publisher: L'Harmattan Italia
 publication_link: https://www.amazon.it/Djibril-rivoluzione-cinematografica-visionario-senegalese/dp/8878923605
 ---
 
-**Hyènes, un western tropicale**
-
 ![Ramatou e le amazzoni](./assets/img/posts/hyenes2.jpg)
 
 Presentato in concorso ufficiale al Festival di Cannes del 1992, _Hyènes_ segna il tormentato ritorno di Mambety al cinema.
