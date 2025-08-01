@@ -11,7 +11,7 @@ description: Film drammatico senegalese diretto da Djibril Diop Mambéty
 
 > Un film profetico. Bellissimo, sconvolgente e inatteso che ci fa dubitare di noi stessi.
 
-Così Souleymane Cissé definisce _Touki Bouki_, primo lungometraggio di Djibril Diop Mambety, un film girato a Dakar nel 1973 che ancora risplende di un’attualità e di una lucidità sorprendente, soprattutto in tempi bui come quelli che stiamo vivendo. 
+Così Souleymane Cissé definisce [_Touki Bouki_](https://www.raiplay.it/programmi/toukiboukiilviaggiodellaiena), primo lungometraggio di Djibril Diop Mambety, un film girato a Dakar nel 1973 che ancora risplende di un’attualità e di una lucidità sorprendente, soprattutto in tempi bui come quelli che stiamo vivendo. 
 > Estatico, violento, divertente, sorprendente
 
 lo definisce invece Martin Scorsese nella prefazione al libro [_Djibril Diop mambety o il viaggio della Iena_](https://www.amazon.it/Djibril-rivoluzione-cinematografica-visionario-senegalese/dp/8878923605), ricordando inoltre come il film sia uno dei primi restaurato grazie al [_The World Cinema Project_](https://www.film-foundation.org/world-cinema?sortBy=title&sortOrder=1&page=6). 
@@ -61,7 +61,11 @@ Un film profondamente anticapitalista come sarà _Hyènes_.
 
 ![OTRII](./assets/img/posts/beyonce1.jpg)
 Citato impropriamente nei manifesti promozionali del tour OTR II  e omaggiato da Mati Diop nell'affascinante
-[_Milles Soleils_(https://youtu.be/P5bD5Go4juY?si=aDtLySAUeQlCMGVr), _Touki Bouki_ è un film punk e psichedelico, una cometa cinematografica che continua a rilasciare scintille di cinema.  
+[_Milles Soleils_(https://youtu.be/P5bD5Go4juY?si=aDtLySAUeQlCMGVr), _Touki Bouki_ è un film punk e psichedelico, una cometa cinematografica che continua a rilasciare scintille di cinema. 
+
+Per approfondire:
+
+[**Djibril Diop Mambety o il viaggio della iena con Simona Cella Dippia Visione Podcast Ep. 37**](https://youtu.be/t238kLwIVgA?si=nIEJLEURg7rjuH2E)
 
 
 
