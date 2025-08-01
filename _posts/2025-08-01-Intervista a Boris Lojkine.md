@@ -2,7 +2,7 @@
 layout: post
 title: Il cinema del reale di Boris Lojkine
 date: 2025-08-01
-img: posts/Hope.jpg
+img: posts/Hopetitolo.jpg
 tags: [Boris Lojkine, Francia, Cinema]
 category: Intervista
 author: Simona Cella
