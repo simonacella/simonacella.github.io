@@ -10,8 +10,10 @@ description: Film drammatico senegalese diretto da Djibril Diop Mambéty
 ---
 
 > Un film profetico. Bellissimo, sconvolgente e inatteso che ci fa dubitare di noi stessi.
+
 Così Souleymane Cissé definisce _Touki Bouki_, primo lungometraggio di Djibril Diop Mambety, un film girato a Dakar nel 1973 che ancora risplende di un’attualità e di una lucidità sorprendente, soprattutto in tempi bui come quelli che stiamo vivendo. 
 > Estatico, violento, divertente, sorprendente
+
 lo definisce invece Martin Scorsese nella prefazione al libro [_Djibril Diop mambety o il viaggio della Iena_](https://www.amazon.it/Djibril-rivoluzione-cinematografica-visionario-senegalese/dp/8878923605), ricordando inoltre come il film sia uno dei primi restaurato grazie al [_The World Cinema Project_](https://www.film-foundation.org/world-cinema?sortBy=title&sortOrder=1&page=6). 
 
 {% youtube "https://www.youtube.com/watch?v=HdsANF5FlKY" %}
@@ -50,7 +52,7 @@ Un percorso che contiene il sacrificio, come estremo atto rituale.
 Accanto a lui, Anta incarna la nuova donna post Indipendenza, perfetta icona di una generazione  che riesce a contaminare il sacro con il profano, la tradizione con la modernità, il maschile con il femminile e che rimane ferma nel suo intento di libertà anche a costo di perdere l’amore.
 
 
-![Anta](./assets/img/posts/antatesto.jpg)
+![Anta](./assets/img/posts/Antatesto.jpg)
 
 Proiettato in anteprima al celebre Théâtre Sorano di Dakar Touki Bouki viene fischiato e duramente criticato da pubblico e critica, completamente impreparati ad un film estremamente sperimentale, provocatorio e politico. 
 Premiato alla Quinzaine des Réalisateurs e al Festival Internazionale del Film di Mosca è ormai  considerato capolavoro del modernismo cinematografico post coloniale e imprescindibile riferimento per molti registi africani (ma non solo) alla ricerca di un linguaggio cinematografico innovativo. 
