@@ -5,7 +5,8 @@ date: 2025-07-31
 img: posts/LastoriadiSouleymane.jpg
 tags: [Boris Lojkine, Migrazione, Cinema]
 category: Cinema
-author: Nigrizia
+author: Simona Cella
+publisher: Nigrizia
 description: Film drammatico francese diretto da Boris Lojkine
 ---
 
