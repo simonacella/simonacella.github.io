@@ -3,7 +3,7 @@ layout: post
 title: Touki Bouki
 date: 1973-05-01
 img: posts/touki-bouki.jpg
-tags: [Djibril Diop Mambéty, Senegal, Cinema]
+tags: [Djibril Diop Mambety, Senegal, Cinema]
 category: Cinema
 author: Wikipedia
 description: Film drammatico senegalese diretto da Djibril Diop Mambéty
