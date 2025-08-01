@@ -6,8 +6,10 @@ img: posts/LastoriadiSouleymane.jpg
 tags: [Boris Lojkine, Migrazione, Cinema]
 category: Cinema
 author: Simona Cella
-publisher: Nigrizia
 description: Film drammatico francese diretto da Boris Lojkine
+publisher: Nigrizia
+publication_link: https://www.nigrizia.it/notizia/la-storia-di-souleymane-film-premio-cannes-boris-lojkine
+---
 ---
 
 _La storia di Souleymane_ di Boris Lojkine, premiato a Cannes 2024 nella sezione _Un certain regard_ con Premio della Giuria e Premio per il Miglior Attore è il resoconto à bout de souffle di due giorni della vita di Souleymane, arrivato a Parigi dalla Guinea e in attesa del colloquio con l’Ofpra (l’Office français de protection des réfugiés et apatrides) che determinerà il suo destino, accettando o respingendo la sua domanda di richiesta asilo politico. 
