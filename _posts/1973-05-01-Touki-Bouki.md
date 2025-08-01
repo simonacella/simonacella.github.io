@@ -26,6 +26,8 @@ All’origine di _Touki Bouki_ c’è un forte desiderio di ribellione che Mambe
 
 > Oui je l’ai écrit et je l’ai vécu  dans un certain sens. Il est question dans ce film des Africains malades de l’Europe, des Africains qui considèrent  que l’Europe est la porte de l’Afrique et qu’il faut y être allé pour revenir chez soi et gagner de la considération . Il est question en quelque sorte d’aller faire un stage de civilisation en Europe. Pour beaucoup la façon d’aller en Europe , c’est le voyage clandestin . Moi-même , j’ai entrepris un voyage clandestin sur un bateau qui m’a emmené jusqu’à Marseille : mais j’ai été pris et ramené jusqu’à Dakar. Le film c’est un peu l’histoire de beaucoup de jeunes, le dégoût aussi que m’inspire cette image qu’on acharne à donner de l’Europe à l’Afrique. Une image donnée par les Africains eux-mêmes en fait. Ceux qui, une fois rentrés, vous dépeignent l’Europe avec un tel sens de merveilleux, que vous n’avez qu’un envie: y aller et que vous commencez à vous sentir étranger dans votre propre pays . C’est contre cela, dont j’ai été moi-même victime que je me suis rebellé dans ce film . En dehors de la recherche artistique, j’ai voulu vraiment faire œuvre utile, essayer d'enlever les illusions de mes compatriotes qui ne sont pas parties et restent malades d’Europe. Moi j’en suis guéri.
 
+![Locandina](./assets/img/posts/tblocandina.jpg)
+
 Non meno importante è il desiderio di reinventare il cinema, che è atto di creazione artistica ma anche di  resistenza contro l’ideologia colonialista alla base del sistema di produzione e distribuzione di un certo cinema occidentale.
 
 > Proprio come il mio eroe in Touki Bouki che ha rifiutato, mentre la nave era là, di andare in Europa, anche io ho rifiutato il meccanismo di visione sul quale si è basato il cinema occidentale per conquistare gli intelletti del pubblico senegalese.
@@ -35,6 +37,7 @@ Parole queste che racchiudono la poetica/politica che sottende a tutta l’opera
 La storia raccontata in _Touki Bouki_ è apparentemente semplice oltre che tragicamente attuale.
 Mory, motociclista solitario, e Anta, studentessa ribelle, si amano e sognano un futuro radioso a Parigi. Per racimolare i soldi necessari al viaggio attraversano Dakar escogitando truffe e furti in un continuo gioco di travestimenti e ironiche performance. Al momento di imbarcarsi Mory però fugge lasciando Anta partire sola. 
 
+![Mory e Anta](./assets/img/posts/toukiboukitesto.jpg)
 
 Mambety spreme le potenzialità formali e stilistiche del linguaggio cinematografico distillando immagini potenti, ipnotiche, imperfette e lasciando allo spettatore il compito di ricostruire la storia e decifrarne la complessa stratificazione simbolica.
 La storia di Anta e Mory si nutre di profonde radici che sondano una Dakar caotica e pregna di memoria e misteri. Dakar è il luogo della modernità, del potere e della ricchezza. Qui il capitalismo ha eretto i suoi templi e imposto i suoi riti.  Il mattatoio che sacrifica insieme agli zebù il ritmo lento della pastorizia. Il porto con i suoi infiniti container e le navi che trasportano avanti e indietro cooperanti e neo colonialisti. L’università che sforna studenti freschi delle lotte del ‘68, eppure già conformisti e borghesi, così come la maggior parte della classe dirigente post indipendenza. 
@@ -47,10 +50,14 @@ Un percorso che contiene il sacrificio, come estremo atto rituale.
 Accanto a lui, Anta incarna la nuova donna post Indipendenza, perfetta icona di una generazione  che riesce a contaminare il sacro con il profano, la tradizione con la modernità, il maschile con il femminile e che rimane ferma nel suo intento di libertà anche a costo di perdere l’amore.
 
 
+![Anta](./assets/img/posts/antatesto.jpg)
+
 Proiettato in anteprima al celebre Théâtre Sorano di Dakar Touki Bouki viene fischiato e duramente criticato da pubblico e critica, completamente impreparati ad un film estremamente sperimentale, provocatorio e politico. 
 Premiato alla Quinzaine des Réalisateurs e al Festival Internazionale del Film di Mosca è ormai  considerato capolavoro del modernismo cinematografico post coloniale e imprescindibile riferimento per molti registi africani (ma non solo) alla ricerca di un linguaggio cinematografico innovativo. 
 Da subito i critici parlano di un film influenzato dalla Nouvelle Vague e dal Cinema Novo. E’ certo un cinema avanguardistico ma è importante non dimenticarne l’aspetto militante che critica ferocemente non solo il colonialismo che ha importato violentemente sistemi alieni quali  l’ urbanizzazione, l’ industrializzazione, il  capitalismo e il cattolicesimo.ma anche l’amaro tradimento dell’Indipendenza ad opera di un Presidente Poeta che ben ha saputo dissimulare 
 Un film profondamente anticapitalista come sarà _Hyènes_.
+
+![OTRII](./assets/img/posts/beyonce1.jpg)
 Citato impropriamente nei manifesti promozionali del tour OTR II  e omaggiato da Mati Diop nell'affascinante
 [_Milles Soleils_(https://youtu.be/P5bD5Go4juY?si=aDtLySAUeQlCMGVr), _Touki Bouki_ è un film punk e psichedelico, una cometa cinematografica che continua a rilasciare scintille di cinema.  
 
