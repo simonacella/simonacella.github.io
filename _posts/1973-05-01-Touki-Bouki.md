@@ -63,7 +63,7 @@ Da subito i critici parlano di un film influenzato dalla Nouvelle Vague e dal Ci
 ![OTRII](./assets/img/posts/beyonce1.jpg)
 
 Citato impropriamente nei manifesti promozionali del tour OTR II di Beyoncé e omaggiato da Mati Diop nell'affascinante
-[_Milles Soleils_(https://youtu.be/P5bD5Go4juY?si=aDtLySAUeQlCMGVr), _Touki Bouki_ è un film punk e psichedelico, una cometa cinematografica che continua a rilasciare scintille di cinema. 
+[_Milles Soleils_](https://youtu.be/P5bD5Go4juY?si=aDtLySAUeQlCMGVr), _Touki Bouki_ è un film punk e psichedelico, una cometa cinematografica che continua a rilasciare scintille di cinema. 
 
 Per approfondire:
 
