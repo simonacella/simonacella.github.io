@@ -63,8 +63,6 @@ L’Hotel Theresa ad Harlem dove militanti e leaders dei paesi non allineati and
 
 Andrée Blouin, mandata dalla Guinea in Congo per organizzare un movimento femminile a supporto della campagna elettorale del Mouvement National Congolais e diventata redattrice dei discorsi e capo di protocollo di Lumumba. Ritratta dai servizi segreti del Belgio come comunista e cortigiana dei leaders africani ed espulsa dal Congo qualche giorno prima dell’Indipendenza, riuscirà a portare in salvo, nascosto nel proprio chignon, il documento che dimostrava la legittimità di Lumumba (non di Kasa Buvu, il candidato del Belgio) a guidare il governo. 
 
-![andree](./assets/img/posts/andree.jpg)
-
 
 In Koli Jean Bofane autore di Congo Inc. che ci ricorda come il Congo, un algoritmo in continua evoluzione tra Washington, London, Brussels and Kigali, sia stato il fornitore globale di materie prime indispensabili alle guerre globali: gomma per la Prima Guerra Mondiale, uranio per le bombe atomiche sganciate a Hiroshima e Nagasaki, rame per i proiettili in Vietnam. Senza dimenticare le materie prime necessarie a portare la guerra nello spazio.
 
