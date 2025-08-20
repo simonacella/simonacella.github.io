@@ -30,6 +30,8 @@ Il film copre il periodo che va dal 1955 al 1965 ed è avvincente come può esse
 
 Il fulcro della storia è il complotto ideato dal Belgio che, costretto a concedere l'indipendenza al Congo, orchestrò una strategia del divide et impera e il cui risultato più evidente fu la secessione della provincia del Katanga che ospita i giacimenti minerari più preziosi del paese. Un complotto sostenuto dagli Stati Uniti, determinati a mantenere il controllo sull'uranio del Congo (grazie al quale si costruì la bomba atomica) con la complicità delle Nazioni Unite, totalmente asservite agli interessi americani.
 Il contesto storico è quello guerra fredda e della lotta contro il colonialismo. Il mondo è diviso in tre grossi blocchi: i Capitalisti, i Comunisti  e i non allineati. Il Congo, ricco in materie prime, è al centro di tensioni che vanno oltre i propri confini geografici:  la rivalità Usa-Urss, la lotta per l’indipendenza dell’Africa, l’emergere del blocco dei paesi afro-asiatici che grazie alla nascita di 16 paesi africani indipendenti sconvolgono gli equilibri interni all’Onu. 
+
+
 Per scavare nel lato oscuro del passato coloniale del Belgio, proprio paese di origine, il regista utilizza memorie audio, brani narrati di romanzi politici, discorsi, interviste, video di spettacoli, filmati amatoriali, testi ufficiali, filmati storici, documenti ufficiali e immagini di cinegiornali dell’epoca.
 La narrazione non è lineare e riflette sia la complessità di rebus tra i più nebulosi dell’Africa Post Indipendenza che l’incandescenza ideologica di quel periodo .
 La colonna sonora del colpo di stato che portò all’uccisione di Lumumba è una complessa polifonia a tempo di jazz, un jazz che non solo scandisce il ritmo del racconto ma ci ricorda come i complotti siano più raffinati di quello che possiamo comprendere con un’occhiata veloce alla storia.
@@ -57,7 +59,11 @@ Dal vortice emergono per fortuna anche luminosi frammenti strappati dall’ombra
 
 L’Hotel Theresa ad Harlem dove militanti e leaders dei paesi non allineati andavano ad ascoltare i discorsi di Lumumba e ad assistere all’incontro tra Castro e Chruščëv. Tra Castro e  Malcom X. Una Bandung Conference ad Harlem che si contrappone all’Assemblea dell’Onu, triste e grigia scena del crimine, si contrappone.
 
+![hotel teresa](./assets/img/posts/hotelteresa.jpg)
+
 Andrée Blouin, mandata dalla Guinea in Congo per organizzare un movimento femminile a supporto della campagna elettorale del Mouvement National Congolais e diventata redattrice dei discorsi e capo di protocollo di Lumumba. Ritratta dai servizi segreti del Belgio come comunista e cortigiana dei leaders africani ed espulsa dal Congo qualche giorno prima dell’Indipendenza, riuscirà a portare in salvo, nascosto nel proprio chignon, il documento che dimostrava la legittimità di Lumumba (non di Kasa Buvu, il candidato del Belgio) a guidare il governo. 
+
+![andree](./assets/img/posts/andree.jpg)
 
 
 In Koli Jean Bofane autore di Congo Inc. che ci ricorda come il Congo, un algoritmo in continua evoluzione tra Washington, London, Brussels and Kigali, sia stato il fornitore globale di materie prime indispensabili alle guerre globali: gomma per la Prima Guerra Mondiale, uranio per le bombe atomiche sganciate a Hiroshima e Nagasaki, rame per i proiettili in Vietnam. Senza dimenticare le materie prime necessarie a portare la guerra nello spazio.
