@@ -50,6 +50,8 @@ In quegli anni musicisti come Louis Armstrong, Dizzy Gillespie, Duke Ellington, 
 “L'arma dell'America era una nota blu in chiave minore”, recitava un rapporto.
 Una nota stonata e che metteva i musicisti afroamericani di fronte alla contraddizione di rappresentare un paese dove vigeva ancora la segregazione razziale.  
 
+{% youtube "https://youtu.be/_RwLdIiZk_8?si=3hoWcp6xinDg4A1c %"}
+
 Grimonprez utilizza il cinema alla sua ennesima potenza non solo per raccontare ma per ricreare una confusione simile alla distrazione creata dal potere occulto.
 Il materiale audiovisivo sovrappone una voce che ci dice una cosa a un'immagine che ne mostra un'altra, mentre qualcuno suona un brano jazz e appaiono dei testi scritti. Un vortice che risucchia lo spettatore con un effetto ipnotico rafforzato dalla ripetizione di immagini (paracaduti che galleggiano nel cielo come enorme meduse, un elefante sospeso in aria che viene gettato nel container di una nave,un polipo gigante, un sottomarino, bambini che giocano) che aprono varchi onirici e simbolici aggiungendo un ulteriore livello di densità al già intenso memoir collettivo. 
 
