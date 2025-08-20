@@ -3,7 +3,7 @@ layout: post
 title: Soundtrack to a coup d'état
 date: 2025-08-20
 img: posts/2e066dce5a2babdb7bbc29f7b0490c46fe7d3659202dc0a0e7a014d71349278b.png
-tags: [Patrice Lumumba,Joahn Grimonprez, RDC, Cinema]
+tags: [Patrice Lumumba,Joahn Grimonprez, RDC, Cinema,Archivi]
 category: Cinema
 author: Simona Cella
 description: Documentario diretto da Johan Grimonprez
