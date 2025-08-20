@@ -97,6 +97,7 @@ Saranno le parole di Lumumba, in un discorso non previsto, a rimettere in ordine
 > Siamo orgogliosi sino nel più profondo del nostro animo, di aver dato vita ad una lotta che è stata di lacrime, sangue e fuoco, perché si trattava di una lotta nobile e giusta e necessaria per por termine >all'umiliante schiavitù che ci hanno imposto con la forza.
 
 >Questa è stata la nostra sorte in ottant'anni di regime coloniale e le nostre ferite sono troppo fresche e dolorose per poter essere cancellate dalla memoria. Potremo dimenticarcene noi che conosciamo il lavoro >estenuante che non ci permette di soddisfare la nostra fame, vestire e abituare con dignità, educare i nostri figli come si richiede?
+
 >Dal discorso di Lumumba durante la cerimonia dell'indipendenza, 30 giugno 1960
 
 
