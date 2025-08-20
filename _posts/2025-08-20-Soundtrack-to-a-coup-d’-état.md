@@ -12,7 +12,9 @@ description: Documentario diretto da Johan Grimonprez
 La batteria di Max Roach ritma le parole di una promessa che appare in forma di scritte su schermo nero. 
 
 > Venerdì le nostre donne andranno alle Nazioni Unite.
-> Ci alzeremo e resteremo in piedi. 
+> 
+> Ci alzeremo e resteremo in piedi.
+> 
 > A presto sorella. Appuntamento all’Onu, ore 8.30, Venerdì.
 
 Sullo schermo appare Abbey Lincoln. Il suo canto è accompagnato dalla scritta 
