@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Spundtrack to a coup d'état
+title: Soundtrack to a coup d'état
 date: 2025-08-20
-img: posts/SoundtracktoaCoupdEtat copertina.jpg
+img: posts/2e066dce5a2babdb7bbc29f7b0490c46fe7d3659202dc0a0e7a014d71349278b.png
 tags: [Patrice Lumumba,Joahn Grimonprez, RDC, Cinema]
 category: Cinema
 author: Simona Cella
@@ -22,9 +22,6 @@ Sullo schermo appare Abbey Lincoln. Il suo canto è accompagnato dalla scritta
 Inizia così, tra un duetto di Max Roach e Abbey Lincolm e citazioni da _The Heart of a Woman_ di Maya Angelou questo denso documentario a ritmo di jazz che racconta il back stage dell’omicidio di Patrice Lumumba, ucciso in Katanga il 16 Gennaio 1961 per mano di Moboutu ma per conto della Cia e dei belgi e con la complicità dell’Onu.
 
 Il film copre il periodo che va dal 1955 al 1965 ed è avvincente come può esserlo un romanzo di spionaggio letto ascoltando una compilation dei migliori jazzisti afroamericani: Louis Armstrong, Dizzy Gillespie, Duke Ellington, Thelonious Monk, Nina Simone, Miles Davis, John Coltrane… 
-
-
-![Locandina](./assets/img/posts/soundtracloc.jpg)
 
 
 Il fulcro della storia è il complotto ideato dal Belgio che, costretto a concedere l'indipendenza al Congo, orchestrò una strategia del divide et impera e il cui risultato più evidente fu la secessione della provincia del Katanga che ospita i giacimenti minerari più preziosi del paese. Un complotto sostenuto dagli Stati Uniti, determinati a mantenere il controllo sull'uranio del Congo (grazie al quale si costruì la bomba atomica) con la complicità delle Nazioni Unite, totalmente asservite agli interessi americani.
