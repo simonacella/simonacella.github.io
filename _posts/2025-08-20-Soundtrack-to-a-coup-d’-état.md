@@ -21,6 +21,8 @@ Sullo schermo appare Abbey Lincoln. Il suo canto è accompagnato dalla scritta
 
 Inizia così, tra un duetto di Max Roach e Abbey Lincolm e citazioni da _The Heart of a Woman_ di Maya Angelou questo denso documentario a ritmo di jazz che racconta il back stage dell’omicidio di Patrice Lumumba, ucciso in Katanga il 16 Gennaio 1961 per mano di Moboutu ma per conto della Cia e dei belgi e con la complicità dell’Onu.
 
+![Lumumba](./assets/img/posts/lumumba.jpg)
+
 Il film copre il periodo che va dal 1955 al 1965 ed è avvincente come può esserlo un romanzo di spionaggio letto ascoltando una compilation dei migliori jazzisti afroamericani: Louis Armstrong, Dizzy Gillespie, Duke Ellington, Thelonious Monk, Nina Simone, Miles Davis, John Coltrane… 
 
 
@@ -74,7 +76,7 @@ Il secondo atto lo vede proclamare un vergognoso discorso in cui attribuisce l'i
 > In nave?
 > O in aereo?
 > _Une saison au Congo_ di Aimé Cesaire
-> 
+
 Sono le parole di Lumumba,  un discorso non previsto, a rimettere in ordine gli elementi, ricordando il vero ruolo del Belgio e rivendicando i meriti del popolo congolese.
 
 Guardate il film. Leggete con attenzione i titoli di coda.Ascoltate la musica!
@@ -83,7 +85,7 @@ Guardate il film. Leggete con attenzione i titoli di coda.Ascoltate la musica!
 Per approfondire:
 
 
-https://www.johangrimonprez.be/main/Film_SOUNDTRACK_COUP_DETAT_Synopsis.html
+[Johan Grimonprez](https://www.johangrimonprez.be/main/Film_SOUNDTRACK_COUP_DETAT_Synopsis.html)
 
 [_My Country Africa_](https://www.andréeblouin.com) di  Andrée Blouin
 
@@ -93,7 +95,7 @@ To Katanga and Back by Connor Cruise O'Brien
 
 Une saison au Congo di Aimé Cesaire
 
-[_Quando L'Indipendenza era un cha cha cha_] (https://www.internazionale.it/notizie/alain-mabanckou/2021/07/02/indipendenza-cha-cha)
+[_Quando L'Indipendenza era un cha cha cha_](https://www.internazionale.it/notizie/alain-mabanckou/2021/07/02/indipendenza-cha-cha)
 
 
 [_Dr. Nico e Lumumba_](https://www.pambazuka.org/congolese-rumba-legend-“dr-nico”-supported-lumumba)
