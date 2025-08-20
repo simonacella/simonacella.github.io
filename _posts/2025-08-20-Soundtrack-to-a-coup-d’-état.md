@@ -29,7 +29,7 @@ Inizia così il denso documentario di Johan Grimonprez che racconta a ritmo di j
 Il film copre il periodo che va dal 1955 al 1965 ed è avvincente come può esserlo un romanzo di spionaggio letto ascoltando una compilation dei migliori jazzisti afroamericani: Louis Armstrong, Dizzy Gillespie, Duke Ellington, Thelonious Monk, Nina Simone, Miles Davis, John Coltrane… 
 
 
-Il fulcro della storia è il complotto ideato dal Belgio che costretto a concedere l'indipendenza al Congo orchestrò una strategia del divide et impera e il cui risultato più evidente fu la secessione della provincia del Katanga,regione che ospita i giacimenti minerari più preziosi del paese. 
+Il fulcro della storia è il complotto ideato dal Belgio che costretto a concedere l'indipendenza al Congo orchestrò una strategia del divide et impera e il cui risultato più evidente fu la secessione della provincia del Katanga, regione che ospita i giacimenti minerari più preziosi del paese. 
 Un complotto sostenuto dagli Stati Uniti determinati a mantenere il controllo sull'uranio del Congo (grazie al quale si costruì la bomba atomica), con la complicità delle Nazioni Unite totalmente asservite agli interessi americani.
 
 Il contesto storico è quello guerra fredda e della lotta contro il colonialismo. Il mondo è diviso in tre grossi blocchi: i Capitalisti, i Comunisti  e i non allineati. Il Congo, ricco in materie prime, è al centro di tensioni che vanno oltre i propri confini geografici:  la rivalità Usa-Urss, la lotta per l’indipendenza dell’Africa, l’emergere del blocco dei paesi afro-asiatici che grazie alla nascita di 16 paesi africani indipendenti sconvolgono gli equilibri interni all’Onu. 
