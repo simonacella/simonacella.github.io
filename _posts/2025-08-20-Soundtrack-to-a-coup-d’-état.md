@@ -87,6 +87,8 @@ Per approfondire:
 
 [Johan Grimonprez](https://www.johangrimonprez.be/main/Film_SOUNDTRACK_COUP_DETAT_Synopsis.html)
 
+[_Il passato non è passato._ Intervista a Johan Grimonprez](https://cinecittanews.it/johan-grimonprez-se-la-politica-divide-la-musica-unisce/)
+
 [_My Country Africa_](https://www.andréeblouin.com) di  Andrée Blouin
 
 [_Congo Inc._](https://actes-sud.fr/congo-inc) by In Koli Jean Bofane
