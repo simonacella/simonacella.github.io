@@ -5,7 +5,7 @@ date: 1973-05-01
 img: posts/touki-bouki.jpg
 tags: [Djibril Diop Mambety, Senegal, Cinema]
 category: Cinema
-author: Wikipedia
+author: Simona Cella
 description: Film drammatico senegalese diretto da Djibril Diop Mambéty
 ---
 
