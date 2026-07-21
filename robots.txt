@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://simonacella.github.io/sitemap.xml

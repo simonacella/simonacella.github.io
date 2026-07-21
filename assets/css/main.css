@@ -1533,6 +1533,13 @@ img + small, img + br + small {
   margin: 0 auto 30px;
 }
 
+.about-header h1 {
+  font-size: 1.17em;
+  font-weight: bold;
+  line-height: inherit;
+  margin: 1em 0;
+}
+
 .about-header .subtitle {
   font-weight: var(--font1-light);
   margin: 0;
