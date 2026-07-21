@@ -1,5 +1,6 @@
 ---
 layout: null
+sitemap: false
 ---
 {% include get-site-tags.html %}
 [   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
