@@ -1,6 +1,6 @@
 # Site settings
 title: Il cinema come amuleto
-description: Alcune osservazioni sui cinema africano e terzo cinema
+description: Alcune osservazioni sul cinema africano e terzo cinema
 logo: /assets/img/logo.webp
 timezone: Europe/Rome
 paginate: 6
@@ -55,6 +55,7 @@ category_archive:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll-youtube
 
 include: [_pages]
