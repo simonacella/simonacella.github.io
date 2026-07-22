@@ -6,14 +6,17 @@
 {% if page.layout == "post" %}
   <script>
     function copyToClipboard() {
-      navigator.clipboard.writeText('{{ site.url }}{{ page.url }}').then(function() {
-      alerts = document.getElementsByClassName('alert')
-      for (i=0; i < alerts.length; i++){
-        alerts[i].innerHTML='\u00ABlink copiato\u00BB';
-        setTimeout((function(i){ return function(){alerts[i].innerHTML='';}})(i), 1600 );
-      };
+      var url = '{{ site.url }}{{ page.url }}';
+      navigator.clipboard.writeText(url).then(function() {
+        var alerts = document.getElementsByClassName('alert');
+        for (var i = 0; i < alerts.length; i++) {
+          alerts[i].textContent = '\u00ABlink copiato\u00BB';
+          setTimeout((function(el) {
+            return function() { el.textContent = ''; };
+          })(alerts[i]), 1600);
+        }
       }, function() {
-        prompt("Impossibile copiare, usa questo link:", "{{ site.url }}{{ page.url }}");
+        prompt('Impossibile copiare, usa questo link:', url);
       });
     }
   </script>

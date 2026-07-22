@@ -408,6 +408,39 @@ body {
   white-space: nowrap;
   border: 0;
 }
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0.75rem 1rem;
+  background: var(--accent-dark);
+  color: #fff;
+  font-family: var(--font2);
+  font-size: 1rem;
+  text-decoration: none;
+  transform: translateY(-120%);
+  transition: transform 0.2s ease;
+}
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+#main-content:focus {
+  outline: none;
+}
+#main-content:focus-visible {
+  outline: none;
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+button:focus:not(:focus-visible),
+a:focus:not(:focus-visible) {
+  outline: none;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font2);
   color: var(--accent-dark);
@@ -702,7 +735,6 @@ svg.menu-icon-house {
   padding: 15px 2.5rem 15px 15px;
   border: none;
   border-bottom: 1px solid var(--grey5);
-  outline: none;
   font-size: 21px;
   color: var(--grey1);
   background: var(--background);
@@ -710,6 +742,11 @@ svg.menu-icon-house {
 
 .search-form .search:focus {
   border-bottom-color: var(--main);
+}
+
+.search-form .search:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .results-search {
@@ -1047,7 +1084,8 @@ a.tag.side {
   display: inline;
   vertical-align: middle;
 }
-.share-icons a {
+.share-icons a,
+.share-icons .copy-link {
   display:inline-block;
   color: var(--grey3);
   margin: 0 2% 10px 2%;
@@ -1056,8 +1094,19 @@ a.tag.side {
   transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
   cursor: pointer;
 }
-.share-icons a:hover {
+.share-icons a:hover,
+.share-icons .copy-link:hover {
   transform:scale(1.3)
+}
+.share-icons .copy-link {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  font: inherit;
+  line-height: 1;
+  vertical-align: middle;
 }
 .sidebar.inline{
   border-bottom: 1px solid var(--grey4);
@@ -1688,6 +1737,17 @@ a.read-more:hover {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 /* = = = Social Share Icon Colors = = = */
