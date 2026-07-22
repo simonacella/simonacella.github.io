@@ -1,0 +1,18 @@
+{% comment %}
+  Click-to-load YouTube facade: no iframe (and no YouTube cookies) until play.
+  youtube_id is provided by the jekyll-youtube tag.
+{% endcomment %}
+<div class="embed-container youtube-embed" data-youtube-id="{{ youtube_id }}">
+  <button type="button" class="youtube-play" aria-label="Riproduci video YouTube">
+    <img
+      class="youtube-thumb"
+      src="https://i.ytimg.com/vi/{{ youtube_id }}/hqdefault.jpg"
+      alt=""
+      width="480"
+      height="360"
+      loading="lazy"
+      decoding="async"
+    >
+    <span class="youtube-play-icon" aria-hidden="true"></span>
+  </button>
+</div>
