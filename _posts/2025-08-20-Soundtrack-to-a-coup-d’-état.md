@@ -76,7 +76,7 @@ L’Hotel Theresa ad Harlem dove militanti e leaders dei paesi non allineati and
 Andrée Blouin, mandata dalla Guinea in Congo per organizzare un movimento femminile a supporto della campagna elettorale del Mouvement National Congolais e diventata redattrice dei discorsi e capo di protocollo di Lumumba. Ritratta dai servizi segreti del Belgio come comunista e cortigiana dei leaders africani ed espulsa dal Congo qualche giorno prima dell’Indipendenza, riuscirà a portare in salvo, nascosto nel proprio chignon, il documento che dimostrava la legittimità di Lumumba (non di Kasa Buvu, il candidato del Belgio) a guidare il governo. 
 
 
-![andree](./assets/img/posts/SoundtracktoaCoupdEtat copertina.jpg)
+![andree](./assets/img/posts/soundtrack-copertina.jpg)
 
 In Koli Jean Bofane autore di Congo Inc. che ci ricorda come il Congo, un algoritmo in continua evoluzione tra Washington, London, Brussels and Kigali, sia stato il fornitore globale di materie prime indispensabili alle guerre globali: gomma per la Prima Guerra Mondiale, uranio per le bombe atomiche sganciate a Hiroshima e Nagasaki, rame per i proiettili in Vietnam. Senza dimenticare le materie prime necessarie a portare la guerra nello spazio.
 
@@ -88,7 +88,7 @@ ormai in decomposizione.
 Il 29 Giugno 1960 il Re Baldovino sbarca a Leopoldville in occasione della proclamazione dell'Indipendenza del Congo per diventare inconsapevolente  protagonista di una ridicola fiera della vanità in due atti. 
 Il primo atto lo vede sfilare borioso in una processione regale, così tronfio da non rendersi conto che un uomo distinto, in giacca e cravatta, Ambroise Boimbo, al passaggio della macchina del re allunga un braccio e ruba la spada cerimoniale.
 
-![Il furto della spada ](./assets/img/posts/furto spada.jpg)
+![Il furto della spada ](./assets/img/posts/furto-spada.jpg)
 
 Il secondo atto lo vede proclamare un vergognoso discorso in cui attribuisce l'indipendenza del Congo alla genialità di Leopoldo II e alla perseveranza del Belgio.
 
