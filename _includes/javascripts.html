@@ -46,6 +46,7 @@
                        + '&via={{ site.twitter | remove: "@" }}&url='
                        + window.location.href;
           tweetA.target = "_blank";
+          tweetA.rel = "noopener noreferrer";
           tweetA.className = 'twitter';
           tweetSpanText = document.createElement('span');
           tweetSpanText.className = 'tweetText';
