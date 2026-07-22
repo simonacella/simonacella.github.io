@@ -24,11 +24,23 @@
 
 <script src="{{ relativebase }}assets/js/main.js"></script>
 <script>
+  function escapeSearchHtml(value) {
+    return String(value == null ? '' : value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
   SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
       json: '{{ relativebase }}search.json',
       searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a><p>{description}</p></li>',
+      templateMiddleware: function (prop, value) {
+        return escapeSearchHtml(value);
+      },
       noResultsText: 'Nessun risultato',
       fuzzy: false
     });
