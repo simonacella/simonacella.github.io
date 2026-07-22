@@ -3,25 +3,92 @@
 
   var topButton = document.querySelector('.top');
   var flexContainer = document.querySelector('div.flex-container');
+  var mainNav = document.getElementById('main-nav');
   var searchBox = document.querySelector('.search-box');
   var searchInput = document.getElementById('search-input');
   var menuOpen = document.querySelector('.menu-icon');
+  var menuClose = document.querySelector('.menu-icon-close');
   var searchOpen = document.querySelector('.search-icon');
   var searchClose = document.querySelector('.search-icon-close');
+  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var menuCloseDelay = prefersReducedMotion ? 0 : 600;
+  var lastMenuTrigger = null;
+  var lastSearchTrigger = null;
+
+  function getFocusable(container) {
+    if (!container) return [];
+    return Array.prototype.slice.call(
+      container.querySelectorAll(
+        'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      )
+    ).filter(function (el) {
+      return el.getClientRects().length > 0;
+    });
+  }
+
+  function trapFocus(e, container) {
+    if (e.key !== 'Tab' || !container) return;
+    var focusable = getFocusable(container);
+    if (!focusable.length) return;
+    var first = focusable[0];
+    var last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  }
+
+  function setNavOpen(isOpen) {
+    if (!mainNav) return;
+    mainNav.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+    if ('inert' in mainNav) {
+      mainNav.inert = !isOpen;
+    }
+  }
 
   function hideLayer() {
     if (!flexContainer || !menuOpen) return;
     flexContainer.classList.remove('opaque');
     flexContainer.classList.add('transparent');
     menuOpen.setAttribute('aria-expanded', 'false');
+    menuOpen.setAttribute('aria-label', 'Apri menu');
     setTimeout(function () {
       flexContainer.classList.remove('active');
-    }, 600);
+      setNavOpen(false);
+      if (lastMenuTrigger) {
+        lastMenuTrigger.focus();
+        lastMenuTrigger = null;
+      } else {
+        menuOpen.focus();
+      }
+    }, menuCloseDelay);
   }
+
+  function openMenu(trigger) {
+    if (!flexContainer || !menuOpen) return;
+    lastMenuTrigger = trigger || menuOpen;
+    flexContainer.classList.add('active');
+    menuOpen.setAttribute('aria-expanded', 'true');
+    menuOpen.setAttribute('aria-label', 'Chiudi menu');
+    setNavOpen(true);
+    setTimeout(function () {
+      flexContainer.classList.remove('transparent');
+      flexContainer.classList.add('opaque');
+      if (menuClose) menuClose.focus();
+    }, prefersReducedMotion ? 0 : 10);
+  }
+
+  setNavOpen(false);
 
   if (topButton) {
     topButton.addEventListener('click', function () {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({
+        top: 0,
+        behavior: prefersReducedMotion ? 'auto' : 'smooth'
+      });
     });
 
     window.addEventListener('scroll', function () {
@@ -41,12 +108,7 @@
       if (flexContainer.classList.contains('active')) {
         hideLayer();
       } else {
-        flexContainer.classList.add('active');
-        menuOpen.setAttribute('aria-expanded', 'true');
-        setTimeout(function () {
-          flexContainer.classList.remove('transparent');
-          flexContainer.classList.add('opaque');
-        }, 10);
+        openMenu(el);
       }
     });
   });
@@ -62,15 +124,41 @@
   function closeSearch() {
     if (!searchBox || !searchOpen) return;
     searchBox.classList.remove('search-active');
+    searchBox.setAttribute('aria-hidden', 'true');
     searchOpen.setAttribute('aria-expanded', 'false');
+    if (lastSearchTrigger) {
+      lastSearchTrigger.focus();
+      lastSearchTrigger = null;
+    } else {
+      searchOpen.focus();
+    }
+  }
+
+  function openSearch(trigger) {
+    if (!searchBox || !searchOpen) return;
+    lastSearchTrigger = trigger || searchOpen;
+    searchBox.classList.add('search-active');
+    searchBox.setAttribute('aria-hidden', 'false');
+    searchOpen.setAttribute('aria-expanded', 'true');
+    if (searchInput) searchInput.focus();
   }
 
   window.addEventListener('keydown', function (e) {
-    if (e.key !== 'Escape') return;
     if (flexContainer && flexContainer.classList.contains('active')) {
-      hideLayer();
-    } else if (searchBox && searchBox.classList.contains('search-active')) {
-      closeSearch();
+      if (e.key === 'Escape') {
+        hideLayer();
+        return;
+      }
+      trapFocus(e, mainNav);
+      return;
+    }
+
+    if (searchBox && searchBox.classList.contains('search-active')) {
+      if (e.key === 'Escape') {
+        closeSearch();
+        return;
+      }
+      trapFocus(e, searchBox);
     }
   });
 
@@ -78,12 +166,11 @@
     searchOpen.addEventListener('click', function (e) {
       e.preventDefault();
       if (!searchBox) return;
-      searchBox.classList.toggle('search-active');
-      searchOpen.setAttribute(
-        'aria-expanded',
-        searchBox.classList.contains('search-active') ? 'true' : 'false'
-      );
-      if (searchInput) searchInput.focus();
+      if (searchBox.classList.contains('search-active')) {
+        closeSearch();
+      } else {
+        openSearch(searchOpen);
+      }
     });
   }
 
