@@ -91,4 +91,16 @@ $(function () {
       })
     }
   })
+
+  // YouTube: load iframe only after click (avoids third-party cookies on page load)
+  $(document).on('click', '.youtube-embed .youtube-play', function () {
+    var container = $(this).closest('.youtube-embed')
+    var id = container.data('youtube-id')
+    if (!id) return
+    container.html(
+      '<iframe title="Video YouTube" src="https://www.youtube-nocookie.com/embed/' +
+        id +
+        '?autoplay=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>'
+    )
+  })
 });
