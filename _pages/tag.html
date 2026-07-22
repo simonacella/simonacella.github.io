@@ -2,7 +2,6 @@
 layout: menu-page
 title: Tag
 permalink: tag:output_ext
-infinite: yes
 sitemap: false
 robots: noindex, follow
 ---
@@ -15,7 +14,7 @@ robots: noindex, follow
     <h1>{{ this_word }}</h1>
     <div class="archive">
       <div class="post-list">
-        {% for post in site.tags[this_word] limit:3 %}
+        {% for post in site.tags[this_word] %}
       {% include remove_double_slash.html %}
         <div class="post">
           <a class="post-list-title" href="{{ post_url }}">{{ post.title }}</a>
@@ -29,5 +28,12 @@ robots: noindex, follow
     </div>
   </div>
 {% endunless %}{% endfor %}
-{% include spinner.html %}
 {% include tag_cloud.html %}
+<script>
+  (function () {
+    var tag = new URLSearchParams(window.location.search).get('tag');
+    if (!tag) return;
+    var el = document.getElementById(tag);
+    if (el) el.classList.remove('hidden');
+  })();
+</script>
