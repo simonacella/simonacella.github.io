@@ -25,7 +25,7 @@ img: posts/nome-immagine.jpg
 tags: [Regista, Paese, Cinema]
 category: Cinema
 author: Simona Cella
-description: Una o due frasi che riassumono l’articolo.
+description: "Una o due frasi che riassumono l’articolo."
 publisher: Nigrizia
 publication_link: https://www.nigrizia.it/...
 ---
@@ -42,7 +42,7 @@ Cosa mettere in ciascun campo:
 | `tags` | Parole chiave tra parentesi quadre, separate da virgole |
 | `category` | Una categoria, es. `Cinema`, `Intervista`, `Esposizione` |
 | `author` | Di solito `Simona Cella` |
-| `description` | **Riassunto in 1–2 frasi** (circa 140–160 caratteri). Serve a Google e alle anteprime sui social. Non scrivere solo «Recensione di…» o «Intervista a…» |
+| `description` | **Riassunto in 1–2 frasi** (circa 140–160 caratteri), **sempre tra virgolette** `"…"`. Serve a Google e alle anteprime sui social. Non scrivere solo «Recensione di…» o «Intervista a…». Senza virgolette, i due punti (`:`) nel testo rompono la pagina |
 | `publisher` | Solo se l’articolo è già uscito altrove (es. `Nigrizia`) |
 | `publication_link` | Solo in quel caso: link completo all’articolo originale (`https://…`) |
 
@@ -81,7 +81,7 @@ Se rinomini un’immagine, aggiorna anche il nome dove compare nel blocco in alt
 ## Controllo prima di pubblicare
 
 - [ ] Le due righe `---` ci sono, all’inizio e alla fine del blocco
-- [ ] `description` è un vero riassunto (non un’etichetta corta)
+- [ ] `description` è un vero riassunto (non un’etichetta corta) e sta tra virgolette `"…"`
 - [ ] Le immagini esistono nella cartella e i nomi nel testo coincidono
 - [ ] Nessuno spazio nei nomi di file o immagini
 - [ ] Se c’è una versione su Nigrizia (o altro): sia `publisher` sia `publication_link`
