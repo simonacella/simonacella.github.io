@@ -6,7 +6,7 @@ img: posts/theycomefromnorth.jpg
 tags: [Prasad Hettiarachchi, Sri Lanka, Esposizione]
 category: Esposizione
 author: Simona Cella
-description: Personale di Prasad Hettiarachchi
+description: Sulla mostra They come from North di Prasad Hettiarachchi: Colombo, gentrificazione e nuovi poteri neocoloniali in Sri Lanka.
 publisher: Kaiya Collective
 publication_link: https://kaiyacollective.com/projects/theycomefromnorth/index_ita.php
 ---
