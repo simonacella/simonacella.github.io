@@ -59,35 +59,44 @@
     });
   }
 
+  function closeSearch() {
+    if (!searchBox || !searchOpen) return;
+    searchBox.classList.remove('search-active');
+    searchOpen.setAttribute('aria-expanded', 'false');
+  }
+
   window.addEventListener('keydown', function (e) {
     if (e.key !== 'Escape') return;
     if (flexContainer && flexContainer.classList.contains('active')) {
       hideLayer();
-    } else if (searchBox && searchBox.classList.contains('search-active') && searchOpen) {
-      searchBox.classList.remove('search-active');
-      searchOpen.setAttribute('aria-expanded', 'false');
+    } else if (searchBox && searchBox.classList.contains('search-active')) {
+      closeSearch();
     }
   });
 
   if (searchOpen) {
     searchOpen.addEventListener('click', function (e) {
       e.preventDefault();
-      if (!document.querySelector('.search-form.inline') && searchBox) {
-        searchBox.classList.toggle('search-active');
-        searchOpen.setAttribute(
-          'aria-expanded',
-          searchBox.classList.contains('search-active') ? 'true' : 'false'
-        );
-      }
+      if (!searchBox) return;
+      searchBox.classList.toggle('search-active');
+      searchOpen.setAttribute(
+        'aria-expanded',
+        searchBox.classList.contains('search-active') ? 'true' : 'false'
+      );
       if (searchInput) searchInput.focus();
     });
   }
 
-  if (searchClose && searchBox && searchOpen) {
+  if (searchClose) {
     searchClose.addEventListener('click', function (e) {
       e.preventDefault();
-      searchBox.classList.remove('search-active');
-      searchOpen.setAttribute('aria-expanded', 'false');
+      closeSearch();
+    });
+  }
+
+  if (searchBox) {
+    searchBox.addEventListener('click', function (e) {
+      if (e.target === searchBox) closeSearch();
     });
   }
 
