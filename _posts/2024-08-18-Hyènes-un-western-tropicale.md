@@ -6,7 +6,7 @@ img: posts/hyenes.jpg
 tags: [Djibril Diop Mambety, Senegal, Cinema]
 category: Cinema
 author: Simona Cella
-description: Hyènes di Djibril Diop Mambety a Cannes 1992: un western tropicale su ritorno, vendetta e il prezzo dello sviluppo.
+description: "Hyènes di Djibril Diop Mambety a Cannes 1992: un western tropicale su ritorno, vendetta e il prezzo dello sviluppo."
 publisher: L'Harmattan Italia
 publication_link: https://www.amazon.it/Djibril-rivoluzione-cinematografica-visionario-senegalese/dp/8878923605
 ---
