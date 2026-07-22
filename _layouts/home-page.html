@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="flex-container transparent">
   {% include header.html %}
-  <div class="content wrapper">
+  <main class="content wrapper">
     <h1 class="sr-only">{{ site.title }}</h1>
     {{ content }}
     {% include search.html %}
@@ -12,6 +12,6 @@ layout: default
       {% include get-site-tags.html %}
       {% include tag_cloud.html %}
     </div>
-  </div> <!-- End Wrapper -->
+  </main>
   {% include footer.html %}
 </div><!-- End flex-container -->

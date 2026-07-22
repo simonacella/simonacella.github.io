@@ -5,10 +5,14 @@
   <div class="wrapper">
     <div class="header-flex">
       <div class="menu-icon-container">
-        <span class="menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        <button type="button" class="menu-icon" aria-label="Apri menu" aria-expanded="false" aria-controls="main-nav">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
       </div>
-      <nav class="main-nav">
-        <span class="menu-icon-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+      <nav class="main-nav" id="main-nav">
+        <button type="button" class="menu-icon-close" aria-label="Chiudi menu">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
         <ul>
           <li>
             <a href="{{ relativebase }}">
@@ -58,7 +62,9 @@
         </a>
       </div>
       <div class="search-icon-container">
-        <span class="search-icon"><a href="#" aria-label="Cerca"><i class="fa fa-search" aria-hidden="true"></i></a></span>
+        <button type="button" class="search-icon" aria-label="Cerca" aria-expanded="false">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
       </div>
     </div>
   </div>

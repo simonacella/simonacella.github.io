@@ -21,6 +21,8 @@ $(function () {
   var searchBox = $('.search-box')
   var searchClose = $('.search-icon-close')
   var searchInput = $('#search-input')
+  var menuOpen = $('.menu-icon')
+  var searchOpen = $('.search-icon')
   var waiting;
 
   // Menu button
@@ -31,6 +33,7 @@ $(function () {
       hideLayer();
     } else {
       flexContainer.addClass('active')
+      menuOpen.attr('aria-expanded', 'true')
       setTimeout(function () {
         flexContainer.removeClass('transparent').addClass('opaque');
       }, 10);
@@ -54,6 +57,7 @@ $(function () {
   function hideLayer () {
     flexContainer.removeClass('opaque')
     flexContainer.addClass('transparent');
+    menuOpen.attr('aria-expanded', 'false')
     setTimeout(function(){
       flexContainer.removeClass('active');
     }, 600)
@@ -66,6 +70,7 @@ $(function () {
         hideLayer();
       } else if (searchBox.hasClass('search-active')) {
         searchBox.removeClass('search-active');
+        searchOpen.attr('aria-expanded', 'false')
       }
     }
   })
@@ -75,12 +80,14 @@ $(function () {
     e.preventDefault()
     if($('.search-form.inline').length == 0){
         searchBox.toggleClass('search-active')
+        searchOpen.attr('aria-expanded', searchBox.hasClass('search-active') ? 'true' : 'false')
     }
     searchInput.focus()
     if (searchBox.hasClass('search-active')) {
-      searchClose.click(function (e) {
+      searchClose.off('click').on('click', function (e) {
         e.preventDefault()
         searchBox.removeClass('search-active')
+        searchOpen.attr('aria-expanded', 'false')
       })
     }
   })
