@@ -10,7 +10,9 @@ version 3. See the file LICENSE.
 This project is a modified derivative of:
   https://github.com/the-mvm/the-mvm.github.io
   (Adam Blog 2.0 by Armando Maynez / the-mvm),
-itself based on Adam Blog by Artem Sheludko.
+itself based on:
+  https://github.com/artemsheludko/adam-blog
+  (Adam Blog by Artem Sheludko).
 
 CONTENT
 -------
