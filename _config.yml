@@ -44,14 +44,6 @@ permalink: :title:output_ext
 url: https://simonacella.github.io
 markdown: kramdown
 highlighter: rouge
-compress_html:
-  clippings: all
-  comments: all
-  startings: [html, head, body]
-
-category_archive:
-  type: liquid
-  path: /categories/
 
 plugins:
   - jekyll-paginate
