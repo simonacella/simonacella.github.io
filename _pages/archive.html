@@ -7,13 +7,6 @@ description: Tutti gli articoli de Il cinema come amuleto, dal più recente al p
 {% include calculate_relative_base.html %}
 
 <div class="archive tag-master">
-  <form class="search-form inline" role="search">
-    <div id="search-container">
-      <label class="sr-only" for="search-input">Cerca</label>
-      <input type="text" id="search-input" class="search" placeholder="Cerca" autocomplete="off">
-    </div>
-  </form>
-  <ul id="results-container" class="results-search"></ul>
   <div class="post-list">
   {% for post in site.posts %}
     <div class="post">
