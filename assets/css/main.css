@@ -1102,94 +1102,6 @@ a.tag.side {
     display: block
   }
 }
-/* = = = = = = = = = = Right Sidebar TOC  = = = = = = = = = = */
-aside.toc {
-  line-height: 1.4;
-  font-size: .5em;
-  font-family: sans-serif;
-  font-weight:var(--font1-bold);
-  width: max-content;
-}
-.toc {
-  max-width: 480px;
-}
-.toc-title {
-  padding: 5px;
-  color: var(--accent);
-}
-path.fa-secondary {
-  opacity: 0.4;
-}
-.toc-title{display:none}
-.toc-title svg {
-  width: 25px;
-  margin-bottom:1em
-}
-.toc-content{
-  list-style:none;
-  margin-top: 3px;
-  margin:0;
-  padding-inline-start: 0px;
-}
-.toc-content a {
-  text-decoration: none;
-  padding: 5px;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-.toc-item-1 {
-  padding: 8px 0 8px 0;
-}
-.toc-sign {
-  float: right;
-  width: 10px;
-  cursor: pointer;
-  color: var(--text);
-  margin-right: 8px;
-}
-.toc-sign:hover{
-  color:var(--grey2)
-}
-.toc-submenu-1 {
-  padding-inline-start: 0px;
-  list-style:none;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  padding-top: 8px;
-}
-.toc-submenu-1 a{
-  color:var(--grey1);
-  font-weight:var(--font1-regular);
-}
-.toc-item-2, .toc-item-3, toc-item-4, .toc-item-5, .toc-item-6 {
-  padding: 8px 0px 8px;
-}
-.toc-submenu-2, .toc-submenu-3, .toc-submenu-4, .toc-submenu-5 {
-  padding-inline-start: 5px;
-  list-style:none;
-}
-.toc .active {
-  background-color:var(--grey5)
-}
-.underline{
-  text-decoration: underline;
-  text-decoration-color: var(--grey4)
-}
-@media (min-width: 1200px) {
-  aside.toc {
-    position: -webkit-sticky;  
-    position: sticky;
-    top: 32px;
-    width: 180px;
-    margin-right: -210px;
-    float: right;
-  }
-  .toc-content{
-    max-height: calc(100vh - 7em);
-    overflow: scroll;
-  }
-}
 /* = = = = = = = = = = Tags = = = = = = = = = = */
 
 .center-tags .tag-cloud ul.tags {
@@ -1714,7 +1626,6 @@ a.read-more:hover {
 .blog-tags,
 .tag-master,
 .tag-cloud,
-.toc,
 .sidebar,
 .pnf-image,
 .page_meta {
@@ -1739,7 +1650,6 @@ a.read-more:hover {
 .tag-cloud,
 .blog-tags,
 .page_meta,
-.toc,
 .sidebar,
 .about-container,
 .pnf-image,
@@ -1779,8 +1689,6 @@ a.read-more:hover {
 .reddit:hover{color:#ff4500}
 .linkedin:hover{color:#0072b1}
 .email:hover{color:#66ab6b}
-.bandcamp:hover{color:#629aa9}
-.stackoverflow:hover{color:#f48024}
 .instagram:hover{color:#e1306c}
 .github:hover{color:var(--github)}
 .copy-link:hover{color:var(--accent)}
@@ -1927,15 +1835,9 @@ a.read-more:hover {
     img{page-break-after:auto;page-break-before:auto;page-break-inside:avoid}
     pre{white-space:pre-wrap !important;word-wrap:break-word}
     a[href^='http://']:after,a[href^='https://']:after,a[href^='ftp://']:after{content:" (" attr(href) ")";font-size:80%}
-    abbr[title]:after,acronym[title]:after{content:" (" attr(title) ")"}#main{max-width:100%}
-    .main-header, .main-nav, .theme-toggle .toggle, .theme-toggle  [type="checkbox"]:checked ~ label .toggle, .page-image, .page-content, .email-input {background:white !important}
+    abbr[title]:after,acronym[title]:after{content:" (" attr(title) ")"}
+    #main{max-width:100%}
+    .main-header, .main-nav, .page-image, .page-content {background:white !important}
     .page{margin:0;padding:0;width:100%}
-    .page-break,.page-break-before{page-break-before:always}
-    .page-break-after{page-break-after:always}
-    .no-print{display:none}
-    a.no-reformat:after{content:''}
-    abbr[title].no-reformat:after,acronym[title].no-reformat:after{content:''}
-    .page__hero-caption{color:#000 !important;background:white !important;opacity:1}
-    .page__hero-caption a{color:#000 !important}
-    .masthead,.toc,.page__share,.page__related,.pagination,.ads,.page__footer,.page__comments-form,.author__avatar,.author__content,.author__urls-wrapper,.nav__list,.sidebar,.adsbygoogle{display:none !important;height:1px !important}}
-
+    .pagination,.sidebar{display:none !important}
+}

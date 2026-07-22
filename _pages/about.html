@@ -18,9 +18,6 @@ description: Profilo di Simona Cella, critica e autrice di cinema africano e ter
     </section>
     <section class="about-body">
       <ul class="contact-list">
-      {% if site.twitter %}
-        <li class="twitter"><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-      {% endif %}
       {% if site.linkedin %}
         <li class="linkedin"><a class="linkedin" href="https://www.linkedin.com/in/{{site.linkedin}}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
       {% endif %}
@@ -30,18 +27,11 @@ description: Profilo di Simona Cella, critica e autrice di cinema africano e ter
       {% if site.email %}
         <li class="email"><a class="email" href="mailto:{{site.email}}" aria-label="Email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
       {% endif %}
-      {% if site.bandcamp %}
-        <li class="bandcamp"><a class="bandcamp" href="https://{{site.bandcamp}}.bandcamp.com" target="_blank" rel="noopener noreferrer" aria-label="Bandcamp"><i class="fa fa-bandcamp" aria-hidden="true"></i></a></li>
-      {% endif %}
       {% if site.instagram %}
       <li class="instagram"><a class="instagram" href="https://www.instagram.com/{{site.instagram}}" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
       {% endif %}
       {% if site.facebook %}
       <li class="facebook"><a class="facebook" href="https://www.facebook.com/{{site.facebook}}" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      {% endif %}
-      {% if site.stackoverflow %}
-      <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank" rel="noopener noreferrer" aria-label="Stack Overflow">
-        <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
       {% endif %}
       {% if site.imdb %}
       <li class="imdb"><a class="imdb" href="https://www.imdb.com/name/{{site.imdb}}" target="_blank" rel="noopener noreferrer" aria-label="IMDb"><i class="fa fa-imdb" aria-hidden="true"></i></a></li>

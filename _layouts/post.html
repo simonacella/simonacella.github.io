@@ -16,7 +16,6 @@ layout: default
             {% include post_meta.html type="post-page-meta" %}
           </div>
           {% include sidebar.html context="post" class="side" id="sidebar" %}
-          {% if page.toc %}{% include sidebar-toc.html %}{% endif %}
           {{page.content | markdownify}}
           {% if page.publication_link and page.publisher %}
             <p class="page_meta">

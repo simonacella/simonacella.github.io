@@ -80,15 +80,8 @@
 <meta property="article:tag" content="{{ tag }}">
 {% endfor %}
 {% endif %}
-{% if site.fbadmin %}
-<meta property="fb:admins" content="{{ site.fbadmin }}">
-{% endif %}
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-{% if site.twitter %}
-<meta name="twitter:site" content="{{ site.twitter }}">
-<meta name="twitter:creator" content="{{ site.twitter }}">
-{% endif %}
 <meta name="twitter:title" content="{{ seo_title }}">
 <meta name="twitter:description" content="{{ seo_description | truncate: 200 }}">
 <meta name="twitter:image" content="{{ seo_image }}">

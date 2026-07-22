@@ -4,9 +4,6 @@
   <div class="narrow-column">
     <img src="{{ relativebase }}{{site.author-pic}}" alt="{{ site.author }}" class="author-img" />
     <ul class="contact-icons">
-      {% if site.twitter %}
-      <li class="twitter"><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-      {% endif %}
       {% if site.linkedin %}
       <li class="linkedin"><a class="linkedin" href="https://www.linkedin.com/in/{{site.linkedin}}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
       {% endif %}
@@ -15,9 +12,6 @@
       {% endif %}
       {% if site.email %}
       <li class="email"><a class="email" href="mailto:{{site.email}}" aria-label="Email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-      {% endif %}
-      {% if site.stackoverflow %}
-      <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{site.stackoverflow}}" aria-label="Stack Overflow"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
       {% endif %}
       {% if site.instagram %}
       <li class="instagram"><a class="instagram" href="https://www.instagram.com/{{site.instagram}}" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
