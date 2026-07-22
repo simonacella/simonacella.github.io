@@ -3,13 +3,14 @@ title: Il cinema come amuleto
 description: Alcune osservazioni sul cinema africano e terzo cinema
 logo: /assets/img/logo.webp
 timezone: Europe/Rome
+locale: it
 paginate: 6
 words_per_minute: 200
 
 # Author settings
 author: Simona Cella
 author-pic: assets/img/Myself.jpeg
-about-author: Scriptwriter, Producer, Film Critic 
+about-author: Sceneggiatrice, produttrice, critica cinematografica
 about-author-long: |
   Esperta di cinema africano e terzo cinema, dopo una lunga esperienza nel mondo della produzione
   cinematografica e dell’organizzazione culturale, si è specializzata nello sviluppo e nella curatela
