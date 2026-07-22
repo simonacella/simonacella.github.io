@@ -1,16 +1,6 @@
 {% include calculate_relative_base.html %}
 {% include escape-404.html %}
 
-<!-- JS -->
-{% assign name = 'night_mode' %}
-{% assign night_mode = site.night_mode %}
-
-<script>
-(function() {
-    var html = document.getElementsByTagName('html')[0];
-    var logo = document.getElementById('logo');
-})();
-</script>
 <script src="{{ relativebase }}assets/js/jekyll-search.js"></script>
 <script src="{{ relativebase }}assets/js/jquery-3.6.0.min.js"></script>
 
@@ -24,48 +14,9 @@
         setTimeout((function(i){ return function(){alerts[i].innerHTML='';}})(i), 1600 );
       };
       }, function() {
-        prompt("Unable to copy, please use this link:", "{{ site.url }}{{ page.url }}");
+        prompt("Impossibile copiare, usa questo link:", "{{ site.url }}{{ page.url }}");
       });
     }
-
-    $(function () {
-      if (document.getElementById('comment-curtain') == null){
-        var disqusThread = document.getElementById('comment-layout')
-        if (disqusThread) {
-          disqusThread.classList.toggle('show')
-        }
-      }
-
-      var tweetTags = document.getElementsByTagName("tweet");
-
-      if (tweetTags != null){
-        for (i=0; i<tweetTags.length; i++){
-          tweetA = document.createElement("a")
-          tweetA.href = 'https://twitter.com/share?text='
-                       + encodeURIComponent(tweetTags[i].textContent)
-                       + '&via={{ site.twitter | remove: "@" }}&url='
-                       + window.location.href;
-          tweetA.target = "_blank";
-          tweetA.rel = "noopener noreferrer";
-          tweetA.className = 'twitter';
-          tweetSpanText = document.createElement('span');
-          tweetSpanText.className = 'tweetText';
-          tweetSpanText.appendChild(document.createTextNode(tweetTags[i].textContent));
-          tweetSpanIcon = document.createElement('span');
-          tweetSpanIcon.className = 'tweetIcon';
-          tweetSpanIcon.appendChild(document.createTextNode("clicca per twittare"));
-          tweetI = document.createElement("i");
-          tweetI.className = 'fa fa-twitter';
-          tweetSpanIcon.appendChild(tweetI);
-          tweetA.appendChild(tweetSpanText);
-          tweetA.appendChild(tweetSpanIcon);
-          tweetTags[i].textContent = "";
-          tweetTags[i].appendChild(tweetA);
-        }
-      }
-
-    });
-
   </script>
 {% endif %}
 
@@ -115,7 +66,6 @@
       json: '{{ relativebase }}search.json',
       searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a><p>{description}</p></li>',
       noResultsText: 'Nessun risultato',
-      fuzzy: false,
-      exclude: ['Welcome']
+      fuzzy: false
     });
 </script>
