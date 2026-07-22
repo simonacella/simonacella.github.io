@@ -53,7 +53,7 @@ La serie _Floating City_ racconta il sogno di una nuova Colombo dove a fianco di
 
 Lo spettatore è invitato ad attraversare e muoversi fluidamente su più livelli di visione e ascolto: mostra, installazione artistica, esplorazione geografica, performance musicale, cinema espanso. Qualsiasi sia la modalità di fruizione la visione di Hettiarachchi impregnata da un'interpretazione in chiave orientale e postcoloniale dell'ideologia marxista e del pensiero gramsciano, è al contempo arte, manifesto politico e riflessione critica.
 
-### Prasad Hettiarachchi
+## Prasad Hettiarachchi
 ![Prasad Hettiarachchi](./assets/img/posts/Prasad-Hettiarachchi.jpg)
 
 Hettiarachchi originario del quartiere Rajagiriya (Colombo) eredita la passione per l’arte dal padre, artigiano del legno specializzato nella costruzioni di lanterne rituali. Si forma in Pittura Murale e Archeologia presso la Postgraduate Institute of Archaeology, University of Kelaniya, e dopo una breve parentesi nel mondo della pubblicità nel 2010 decide di dedicarsi interamente all’arte. Collabora inizialmente con il Theertha Artists’ Collective per poi concentrarsi in una ricerca personale che lo porta a sperimentare diverse tecniche e linguaggi. Alla produzione di raffinate illustrazioni ispirate all’arte della miniature si aggiungono negli anni l’arte murale, l’intaglio, la scultura, la videoarte, il design e la Land Art.
