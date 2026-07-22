@@ -2,6 +2,7 @@
 layout: post
 title: Soundtrack to a coup d'état
 date: 2025-08-20
+permalink: /Soundtrack-to-a-coup-d-etat.html
 img: posts/soundtrack-cover.png
 tags: [Patrice Lumumba, Johan Grimonprez, RDC, Cinema, Archivi]
 category: Cinema

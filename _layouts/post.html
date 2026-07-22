@@ -16,7 +16,7 @@ layout: default
             {% include post_meta.html type="post-page-meta" %}
           </div>
           {% include sidebar.html context="post" class="side" id="sidebar" %}
-          {{page.content | markdownify}}
+          {{ content }}
           {% if page.publication_link and page.publisher %}
             <p class="page_meta">
               Originariamente pubblicato su&nbsp;<a href="{{ page.publication_link }}" target="_blank" rel="noopener noreferrer">{{ page.publisher }}</a>
