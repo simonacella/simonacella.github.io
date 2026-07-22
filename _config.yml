@@ -8,7 +8,7 @@ words_per_minute: 200
 
 # Author settings
 author: Simona Cella
-author-pic: /assets/img/Myself.jpeg
+author-pic: assets/img/Myself.jpeg
 about-author: Scriptwriter, Producer, Film Critic 
 about-author-long: |
   Esperta di cinema africano e terzo cinema, dopo una lunga esperienza nel mondo della produzione
@@ -37,7 +37,7 @@ imdb: nm7677685
 ### Do not change the settings below unless you know what you are doing ###
 
 # Build settings
-baseurl: /
+baseurl: ""
 paginate_path: 'page:num'
 permalink: :title:output_ext
 url: https://simonacella.github.io
