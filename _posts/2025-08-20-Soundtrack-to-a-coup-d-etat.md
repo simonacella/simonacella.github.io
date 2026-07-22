@@ -7,7 +7,7 @@ img: posts/soundtrack-cover.png
 tags: [Patrice Lumumba, Johan Grimonprez, RDC, Cinema, Archivi]
 category: Cinema
 author: Simona Cella
-description: Documentario diretto da Johan Grimonprez
+description: Soundtrack to a coup d’état di Johan Grimonprez: jazz, archivi e il complotto dietro l’omicidio di Patrice Lumumba.
 ---
 
 La batteria di Max Roach ritma le parole di una promessa che appare in forma di scritte su schermo nero. 
