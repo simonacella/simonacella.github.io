@@ -25,3 +25,8 @@ place the text under the GPL.
 
 Images under assets/img/ remain the property of their respective rights
 holders and are not licensed under the GPL.
+
+FONTS
+-----
+Self-hosted Lora and Source Sans Pro files under assets/fonts/ are licensed
+under the SIL Open Font License 1.1. See assets/fonts/README.md.
