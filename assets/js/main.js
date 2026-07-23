@@ -1,6 +1,12 @@
 (function () {
   'use strict';
 
+  // Localized strings injected by _includes/javascripts.html (with fallbacks).
+  var i18n = window.i18n || {};
+  var LABEL_OPEN_MENU = i18n.openMenu || 'Apri menu';
+  var LABEL_CLOSE_MENU = i18n.closeMenu || 'Chiudi menu';
+  var LABEL_YOUTUBE_VIDEO = i18n.youtubeVideo || 'Video YouTube';
+
   var topButton = document.querySelector('.top');
   var flexContainer = document.querySelector('div.flex-container');
   var mainNav = document.getElementById('main-nav');
@@ -54,7 +60,7 @@
     flexContainer.classList.remove('opaque');
     flexContainer.classList.add('transparent');
     menuOpen.setAttribute('aria-expanded', 'false');
-    menuOpen.setAttribute('aria-label', 'Apri menu');
+    menuOpen.setAttribute('aria-label', LABEL_OPEN_MENU);
     setTimeout(function () {
       flexContainer.classList.remove('active');
       setNavOpen(false);
@@ -72,7 +78,7 @@
     lastMenuTrigger = trigger || menuOpen;
     flexContainer.classList.add('active');
     menuOpen.setAttribute('aria-expanded', 'true');
-    menuOpen.setAttribute('aria-label', 'Chiudi menu');
+    menuOpen.setAttribute('aria-label', LABEL_CLOSE_MENU);
     setNavOpen(true);
     setTimeout(function () {
       flexContainer.classList.remove('transparent');
@@ -195,7 +201,7 @@
     var id = container.getAttribute('data-youtube-id');
     if (!id) return;
     container.innerHTML =
-      '<iframe title="Video YouTube" src="https://www.youtube-nocookie.com/embed/' +
+      '<iframe title="' + LABEL_YOUTUBE_VIDEO + '" src="https://www.youtube-nocookie.com/embed/' +
       id +
       '?autoplay=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
   });

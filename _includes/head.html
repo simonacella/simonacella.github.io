@@ -1,11 +1,14 @@
 {% include calculate_relative_base.html %}
 {% include escape-404.html %}
+{% include locale.html %}
+{% assign site_title = sitetext.title | default: site.title %}
+{% assign site_description = sitetext.description | default: site.description %}
 
 <head>
   <meta charset="utf-8">
-  <title>{% if paginator.page > 1 %}Pagina {{ paginator.page }} - {{ site.title }}{% elsif page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if paginator.page > 1 %}{{ ui.page }} {{ paginator.page }} - {{ site_title }}{% elsif page.title %}{{ page.title }} - {{ site_title }}{% else %}{{ site_title }}{% endif %}</title>
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site_description }}{% endif %}">
   {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% elsif paginator.page > 1 %}<meta name="robots" content="noindex, follow">{% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% feed_meta %}

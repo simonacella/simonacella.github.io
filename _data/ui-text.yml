@@ -1,4 +1,172 @@
-# Testi interfaccia (usati da post_meta e simili)
+# Interface strings (UI chrome) keyed by locale.
+# Resolved via _includes/locale.html as `ui.<key>` for the active language.
+# Keep every user-facing interface string here (not hardcoded in templates/JS),
+# and keep the it / en / fr blocks in sync when adding a new key.
+
 it:
+  # Locale metadata
+  og_locale: "it_IT"
+  # Navigation
+  home: "Home"
+  articles: "Articoli"
+  tags: "Tag"
+  about: "Chi sono"
+  recent_articles: "Articoli recenti"
+  # Search
+  search: "Cerca"
+  close_search: "Chiudi ricerca"
+  no_results: "Nessun risultato"
+  # Pagination
+  previous: "Precedente"
+  next: "Successiva"
+  page: "Pagina"
+  # Menu / accessibility
+  open_menu: "Apri menu"
+  close_menu: "Chiudi menu"
+  skip_to_content: "Vai al contenuto"
+  back_to_top: "Torna su"
+  # Share
+  share_facebook: "Condividi su Facebook"
+  share_reddit: "Condividi su Reddit"
+  share_linkedin: "Condividi su LinkedIn"
+  share_email: "Condividi via e-mail"
+  copy_link: "Copia link"
+  read_here: "Leggi qui:"
+  link_copied: "link copiato"
+  copy_failed: "Impossibile copiare, usa questo link:"
+  # Post
+  originally_published: "Originariamente pubblicato su"
+  read_more: "continua"
+  # Media
+  youtube_video: "Video YouTube"
+  # Errors
+  not_found: "Pagina non trovata"
+  # Reading time
   less_than: "meno di"
   minute_read: "min di lettura"
+  # Month names (index 0 = January)
+  months:
+    - gennaio
+    - febbraio
+    - marzo
+    - aprile
+    - maggio
+    - giugno
+    - luglio
+    - agosto
+    - settembre
+    - ottobre
+    - novembre
+    - dicembre
+
+en:
+  # Locale metadata
+  og_locale: "en_US"
+  # Navigation
+  home: "Home"
+  articles: "Articles"
+  tags: "Tags"
+  about: "About"
+  recent_articles: "Recent articles"
+  # Search
+  search: "Search"
+  close_search: "Close search"
+  no_results: "No results"
+  # Pagination
+  previous: "Previous"
+  next: "Next"
+  page: "Page"
+  # Menu / accessibility
+  open_menu: "Open menu"
+  close_menu: "Close menu"
+  skip_to_content: "Skip to content"
+  back_to_top: "Back to top"
+  # Share
+  share_facebook: "Share on Facebook"
+  share_reddit: "Share on Reddit"
+  share_linkedin: "Share on LinkedIn"
+  share_email: "Share via email"
+  copy_link: "Copy link"
+  read_here: "Read here:"
+  link_copied: "link copied"
+  copy_failed: "Unable to copy, use this link:"
+  # Post
+  originally_published: "Originally published on"
+  read_more: "read more"
+  # Media
+  youtube_video: "YouTube video"
+  # Errors
+  not_found: "Page not found"
+  # Reading time
+  less_than: "less than"
+  minute_read: "min read"
+  # Month names (index 0 = January)
+  months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+
+fr:
+  # Locale metadata
+  og_locale: "fr_FR"
+  # Navigation
+  home: "Accueil"
+  articles: "Articles"
+  tags: "Mots-clés"
+  about: "À propos"
+  recent_articles: "Articles récents"
+  # Search
+  search: "Rechercher"
+  close_search: "Fermer la recherche"
+  no_results: "Aucun résultat"
+  # Pagination
+  previous: "Précédent"
+  next: "Suivant"
+  page: "Page"
+  # Menu / accessibility
+  open_menu: "Ouvrir le menu"
+  close_menu: "Fermer le menu"
+  skip_to_content: "Aller au contenu"
+  back_to_top: "Haut de page"
+  # Share
+  share_facebook: "Partager sur Facebook"
+  share_reddit: "Partager sur Reddit"
+  share_linkedin: "Partager sur LinkedIn"
+  share_email: "Partager par e-mail"
+  copy_link: "Copier le lien"
+  read_here: "À lire ici :"
+  link_copied: "lien copié"
+  copy_failed: "Impossible de copier, utilisez ce lien :"
+  # Post
+  originally_published: "Publié à l'origine sur"
+  read_more: "lire la suite"
+  # Media
+  youtube_video: "Vidéo YouTube"
+  # Errors
+  not_found: "Page introuvable"
+  # Reading time
+  less_than: "moins de"
+  minute_read: "min de lecture"
+  # Month names (index 0 = January)
+  months:
+    - janvier
+    - février
+    - mars
+    - avril
+    - mai
+    - juin
+    - juillet
+    - août
+    - septembre
+    - octobre
+    - novembre
+    - décembre

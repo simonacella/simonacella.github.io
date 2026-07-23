@@ -1,3 +1,4 @@
+{% include locale.html %}
 {% assign document = post | default: page %}
 <span class = "{{ include.type }}">
   {% if include.type == "post-page-meta" %}
@@ -9,20 +10,8 @@
   {% unless include.date == "none" %}
     {% assign date = document.date %}
     {% assign m = date | date: "%-m" | plus: 0 %}
-    {% case m %}
-      {% when 1 %}{% assign mese = "gennaio" %}
-      {% when 2 %}{% assign mese = "febbraio" %}
-      {% when 3 %}{% assign mese = "marzo" %}
-      {% when 4 %}{% assign mese = "aprile" %}
-      {% when 5 %}{% assign mese = "maggio" %}
-      {% when 6 %}{% assign mese = "giugno" %}
-      {% when 7 %}{% assign mese = "luglio" %}
-      {% when 8 %}{% assign mese = "agosto" %}
-      {% when 9 %}{% assign mese = "settembre" %}
-      {% when 10 %}{% assign mese = "ottobre" %}
-      {% when 11 %}{% assign mese = "novembre" %}
-      {% when 12 %}{% assign mese = "dicembre" %}
-    {% endcase %}
+    {% assign month_index = m | minus: 1 %}
+    {% assign mese = ui.months[month_index] %}
     <{% if include.type == "recent-item-meta" %}p{% else %}span{% endif %} class="page_meta-date">
       <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: "%-d" }} {{ mese }} {{ date | date: "%Y" }}</time>
     </{% if include.type == "recent-item-meta" %}p{% else %}span{% endif %}>
@@ -34,11 +23,11 @@
   {% assign words = document.content | strip_html | number_of_words %}
   <{% if include.type == "recent-item-meta" %}p{% else %}span{% endif %} class="page_meta-readtime">
     {% if words < words_per_minute %}
-      {{ site.data.ui-text[site.locale].less_than | default: 'meno di' }} 1 {{ site.data.ui-text[site.locale].minute_read | default: 'min di lettura' }}
+      {{ ui.less_than | default: 'meno di' }} 1 {{ ui.minute_read | default: 'min di lettura' }}
     {% elsif words == words_per_minute %}
-      1 {{ site.data.ui-text[site.locale].minute_read | default: 'min di lettura' }}
+      1 {{ ui.minute_read | default: 'min di lettura' }}
     {% else %}
-      {{ words | divided_by: words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: 'min di lettura' }}
+      {{ words | divided_by: words_per_minute }} {{ ui.minute_read | default: 'min di lettura' }}
     {% endif %}
   </{% if include.type == "recent-item-meta" %}p{% else %}span{% endif %}>
   {% if include.type == "post-page-meta" %}

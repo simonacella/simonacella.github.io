@@ -1,0 +1,15 @@
+{%- comment -%}
+Resolve the active language once and expose interface/site copy.
+
+- `locale`   : active language code (polyglot sets site.active_lang in Phase 2;
+               falls back to site.locale, then 'it').
+- `ui`       : interface strings for `locale` (see _data/ui-text.yml).
+- `sitetext` : localized site copy for `locale` (see _data/site-text.yml).
+
+Both lookups fall back to Italian when a locale is missing entirely, so
+templates can reference `ui.*` / `sitetext.*` safely. Include this at the top
+of any template/include that needs localized strings.
+{%- endcomment -%}
+{%- assign locale = site.active_lang | default: site.locale | default: 'it' -%}
+{%- assign ui = site.data.ui-text[locale] | default: site.data.ui-text['it'] -%}
+{%- assign sitetext = site.data.site-text[locale] | default: site.data.site-text['it'] -%}

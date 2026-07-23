@@ -1,7 +1,8 @@
 {% include calculate_relative_base.html %}
+{% include locale.html %}
 
 <div class="recent-box">
-  <h2 class="page-subtitle">Articoli recenti</h2>
+  <h2 class="page-subtitle">{{ ui.recent_articles }}</h2>
   <div class="recent-list">
     {% for post in site.posts offset:0 limit:4 %}
       {% if post.title %}

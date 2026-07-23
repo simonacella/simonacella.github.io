@@ -1,0 +1,65 @@
+# Localized site copy keyed by locale.
+# Resolved via _includes/locale.html as `sitetext.<key>` for the active language.
+#
+# NOTE: `title` and `description` are also kept in _config.yml because plugins
+# (jekyll-feed, jekyll-sitemap) read them from site config; those config values
+# are the Italian default. Templates prefer these localized values and fall back
+# to the config ones.
+#
+# The en / fr translations below are seeded for review by the author (native
+# IT/FR speaker) and can be refined without touching templates.
+
+it:
+  title: "Il cinema come amuleto"
+  description: "Alcune osservazioni sul cinema africano e terzo cinema"
+  about_author: "Sceneggiatrice, produttrice, critica cinematografica"
+  about_author_long: |
+    Esperta di cinema africano e terzo cinema, dopo una lunga esperienza nel mondo della produzione
+    cinematografica e dell’organizzazione culturale, si è specializzata nello sviluppo e nella curatela
+    di progetti di cinema espanso inteso come processo multidisciplinare che accompagna la produzione di
+    un film attivando progetti artistici paralleli in un’ottica di valorizzazione e rigenerazione culturale del territorio.
+
+    E' autrice di sceneggiature e scrive di cinema per Nigrizia e Africa & Mediterraneo.
+
+    Ha curato insieme a Cinzia Quadrati la monografia "Djibril Diop Mambety o il viaggio della Iena",
+    con prefazione di Martin Scorsese, pubblicato in Italia e Francia da Editions L'Harmattan.
+
+    Collabora con artisti, registi, collettivi, associazioni culturali, produzioni cinematografiche,
+    istituzioni culturali, scuole ed università.
+
+en:
+  title: "Cinema as an amulet"
+  description: "Some observations on African cinema and Third Cinema"
+  about_author: "Screenwriter, producer, film critic"
+  about_author_long: |
+    An expert in African cinema and Third Cinema, after a long experience in film production and cultural
+    organisation she specialised in the development and curation of expanded cinema projects, understood as
+    a multidisciplinary process that accompanies the production of a film by activating parallel artistic
+    projects with a view to enhancing and culturally regenerating the territory.
+
+    She writes screenplays and writes about cinema for Nigrizia and Africa & Mediterraneo.
+
+    Together with Cinzia Quadrati she edited the monograph "Djibril Diop Mambety, or the journey of the Hyena",
+    with a preface by Martin Scorsese, published in Italy and France by Editions L'Harmattan.
+
+    She collaborates with artists, directors, collectives, cultural associations, film productions, cultural
+    institutions, schools and universities.
+
+fr:
+  title: "Le cinéma comme amulette"
+  description: "Quelques observations sur le cinéma africain et le tiers cinéma"
+  about_author: "Scénariste, productrice, critique de cinéma"
+  about_author_long: |
+    Spécialiste du cinéma africain et du tiers cinéma, après une longue expérience dans le monde de la
+    production cinématographique et de l’organisation culturelle, elle s’est spécialisée dans le
+    développement et la curation de projets de cinéma élargi, entendu comme un processus pluridisciplinaire
+    qui accompagne la production d’un film en activant des projets artistiques parallèles, dans une optique
+    de valorisation et de régénération culturelle du territoire.
+
+    Elle est autrice de scénarios et écrit sur le cinéma pour Nigrizia et Africa & Mediterraneo.
+
+    Elle a dirigé avec Cinzia Quadrati la monographie « Djibril Diop Mambety ou le voyage de la Hyène »,
+    préfacée par Martin Scorsese, publiée en Italie et en France par les Éditions L'Harmattan.
+
+    Elle collabore avec des artistes, des réalisateurs, des collectifs, des associations culturelles, des
+    productions cinématographiques, des institutions culturelles, des écoles et des universités.
