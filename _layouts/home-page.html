@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+{% include locale.html %}
 <div class="flex-container transparent">
   {% include header.html %}
     <main id="main-content" class="content wrapper" tabindex="-1">
-      <h1 class="sr-only">{{ site.title }}</h1>
+      <h1 class="sr-only">{{ sitetext.title | default: site.title }}</h1>
       {{ content }}
       {% include search.html %}
       {% include pagination.html %}

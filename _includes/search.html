@@ -1,15 +1,16 @@
-<div class="search-box" id="search-box" role="dialog" aria-modal="true" aria-label="Cerca" aria-hidden="true">
+{% include locale.html %}
+<div class="search-box" id="search-box" role="dialog" aria-modal="true" aria-label="{{ ui.search }}" aria-hidden="true">
   <div class="wrapper">
     <div class="search-grid">
       <form class="search-form" role="search">
         <div id="search-container">
-          <label class="sr-only" for="search-input">Cerca</label>
-          <input type="text" id="search-input" class="search" placeholder="Cerca" autocomplete="off">
+          <label class="sr-only" for="search-input">{{ ui.search }}</label>
+          <input type="text" id="search-input" class="search" placeholder="{{ ui.search }}" autocomplete="off">
         </div>
       </form>
       <ul id="results-container" class="results-search"></ul>
       <div class="icon-close-container">
-        <button type="button" class="search-icon-close" aria-label="Chiudi ricerca">
+        <button type="button" class="search-icon-close" aria-label="{{ ui.close_search }}">
           <i class="fa fa-times" aria-hidden="true"></i>
         </button>
       </div>

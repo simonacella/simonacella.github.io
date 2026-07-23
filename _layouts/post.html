@@ -2,6 +2,7 @@
 layout: default
 ---
 {% include calculate_relative_base.html %}
+{% include locale.html %}
 <div class="flex-container transparent">
   {% include header.html %}
   <main id="main-content" tabindex="-1">
@@ -19,7 +20,7 @@ layout: default
           {{ content }}
           {% if page.publication_link and page.publisher %}
             <p class="page_meta">
-              Originariamente pubblicato su&nbsp;<a href="{{ page.publication_link }}" target="_blank" rel="noopener noreferrer">{{ page.publisher }}</a>
+              {{ ui.originally_published }}&nbsp;<a href="{{ page.publication_link }}" target="_blank" rel="noopener noreferrer">{{ page.publisher }}</a>
             </p>
           {% endif %}
           {% include sidebar.html context="post" class="inline" id="post-end" %}
