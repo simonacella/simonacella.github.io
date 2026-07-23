@@ -32,6 +32,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
       - name: Build with Jekyll
         run: |
           set -o pipefail
@@ -42,6 +45,10 @@ jobs:
           fi
         env:
           JEKYLL_ENV: production
+
+      # Author keeps uploading .jpg/.png and linking those names; production serves WebP.
+      - name: Optimize images for deploy
+        run: python3 scripts/optimize-site-images.py _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
