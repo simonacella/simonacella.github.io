@@ -1,0 +1,34 @@
+{% include locale.html %}
+{%- comment -%}
+Language switcher. Links use static_href so polyglot does not rewrite them.
+For each language, prefer page.permalink_lang when polyglot has paired
+translations; otherwise fall back to the same page.url under that lang prefix.
+{%- endcomment -%}
+<nav class="lang-switcher" aria-label="{{ ui.language }}">
+  <ul>
+  {% for lang in site.languages %}
+    {% if page.permalink_lang and page.permalink_lang[lang] %}
+      {% assign lang_path = page.permalink_lang[lang] %}
+    {% else %}
+      {% assign lang_path = page.url %}
+    {% endif %}
+    {% if lang_path == '/' %}
+      {% assign lang_path = '' %}
+    {% endif %}
+    {% if lang == site.default_lang %}
+      {% capture lang_href %}{{ site.baseurl }}/{{ lang_path }}{% endcapture %}
+    {% else %}
+      {% capture lang_href %}{{ site.baseurl }}/{{ lang }}/{{ lang_path }}{% endcapture %}
+    {% endif %}
+    {% assign lang_href = lang_href | replace: '//', '/' %}
+    {% if lang_href == '' %}{% assign lang_href = '/' %}{% endif %}
+    <li>
+      {% if lang == site.active_lang %}
+        <span class="lang-switcher__current" aria-current="true">{{ lang | upcase }}</span>
+      {% else %}
+        <a class="lang-switcher__link" hreflang="{{ lang }}" {% static_href %}href="{{ lang_href }}"{% endstatic_href %}>{{ lang | upcase }}</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</nav>

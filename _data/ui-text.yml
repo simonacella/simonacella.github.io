@@ -25,6 +25,7 @@ it:
   close_menu: "Chiudi menu"
   skip_to_content: "Vai al contenuto"
   back_to_top: "Torna su"
+  language: "Lingua"
   # Share
   share_facebook: "Condividi su Facebook"
   share_reddit: "Condividi su Reddit"
@@ -81,6 +82,7 @@ en:
   close_menu: "Close menu"
   skip_to_content: "Skip to content"
   back_to_top: "Back to top"
+  language: "Language"
   # Share
   share_facebook: "Share on Facebook"
   share_reddit: "Share on Reddit"
@@ -137,6 +139,7 @@ fr:
   close_menu: "Fermer le menu"
   skip_to_content: "Aller au contenu"
   back_to_top: "Haut de page"
+  language: "Langue"
   # Share
   share_facebook: "Partager sur Facebook"
   share_reddit: "Partager sur Reddit"

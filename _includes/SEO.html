@@ -1,5 +1,5 @@
 {% include locale.html %}
-{% assign site_title = sitetext.title | default: site.title %}
+{% assign site_title = site.title %}
 {% assign site_description = sitetext.description | default: site.description %}
 {% assign seo_title = page.title | default: site_title %}
 {% assign seo_description = page.description | default: site_description %}
@@ -8,7 +8,11 @@
 {% else %}
   {% assign seo_image = site.url | append: site.logo %}
 {% endif %}
-{% assign seo_url = site.url | append: page.url %}
+{% if site.active_lang and site.active_lang != site.default_lang %}
+  {% assign seo_url = site.url | append: '/' | append: site.active_lang | append: page.url %}
+{% else %}
+  {% assign seo_url = site.url | append: page.url %}
+{% endif %}
 {% assign seo_author = page.author | default: site.author %}
 {% assign seo_modified = page.last_modified_at | default: page.date %}
 {% assign is_post = false %}
@@ -76,6 +80,33 @@
 <meta property="og:image:alt" content="{{ seo_title }}">
 <meta property="og:site_name" content="{{ site_title }}">
 <meta property="og:locale" content="{{ ui.og_locale | default: 'it_IT' }}">
+{% for lang in site.languages %}
+  {% unless lang == locale %}
+    {% assign alt_ui = site.data.ui-text[lang] %}
+    {% if alt_ui and alt_ui.og_locale %}
+<meta property="og:locale:alternate" content="{{ alt_ui.og_locale }}">
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+{% comment %}
+Canonical + hreflang for every configured language.
+Always emit all langs: Phase 2 serves Italian fallback under /en/ and /fr/
+with localized UI, so each URL is a real alternate even before Phase 3
+translations exist. (Polyglot's I18n_Headers skips langs without a paired
+translation file, which would hide EN/FR here.)
+{% endcomment %}
+<link rel="canonical" href="{{ seo_url }}">
+{% for lang in site.languages %}
+  {% if lang == site.default_lang %}
+    {% assign hreflang_href = site.url | append: page.url %}
+  {% else %}
+    {% assign hreflang_href = site.url | append: '/' | append: lang | append: page.url %}
+  {% endif %}
+<link rel="alternate" hreflang="{{ lang }}" href="{{ hreflang_href }}">
+  {% if lang == site.default_lang %}
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+  {% endif %}
+{% endfor %}
 {% if is_post %}
 <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 <meta property="article:modified_time" content="{{ seo_modified | date_to_xmlschema }}">

@@ -267,18 +267,23 @@ var relativebase = "./";
         }
 
         /*
-          calculate relative base for deep directory cases
+          Prefer Liquid-injected relative base (correct under /en/, /fr/).
+          Fall back to slash-counting for pages that omit the inject.
         */
-        const own_url = window.location.href;
-        var countOfSlashes = (own_url.match(/\//g) || []).length;
-        var minimumSlashes = 3;
-        if (countOfSlashes > minimumSlashes){
-            relativebase = "";
-            var i = 0;
-            for (i=minimumSlashes; i < countOfSlashes; i++){
-                relativebase = relativebase + "../";
+        if (typeof window.jekyllRelativeBase === 'string' && window.jekyllRelativeBase.length) {
+          relativebase = window.jekyllRelativeBase
+        } else {
+          const own_url = window.location.href;
+          var countOfSlashes = (own_url.match(/\//g) || []).length;
+          var minimumSlashes = 3;
+          if (countOfSlashes > minimumSlashes){
+              relativebase = "";
+              var i = 0;
+              for (i=minimumSlashes; i < countOfSlashes; i++){
+                  relativebase = relativebase + "../";
+              }
             }
-          }
+        }
 
         options = utils.merge(options, _options)
 

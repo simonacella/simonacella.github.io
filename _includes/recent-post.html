@@ -10,7 +10,7 @@
           {% include escape-404.html %}
           {% include remove_double_slash.html %}
           <a href="{{ post_url }}" class="recent-item-img">
-            <img src="{{ relativebase }}assets/img/{{ post.img }}" alt="{{ post.title }}" loading="lazy">
+            <img src="{{ assetbase }}assets/img/{{ post.img }}" alt="{{ post.title }}" loading="lazy">
             <div class="recent-item-title">
               <span>{{ post.title }}</span>
               {% include post_meta.html type="recent-item-meta" date="none" %}
