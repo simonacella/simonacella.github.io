@@ -52,3 +52,22 @@ plugins:
   - jekyll-youtube
 
 include: [_pages]
+
+# Replaces Jekyll defaults — keep the stock excludes, then drop repo/docs noise from _site.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
+  - scripts/
+  - README.md
+  - LICENSE
+  - NOTICE
+  - REVIEW.md
