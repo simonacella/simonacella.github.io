@@ -36,14 +36,18 @@ def die(message: str) -> None:
     sys.exit(1)
 
 
-def require_magick() -> str:
-    magick = shutil.which("magick")
-    if not magick:
-        die("ImageMagick 'magick' is required")
-    return magick
+def require_imagemagick() -> str:
+    # Ubuntu packages ImageMagick 6 as `convert`; IM7 uses `magick`.
+    for name in ("magick", "convert"):
+        path = shutil.which(name)
+        if path is not None:
+            return path
+    die("ImageMagick is required (command 'magick' or 'convert')")
 
 
-def convert_images(img_root: Path, magick: str, max_edge: int, quality: int) -> Tuple[int, int, int]:
+def convert_images(
+    img_root: Path, im_cmd: str, max_edge: int, quality: int
+) -> Tuple[int, int, int]:
     converted = 0
     bytes_before = 0
     bytes_after = 0
@@ -64,7 +68,7 @@ def convert_images(img_root: Path, magick: str, max_edge: int, quality: int) -> 
 
         subprocess.run(
             [
-                magick,
+                im_cmd,
                 str(src),
                 "-auto-orient",
                 "-resize",
@@ -126,9 +130,9 @@ def main() -> None:
     if not img_root.is_dir():
         die(f"no images at {img_root}")
 
-    magick = require_magick()
+    im_cmd = require_imagemagick()
     converted, bytes_before, bytes_after = convert_images(
-        img_root, magick, max_edge, quality
+        img_root, im_cmd, max_edge, quality
     )
     replacements, changed_files = rewrite_references(site_dir)
 
