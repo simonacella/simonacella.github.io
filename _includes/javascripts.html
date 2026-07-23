@@ -2,7 +2,7 @@
 {% include escape-404.html %}
 {% include locale.html %}
 
-<script src="{{ relativebase }}assets/js/jekyll-search.js"></script>
+<script src="{{ assetbase }}assets/js/jekyll-search.js"></script>
 
 <script>
   // Localized strings consumed by assets/js/main.js (a static, non-Liquid file).
@@ -11,12 +11,18 @@
     closeMenu: {{ ui.close_menu | default: 'Chiudi menu' | jsonify }},
     youtubeVideo: {{ ui.youtube_video | default: 'Video YouTube' | jsonify }}
   };
+  // Language-root relative base for search result URLs (see jekyll-search.js).
+  window.jekyllRelativeBase = {{ relativebase | jsonify }};
 </script>
 
 {% if page.layout == "post" %}
   <script>
     function copyToClipboard() {
-      var url = '{{ site.url }}{{ page.url }}';
+      {% if site.active_lang and site.active_lang != site.default_lang %}
+      var url = {{ site.url | append: '/' | append: site.active_lang | append: page.url | jsonify }};
+      {% else %}
+      var url = {{ site.url | append: page.url | jsonify }};
+      {% endif %}
       navigator.clipboard.writeText(url).then(function() {
         var alerts = document.getElementsByClassName('alert');
         for (var i = 0; i < alerts.length; i++) {
@@ -32,7 +38,7 @@
   </script>
 {% endif %}
 
-<script src="{{ relativebase }}assets/js/main.js"></script>
+<script src="{{ assetbase }}assets/js/main.js"></script>
 <script>
   function escapeSearchHtml(value) {
     return String(value == null ? '' : value)

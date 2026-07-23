@@ -1,7 +1,7 @@
 # Site settings
-# NOTE: title/description are the Italian defaults consumed by plugins
-# (jekyll-feed, jekyll-sitemap). Localized copy for templates lives in
-# _data/site-text.yml; author bio copy moved there too (see about_author*).
+# NOTE: title stays Italian in all languages (brand name). description is the
+# Italian default for plugins (jekyll-feed, jekyll-sitemap); localized
+# description / about_* for templates live in _data/site-text.yml.
 title: Il cinema come amuleto
 description: Alcune osservazioni sul cinema africano e terzo cinema
 logo: /assets/img/logo.webp
@@ -34,7 +34,26 @@ url: https://simonacella.github.io
 markdown: kramdown
 highlighter: rouge
 
+# Polyglot (IT default unprefixed; EN/FR under /en/ and /fr/)
+languages: ["it", "en", "fr"]
+default_lang: "it"
+# Keep parallel off so custom plugins (image intrinsic size) and paginate
+# run predictably in each language build.
+parallel_localization: false
+# Shared once at site root — not copied under /en/ or /fr/.
+exclude_from_localization:
+  - assets
+  - sitemap.xml
+  - robots.txt
+  - CNAME
+  - google3e4b083f6284aa55.html
+
+# Avoid broken SCSS sourcemaps under polyglot (known Jekyll 4 issue).
+sass:
+  sourcemap: never
+
 plugins:
+  - jekyll-polyglot
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed

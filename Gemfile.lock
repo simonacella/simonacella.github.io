@@ -40,6 +40,8 @@ GEM
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
+    jekyll-polyglot (1.13.0)
+      jekyll (>= 4.0, >= 3.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-sitemap (1.4.0)
@@ -84,9 +86,10 @@ PLATFORMS
 DEPENDENCIES
   base64
   csv
-  jekyll
+  jekyll (~> 4.3.3)
   jekyll-feed
   jekyll-paginate
+  jekyll-polyglot
   jekyll-sitemap
   jekyll-youtube
   logger

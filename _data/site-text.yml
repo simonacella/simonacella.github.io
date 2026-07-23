@@ -1,16 +1,17 @@
 # Localized site copy keyed by locale.
 # Resolved via _includes/locale.html as `sitetext.<key>` for the active language.
 #
-# NOTE: `title` and `description` are also kept in _config.yml because plugins
-# (jekyll-feed, jekyll-sitemap) read them from site config; those config values
-# are the Italian default. Templates prefer these localized values and fall back
-# to the config ones.
+# The site brand title stays Italian everywhere — use site.title from _config.yml,
+# not a localized key here. description / about_* may differ by language.
 #
-# The en / fr translations below are seeded for review by the author (native
-# IT/FR speaker) and can be refined without touching templates.
+# NOTE: description is also kept in _config.yml (Italian) because plugins
+# (jekyll-feed, jekyll-sitemap) read it from site config. Templates prefer
+# these localized values and fall back to the config ones.
+#
+# The en / fr translations below are seeded for review by the author and can
+# be refined without touching templates.
 
 it:
-  title: "Il cinema come amuleto"
   description: "Alcune osservazioni sul cinema africano e terzo cinema"
   about_author: "Sceneggiatrice, produttrice, critica cinematografica"
   about_author_long: |
@@ -28,7 +29,6 @@ it:
     istituzioni culturali, scuole ed università.
 
 en:
-  title: "Cinema as an amulet"
   description: "Some observations on African cinema and Third Cinema"
   about_author: "Screenwriter, producer, film critic"
   about_author_long: |
@@ -46,7 +46,6 @@ en:
     institutions, schools and universities.
 
 fr:
-  title: "Le cinéma comme amulette"
   description: "Quelques observations sur le cinéma africain et le tiers cinéma"
   about_author: "Scénariste, productrice, critique de cinéma"
   about_author_long: |
