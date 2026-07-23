@@ -23,6 +23,7 @@ module ImageIntrinsicSize
       attrs = Regexp.last_match(1)
       src_match = attrs.match(SRC_ATTR)
       next tag unless src_match
+      next tag if integer_dimensions?(attrs)
 
       src = src_match[2]
       next tag if src.start_with?("http://", "https://", "//", "data:")
@@ -35,8 +36,16 @@ module ImageIntrinsicSize
 
       width, height = dims
       cleaned = attrs.gsub(WIDTH_ATTR, "").gsub(HEIGHT_ATTR, "")
+      # Also strip unquoted width/height if present
+      cleaned = cleaned.gsub(/\bwidth\s*=\s*\d+/i, "").gsub(/\bheight\s*=\s*\d+/i, "")
       %(<img width="#{width}" height="#{height}"#{cleaned}>)
     end
+  end
+
+  def integer_dimensions?(attrs)
+    w = attrs[/\bwidth\s*=\s*(["']?)(\d+)\1/i, 2]
+    h = attrs[/\bheight\s*=\s*(["']?)(\d+)\1/i, 2]
+    !w.nil? && !h.nil?
   end
 
   def resolve(source_dir, src)
