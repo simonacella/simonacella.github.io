@@ -23,7 +23,7 @@ Sullo schermo appare Abbey Lincoln. Il suo canto è accompagnato dalla scritta
 > Nostro fratello Lumumba è stato ucciso in Congo. 
 
 Un duetto di Max Roach e Abbey Lincolm e la promessa di un gruppo di donne di incontrasi all'Onu per protestare contro l'uccisione di Patrice Lumumba. 
-Inizia così il denso documentario di Johan Grimonprez che racconta a ritmo di jazz il back stage dell’omicidio di Lumumba, ucciso in Katanga il 16 Gennaio 1961 per mano di Moboutu e per conto della Cia e dei belgi, con la complicità dell’Onu.
+Inizia così il denso documentario di Johan Grimonprez che racconta a ritmo di jazz il back stage dell’omicidio di Lumumba, ucciso in Katanga il 16 Gennaio 1961 per mano di Mobutu e per conto della Cia e dei belgi, con la complicità dell’Onu.
 
 ![Lumumba](./assets/img/posts/lumumba.jpg)
 
@@ -74,12 +74,12 @@ L’Hotel Theresa ad Harlem dove militanti e leaders dei paesi non allineati and
 
 ![hotel teresa](./assets/img/posts/hotelteresa.jpg)
 
-Andrée Blouin, mandata dalla Guinea in Congo per organizzare un movimento femminile a supporto della campagna elettorale del Mouvement National Congolais e diventata redattrice dei discorsi e capo di protocollo di Lumumba. Ritratta dai servizi segreti del Belgio come comunista e cortigiana dei leaders africani ed espulsa dal Congo qualche giorno prima dell’Indipendenza, riuscirà a portare in salvo, nascosto nel proprio chignon, il documento che dimostrava la legittimità di Lumumba (non di Kasa Buvu, il candidato del Belgio) a guidare il governo. 
+Andrée Blouin, mandata dalla Guinea in Congo per organizzare un movimento femminile a supporto della campagna elettorale del Mouvement National Congolais e diventata redattrice dei discorsi e capo di protocollo di Lumumba. Ritratta dai servizi segreti del Belgio come comunista e cortigiana dei leaders africani ed espulsa dal Congo qualche giorno prima dell’Indipendenza, riuscirà a portare in salvo, nascosto nel proprio chignon, il documento che dimostrava la legittimità di Lumumba (non di Joseph Kasa-Vubu, il candidato del Belgio) a guidare il governo. 
 
 
 ![andree](./assets/img/posts/soundtrack-copertina.jpg)
 
-In Koli Jean Bofane autore di Congo Inc. che ci ricorda come il Congo, un algoritmo in continua evoluzione tra Washington, London, Brussels and Kigali, sia stato il fornitore globale di materie prime indispensabili alle guerre globali: gomma per la Prima Guerra Mondiale, uranio per le bombe atomiche sganciate a Hiroshima e Nagasaki, rame per i proiettili in Vietnam. Senza dimenticare le materie prime necessarie a portare la guerra nello spazio.
+In Koli Jean Bofane autore di[Congo Inc. Il testamento di Bismarck](https://66thand2nd.com/products/congo-inc)ci ricorda come il Congo, un algoritmo in continua evoluzione tra Washington, London, Brussels and Kigali, sia stato il fornitore globale di materie prime indispensabili alle guerre globali: gomma per la Prima Guerra Mondiale, uranio per le bombe atomiche sganciate a Hiroshima e Nagasaki, rame per i proiettili in Vietnam. Senza dimenticare le materie prime necessarie a portare la guerra nello spazio.
 
 La testimonianza di Corron Cruise O'Brien, allora a capo del Contingente Onu in Katanga, sul genocidio dei Balubakat per mano di mercenari provenienti da Belgio, Francia, Germania e Sud Africa. Una rara testimonianza di come i poteri forti utilizzino l’Onu per influenzare le politiche internazionali.
 
