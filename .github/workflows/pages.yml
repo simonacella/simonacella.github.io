@@ -20,11 +20,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          # Post images in assets/img/posts are stored in Git LFS.
-          # Without this, checkout only gets pointer files and the site
-          # would publish broken images.
-          lfs: true
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1

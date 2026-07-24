@@ -56,7 +56,7 @@ Un’ultima cosa: alcuni file (`_data/site-text.yml`, `_data/ui-text.yml`, `_dat
    - No: `2025-09-15 Titolo del Film.md`
 3. Apri il file e aggiorna il **blocco in alto** (tra le due righe `---`).
 4. Sotto il secondo `---`, scrivi (o incolla) il testo dell’articolo.
-5. Metti le immagini nella cartella `assets/img/posts/` e collegale come negli articoli già online. Puoi caricarle così come sono (anche se pesanti): il sito crea automaticamente versioni più leggere in pubblicazione. Non serve ridimensionarle a mano.
+5. Metti le immagini nella cartella `assets/img/posts/` e collegale come negli articoli già online. Puoi caricarle così come sono (anche se pesanti): il sito crea automaticamente versioni più leggere in pubblicazione. Non serve ridimensionarle a mano. Su GitHub ogni file deve restare sotto i **100 MB** (limite della piattaforma).
 
 ## Il blocco in alto dell'articolo (obbligatorio)
 
