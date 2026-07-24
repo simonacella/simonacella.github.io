@@ -9,7 +9,7 @@
   {% assign seo_image = site.url | append: site.logo %}
 {% endif %}
 {% assign seo_url = site.url | append: page.url %}
-{% assign seo_author = page.author | default: site.author %}
+{% assign seo_author = site.author %}
 {% assign seo_modified = page.last_modified_at | default: page.date %}
 {% assign is_post = false %}
 {% if page.layout == 'post' %}
