@@ -1,0 +1,18 @@
+# Localized display labels for tag keys.
+# Tag keys in post front matter stay Italian (and stable for URLs: tag.html?tag=...).
+# Only list keys whose display text differs from the key; missing entries fall back
+# to the raw key (names of people/places usually need no entry).
+
+en:
+  Francia: "France"
+  Migrazione: "Migration"
+  Archivi: "Archives"
+  Esposizione: "Exhibition"
+  RDC: "DRC"
+
+fr:
+  Cinema: "Cinéma"
+  Francia: "France"
+  Migrazione: "Migration"
+  Archivi: "Archives"
+  Esposizione: "Exposition"

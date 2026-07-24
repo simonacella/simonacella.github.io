@@ -5,11 +5,30 @@ Resolve the active language once and expose interface/site copy.
                falls back to site.locale, then 'it').
 - `ui`       : interface strings for `locale` (see _data/ui-text.yml).
 - `sitetext` : localized site copy for `locale` (see _data/site-text.yml).
+- `page_title` / `page_description` : prefer sitetext.pages[page.content_id]
+               when set, else page front matter.
 
 Both lookups fall back to Italian when a locale is missing entirely, so
 templates can reference `ui.*` / `sitetext.*` safely. Include this at the top
 of any template/include that needs localized strings.
+
+Note: use `content_id` (not `page_id`) in front matter for this lookup.
+`page_id` is a reserved key for jekyll-polyglot's own translation-matching;
+reusing it here previously caused polyglot to populate `page.permalink_lang`
+with unresolved permalink templates (e.g. "about:output_ext"), breaking the
+language switcher. Keep the two concepts on separate keys.
+
+Post translations (Phase 3+): matching permalink + lang: it|en|fr in front
+matter. See comments in _data/site-text.yml.
 {%- endcomment -%}
 {%- assign locale = site.active_lang | default: site.locale | default: 'it' -%}
 {%- assign ui = site.data.ui-text[locale] | default: site.data.ui-text['it'] -%}
 {%- assign sitetext = site.data.site-text[locale] | default: site.data.site-text['it'] -%}
+{%- assign tag_labels = site.data.tag-labels[locale] -%}
+{%- assign page_title = page.title -%}
+{%- assign page_description = page.description -%}
+{%- if page.content_id and sitetext.pages[page.content_id] -%}
+  {%- assign _page_loc = sitetext.pages[page.content_id] -%}
+  {%- if _page_loc.title -%}{%- assign page_title = _page_loc.title -%}{%- endif -%}
+  {%- if _page_loc.description -%}{%- assign page_description = _page_loc.description -%}{%- endif -%}
+{%- endif -%}
