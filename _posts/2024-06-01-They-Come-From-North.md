@@ -3,7 +3,7 @@ layout: post
 title: They come from North
 date: 2024-06-01
 img: posts/theycomefromnorth.jpg
-tags: [Prasad Hettiarachchi, Sri Lanka, Esposizione]
+tags: [Prasad Hettiarachchi, Sri Lanka, Mostre]
 category: Esposizione
 author: Simona Cella
 description: "Sulla mostra They come from North di Prasad Hettiarachchi: Colombo, gentrificazione e nuovi poteri neocoloniali in Sri Lanka."
