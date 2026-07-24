@@ -1,8 +1,8 @@
 {% include locale.html %}
 {% assign site_title = site.title %}
 {% assign site_description = sitetext.description | default: site.description %}
-{% assign seo_title = page.title | default: site_title %}
-{% assign seo_description = page.description | default: site_description %}
+{% assign seo_title = page_title | default: site_title %}
+{% assign seo_description = page_description | default: site_description %}
 {% if page.img %}
   {% assign seo_image = site.url | append: '/assets/img/' | append: page.img %}
 {% else %}
