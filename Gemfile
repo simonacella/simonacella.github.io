@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.4.1'
 gem 'csv', '~> 3.3', '>= 3.3.5'
-gem 'base64', '~> 0.2'
+gem 'base64', '~> 0.3'
 gem 'logger', '~> 1.7'
 
 group :jekyll_plugins do
