@@ -34,7 +34,7 @@ it:
 about_author: "Sceneggiatrice, produttrice, critica cinematografica"
 ```
 
-**2. I due punti dentro un testo vanno protetti con le virgolette.** Se scrivi un testo che contiene `:`, mettilo tra virgolette `"…"`, altrimenti la pagina non si genera più.
+**2. La `description` va sempre tra virgolette `"…"`.** È testo libero: senza virgolette, certi caratteri possono far fallire la generazione della pagina. Meglio metterle sempre, anche «per sicurezza».
 
 ```yaml
 # Sì
@@ -82,7 +82,7 @@ Cosa mettere in ciascun campo:
 | `date` | Data di **pubblicazione sul sito**, formato `2025-08-20` (non l’anno del film) |
 | `img` | Nome della copertina, già salvata in `assets/img/posts/` — es. `posts/dahomey.jpg` |
 | `tags` | Parole chiave tra parentesi quadre, separate da virgole |
-| `description` | **Riassunto in 1–2 frasi** (circa 140–160 caratteri), **sempre tra virgolette** `"…"`. Serve a Google e alle anteprime sui social. Non scrivere solo «Recensione di…» o «Intervista a…». Senza virgolette, i due punti (`:`) nel testo rompono la pagina |
+| `description` | **Riassunto in 1–2 frasi** (circa 140–160 caratteri), **sempre tra virgolette** `"…"`. Serve a Google e alle anteprime sui social. Non scrivere solo «Recensione di…» o «Intervista a…». Le virgolette vanno sempre, per sicurezza |
 | `publisher` | Solo se l’articolo è già uscito altrove (es. `Nigrizia`) |
 | `publication_link` | Solo in quel caso: link completo all’articolo originale (`https://…`) |
 
@@ -147,11 +147,24 @@ it:
 ```
 
 - `about_author` è la riga breve che appare vicino alle icone di contatto, in fondo agli articoli. Tienila corta e tra virgolette.
-- `about_author_long` è il testo lungo della pagina «Chi sono». Attenzione a due cose:
-  - la barra verticale `|` subito dopo i due punti **non va toccata**: dice al sito «tutto il testo indentato qui sotto è un unico paragrafo».
-  - ogni riga del testo deve restare indentata come le righe intorno (di solito 4 spazi): se scrivi da un editor di testo semplice, la cosa più sicura è modificare le frasi esistenti invece di aggiungere righe nuove, oppure incollare il nuovo testo mantenendo lo stesso rientro.
+- `about_author_long` è il testo lungo della pagina «Chi sono». Si scrive in **Markdown**, come negli articoli (grassetto, corsivo, link, elenchi, titoli…). Attenzione a tre cose:
+  - la barra verticale `|` subito dopo i due punti **non va toccata**: dice al sito «tutto il testo indentato qui sotto fa parte della biografia».
+  - ogni riga del testo deve restare indentata come le righe intorno (di solito 4 spazi).
+  - lascia una **riga vuota** (sempre indentata) tra un paragrafo e l’altro. Non lasciare **spazi alla fine** di una riga: in Markdown due spazi finali forzano un a capo a metà frase.
 
-Per aggiornare la versione inglese o francese, scorri fino al blocco `en:` o `fr:` e modifica le stesse due righe lì. Se non hai ancora una traduzione, lascia il testo com’è: è meglio di una traduzione a metà o di una riga vuota.
+Esempio di formattazione:
+
+```yaml
+  about_author_long: |
+    Primo paragrafo della biografia.
+
+    Secondo paragrafo, con un [link](https://esempio.it) e del _corsivo_.
+
+    - un punto elenco
+    - un altro punto
+```
+
+Per aggiornare la versione inglese o francese, scorri fino al blocco `en:` o `fr:` e modifica le stesse due voci lì. Se non hai ancora una traduzione, lascia il testo com’è: è meglio di una traduzione a metà o di una riga vuota.
 
 ## Modificare titolo e descrizione del sito
 

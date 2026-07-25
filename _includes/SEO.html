@@ -1,5 +1,5 @@
 {% include locale.html %}
-{% assign site_title = sitetext.title | default: site.title %}
+{% assign site_title = site.title %}
 {% assign site_description = sitetext.description | default: site.description %}
 {% assign seo_title = page.title | default: site_title %}
 {% assign seo_description = page.description | default: site_description %}

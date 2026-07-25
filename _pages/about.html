@@ -15,7 +15,7 @@ description: Profilo di Simona Cella, critica e autrice di cinema africano e ter
         <a href='{{ site.website }}'><img src="{{ relativebase }}{{site.author-pic}}" alt="{{site.author}}"></a>
       </div>
       <h1>{{site.author}}</h1>
-      <p class="subtitle">{{ sitetext.about_author_long }}</p>
+      <div class="about-bio">{{ sitetext.about_author_long | markdownify }}</div>
     </section>
     <section class="about-body">
       <ul class="contact-list">
