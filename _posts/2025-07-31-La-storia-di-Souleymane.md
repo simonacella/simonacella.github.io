@@ -1,11 +1,8 @@
 ---
-layout: post
 title: La storia di Souleymane
 date: 2025-07-31
 img: posts/LastoriadiSouleymane.jpg
 tags: [Boris Lojkine, Migrazione, Cinema]
-category: Cinema
-author: Simona Cella
 description: "La storia di Souleymane di Boris Lojkine: due giorni a Parigi nell’attesa dell’asilo, premiato a Cannes 2024."
 publisher: Nigrizia
 publication_link: https://www.nigrizia.it/notizia/la-storia-di-souleymane-film-premio-cannes-boris-lojkine

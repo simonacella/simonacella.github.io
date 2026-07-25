@@ -56,7 +56,7 @@ Un’ultima cosa: alcuni file (`_data/site-text.yml`, `_data/ui-text.yml`, `_dat
    - No: `2025-09-15 Titolo del Film.md`
 3. Apri il file e aggiorna il **blocco in alto** (tra le due righe `---`).
 4. Sotto il secondo `---`, scrivi (o incolla) il testo dell’articolo.
-5. Metti le immagini nella cartella `assets/img/posts/` e collegale come negli articoli già online.
+5. Metti le immagini nella cartella `assets/img/posts/` e collegale come negli articoli già online. Puoi caricarle così come sono (anche se pesanti): il sito crea automaticamente versioni più leggere in pubblicazione. Non serve ridimensionarle a mano. Su GitHub ogni file deve restare sotto i **100 MB** (limite della piattaforma).
 
 ## Il blocco in alto dell'articolo (obbligatorio)
 
@@ -64,13 +64,10 @@ Un’ultima cosa: alcuni file (`_data/site-text.yml`, `_data/ui-text.yml`, `_dat
 
 ```yaml
 ---
-layout: post
 title: Titolo dell’articolo
 date: 2025-08-20
 img: posts/nome-immagine.jpg
 tags: [Regista, Paese, Cinema]
-category: Cinema
-author: Simona Cella
 description: "Una o due frasi che riassumono l’articolo."
 publisher: Nigrizia
 publication_link: https://www.nigrizia.it/...
@@ -81,18 +78,17 @@ Cosa mettere in ciascun campo:
 
 | Campo | Cosa scrivere |
 |-------|----------------|
-| `layout` | Lascia sempre `post` |
 | `title` | Il titolo che si vede sulla pagina |
 | `date` | Data di **pubblicazione sul sito**, formato `2025-08-20` (non l’anno del film) |
 | `img` | Nome della copertina, già salvata in `assets/img/posts/` — es. `posts/dahomey.jpg` |
 | `tags` | Parole chiave tra parentesi quadre, separate da virgole |
-| `category` | Una categoria, es. `Cinema`, `Intervista`, `Esposizione` |
-| `author` | Di solito `Simona Cella` |
 | `description` | **Riassunto in 1–2 frasi** (circa 140–160 caratteri), **sempre tra virgolette** `"…"`. Serve a Google e alle anteprime sui social. Non scrivere solo «Recensione di…» o «Intervista a…». Senza virgolette, i due punti (`:`) nel testo rompono la pagina |
 | `publisher` | Solo se l’articolo è già uscito altrove (es. `Nigrizia`) |
 | `publication_link` | Solo in quel caso: link completo all’articolo originale (`https://…`) |
 
 Se non è uscito altrove, **cancella** le righe `publisher` e `publication_link`.
+
+Il nome dell’autrice e il tipo di pagina (articolo) vengono dal sito, non vanno ripetuti in ogni file.
 
 Se **modifichi** un articolo già online, puoi aggiungere:
 `last_modified_at: 2025-09-15`

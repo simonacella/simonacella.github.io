@@ -59,6 +59,14 @@ plugins:
   - jekyll-feed
   - jekyll-youtube
 
+# Articles in _posts/ use the post layout by default (no layout: in front matter).
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
 include: [_pages]
 
 # Replaces Jekyll defaults — keep the stock excludes, then drop repo/docs noise from _site.

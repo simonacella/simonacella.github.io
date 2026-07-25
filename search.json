@@ -6,7 +6,6 @@ sitemap: false
   {% for post in site.posts %}
     {
       "title"       : {{ post.title | jsonify }},
-      "category"    : {{ post.category | jsonify }},
       "tags"        : {{ post.tags | join: ', ' | jsonify }},
       "url"         : {{ post.url | prepend: '.' | jsonify }},
       "date"        : {{ post.date | jsonify }},
