@@ -1,0 +1,32 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:recommended",
+		":semanticCommits",
+		":disableRateLimiting",
+		"mergeConfidence:all-badges"
+	],
+	"labels": ["dependencies"],
+	"rangeStrategy": "bump",
+	"minimumReleaseAge": "1 day",
+	"lockFileMaintenance": {
+		"enabled": true,
+		"schedule": ["at any time"]
+	},
+	"packageRules": [
+		{
+			"description": "Jekyll and its plugins",
+			"matchManagers": ["bundler"],
+			"matchPackageNames": [
+				"jekyll",
+				"/^jekyll-/"
+			],
+			"groupName": "jekyll stack"
+		},
+		{
+			"description": "GitHub Actions",
+			"matchManagers": ["github-actions"],
+			"groupName": "github actions"
+		}
+	]
+}

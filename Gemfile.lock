@@ -82,14 +82,14 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  base64
-  csv
-  jekyll
-  jekyll-feed
-  jekyll-paginate
-  jekyll-sitemap
-  jekyll-youtube
-  logger
+  base64 (~> 0.2)
+  csv (~> 3.2)
+  jekyll (~> 4.3.3)
+  jekyll-feed (~> 0.17)
+  jekyll-paginate (~> 1.1)
+  jekyll-sitemap (~> 1.4)
+  jekyll-youtube (~> 1.0)
+  logger (~> 1.7)
 
 BUNDLED WITH
    2.5.17
