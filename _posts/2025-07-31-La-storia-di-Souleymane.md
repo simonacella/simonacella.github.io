@@ -1,5 +1,6 @@
 ---
 title: La storia di Souleymane
+lang: it
 date: 2025-07-31
 img: posts/LastoriadiSouleymane.jpg
 tags: [Boris Lojkine, Migrazione, Cinema]

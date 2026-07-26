@@ -18,8 +18,9 @@ reusing it here previously caused polyglot to populate `page.permalink_lang`
 with unresolved permalink templates (e.g. "about:output_ext"), breaking the
 language switcher. Keep the two concepts on separate keys.
 
-Post translations (Phase 3+): matching permalink + lang: it|en|fr in front
-matter. See comments in _data/site-text.yml.
+Post translations (Phase 3+): same filename stem + `.en.md`/`.fr.md`, change
+`lang: it` to `en`/`fr`, keep the same `title:` (permalinks are title-based).
+See _data/site-text.yml.
 {%- endcomment -%}
 {%- assign locale = site.active_lang | default: site.locale | default: 'it' -%}
 {%- assign ui = site.data.ui-text[locale] | default: site.data.ui-text['it'] -%}

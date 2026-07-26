@@ -2,14 +2,18 @@
 {%- comment -%}
 Language switcher. Links use static_href so polyglot does not rewrite them.
 
-Every language version of a page shares the same permalink (see the pairing
-convention in README.md / _data/site-text.yml), so page.url is always the
-correct path — just prepend the target language's prefix.
+Every language version of a page shares the same path (posts: same title → same
+URL under :title:output_ext; see README / _data/site-text.yml), so page.url is
+the correct path — just prepend the target language's prefix.
 
 Deliberately NOT using page.permalink_lang here: polyglot populates it with
 the raw, unresolved `permalink:` front matter value (e.g. "about:output_ext"
 instead of "/about.html"), which produced broken switcher links.
+
+Soft launch (lang_switcher_public: false): hide on Italian pages; show on
+/en/ and /fr/ so the author can preview without advertising translations.
 {%- endcomment -%}
+{% if site.lang_switcher_public or site.active_lang != site.default_lang %}
 <nav class="lang-switcher" aria-label="{{ ui.language }}">
   <ul>
   {% for lang in site.languages %}
@@ -34,3 +38,4 @@ instead of "/about.html"), which produced broken switcher links.
   {% endfor %}
   </ul>
 </nav>
+{% endif %}
