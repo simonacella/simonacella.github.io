@@ -19,8 +19,8 @@ description: Indice dei tag per esplorare gli articoli per regista, paese e tema
     {% else %}
       {% assign this_label = this_word %}
     {% endif %}
-    <div class="list-group">
-      <div class="list-group-title"><a id="{{ this_word | cgi_escape }}">{{ this_label }}</a></div>
+    <div class="list-group" id="{{ this_word | cgi_escape }}">
+      <div class="list-group-title">{{ this_label }}</div>
       <div>
       {% for post in site.tags[this_word] %}{% if post.title != null %}
       {% include remove_double_slash.html %}

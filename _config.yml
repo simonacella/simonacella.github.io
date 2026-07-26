@@ -52,10 +52,6 @@ exclude_from_localization:
   - CNAME
   - google3e4b083f6284aa55.html
 
-# Avoid broken SCSS sourcemaps under polyglot (known Jekyll 4 issue).
-sass:
-  sourcemap: never
-
 plugins:
   - jekyll-polyglot
   - jekyll-paginate
@@ -74,8 +70,8 @@ include: [_pages]
 
 # Added to Jekyll's own excludes, not a replacement for them: Jekyll concatenates
 # DEFAULT_EXCLUDES (Gemfile, node_modules/, vendor/*, caches) onto this list. Paths
-# starting with `.` or `_` never get copied either, so only repo/docs noise that
-# Jekyll would otherwise publish needs listing here.
+# starting with `.` or `_` never get copied either, so only repo noise that Jekyll
+# would otherwise publish needs listing here.
 exclude:
   - scripts/
   - README.md
@@ -84,5 +80,4 @@ exclude:
   - assets/fonts/README.md
   - LICENSE
   - NOTICE
-  - docs/
   - renovate.json

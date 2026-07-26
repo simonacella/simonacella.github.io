@@ -224,6 +224,7 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 /**
@@ -316,6 +317,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
+  appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -325,6 +327,7 @@ textarea {
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 /**
@@ -334,6 +337,7 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
+  appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
 
@@ -1700,12 +1704,10 @@ img + small, img + br + small {
 .list-group-title {
   margin-bottom:5px;
   font-size:.75em;
-}
-.list-group-title a {
-    color: var(--text);
-    text-transform: lowercase;
-    font-family: var(--font2);
-    font-weight:var(--font2-bold);
+  color: var(--text);
+  text-transform: lowercase;
+  font-family: var(--font2);
+  font-weight:var(--font2-bold);
 }
 .list-item {
     margin-bottom:20px
