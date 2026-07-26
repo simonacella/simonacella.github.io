@@ -61,7 +61,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-youtube
 
 # Articles in _posts/ use the post layout by default (no layout: in front matter).
 defaults:

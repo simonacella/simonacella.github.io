@@ -54,8 +54,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll-youtube (1.0.0)
-      jekyll
     json (2.21.1)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
@@ -100,7 +98,6 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1)
   jekyll-polyglot
   jekyll-sitemap (~> 1.4)
-  jekyll-youtube (~> 1.0)
   logger (~> 1.7)
 
 BUNDLED WITH

@@ -5,8 +5,6 @@
   var i18n = window.i18n || {};
   var LABEL_OPEN_MENU = i18n.openMenu || 'Apri menu';
   var LABEL_CLOSE_MENU = i18n.closeMenu || 'Chiudi menu';
-  var LABEL_YOUTUBE_VIDEO = i18n.youtubeVideo || 'Video YouTube';
-  var LABEL_PLAY_YOUTUBE_VIDEO = i18n.playYoutubeVideo || 'Riproduci video YouTube';
 
   var topButton = document.querySelector('.top');
   var flexContainer = document.querySelector('div.flex-container');
@@ -101,12 +99,6 @@
   }
 
   setNavOpen(false);
-
-  // _includes/youtube.html cannot reach _data/ui-text.yml (see the note there),
-  // so its hardcoded Italian label is localized here instead.
-  document.querySelectorAll('.youtube-embed .youtube-play').forEach(function (el) {
-    el.setAttribute('aria-label', LABEL_PLAY_YOUTUBE_VIDEO);
-  });
 
   if (topButton) {
     topButton.addEventListener('click', function () {
@@ -219,9 +211,16 @@
     if (!container) return;
     var id = container.getAttribute('data-youtube-id');
     if (!id) return;
-    container.innerHTML =
-      '<iframe title="' + LABEL_YOUTUBE_VIDEO + '" src="https://www.youtube-nocookie.com/embed/' +
-      id +
-      '?autoplay=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
+    var title = container.getAttribute('data-iframe-title') || 'Video YouTube';
+    var iframe = document.createElement('iframe');
+    iframe.title = title;
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1';
+    iframe.setAttribute(
+      'allow',
+      'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+    );
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.setAttribute('loading', 'lazy');
+    container.replaceChildren(iframe);
   });
 })();

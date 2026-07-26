@@ -8,9 +8,7 @@
   // Localized strings consumed by assets/js/main.js (a static, non-Liquid file).
   window.i18n = {
     openMenu: {{ ui.open_menu | default: 'Apri menu' | jsonify }},
-    closeMenu: {{ ui.close_menu | default: 'Chiudi menu' | jsonify }},
-    youtubeVideo: {{ ui.youtube_video | default: 'Video YouTube' | jsonify }},
-    playYoutubeVideo: {{ ui.play_youtube_video | default: 'Riproduci video YouTube' | jsonify }}
+    closeMenu: {{ ui.close_menu | default: 'Chiudi menu' | jsonify }}
   };
   // Language-root relative base for search result URLs (see jekyll-search.js).
   window.jekyllRelativeBase = {{ relativebase | jsonify }};
