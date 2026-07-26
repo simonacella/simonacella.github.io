@@ -1,0 +1,8 @@
+{
+  // Files under _includes/, _layouts/ and _pages/ are Liquid templates, not
+  // plain HTML: their <script> blocks contain {{ ... }} and {% ... %} tags that
+  // are not valid JavaScript. The embedded-script validator reports those as
+  // syntax errors, which are all false positives — Jekyll renders the Liquid
+  // away before any browser sees the JS.
+  "html.validate.scripts": false
+}

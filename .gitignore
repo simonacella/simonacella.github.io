@@ -1,6 +1,10 @@
 
 .DS_Store
-.vscode
+# Shared editor config is tracked; everything else under .vscode stays local.
+# Must be `.vscode/*`, not `.vscode`: git does not descend into an excluded
+# directory, so a negation inside one is never reached.
+.vscode/*
+!.vscode/settings.json
 .idea
 .liquidrc
 .jekyll-cache
