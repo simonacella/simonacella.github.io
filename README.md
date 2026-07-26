@@ -47,7 +47,7 @@ description: Il regista: un ritratto
 
 **3. Copia una riga esistente, non inventarla da zero.** Il modo più sicuro per aggiungere o modificare una riga è copiarne una simile già presente nel file e cambiare solo le parole, lasciando invariati virgolette, due punti, trattini e spazi intorno.
 
-Un’ultima cosa: alcuni file (`_data/site-text.yml`, `_data/ui-text.yml`, `_data/tag-labels.yml`) contengono **tre sezioni**, una per lingua: `it:`, `en:` e `fr:`. Modifica solo la sezione della lingua che ti interessa; le altre restano come sono finché non hai una traduzione pronta.
+Un’ultima cosa: alcuni file (`_data/site-text.yml`, `_data/ui-text.yml`) contengono **tre sezioni**, una per lingua: `it:`, `en:` e `fr:`. Modifica solo la sezione della lingua che ti interessa; le altre restano come sono finché non hai una traduzione pronta. `_data/tag-labels.yml` fa eccezione: ha solo le sezioni `en:` e `fr:`, perché in italiano i tag si mostrano già così come li scrivi negli articoli.
 
 ## Pubblicare un nuovo articolo
 
@@ -159,8 +159,8 @@ La tua biografia vive nel file `_data/site-text.yml`, in tre versioni (`it:`, `e
 it:
   about_author: "Sceneggiatrice, produttrice, critica cinematografica"
   about_author_long: |
-    Esperta di cinema africano e terzo cinema, dopo una lunga esperienza nel mondo della produzione
-    cinematografica e dell’organizzazione culturale, si è specializzata...
+    Esperta di cinema africano e terzo cinema, Simona Cella si è laureata in Storia del Cinema
+    presso l’Università degli Studi di Parma con una tesi sul cinema di Djibril Diop Mambety.
 ```
 
 - `about_author` è la riga breve che appare vicino alle icone di contatto, in fondo agli articoli. Tienila corta e tra virgolette.

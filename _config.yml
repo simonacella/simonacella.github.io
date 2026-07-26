@@ -73,23 +73,17 @@ defaults:
 
 include: [_pages]
 
-# Replaces Jekyll defaults — keep the stock excludes, then drop repo/docs noise from _site.
+# Added to Jekyll's own excludes, not a replacement for them: Jekyll concatenates
+# DEFAULT_EXCLUDES (Gemfile, node_modules/, vendor/*, caches) onto this list. Paths
+# starting with `.` or `_` never get copied either, so only repo/docs noise that
+# Jekyll would otherwise publish needs listing here.
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .github/
   - scripts/
   - README.md
+  # Nested paths must be spelled out: patterns are matched against the whole
+  # path, so bare `README.md` above only catches the one at the repo root.
+  - assets/fonts/README.md
   - LICENSE
   - NOTICE
-  - REVIEW.md
   - docs/
   - renovate.json

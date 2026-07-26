@@ -9,7 +9,8 @@
   window.i18n = {
     openMenu: {{ ui.open_menu | default: 'Apri menu' | jsonify }},
     closeMenu: {{ ui.close_menu | default: 'Chiudi menu' | jsonify }},
-    youtubeVideo: {{ ui.youtube_video | default: 'Video YouTube' | jsonify }}
+    youtubeVideo: {{ ui.youtube_video | default: 'Video YouTube' | jsonify }},
+    playYoutubeVideo: {{ ui.play_youtube_video | default: 'Riproduci video YouTube' | jsonify }}
   };
   // Language-root relative base for search result URLs (see jekyll-search.js).
   window.jekyllRelativeBase = {{ relativebase | jsonify }};
@@ -58,6 +59,7 @@
         return escapeSearchHtml(value);
       },
       noResultsText: {{ ui.no_results | default: 'Nessun risultato' | jsonify }},
+      errorText: {{ ui.search_unavailable | default: 'Ricerca non disponibile in questo momento.' | jsonify }},
       fuzzy: false
     });
 </script>

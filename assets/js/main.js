@@ -6,6 +6,7 @@
   var LABEL_OPEN_MENU = i18n.openMenu || 'Apri menu';
   var LABEL_CLOSE_MENU = i18n.closeMenu || 'Chiudi menu';
   var LABEL_YOUTUBE_VIDEO = i18n.youtubeVideo || 'Video YouTube';
+  var LABEL_PLAY_YOUTUBE_VIDEO = i18n.playYoutubeVideo || 'Riproduci video YouTube';
 
   var topButton = document.querySelector('.top');
   var flexContainer = document.querySelector('div.flex-container');
@@ -29,6 +30,18 @@
       )
     ).filter(function (el) {
       return el.getClientRects().length > 0;
+    });
+  }
+
+  // .search-box transitions out of visibility:hidden, and a hidden element
+  // cannot take focus. The flip to visible only lands once the frame that
+  // started the transition has been committed, so wait two frames.
+  function focusWhenVisible(el) {
+    if (!el) return;
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        el.focus();
+      });
     });
   }
 
@@ -89,6 +102,12 @@
 
   setNavOpen(false);
 
+  // _includes/youtube.html cannot reach _data/ui-text.yml (see the note there),
+  // so its hardcoded Italian label is localized here instead.
+  document.querySelectorAll('.youtube-embed .youtube-play').forEach(function (el) {
+    el.setAttribute('aria-label', LABEL_PLAY_YOUTUBE_VIDEO);
+  });
+
   if (topButton) {
     topButton.addEventListener('click', function () {
       window.scrollTo({
@@ -146,7 +165,7 @@
     searchBox.classList.add('search-active');
     searchBox.setAttribute('aria-hidden', 'false');
     searchOpen.setAttribute('aria-expanded', 'true');
-    if (searchInput) searchInput.focus();
+    focusWhenVisible(searchInput);
   }
 
   window.addEventListener('keydown', function (e) {

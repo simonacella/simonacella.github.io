@@ -57,23 +57,34 @@ module ImageIntrinsicSize
     candidate.file? ? candidate : nil
   end
 
+  # Dispatch on the magic bytes, not the extension: authors sometimes save a
+  # PNG as .jpg, and trusting the name silently yields no dimensions (no
+  # width/height attribute, so the image causes layout shift).
   def read_dimensions(path)
     File.open(path, "rb") do |io|
       head = io.read(32)
       return nil if head.nil? || head.bytesize < 24
 
-      case path.extname.downcase
-      when ".png"
+      case detect_format(head)
+      when :png
         png_size(head)
-      when ".jpg", ".jpeg"
+      when :jpeg
         io.seek(0)
         jpeg_size(io)
-      when ".webp"
+      when :webp
         io.seek(0)
         webp_size(io, head)
       end
     end
   rescue StandardError
+    nil
+  end
+
+  def detect_format(head)
+    return :png if head.start_with?("\x89PNG\r\n\x1a\n".b)
+    return :jpeg if head.start_with?("\xFF\xD8".b)
+    return :webp if head[0, 4] == "RIFF" && head[8, 4] == "WEBP"
+
     nil
   end
 

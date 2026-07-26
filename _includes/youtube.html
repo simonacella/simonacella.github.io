@@ -1,6 +1,17 @@
 {% comment %}
   Click-to-load YouTube facade: no iframe (and no YouTube cookies) until play.
   youtube_id is provided by the jekyll-youtube tag.
+
+  Keep this file ASCII-only. jekyll-youtube does File.read without an explicit
+  encoding, so a non-ASCII byte here crashes the build wherever Ruby's default
+  external encoding is not UTF-8.
+
+  The label cannot be localized here either: the plugin renders this file
+  through a bare Liquid::Template, where {% include %} fails and neither
+  site.data nor site.active_lang is in scope, so _data/ui-text.yml is
+  unreachable. The Italian below is a fallback that assets/js/main.js replaces
+  with the page language via window.i18n. That is sound because the button does
+  nothing at all until JS runs.
 {% endcomment %}
 <div class="embed-container youtube-embed" data-youtube-id="{{ youtube_id }}">
   <button type="button" class="youtube-play" aria-label="Riproduci video YouTube">

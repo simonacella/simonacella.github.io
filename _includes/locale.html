@@ -22,6 +22,17 @@ Post translations (Phase 3+): same filename stem + `.en.md`/`.fr.md`, change
 `lang: it` to `en`/`fr`, keep the same `title:` (permalinks are title-based).
 See _data/site-text.yml.
 {%- endcomment -%}
+{%- comment -%}
+`preview_lang` is true on /en/ and /fr/ while the translations are not yet
+announced (lang_switcher_public: false). Those pages currently serve Italian
+prose behind a localized interface, so they are kept out of search indexes and
+out of the hreflang set until real translations exist — declaring hreflang="en"
+over Italian text is an hreflang mismatch. Flips automatically with the switcher.
+{%- endcomment -%}
+{%- assign preview_lang = false -%}
+{%- if site.active_lang and site.active_lang != site.default_lang and site.lang_switcher_public != true -%}
+  {%- assign preview_lang = true -%}
+{%- endif -%}
 {%- assign locale = site.active_lang | default: site.locale | default: 'it' -%}
 {%- assign ui = site.data.ui-text[locale] | default: site.data.ui-text['it'] -%}
 {%- assign sitetext = site.data.site-text[locale] | default: site.data.site-text['it'] -%}

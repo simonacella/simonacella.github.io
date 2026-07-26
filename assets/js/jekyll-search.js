@@ -15,12 +15,17 @@ var relativebase = "./";
 
   function createStateChangeListener (xhr, callback) {
     return function () {
-      if (xhr.readyState === 4 && xhr.status === 200) {
+      if (xhr.readyState !== 4) return
+      if (xhr.status === 200) {
         try {
           callback(null, JSON.parse(xhr.responseText))
         } catch (err) {
           callback(err, null)
         }
+      } else {
+        // Without this the callback never runs on 404/5xx/offline, so the
+        // search input is never registered and silently accepts input.
+        callback(new Error('request failed with status ' + xhr.status), null)
       }
     }
   }
@@ -242,6 +247,7 @@ var relativebase = "./";
         searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
         templateMiddleware: function () {},
         noResultsText: 'No results found',
+        errorText: 'Search is unavailable right now.',
         limit: 10,
         fuzzy: false,
         exclude: []
@@ -315,7 +321,13 @@ var relativebase = "./";
       function initWithURL (url) {
         jsonLoader.load(url, function (err, json) {
           if (err) {
-            throwError('failed to get JSON (' + url + ')')
+            // Tell the reader instead of leaving a dead-looking input.
+            emptyResultsContainer()
+            appendToResultsContainer('<li class="results-status">' + options.errorText + '</li>')
+            if (window.console && window.console.error) {
+              window.console.error('SimpleJekyllSearch --- failed to get JSON (' + url + '): ' + err.message)
+            }
+            return
           }
           initWithJSON(json)
         })
@@ -331,19 +343,31 @@ var relativebase = "./";
       }
 
       function registerInput () {
-        options.searchInput.addEventListener('keyup', function (e) {
+        var lastQuery = null
+
+        // Keyed off the value rather than the keyCode, so navigation keys
+        // (which change nothing) leave the rendered results alone, and paste,
+        // autofill and IME composition all search like ordinary typing.
+        function runSearch () {
+          var query = options.searchInput.value
+          if (query === lastQuery) return
+          lastQuery = query
           emptyResultsContainer()
-          var key = e.which
-          var query = e.target.value
-          if (isWhitelistedKey(key) && isValidQuery(query)) {
+          if (isValidQuery(query)) {
             render(repository.search(query))
           }
-        })
+        }
+
+        // `input` handles every value change in modern browsers; `keyup` is a
+        // belt-and-braces fallback and is deduplicated by the check above.
+        options.searchInput.addEventListener('input', runSearch)
+        options.searchInput.addEventListener('keyup', runSearch)
       }
 
       function render (results) {
         if (results.length === 0) {
-          return appendToResultsContainer(options.noResultsText)
+          // Wrapped in <li>: the container is a <ul>, which may not hold text directly.
+          return appendToResultsContainer('<li class="results-status">' + options.noResultsText + '</li>')
         }
         for (var i = 0; i < results.length; i++) {
           appendToResultsContainer(templater.compile(results[i]))
@@ -352,10 +376,6 @@ var relativebase = "./";
 
       function isValidQuery (query) {
         return query && query.length > 0
-      }
-
-      function isWhitelistedKey (key) {
-        return [13, 16, 20, 37, 38, 39, 40, 91].indexOf(key) === -1
       }
 
       function throwError (message) { throw new Error('SimpleJekyllSearch --- ' + message) }

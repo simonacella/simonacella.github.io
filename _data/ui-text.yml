@@ -16,6 +16,7 @@ it:
   search: "Cerca"
   close_search: "Chiudi ricerca"
   no_results: "Nessun risultato"
+  search_unavailable: "Ricerca non disponibile in questo momento."
   # Pagination
   previous: "Precedente"
   next: "Successiva"
@@ -40,6 +41,7 @@ it:
   read_more: "continua"
   # Media
   youtube_video: "Video YouTube"
+  play_youtube_video: "Riproduci video YouTube"
   # Errors
   not_found: "Pagina non trovata"
   # Reading time
@@ -73,6 +75,7 @@ en:
   search: "Search"
   close_search: "Close search"
   no_results: "No results"
+  search_unavailable: "Search is unavailable right now."
   # Pagination
   previous: "Previous"
   next: "Next"
@@ -97,6 +100,7 @@ en:
   read_more: "read more"
   # Media
   youtube_video: "YouTube video"
+  play_youtube_video: "Play YouTube video"
   # Errors
   not_found: "Page not found"
   # Reading time
@@ -130,6 +134,7 @@ fr:
   search: "Rechercher"
   close_search: "Fermer la recherche"
   no_results: "Aucun résultat"
+  search_unavailable: "La recherche est momentanément indisponible."
   # Pagination
   previous: "Précédent"
   next: "Suivant"
@@ -154,6 +159,7 @@ fr:
   read_more: "lire la suite"
   # Media
   youtube_video: "Vidéo YouTube"
+  play_youtube_video: "Lire la vidéo YouTube"
   # Errors
   not_found: "Page introuvable"
   # Reading time
