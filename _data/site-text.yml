@@ -4,6 +4,9 @@
 # The site brand title stays Italian everywhere — use site.title from _config.yml,
 # not a localized key here. description / about_* / pages.* may differ by language.
 #
+# NOTE: Italian `description` is also kept in _config.yml because plugins
+# (jekyll-feed, jekyll-sitemap) read it from site config. Keep those two in sync.
+#
 # pages.<content_id>.title|description override front matter when
 # page.content_id is set (shared Liquid pages: about, archive, tags, tag,
 # not_found). Note: content_id, NOT page_id — page_id is reserved by
@@ -16,22 +19,25 @@
 #   _posts/2024-01-15-Touki-Bouki.md          → lang: it, permalink: Touki-Bouki.html
 #   _posts/2024-01-15-Touki-Bouki.en.md       → lang: en, permalink: Touki-Bouki.html
 # Tag keys in front matter stay Italian; display labels live in tag-labels.yml.
+#
+# The en / fr translations below are seeded for review by the author (native
+# IT/FR speaker) and can be refined without touching templates.
 
 it:
   description: "Alcune osservazioni sul cinema africano e terzo cinema"
   about_author: "Sceneggiatrice, produttrice, critica cinematografica"
   about_author_long: |
-    Esperta di cinema africano e terzo cinema, Simona Cella si è laureata in Storia del Cinema presso l’Università degli Studi di Parma con     una tesi sul cinemma di Djibril Diop Mambety. 
-    
-    Dopo una lunga esperienza nella produzione cinematografica come story editor e responsabille sviluppo si dedica alla curatela di  
+    Esperta di cinema africano e terzo cinema, Simona Cella si è laureata in Storia del Cinema presso l’Università degli Studi di Parma con     una tesi sul cinemma di Djibril Diop Mambety.
+
+    Dopo una lunga esperienza nella produzione cinematografica come story editor e responsabille sviluppo si dedica alla curatela di
     progetti artistici e cinematografici tra Italia, Nigeria, Sri Lanka e Senegal.
-    
-    Negli ultimi anni si è specializzata in pratiche di cinema espanso inteso come processo multidisciplinare che accompagna la produzione  
+
+    Negli ultimi anni si è specializzata in pratiche di cinema espanso inteso come processo multidisciplinare che accompagna la produzione
     di un film attivando progetti artistici paralleli in un’ottica di valorizzazione e rigenerazione culturale del territorio.
-    
-    E' cofondatrice del Collettivo Kaur Gou Mak luogo di produzione artistica, riflessione e confronto sul concetto di identità femminile   
-    che si ispira al pensiero e all’esperienza di scrittrici quali bell hooks, Ken Bugul, Toni Morrison, Maya Deren. 
-    
+
+    E' cofondatrice del Collettivo Kaur Gou Mak luogo di produzione artistica, riflessione e confronto sul concetto di identità femminile
+    che si ispira al pensiero e all’esperienza di scrittrici quali bell hooks, Ken Bugul, Toni Morrison, Maya Deren.
+
     E' autrice di sceneggiature e scrive di cinema per Nigrizia e Africa & Mediterraneo.
 
     Ha curato insieme a Cinzia Quadrati la monografia "Djibril Diop Mambety o il viaggio della Iena",

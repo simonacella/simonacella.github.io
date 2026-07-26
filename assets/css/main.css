@@ -1626,9 +1626,26 @@ img + small, img + br + small {
   margin: 1em 0;
 }
 
-.about-header .subtitle {
+.about-header .about-bio {
   font-weight: var(--font1-light);
   margin: 0;
+  text-align: left;
+}
+
+.about-header .about-bio > *:first-child {
+  margin-top: 0;
+}
+
+.about-header .about-bio > *:last-child {
+  margin-bottom: 0;
+}
+
+.about-header .about-bio p {
+  margin: 0 0 1em;
+}
+
+.about-header .about-bio p:last-child {
+  margin-bottom: 0;
 }
 
 .contact-list {

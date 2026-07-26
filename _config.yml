@@ -87,3 +87,5 @@ exclude:
   - LICENSE
   - NOTICE
   - REVIEW.md
+  - docs/
+  - renovate.json
