@@ -1,0 +1,18 @@
+# GitHub Linguist overrides — make the language bar reflect this repo.
+# https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
+#
+# By default Markdown is "prose" and omitted from stats, so a content site
+# looked like CSS/HTML. Count articles; keep README as documentation.
+
+_posts/**/*.md linguist-detectable
+
+# Jekyll templates are Liquid, not generic HTML.
+_includes/**/*.html linguist-language=Liquid
+_layouts/**/*.html linguist-language=Liquid
+_pages/**/*.html linguist-language=Liquid
+404.html linguist-language=Liquid
+index.html linguist-language=Liquid
+
+# Third-party / vendored — exclude from stats.
+assets/fonts/font-awesome/** linguist-vendored
+assets/js/jekyll-search.js linguist-vendored
