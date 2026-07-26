@@ -15,4 +15,3 @@ index.html linguist-language=Liquid
 
 # Third-party / vendored — exclude from stats.
 assets/fonts/font-awesome/** linguist-vendored
-assets/js/jekyll-search.js linguist-vendored

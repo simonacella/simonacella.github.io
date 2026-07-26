@@ -5,13 +5,16 @@ polyglot does not rewrite paths inside <script>, hence lang_prefix.
 {%- endcomment -%}
 {%- assign search_json = lang_prefix | append: '/search.json' -%}
 
-<script src="/assets/js/jekyll-search.js"></script>
-
 <script>
-  // Localized strings consumed by assets/js/main.js (a static, non-Liquid file).
+  // Localized strings consumed by the static, non-Liquid files in assets/js.
   window.i18n = {
     openMenu: {{ ui.open_menu | default: 'Apri menu' | jsonify }},
     closeMenu: {{ ui.close_menu | default: 'Chiudi menu' | jsonify }}
+  };
+  window.searchConfig = {
+    json: {{ search_json | jsonify }},
+    noResultsText: {{ ui.no_results | default: 'Nessun risultato' | jsonify }},
+    errorText: {{ ui.search_unavailable | default: 'Ricerca non disponibile in questo momento.' | jsonify }}
   };
 </script>
 
@@ -39,26 +42,4 @@ polyglot does not rewrite paths inside <script>, hence lang_prefix.
 {% endif %}
 
 <script src="/assets/js/main.js"></script>
-<script>
-  function escapeSearchHtml(value) {
-    return String(value == null ? '' : value)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#39;');
-  }
-
-  SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: {{ search_json | jsonify }},
-      searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a><p>{description}</p></li>',
-      templateMiddleware: function (prop, value) {
-        return escapeSearchHtml(value);
-      },
-      noResultsText: {{ ui.no_results | default: 'Nessun risultato' | jsonify }},
-      errorText: {{ ui.search_unavailable | default: 'Ricerca non disponibile in questo momento.' | jsonify }},
-      fuzzy: false
-    });
-</script>
+<script src="/assets/js/search.js"></script>
