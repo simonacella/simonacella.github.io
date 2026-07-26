@@ -12,6 +12,7 @@ Questa guida serve per pubblicare articoli **e** per aggiornare le altre parti d
 - [Come formattare il testo](#come-formattare-il-testo)
 - [Niente spazi nei nomi dei file](#niente-spazi-nei-nomi-dei-file)
 - [Tradurre un articolo (inglese o francese)](#tradurre-un-articolo-inglese-o-francese)
+- [Anteprima delle lingue (senza annunciarlo)](#anteprima-delle-lingue-senza-annunciarlo)
 - [Modificare la tua biografia](#modificare-la-tua-biografia)
 - [Modificare titolo e descrizione del sito](#modificare-titolo-e-descrizione-del-sito)
 - [Modificare i contatti e la foto profilo](#modificare-i-contatti-e-la-foto-profilo)
@@ -56,7 +57,7 @@ Un’ultima cosa: alcuni file (`_data/site-text.yml`, `_data/ui-text.yml`, `_dat
    - No: `2025-09-15 Titolo del Film.md`
 3. Apri il file e aggiorna il **blocco in alto** (tra le due righe `---`).
 4. Sotto il secondo `---`, scrivi (o incolla) il testo dell’articolo.
-5. Metti le immagini nella cartella `assets/img/posts/` e collegale come negli articoli già online. Puoi caricarle così come sono (anche se pesanti): il sito crea automaticamente versioni più leggere in pubblicazione. Non serve ridimensionarle a mano. Su GitHub ogni file deve restare sotto i **100 MB** (limite della piattaforma).
+5. Metti le immagini nella cartella `assets/img/posts/` e collegale nel testo come nella tabella qui sotto. Puoi caricarle così come sono (anche se pesanti): il sito crea automaticamente versioni più leggere in pubblicazione. Non serve ridimensionarle a mano. Su GitHub ogni file deve restare sotto i **100 MB** (limite della piattaforma).
 
 ## Il blocco in alto dell'articolo (obbligatorio)
 
@@ -65,6 +66,7 @@ Un’ultima cosa: alcuni file (`_data/site-text.yml`, `_data/ui-text.yml`, `_dat
 ```yaml
 ---
 title: Titolo dell’articolo
+lang: it
 date: 2025-08-20
 img: posts/nome-immagine.jpg
 tags: [Regista, Paese, Cinema]
@@ -79,6 +81,7 @@ Cosa mettere in ciascun campo:
 | Campo | Cosa scrivere |
 |-------|----------------|
 | `title` | Il titolo che si vede sulla pagina |
+| `lang` | Lingua dell’articolo: `it` per l’italiano; nelle traduzioni `en` o `fr` |
 | `date` | Data di **pubblicazione sul sito**, formato `2025-08-20` (non l’anno del film) |
 | `img` | Nome della copertina, già salvata in `assets/img/posts/` — es. `posts/dahomey.jpg` |
 | `tags` | Parole chiave tra parentesi quadre, separate da virgole |
@@ -103,7 +106,9 @@ Sotto il blocco in alto si scrive in **Markdown**: bastano pochi segni intorno a
 | Grassetto | `**parola**` |
 | Corsivo | `_parola_` |
 | Un link | `[testo del link](https://esempio.it)` |
-| Un’immagine | `![breve descrizione](./assets/img/posts/nome-immagine.jpg)` |
+| Un’immagine | `![breve descrizione](/assets/img/posts/nome-immagine.jpg)` |
+
+Per le immagini nel testo, il percorso deve iniziare con `/assets/…` (una sola barra all’inizio).
 
 Per i sottotitoli usa sempre `##` (due cancelletti), non `###`.
 
@@ -125,14 +130,26 @@ Se rinomini un’immagine, aggiorna anche il nome dove compare nel blocco in alt
 Il sito può pubblicare la stessa pagina in italiano, inglese e francese.
 L’italiano resta l’originale; le altre lingue si aggiungono **solo quando la traduzione è pronta**.
 
-1. **Copia** il file dell’articolo in `_posts/` (stesso nome + suffisso, es. `…-Touki-Bouki.en.md`).
-2. Nel blocco in alto della **copia**:
-   - `lang: en` oppure `lang: fr`
-   - lo stesso `permalink:` dell’originale (es. `permalink: Touki-Bouki.html`), così i due file restano collegati
-3. Traduci `title`, `description` e il testo sotto il blocco.
-4. **Non cambiare** i `tags:`: restano in italiano (compaiono tradotti nel menu dove serve, vedi [Tradurre le etichette dei tag](#tradurre-le-etichette-dei-tag-avanzato-facoltativo)).
+1. **Copia** il file dell’articolo in `_posts/`.
+2. **Rinomina** la copia aggiungendo `.en` o `.fr` prima di `.md` (stessa data e stesso nome):
+   - Originale: `2024-01-15-Touki-Bouki.md`
+   - Inglese: `2024-01-15-Touki-Bouki.en.md`
+   - Francese: `2024-01-15-Touki-Bouki.fr.md`
+3. Nel blocco in alto della copia, cambia `lang: it` in `lang: en` oppure `lang: fr`.
+4. Traduci `description` e il testo sotto il blocco. Lascia il `title:` uguale all’italiano (di solito è il titolo del film e non si traduce): così le versioni restano collegate.
+5. **Non cambiare** i `tags:`: restano in italiano (compaiono tradotti nel menu dove serve, vedi [Tradurre le etichette dei tag](#tradurre-le-etichette-dei-tag-avanzato-facoltativo)).
 
-L’articolo italiano può restare senza `lang`, oppure con `lang: it`. Finché non esiste la traduzione, le pagine `/en/` e `/fr/` mostrano ancora il testo italiano — non è un errore, è previsto.
+Finché non esiste la traduzione, le pagine `/en/` e `/fr/` mostrano ancora il testo italiano — non è un errore, è previsto.
+
+### Anteprima delle lingue (senza annunciarlo)
+
+I pulsanti IT / EN / FR **non compaiono** sulle pagine italiane finché le traduzioni non sono pronte da mostrare a tutti.
+
+Per controllare inglese o francese: apri il sito aggiungendo `/en/` o `/fr/` dopo il nome del sito, per esempio:
+- `https://simonacella.github.io/en/`
+- `https://simonacella.github.io/fr/about.html`
+
+Lì compaiono i pulsanti per passare da una lingua all’altra. Quando è il momento di annunciare le traduzioni, in `_config.yml` cambia `lang_switcher_public: false` in `true`.
 
 ## Modificare la tua biografia
 

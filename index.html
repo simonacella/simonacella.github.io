@@ -9,7 +9,7 @@ layout: home-page
   <li>
     <div class="post-card">
       <a href="{{ post_url }}" title="{{ post.title }}" class="post-card-image">
-        <img src="{{ relativebase }}assets/img/{{ post.img }}" alt="{{ post.title }}"{% if forloop.index > 2 %} loading="lazy"{% endif %}>
+        <img src="{{ assetbase }}assets/img/{{ post.img }}" alt="{{ post.title }}"{% if forloop.index > 2 %} loading="lazy"{% endif %}>
       </a>
       <div class="post-card-body">
         <p class="post-card-title-and-meta">

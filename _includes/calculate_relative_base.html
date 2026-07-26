@@ -1,5 +1,22 @@
+{% comment %}
+relativebase — climb to the *language* root (sibling pages, search.json, etc.).
+assetbase    — climb to the *site* root (assets/ is exclude_from_localization,
+               so it only exists at the top level, not under /en/ or /fr/).
+
+page.url does not include the language prefix under polyglot; depth is taken
+from page.url alone, then one extra ../ is added to assetbase for non-default
+languages.
+{% endcomment %}
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
 {% capture relativebase %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 {% if relativebase == '' %}
   {% assign relativebase = './' %}
+{% endif %}
+{% assign assetbase = relativebase %}
+{% if site.active_lang and site.active_lang != site.default_lang %}
+  {% if relativebase == './' %}
+    {% assign assetbase = '../' %}
+  {% else %}
+    {% assign assetbase = relativebase | append: '../' %}
+  {% endif %}
 {% endif %}

@@ -1,5 +1,6 @@
 ---
 title: Soundtrack to a coup d'état
+lang: it
 date: 2025-08-20
 img: posts/soundtrack-cover.png
 tags: [Patrice Lumumba, Johan Grimonprez, RDC, Cinema, Archivi]
@@ -21,7 +22,7 @@ Sullo schermo appare Abbey Lincoln. Il suo canto è accompagnato dalla scritta
 Un duetto di Max Roach e Abbey Lincolm e la promessa di un gruppo di donne di incontrasi all'Onu per protestare contro l'uccisione di Patrice Lumumba. 
 Inizia così il denso documentario di Johan Grimonprez che racconta a ritmo di jazz il back stage dell’omicidio di Lumumba, ucciso in Katanga il 16 Gennaio 1961 per mano di Mobutu e per conto della Cia e dei belgi, con la complicità dell’Onu.
 
-![Lumumba](./assets/img/posts/lumumba.jpg)
+![Lumumba](/assets/img/posts/lumumba.jpg)
 
 Il film copre il periodo che va dal 1955 al 1965 ed è avvincente come può esserlo un romanzo di spionaggio letto ascoltando una compilation dei migliori jazzisti afroamericani: Louis Armstrong, Dizzy Gillespie, Duke Ellington, Thelonious Monk, Nina Simone, Miles Davis, John Coltrane… 
 
@@ -53,7 +54,7 @@ Grimonprez utilizza il cinema alla sua ennesima potenza non solo per raccontare 
 Il materiale audiovisivo sovrappone una voce che ci dice una cosa a un'immagine che ne mostra un'altra, mentre qualcuno suona un brano jazz e appaiono dei testi scritti. Un vortice che risucchia lo spettatore con un effetto ipnotico rafforzato dalla ripetizione di immagini (paracaduti che galleggiano nel cielo come enorme meduse, un elefante sospeso in aria che viene gettato nel container di una nave,un polipo gigante, un sottomarino, bambini che giocano) che aprono varchi onirici e simbolici aggiungendo un ulteriore livello di densità al già intenso memoir collettivo. 
 
 
-![Elefante trasportato in un cargo](./assets/img/posts/elefante.jpg)
+![Elefante trasportato in un cargo](/assets/img/posts/elefante.jpg)
 
 Bisogna vedere, leggere, ascoltare più volte per estrapolare e comprendere i diversi livelli di questo algoritmo congolese ancora tragicamente attuale. Una visione che richiede massima attenzione ma che illumina vaste zone d’ombra di una storia che ancora oggi ci coinvolge in prima persona non solo come consumatori di beni (come ci ricordano gli spot pubblicitari della Apple o della Tezla) ma anche in qualità di fruitori di cultura e arte. 
 Non tutti sanno forse che l’allora presidente del MOMA di New York , William Burden, non solo fosse un azionario dell’industria mineraria del Katanga ma anche ambasciatore degli Stati Uniti in Belgio e agente segreto della CIA. E, ça va sans dire, anche lui considerava necessario eliminare, politicamente e fisicamente, Lumumba. 
@@ -68,12 +69,12 @@ Dal vortice emergono per fortuna anche luminosi frammenti strappati dall’ombra
 
 L’Hotel Theresa ad Harlem dove militanti e leaders dei paesi non allineati andavano ad ascoltare i discorsi di Lumumba e ad assistere all’incontro tra Castro e Chruščëv. Tra Castro e  Malcom X. Una Bandung Conference in terra yankee che si contrappone all’Assemblea dell’Onu, triste e grigia scena del crimine.
 
-![hotel teresa](./assets/img/posts/hotelteresa.jpg)
+![hotel teresa](/assets/img/posts/hotelteresa.jpg)
 
 Andrée Blouin, mandata dalla Guinea in Congo per organizzare un movimento femminile a supporto della campagna elettorale del Mouvement National Congolais e diventata redattrice dei discorsi e capo di protocollo di Lumumba. Ritratta dai servizi segreti del Belgio come comunista e cortigiana dei leaders africani ed espulsa dal Congo qualche giorno prima dell’Indipendenza, riuscirà a portare in salvo, nascosto nel proprio chignon, il documento che dimostrava la legittimità di Lumumba (non di Joseph Kasa-Vubu, il candidato del Belgio) a guidare il governo. 
 
 
-![andree](./assets/img/posts/soundtrack-copertina.jpg)
+![andree](/assets/img/posts/soundtrack-copertina.jpg)
 
 In Koli Jean Bofane autore di[Congo Inc. Il testamento di Bismarck](https://66thand2nd.com/products/congo-inc)ci ricorda come il Congo, un algoritmo in continua evoluzione tra Washington, London, Brussels and Kigali, sia stato il fornitore globale di materie prime indispensabili alle guerre globali: gomma per la Prima Guerra Mondiale, uranio per le bombe atomiche sganciate a Hiroshima e Nagasaki, rame per i proiettili in Vietnam. Senza dimenticare le materie prime necessarie a portare la guerra nello spazio.
 
@@ -85,7 +86,7 @@ ormai in decomposizione.
 Il 29 Giugno 1960 il Re Baldovino sbarca a Leopoldville in occasione della proclamazione dell'Indipendenza del Congo per diventare inconsapevolente  protagonista di una ridicola fiera della vanità in due atti. 
 Il primo atto lo vede sfilare borioso in una processione regale, così tronfio da non rendersi conto che un uomo distinto, in giacca e cravatta, Ambroise Boimbo, al passaggio della macchina del re allunga un braccio e ruba la spada cerimoniale.
 
-![Il furto della spada ](./assets/img/posts/furto-spada.jpg)
+![Il furto della spada ](/assets/img/posts/furto-spada.jpg)
 
 Il secondo atto lo vede proclamare un vergognoso discorso in cui attribuisce l'indipendenza del Congo alla genialità di Leopoldo II e alla perseveranza del Belgio.
 

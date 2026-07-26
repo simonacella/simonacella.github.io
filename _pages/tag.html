@@ -2,6 +2,7 @@
 layout: menu-page
 title: Tag
 permalink: tag:output_ext
+content_id: tag
 sitemap: false
 robots: noindex, follow
 ---
@@ -11,8 +12,13 @@ robots: noindex, follow
 {% include get-site-tags.html %}
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+  {% if tag_labels and tag_labels[this_word] %}
+    {% assign this_label = tag_labels[this_word] %}
+  {% else %}
+    {% assign this_label = this_word %}
+  {% endif %}
   <div id="{{ this_word }}" class="hidden tag-master">
-    <h1>{{ this_word }}</h1>
+    <h1>{{ this_label }}</h1>
     <div class="archive">
       <div class="post-list">
         {% for post in site.tags[this_word] %}

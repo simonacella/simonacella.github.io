@@ -2,19 +2,25 @@
 layout: menu-page
 title: Tag
 permalink: tags:output_ext
+content_id: tags
 description: Indice dei tag per esplorare gli articoli per regista, paese e tema.
 ---
 {% include calculate_relative_base.html %}
 {% include locale.html %}
 {% include get-site-tags.html %}
 <section class="blog-tags">
-  <h2>{{ ui.tags }}</h2>
+  <h2>{{ page_title }}</h2>
   {% include tag_cloud.html %}
   <div class="tags-page-content">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+    {% if tag_labels and tag_labels[this_word] %}
+      {% assign this_label = tag_labels[this_word] %}
+    {% else %}
+      {% assign this_label = this_word %}
+    {% endif %}
     <div class="list-group">
-      <div class="list-group-title"><a id="{{ this_word | cgi_escape }}">{{ this_word }}</a></div>
+      <div class="list-group-title"><a id="{{ this_word | cgi_escape }}">{{ this_label }}</a></div>
       <div>
       {% for post in site.tags[this_word] %}{% if post.title != null %}
       {% include remove_double_slash.html %}

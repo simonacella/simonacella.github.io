@@ -1,9 +1,16 @@
 {% include locale.html %}
+{% include calculate_relative_base.html %}
 <div class="pagination clearfix">
   {% if paginator.previous_page %}
-    <a href="..{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-angle-left" aria-hidden="true"></i> {{ ui.previous }}</a>
+    {% if paginator.previous_page == 1 %}
+      {% assign page_href = relativebase %}
+    {% else %}
+      {% assign page_href = relativebase | append: 'page' | append: paginator.previous_page | append: '/' %}
+    {% endif %}
+    <a href="{{ page_href }}" class="previous"><i class="fa fa-angle-left" aria-hidden="true"></i> {{ ui.previous }}</a>
   {% endif %}
   {% if paginator.next_page %}
-    <a href="..{{ paginator.next_page_path }}" class="next">{{ ui.next }} <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    {% assign page_href = relativebase | append: 'page' | append: paginator.next_page | append: '/' %}
+    <a href="{{ page_href }}" class="next">{{ ui.next }} <i class="fa fa-angle-right" aria-hidden="true"></i></a>
   {% endif %}
 </div>

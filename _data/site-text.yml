@@ -2,10 +2,24 @@
 # Resolved via _includes/locale.html as `sitetext.<key>` for the active language.
 #
 # The site brand title stays Italian everywhere — use site.title from _config.yml,
-# not a localized key here. description / about_* may differ by language.
+# not a localized key here. description / about_* / pages.* may differ by language.
 #
 # NOTE: Italian `description` is also kept in _config.yml because plugins
 # (jekyll-feed, jekyll-sitemap) read it from site config. Keep those two in sync.
+#
+# pages.<content_id>.title|description override front matter when
+# page.content_id is set (shared Liquid pages: about, archive, tags, tag,
+# not_found). Note: content_id, NOT page_id — page_id is reserved by
+# jekyll-polyglot for its own translation matching; do not reuse it here.
+#
+# --- Translating a post (pairing convention) ---
+# Italian posts use lang: it. Copy and rename with a language suffix before .md:
+#   _posts/2024-01-15-Touki-Bouki.md     → lang: it
+#   _posts/2024-01-15-Touki-Bouki.en.md  → lang: en
+#   _posts/2024-01-15-Touki-Bouki.fr.md  → lang: fr
+# Keep the same title as Italian (site permalinks are title-based, so this
+# keeps IT/EN/FR on the same path for the language switcher). Translate
+# description + body. Tag keys stay Italian; display labels in tag-labels.yml.
 #
 # The en / fr translations below are seeded for review by the author (native
 # IT/FR speaker) and can be refined without touching templates.
@@ -30,6 +44,23 @@ it:
     Ha curato insieme a Cinzia Quadrati la monografia "Djibril Diop Mambety o il viaggio della Iena",
     con prefazione di Martin Scorsese, pubblicato in Italia e Francia da Editions L'Harmattan.
 
+    Collabora con artisti, registi, collettivi, associazioni culturali, produzioni cinematografiche,
+    istituzioni culturali, scuole ed università.
+  pages:
+    about:
+      title: "Chi sono"
+      description: "Profilo di Simona Cella, critica e autrice di cinema africano e terzo cinema."
+    archive:
+      title: "Archivio"
+      description: "Tutti gli articoli de Il cinema come amuleto, dal più recente al più vecchio."
+    tags:
+      title: "Tag"
+      description: "Indice dei tag per esplorare gli articoli per regista, paese e tema."
+    tag:
+      title: "Tag"
+    not_found:
+      title: "Pagina non trovata"
+
 en:
   description: "Some observations on African cinema and Third Cinema"
   about_author: "Screenwriter, producer, film critic"
@@ -46,6 +77,20 @@ en:
 
     She collaborates with artists, directors, collectives, cultural associations, film productions, cultural
     institutions, schools and universities.
+  pages:
+    about:
+      title: "About"
+      description: "Profile of Simona Cella, critic and author of African cinema and Third Cinema."
+    archive:
+      title: "Archive"
+      description: "All articles from Il cinema come amuleto, newest first."
+    tags:
+      title: "Tags"
+      description: "Browse articles by director, country, and theme."
+    tag:
+      title: "Tags"
+    not_found:
+      title: "Page not found"
 
 fr:
   description: "Quelques observations sur le cinéma africain et le tiers cinéma"
@@ -64,3 +109,17 @@ fr:
 
     Elle collabore avec des artistes, des réalisateurs, des collectifs, des associations culturelles, des
     productions cinématographiques, des institutions culturelles, des écoles et des universités.
+  pages:
+    about:
+      title: "À propos"
+      description: "Profil de Simona Cella, critique et autrice de cinéma africain et de tiers cinéma."
+    archive:
+      title: "Archives"
+      description: "Tous les articles d’Il cinema come amuleto, du plus récent au plus ancien."
+    tags:
+      title: "Mots-clés"
+      description: "Parcourir les articles par réalisateur, pays et thème."
+    tag:
+      title: "Mots-clés"
+    not_found:
+      title: "Page introuvable"

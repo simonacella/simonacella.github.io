@@ -2,6 +2,7 @@
 layout: menu-page
 title: Chi sono
 permalink: about:output_ext
+content_id: about
 description: Profilo di Simona Cella, critica e autrice di cinema africano e terzo cinema.
 ---
 {% include calculate_relative_base.html %}
@@ -12,7 +13,7 @@ description: Profilo di Simona Cella, critica e autrice di cinema africano e ter
   <div class="about-container">
     <section class="about-header">
       <div class="author-image-container">
-        <a href='{{ site.website }}'><img src="{{ relativebase }}{{site.author-pic}}" alt="{{site.author}}"></a>
+        <a href='{{ site.website }}'><img src="{{ assetbase }}{{ site.author-pic }}" alt="{{site.author}}"></a>
       </div>
       <h1>{{site.author}}</h1>
       <div class="about-bio">{{ sitetext.about_author_long | markdownify }}</div>

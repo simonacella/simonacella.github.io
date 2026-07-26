@@ -1,5 +1,6 @@
 ---
 title: Il cinema del reale di Boris Lojkine
+lang: it
 date: 2025-08-01
 img: posts/Hopetitolo.jpg
 tags: [Boris Lojkine, Francia, Cinema]
@@ -14,7 +15,7 @@ Incontro Boris Lojkine a Parigi nel Bistrot Au fil du vin nel X° Arrondissement
 La lunga chiacchierata parigina ricostruisce il percorso di un regista che con alle spalle una tesi in filosofia, una parentesi vietnamita che lo porta a realizzare due documentari sull’impossibilità per i vietcong di elaborare il lutto della guerra, nel 2008 parte per un viaggio in  Repubblica Democratica del Congo. Kinshasa, Kisangani ma anche la foresta pluviale e l’incontro con i Pigmei e i ribelli Mai-Mai. 
 I progetti di realizzare dei documentari si scontrano con le difficoltà del paese ma anche con il desiderio di realizzare un lungometraggio epico sul viaggio dei migranti africani alla volta dell’Europa. Un soggetto epico, impossibile da ignorare, dichiara Lojkine, così come la guerra del Vietnam per una certa generazione di registi americani. 
 
-![Hope](./assets/img/posts/hopetesto.jpg)
+![Hope](/assets/img/posts/hopetesto.jpg)
 
 Con attitudine da documentarista ma con la forte convinzione di voler realizzare un lungometraggio di finzione Lojkine si documenta leggendo libri, reportage, rapporti di ONG, testimonianze di migranti. Storie diverse ma con elementi comuni che servono come base per scrivere una sceneggiatura. Un lavoro che dura due anni ma come spesso succede viene completamente messo in discussione dalla ricerca sul terreno. “Dopo un viaggio in Marocco e Algeria è tutto cambiato” ammette. In Marocco infatti scopre il mondo dei ghetti. “Camerun. Nigeria. Congo. Ogni paese ha un ghetto. Ogni ghetto le proprie leggi. Il proprio governo, il proprio presidente.” Capisce che è fondamentale conoscere le leggi e le regole dei ghetti e inizia ad esplorare un mondo sotterraneo, sconosciuto, difficile da penetrare. “ I capi nigeriani sono i più potenti e violenti. Gestiscono lo sfruttamento della prosituzione. Seguono gerarchie militari e gestiscono delle vere e proprie prigioni.” Scopre che la realtà delle donne è profondamente diversa. La maggior parte è costretta a prostituirsi. “Ci sono molte prostitute a Rabat e Casablanca. Ed è molto difficile riuscire a parlare con loro liberamente”.
 
@@ -25,7 +26,7 @@ Con attitudine da documentarista ma con la forte convinzione di voler realizzare
 
 “In Marocco era molto chiara la potenza della comunità nigeriana. Ho deciso che sarebbe stato interessante affiancare ad una ragazza nigeriana un personaggio camerunese, proprio per il contrasto tra le due comunità.” Il cast è totalmente formato da attori non professionisti che provengono dal mondo dei ghetti e ne conoscono molto bene le dinamiche. “Ho trovato tutti gli attori in Marocco. Durante i casting le persone sono più propense a parlare.” Così le regole e i meccanismi sociali si svelano al regista che trova la sua drammaturgia. Nei 5 mesi passati in Marocco il regista ricostruisce i ghetti, aiutati dagli attori e dalle comparse. Con una troupe leggera, segue i ritmi del cinema di finzione. C’ è una sola scena  documentaristica, quella dove nella foresta di Gourougou i migranti raccontano l’attacco alla barriera che protegge l’enclave spagnola di Melilla. Era importante che ad un certo punto del film, la finzione incontrasse una realtà indiscutibile per ricordarci che tutto questo non è solo cinema.
 
-![Camille](./assets/img/posts/camilletesto.jpg)
+![Camille](/assets/img/posts/camilletesto.jpg)
 
 _Hope_ è presentato alla Settimana della Critica di Cannes ma l’avventura africana di Lojkine continua con _Camille_, un biopic  su Camille Lepage, una giovane fotoreporter francese rimasta uccisa nella Repubblica Centrafricana nel 2014, dopo aver trascorso due anni documentando la guerra civile tra le fazioni Seleka e Anti-Balaka. “Camille è il mio doppio. Come me ha indagato il senso profondo del fare immagini.”Il metodo di lavoro è lo stesso di _Hope_.“ Ho incontrato tutti quelli che l’hanno conosciuta: famigliari, amici, colleghi di lavoro. Ho cercato di capire le regole del mestiere, cos’è l’editing, cosa un giornale chiede a un fotoreporter. Nel 2017 sono andato a Bangui, in Centrafrica dove ho lavorato come formatore insieme a Daniele Incalcaterra per dei workshop di regia organizzati dagli Atelier Varan. Due e tre mesi per insegnare  le tecniche base per fare un film. In due mesi gli studenti realizzano un film. Ci si confronta insieme sul girato. E’ stata un’esperienza molto formativa che ha portato alla realizzazione di 10 cortometraggi sul paese. Un’esperienza che mi ha aperto lo sguardo. Molti miei studenti degli Atelier hanno collaborato con me al film su Camille.
 

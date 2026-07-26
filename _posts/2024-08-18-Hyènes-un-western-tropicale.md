@@ -1,5 +1,6 @@
 ---
 title: Hyènes, un western tropicale
+lang: it
 date: 2024-08-18
 img: posts/hyenes.jpg
 tags: [Djibril Diop Mambety, Senegal, Cinema]
@@ -8,7 +9,7 @@ publisher: L'Harmattan Italia
 publication_link: https://www.amazon.it/Djibril-rivoluzione-cinematografica-visionario-senegalese/dp/8878923605
 ---
 
-![Ramatou e le amazzoni](./assets/img/posts/hyenes2.jpg)
+![Ramatou e le amazzoni](/assets/img/posts/hyenes2.jpg)
 
 Presentato in concorso ufficiale al Festival di Cannes del 1992, _Hyènes_ segna il tormentato ritorno di Mambety al cinema.Se [_Touki Bouki_](https://simonacella.github.io/Touki-Bouki.html) era nato dall'urgenza di rivoluzionare il cinema attraverso il racconto del desiderio dell'Altrove di un'intera generazione, _Hyènes_ nasce dall’ossessione di ritrovare Anta, «la ragazza che aveva avuto il coraggio di lasciare l'Africa e attraversare l'Atlantico da sola». 
 

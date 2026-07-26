@@ -13,4 +13,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4'
   gem 'jekyll-feed', '~> 0.17'
   gem 'jekyll-youtube', '~> 1.0'
+  gem "jekyll-polyglot"
 end
