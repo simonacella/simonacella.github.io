@@ -2,12 +2,14 @@
 layout: null
 sitemap: false
 ---
+{%- include locale.html -%}
 [
   {% for post in site.posts %}
+    {%- assign search_url = lang_prefix | append: post.url -%}
     {
       "title"       : {{ post.title | jsonify }},
       "tags"        : {{ post.tags | join: ', ' | jsonify }},
-      "url"         : {{ post.url | prepend: '.' | jsonify }},
+      "url"         : {{ search_url | jsonify }},
       "date"        : {{ post.date | jsonify }},
       "description" : {{ post.description | jsonify }},
       "content"     : {{ post.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}

@@ -33,6 +33,16 @@ over Italian text is an hreflang mismatch. Flips automatically with the switcher
 {%- if site.active_lang and site.active_lang != site.default_lang and site.lang_switcher_public != true -%}
   {%- assign preview_lang = true -%}
 {%- endif -%}
+{%- comment -%}
+`lang_prefix` is '' on Italian and '/en' / '/fr' elsewhere. Templates use
+root-absolute paths, and polyglot prefixes plain `href` attributes on its own —
+so this is only needed where its rewriter does not reach: query-string URLs and
+paths inside JavaScript or JSON.
+{%- endcomment -%}
+{%- assign lang_prefix = '' -%}
+{%- if site.active_lang and site.active_lang != site.default_lang -%}
+  {%- assign lang_prefix = '/' | append: site.active_lang -%}
+{%- endif -%}
 {%- assign locale = site.active_lang | default: site.locale | default: 'it' -%}
 {%- assign ui = site.data.ui-text[locale] | default: site.data.ui-text['it'] -%}
 {%- assign sitetext = site.data.site-text[locale] | default: site.data.site-text['it'] -%}

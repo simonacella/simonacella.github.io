@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-{% include calculate_relative_base.html %}
 {% include locale.html %}
 <div class="flex-container transparent">
   {% include header.html %}
   <main id="main-content" tabindex="-1">
     <article class="page">
       <div class="page-image">
-        <img class="cover-image" src="{{ assetbase }}assets/img/{{ page.img }}" alt="{{ page.title }}">
+        <img class="cover-image" src="/assets/img/{{ page.img }}" alt="{{ page.title }}">
       </div>
       <div class="wrapper">
         <div class="page-content">

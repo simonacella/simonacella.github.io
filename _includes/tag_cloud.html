@@ -1,6 +1,9 @@
-{% include calculate_relative_base.html %}
-{% include escape-404.html %}
 {% include locale.html %}
+{%- comment -%}
+Tag chips carry a ?tag=… query string, which polyglot’s href rewriter skips,
+hence lang_prefix. Not static_href: that leaves a broken ferh= attribute here.
+{%- endcomment -%}
+{%- assign tag_page = lang_prefix | append: '/tag.html' -%}
 <div class="tag-cloud">
     {% if include.context == "post" %}
         <ul class="tags {{ include.class }}">
@@ -10,7 +13,7 @@
                 {% else %}
                   {% assign tag_label = tag %}
                 {% endif %}
-                <li><a href="{{ relativebase }}tag.html?tag={{ tag | url_encode }}" class="tag {{ include.class }}">{{ tag_label }}</a></li>
+                <li><a href="{{ tag_page }}?tag={{ tag | url_encode }}" class="tag {{ include.class }}">{{ tag_label }}</a></li>
             {% endfor %}
     {% else %}
         <ul class="tags">
@@ -21,7 +24,7 @@
                 {% else %}
                   {% assign tag_label = this_word %}
                 {% endif %}
-                <li><a href="{{ relativebase }}tag.html?tag={{ this_word | url_encode }}" class="tag">{{ tag_label }} <span>({{ site.tags[this_word].size }})</span></a></li>
+                <li><a href="{{ tag_page }}?tag={{ this_word | url_encode }}" class="tag">{{ tag_label }} <span>({{ site.tags[this_word].size }})</span></a></li>
             {% endunless %}{% endfor %}
     {% endif %}
         </ul>

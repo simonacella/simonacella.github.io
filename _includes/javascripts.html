@@ -1,8 +1,11 @@
-{% include calculate_relative_base.html %}
-{% include escape-404.html %}
 {% include locale.html %}
+{%- comment -%}
+search.json is language-scoped (IT at /search.json, EN at /en/search.json), and
+polyglot does not rewrite paths inside <script>, hence lang_prefix.
+{%- endcomment -%}
+{%- assign search_json = lang_prefix | append: '/search.json' -%}
 
-<script src="{{ assetbase }}assets/js/jekyll-search.js"></script>
+<script src="/assets/js/jekyll-search.js"></script>
 
 <script>
   // Localized strings consumed by assets/js/main.js (a static, non-Liquid file).
@@ -10,8 +13,6 @@
     openMenu: {{ ui.open_menu | default: 'Apri menu' | jsonify }},
     closeMenu: {{ ui.close_menu | default: 'Chiudi menu' | jsonify }}
   };
-  // Language-root relative base for search result URLs (see jekyll-search.js).
-  window.jekyllRelativeBase = {{ relativebase | jsonify }};
 </script>
 
 {% if page.layout == "post" %}
@@ -37,7 +38,7 @@
   </script>
 {% endif %}
 
-<script src="{{ assetbase }}assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 <script>
   function escapeSearchHtml(value) {
     return String(value == null ? '' : value)
@@ -51,7 +52,7 @@
   SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      json: '{{ relativebase }}search.json',
+      json: {{ search_json | jsonify }},
       searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a><p>{description}</p></li>',
       templateMiddleware: function (prop, value) {
         return escapeSearchHtml(value);
