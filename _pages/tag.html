@@ -16,7 +16,7 @@ robots: noindex, follow
   {% else %}
     {% assign this_label = this_word %}
   {% endif %}
-  <div id="{{ this_word }}" class="hidden tag-master">
+  <div id="{{ this_word | slugify }}" class="hidden tag-master">
     <h1>{{ this_label }}</h1>
     <div class="archive">
       <div class="post-list">
