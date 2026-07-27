@@ -76,6 +76,8 @@
       posts = json;
       render();
     }).catch(function (error) {
+      // Allow a later keystroke / focus to retry after a transient failure.
+      requested = false;
       // Tell the reader instead of leaving a dead-looking input.
       showStatus(config.errorText);
       if (window.console && window.console.error) {
