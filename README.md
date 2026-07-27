@@ -216,6 +216,7 @@ linkedin: simona-cella-a531b4b/
 github:  simonacella
 facebook: simona.cella.9
 instagram: simona_reichmann
+substack: simonacella
 imdb: nm7677685
 ```
 
@@ -225,7 +226,7 @@ imdb: nm7677685
 | `author-pic` | Percorso della foto profilo, es. `assets/img/nome-file.jpeg` — carica prima la foto in `assets/img/` (nome file senza spazi) |
 | `email` | Il tuo indirizzo email |
 | `website` | Il link completo al sito |
-| `linkedin`, `instagram`, `facebook` | Solo il tuo nome utente/handle, **non** il link intero (guarda gli esempi sopra) |
+| `linkedin`, `instagram`, `facebook`, `substack` | Solo il tuo nome utente/handle, **non** il link intero (guarda gli esempi sopra) |
 | `github` | Il tuo nome utente GitHub |
 | `imdb` | Il tuo codice IMDb (inizia con `nm`) |
 

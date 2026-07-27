@@ -18,6 +18,9 @@
       {% if site.facebook %}
       <li class="facebook"><a class="facebook" href="https://www.facebook.com/{{site.facebook}}" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
       {% endif %}
+      {% if site.substack %}
+      <li class="substack"><a class="substack" href="https://substack.com/@{{site.substack}}" target="_blank" rel="noopener noreferrer" aria-label="Substack"><i class="fa fa-substack" aria-hidden="true"></i></a></li>
+      {% endif %}
       {% if site.imdb %}
       <li class="imdb"><a class="imdb" href="https://www.imdb.com/name/{{site.imdb}}" target="_blank" rel="noopener noreferrer" aria-label="IMDb"><i class="fa fa-imdb" aria-hidden="true"></i></a></li>
       {% endif %}

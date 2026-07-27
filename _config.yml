@@ -21,6 +21,7 @@ linkedin: simona-cella-a531b4b/
 github:  simonacella
 facebook: simona.cella.9
 instagram: simona_reichmann
+substack: simonacella
 imdb: nm7677685
 
 
@@ -75,9 +76,6 @@ include: [_pages]
 exclude:
   - scripts/
   - README.md
-  # Nested paths must be spelled out: patterns are matched against the whole
-  # path, so bare `README.md` above only catches the one at the repo root.
-  - assets/fonts/README.md
   - LICENSE
   - NOTICE
   - renovate.json

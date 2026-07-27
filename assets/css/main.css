@@ -1775,6 +1775,7 @@ a.read-more:hover {
 .email:hover{color:#66ab6b}
 .instagram:hover{color:#e1306c}
 .github:hover{color:var(--github)}
+.substack:hover{color:#ff6719}
 .copy-link:hover{color:var(--accent)}
 
 /* = = = = = = = = = = Media = = = = = = = = = = */

@@ -1,34 +1,67 @@
 /*!
- * Font Awesome 4.7.0 (subset of icons used on this site)
- * Font: SIL OFL 1.1 — http://fontawesome.io/license
- * CSS: MIT License
+ * Font Awesome Free 7.3.1 — subset of icons used on this site only.
+ * Icons: CC BY 4.0 · Fonts: SIL OFL 1.1 · Code: MIT
+ * https://fontawesome.com/license/free
+ * Regenerated via scripts/subset-fontawesome.mjs
  */
 @font-face {
-  font-family: "FontAwesome";
-  src: url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2");
-  font-weight: normal;
+  font-family: "Font Awesome 7 Free";
   font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2");
 }
 
 .fa {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  font-family: "Font Awesome 7 Free";
   font-size: inherit;
+  line-height: 1;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fa-search:before { content: "\f002"; }
-.fa-envelope-o:before { content: "\f003"; }
-.fa-times:before { content: "\f00d"; }
-.fa-facebook:before { content: "\f09a"; }
-.fa-github:before { content: "\f09b"; }
+.fa-brands,
+.fa-facebook:before,
+.fa-github:before,
+.fa-linkedin:before,
+.fa-instagram:before,
+.fa-reddit:before,
+.fa-imdb:before,
+.fa-substack:before {
+  font-family: "Font Awesome 7 Brands";
+  font-weight: 400;
+}
+
+/* Solid */
+.fa-search:before,
+.fa-magnifying-glass:before { content: "\f002"; }
+.fa-times:before,
+.fa-xmark:before,
+.fa-close:before { content: "\f00d"; }
 .fa-bars:before { content: "\f0c9"; }
-.fa-envelope:before { content: "\f0e0"; }
-.fa-linkedin:before { content: "\f0e1"; }
+.fa-envelope:before,
+.fa-envelope-o:before { content: "\f0e0"; }
 .fa-angle-left:before { content: "\f104"; }
 .fa-angle-right:before { content: "\f105"; }
+
+/* Brands */
+.fa-facebook:before { content: "\f09a"; }
+.fa-github:before { content: "\f09b"; }
+.fa-linkedin:before { content: "\f08c"; }
 .fa-instagram:before { content: "\f16d"; }
 .fa-reddit:before { content: "\f1a1"; }
 .fa-imdb:before { content: "\f2d8"; }
+.fa-substack:before { content: "\e8b8"; }
