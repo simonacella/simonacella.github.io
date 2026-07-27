@@ -13,6 +13,14 @@
   var posts = null;
   var requested = false;
 
+  // Fold accents so "hyenes" matches "Hyènes" (and the same for à/é/ù in IT/FR).
+  function fold(value) {
+    return String(value || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
+  }
+
   function showStatus(message) {
     var item = document.createElement('li');
     item.className = 'results-status';
@@ -22,7 +30,7 @@
 
   function matches(post, query) {
     return FIELDS.some(function (field) {
-      return String(post[field] || '').toLowerCase().indexOf(query) > -1;
+      return fold(post[field]).indexOf(query) > -1;
     });
   }
 
@@ -42,7 +50,7 @@
   }
 
   function render() {
-    var query = input.value.trim().toLowerCase();
+    var query = fold(input.value.trim());
     if (!query) return results.replaceChildren();
     loadIndex();
     // Still fetching: render() runs again once the index arrives.
