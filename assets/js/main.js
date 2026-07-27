@@ -132,7 +132,7 @@
 
   if (flexContainer) {
     flexContainer.addEventListener('click', function (e) {
-      if (flexContainer.classList.contains('active') && e.target.tagName !== 'A') {
+      if (flexContainer.classList.contains('active') && !e.target.closest('a')) {
         hideLayer();
       }
     });
