@@ -3,7 +3,8 @@
 <div class="recent-box">
   <h2 class="page-subtitle">{{ ui.recent_articles }}</h2>
   <div class="recent-list">
-    {% for post in site.posts offset:0 limit:4 %}
+    {% assign recent_posts = site.posts | where_exp: "p", "p.url != page.url" %}
+    {% for post in recent_posts limit:4 %}
       {% if post.title %}
         <div class="recent-item">
           <a href="{{ post.url }}" class="recent-item-img">
