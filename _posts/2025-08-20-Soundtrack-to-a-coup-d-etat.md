@@ -70,6 +70,7 @@ Dal vortice emergono per fortuna anche luminosi frammenti strappati dall’ombra
 L’Hotel Theresa ad Harlem dove militanti e leaders dei paesi non allineati andavano ad ascoltare i discorsi di Lumumba e ad assistere all’incontro tra Castro e Chruščëv. Tra Castro e  Malcom X. Una Bandung Conference in terra yankee che si contrappone all’Assemblea dell’Onu, triste e grigia scena del crimine.
 
 ![hotel teresa](/assets/img/posts/hotelteresa.jpg)
+<small>Fidel Castro e Malcolm X all’Hotel Theresa, Harlem, settembre 1960</small>
 
 Andrée Blouin, mandata dalla Guinea in Congo per organizzare un movimento femminile a supporto della campagna elettorale del Mouvement National Congolais e diventata redattrice dei discorsi e capo di protocollo di Lumumba. Ritratta dai servizi segreti del Belgio come comunista e cortigiana dei leaders africani ed espulsa dal Congo qualche giorno prima dell’Indipendenza, riuscirà a portare in salvo, nascosto nel proprio chignon, il documento che dimostrava la legittimità di Lumumba (non di Joseph Kasa-Vubu, il candidato del Belgio) a guidare il governo. 
 

@@ -385,7 +385,11 @@ template {
           box-sizing: border-box;
 }
 html, body {
-  overflow: visible
+  /* Clip sideways pan (off-screen .main-nav, accidental wide children).
+     Keep vertical overflow visible so sticky/shadows still work. */
+  overflow-x: hidden;
+  overflow-x: clip;
+  overflow-y: visible;
 }
 html {
     line-height: 1.75;
@@ -1292,15 +1296,10 @@ div.tag-cloud{
           box-shadow: 0px 2px 4px var(--shadow);
   max-width: 800px;
 }
-/* full width image in posts */
-img[src$="#full"] {
-    max-width: none;
-    width: 100vw;
-}
-/* Image captions
-Usage (in markdown):
-![img](/some/image.jpg)
-<small>Your image caption</small>
+/* Image captions — documented in README («Come formattare il testo»).
+Usage (in markdown, small immediately under the image, no blank line):
+![alt text](/assets/img/posts/example.jpg)
+<small>Visible caption under the photo</small>
 */
 img + small, img + br + small {
     display: block;

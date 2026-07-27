@@ -107,8 +107,18 @@ Sotto il blocco in alto si scrive in **Markdown**: bastano pochi segni intorno a
 | Corsivo | `_parola_` |
 | Un link | `[testo del link](https://esempio.it)` |
 | Un’immagine | `![breve descrizione](/assets/img/posts/nome-immagine.jpg)` |
+| Un’immagine con didascalia | vedi esempio sotto |
 
 Per le immagini nel testo, il percorso deve iniziare con `/assets/…` (una sola barra all’inizio).
+
+Per aggiungere una **didascalia** (testo centrato, in corsivo e più piccolo sotto la foto), copia questo schema dall’articolo *Soundtrack to a coup d’état*. La seconda riga deve stare **subito sotto** l’immagine, senza righe vuote in mezzo:
+
+```
+![hotel teresa](/assets/img/posts/hotelteresa.jpg)
+<small>Fidel Castro e Malcolm X all’Hotel Theresa, Harlem, settembre 1960</small>
+```
+
+Il testo tra `![` e `]` è la descrizione per chi non vede l’immagine; la riga con `small` è il testo visibile sotto la foto. Cambia entrambi quando riusi lo schema in un altro articolo.
 
 Per i sottotitoli usa sempre `##` (due cancelletti), non `###`.
 
