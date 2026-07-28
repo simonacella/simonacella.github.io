@@ -91,7 +91,7 @@ PLATFORMS
 
 DEPENDENCIES
   base64 (~> 0.3)
-  bundler (~> 4.0)
+  bundler (~> 4.0, >= 4.0.17)
   csv (~> 3.3, >= 3.3.5)
   jekyll (~> 4.4.1)
   jekyll-feed (~> 0.17)
