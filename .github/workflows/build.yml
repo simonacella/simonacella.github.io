@@ -1,0 +1,36 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches-ignore: ["main"]
+
+concurrency:
+  group: build-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '4.0.6'
+          bundler-cache: true
+          # Bump when Gemfile.lock changes force a cold install (same as pages.yml).
+          cache-version: 0
+
+      - name: Build with Jekyll
+        run: |
+          set -o pipefail
+          bundle exec jekyll build 2>&1 | tee /tmp/jekyll-build.log
+          if grep -q "YAML Exception" /tmp/jekyll-build.log; then
+            echo "::error::Jekyll reported YAML front matter errors."
+            exit 1
+          fi
+        env:
+          JEKYLL_ENV: production
