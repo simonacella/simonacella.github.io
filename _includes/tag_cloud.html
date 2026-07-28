@@ -1,9 +1,8 @@
 {% include locale.html %}
 {%- comment -%}
-Tag chips carry a ?tag=… query string, which polyglot’s href rewriter skips,
-hence lang_prefix. Not static_href: that leaves a broken ferh= attribute here.
+Per-tag pages live at /tag/<slug>.html. Plain hrefs are fine: polyglot's
+rewriter prefixes /en and /fr.
 {%- endcomment -%}
-{%- assign tag_page = lang_prefix | append: '/tag.html' -%}
 <div class="tag-cloud">
     {% if include.context == "post" %}
         <ul class="tags {{ include.class }}">
@@ -13,7 +12,7 @@ hence lang_prefix. Not static_href: that leaves a broken ferh= attribute here.
                 {% else %}
                   {% assign tag_label = tag %}
                 {% endif %}
-                <li><a href="{{ tag_page }}?tag={{ tag | slugify | url_encode }}" class="tag {{ include.class }}">{{ tag_label }}</a></li>
+                <li><a href="/tag/{{ tag | slugify }}.html" class="tag {{ include.class }}">{{ tag_label }}</a></li>
             {% endfor %}
     {% else %}
         <ul class="tags">
@@ -24,7 +23,7 @@ hence lang_prefix. Not static_href: that leaves a broken ferh= attribute here.
                 {% else %}
                   {% assign tag_label = this_word %}
                 {% endif %}
-                <li><a href="{{ tag_page }}?tag={{ this_word | slugify | url_encode }}" class="tag">{{ tag_label }} <span>({{ site.tags[this_word].size }})</span></a></li>
+                <li><a href="/tag/{{ this_word | slugify }}.html" class="tag">{{ tag_label }} <span>({{ site.tags[this_word].size }})</span></a></li>
             {% endunless %}{% endfor %}
     {% endif %}
         </ul>

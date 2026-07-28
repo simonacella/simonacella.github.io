@@ -1675,6 +1675,12 @@ img + small, img + br + small {
     margin-bottom: 1.5em;
     padding-bottom: 1em
 }
+/* Tag pages: same rule under the last entry before the cloud. */
+.tag-master:has(+ .tag-cloud) .post:last-child {
+    border-bottom: 1px solid var(--grey4);
+    margin-bottom: 1.5em;
+    padding-bottom: 1em
+}
 a.post-list-title {
     text-decoration: none;
     font-family: var(--font2);
@@ -1687,6 +1693,15 @@ a.read-more {
 }
 a.read-more:hover {
     text-decoration:underline;
+}
+.post-excerpt img,
+.post-excerpt .youtube-embed,
+.post-excerpt .embed-container {
+    display: none;
+}
+.post-excerpt h2 {
+    font-size: 1.1em;
+    margin: 0 0 0.4em;
 }
 /* = = = = = = = = = = Animations  = = = = = = = = = = */
 .main-header,

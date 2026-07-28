@@ -8,7 +8,7 @@ description: Indice dei tag per esplorare gli articoli per regista, paese e tema
 {% include locale.html %}
 {% include get-site-tags.html %}
 <section class="blog-tags">
-  <h2>{{ page_title }}</h2>
+  <h1>{{ page_title }}</h1>
   {% include tag_cloud.html %}
   <div class="tags-page-content">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}

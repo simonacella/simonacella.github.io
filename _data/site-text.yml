@@ -8,7 +8,7 @@
 # (jekyll-feed, jekyll-sitemap) read it from site config. Keep those two in sync.
 #
 # pages.<content_id>.title|description override front matter when
-# page.content_id is set (shared Liquid pages: about, archive, tags, tag,
+# page.content_id is set (shared Liquid pages: about, archive, tags,
 # not_found). Note: content_id, NOT page_id — page_id is reserved by
 # jekyll-polyglot for its own translation matching; do not reuse it here.
 #
@@ -56,8 +56,6 @@ it:
     tags:
       title: "Tag"
       description: "Indice dei tag per esplorare gli articoli per regista, paese e tema."
-    tag:
-      title: "Tag"
     not_found:
       title: "Pagina non trovata"
 
@@ -87,8 +85,6 @@ en:
     tags:
       title: "Tags"
       description: "Browse articles by director, country, and theme."
-    tag:
-      title: "Tags"
     not_found:
       title: "Page not found"
 
@@ -119,7 +115,5 @@ fr:
     tags:
       title: "Mots-clés"
       description: "Parcourir les articles par réalisateur, pays et thème."
-    tag:
-      title: "Mots-clés"
     not_found:
       title: "Page introuvable"

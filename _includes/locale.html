@@ -54,3 +54,14 @@ paths inside JavaScript or JSON.
   {%- if _page_loc.title -%}{%- assign page_title = _page_loc.title -%}{%- endif -%}
   {%- if _page_loc.description -%}{%- assign page_description = _page_loc.description -%}{%- endif -%}
 {%- endif -%}
+{%- comment -%}
+Generated /tag/<slug>.html pages store the Italian tag key in page.tag_key;
+prefer the localized label for <title> / Open Graph.
+{%- endcomment -%}
+{%- if page.tag_key -%}
+  {%- if tag_labels and tag_labels[page.tag_key] -%}
+    {%- assign page_title = tag_labels[page.tag_key] -%}
+  {%- else -%}
+    {%- assign page_title = page.tag_key -%}
+  {%- endif -%}
+{%- endif -%}

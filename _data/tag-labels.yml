@@ -1,6 +1,6 @@
 # Localized display labels for tag keys.
 # Tag keys in post front matter stay Italian (stable keys). Display labels can
-# differ by language. URLs use a slug of the Italian key (tag.html?tag=alain-gomis).
+# differ by language. URLs use a slug of the Italian key (/tag/alain-gomis.html).
 
 en:
   Francia: "France"
