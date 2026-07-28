@@ -178,24 +178,17 @@ focus can retry after a transient network failure instead of staying broken unti
 Menu backdrop clicks use `e.target.closest('a')`, so clicks on the label/`svg` inside a
 nav link no longer count as "outside" and dismiss the menu before navigation.
 
-### 15. Focus is lost when the YouTube facade is replaced
+### 15. Focus is lost when the YouTube facade is replaced — fixed
 
-`assets/js/main.js` line 224 calls `container.replaceChildren(iframe)`, which removes the
-button that currently holds focus. Verified in a browser: `document.activeElement` becomes
-`BODY` immediately after the click, so keyboard users lose their place in the document.
-Calling `iframe.focus()` (the iframe is focusable) or moving focus to the container would fix it.
+After swapping the play button for the iframe, `assets/js/main.js` calls `iframe.focus()`
+so keyboard users stay on the video instead of dropping to `<body>`.
 
 ## Plugins and documentation
 
-### 16. `{% youtube %}` fails silently and is undocumented
+### 16. `{% youtube %}` fails silently and is undocumented — fixed
 
-`_plugins/youtube.rb` line 21 returns an empty string when `extract_id` cannot parse the URL,
-so a mistyped link makes the video disappear with no build-time signal. A
-`Jekyll.logger.warn` there would save a confusing debugging session.
-
-More importantly, the README never mentions the tag, even though every recent post uses
-`{% youtube "https://youtu.be/…" %}`. For a guide written explicitly for a non-technical
-author, that is the most significant documentation gap.
+`_plugins/youtube.rb` logs a build warning when the URL cannot be parsed. The README
+formatting table documents `{% youtube "https://youtu.be/…" %}` for the author.
 
 ### 17. Caption convention — documented and in use
 

@@ -108,8 +108,11 @@ Sotto il blocco in alto si scrive in **Markdown**: bastano pochi segni intorno a
 | Un link | `[testo del link](https://esempio.it)` |
 | Un’immagine | `![breve descrizione](/assets/img/posts/nome-immagine.jpg)` |
 | Un’immagine con didascalia | vedi esempio sotto |
+| Un video YouTube | `{% youtube "https://youtu.be/CODICE" %}` |
 
 Per le immagini nel testo, il percorso deve iniziare con `/assets/…` (una sola barra all’inizio).
+
+Per inserire un **video YouTube**, copia una riga già usata in un articolo recente e cambia solo l’indirizzo tra virgolette. Vanno bene i link corti `youtu.be/…` e quelli lunghi `youtube.com/watch?v=…`. Se l’indirizzo è sbagliato, in pubblicazione compare un avviso e il video non viene mostrato — non è un errore silenzioso.
 
 Per aggiungere una **didascalia** (testo centrato, in corsivo e più piccolo sotto la foto), copia questo schema dall’articolo *Soundtrack to a coup d’état*. La seconda riga deve stare **subito sotto** l’immagine, senza righe vuote in mezzo:
 

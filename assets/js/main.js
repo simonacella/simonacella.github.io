@@ -222,5 +222,8 @@
     iframe.setAttribute('allowfullscreen', '');
     iframe.setAttribute('loading', 'lazy');
     container.replaceChildren(iframe);
+    // The play button held focus; restore it on the new iframe so keyboard
+    // users are not dropped onto <body>.
+    iframe.focus();
   });
 })();

@@ -18,7 +18,10 @@ module Jekyll
     def render(context)
       url = Liquid::Variable.new(@markup, parse_context).render(context).to_s.strip
       id = extract_id(url)
-      return "" if id.nil?
+      if id.nil?
+        Jekyll.logger.warn "YouTube:", "could not parse video id from #{url.inspect} — skipping embed"
+        return ""
+      end
 
       site = context.registers[:site]
       path = site.in_source_dir("_includes", "youtube.html")
