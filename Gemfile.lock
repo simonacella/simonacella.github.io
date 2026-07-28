@@ -96,7 +96,7 @@ DEPENDENCIES
   jekyll (~> 4.4.1)
   jekyll-feed (~> 0.17)
   jekyll-paginate (~> 1.1)
-  jekyll-polyglot
+  jekyll-polyglot (~> 1.13)
   jekyll-sitemap (~> 1.4)
   logger (~> 1.7)
 
