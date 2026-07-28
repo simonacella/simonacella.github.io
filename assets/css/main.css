@@ -966,20 +966,18 @@ svg {
   align-items:center;
 }
 .logo-link {
-  display:block;
+  display: block;
   color: var(--grey4);
-  -webkit-transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
-  transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
+  -webkit-transition: opacity 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
+  transition: opacity 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
 }
 .logo-link img {
   display: block;
   width: 45px;
   height: auto;
 }
-.logo-link:hover{
-  transform: scale(1.2);
+.logo-link:hover {
   opacity: 0.6;
-  color: var(--main);
 }
 .copyright {
   text-align: center;
