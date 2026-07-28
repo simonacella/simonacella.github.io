@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'bundler', '~> 4.0'
 
 gem 'jekyll', '~> 4.4.1'
-gem 'csv', '~> 3.3', '>= 3.3.5'
+gem 'csv', '~> 3.3', '>= 3.3.6'
 gem 'base64', '~> 0.3'
 gem 'logger', '~> 1.7'
 
