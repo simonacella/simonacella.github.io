@@ -44,6 +44,7 @@ it:
   play_youtube_video: "Riproduci video YouTube"
   # Errors
   not_found: "Pagina non trovata"
+  back_home: "Torna alla home"
   # Reading time
   less_than: "meno di"
   minute_read: "min di lettura"
@@ -103,6 +104,7 @@ en:
   play_youtube_video: "Play YouTube video"
   # Errors
   not_found: "Page not found"
+  back_home: "Back to home"
   # Reading time
   less_than: "less than"
   minute_read: "min read"
@@ -162,6 +164,7 @@ fr:
   play_youtube_video: "Lire la vidéo YouTube"
   # Errors
   not_found: "Page introuvable"
+  back_home: "Retour à l’accueil"
   # Reading time
   less_than: "moins de"
   minute_read: "min de lecture"

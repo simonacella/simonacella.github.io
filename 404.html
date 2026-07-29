@@ -1,17 +1,33 @@
 ---
-layout: home-page
+layout: menu-page
 permalink: /404.html
 content_id: not_found
 title: Pagina non trovata
+description: Questa pagina non esiste o è stata spostata.
 robots: noindex, follow
 sitemap: false
 ---
 {% include locale.html %}
-<a href="/">
-    <picture>
-      <source srcset="/assets/img/404_small.jpg" media="(max-width: 768px)">
-      <source srcset="/assets/img/404.jpg">
-      <img src="/assets/img/404.jpg" alt="{{ ui.not_found }}" class="pnf-image" style="width:100vw;max-width:unset;margin-left:calc((100% - 100vw)/2);margin-top:-16.5px;">
-    </picture>
-</a>
+{%- comment -%}
+GitHub Pages and jekyll serve always return the root /404.html for missing
+URLs (the address bar keeps the broken path). Send /en/… and /fr/… misses
+to the localized 404 so copy and chrome match the language prefix.
+{%- endcomment -%}
+<script>
+(function () {
+  var path = location.pathname;
+  if (/^\/(en|fr)\/404\.html$/.test(path)) return;
+  var m = path.match(/^\/(en|fr)(?:\/|$)/);
+  if (!m) return;
+  location.replace('/' + m[1] + '/404.html');
+})();
+</script>
+<section class="not-found">
+  <p class="not-found-brand">{{ site.title }}</p>
+  <h1>{{ page_title }}</h1>
+  {% if page_description %}
+  <p class="not-found-lead">{{ page_description }}</p>
+  {% endif %}
+  <p class="not-found-home"><a href="{{ lang_prefix }}/">{{ ui.back_home }}</a></p>
+</section>
 {% include recent-post.html %}

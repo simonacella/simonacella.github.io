@@ -1464,6 +1464,47 @@ img + small, img + br + small {
   margin: 0 0 30px;
 }
 
+/* = = = = = = = = = = 404  = = = = = = = = = = */
+.not-found {
+  text-align: center;
+  padding: 2.5em 1em 2em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid var(--grey4);
+}
+.not-found-brand {
+  margin: 0 0 0.75em;
+  font-family: var(--font2);
+  font-weight: var(--font2-light);
+  font-size: 1.15em;
+  letter-spacing: 0.02em;
+  color: var(--main);
+}
+.not-found h1 {
+  margin: 0 0 0.4em;
+  font-family: var(--font2);
+  font-weight: var(--font2-regular);
+  font-size: 2em;
+  color: var(--text);
+}
+.not-found-lead {
+  margin: 0 auto 1.5em;
+  max-width: 28em;
+  color: var(--grey1);
+  line-height: 1.5;
+}
+.not-found-home {
+  margin: 0;
+}
+.not-found-home a {
+  color: var(--accent);
+  text-decoration: none;
+  font-family: var(--font2);
+  font-weight: var(--font2-regular);
+}
+.not-found-home a:hover {
+  text-decoration: underline;
+}
+
 /* = = = = = = = = = = Author Box = = = = = = = = = = */
 .author-box {
   display: -webkit-box;
@@ -1714,7 +1755,7 @@ a.read-more:hover {
 .tag-master,
 .tag-cloud,
 .sidebar,
-.pnf-image,
+.not-found,
 .page_meta {
   -webkit-animation-duration: 0.7s;
           animation-duration: 0.7s;
@@ -1739,7 +1780,7 @@ a.read-more:hover {
 .page_meta,
 .sidebar,
 .about-container,
-.pnf-image,
+.not-found,
 .post-card-box {
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
