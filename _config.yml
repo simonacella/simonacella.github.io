@@ -46,9 +46,10 @@ lang_switcher_public: false
 # run predictably in each language build.
 parallel_localization: false
 # Shared once at site root — not copied under /en/ or /fr/.
+# (Plugin-generated sitemap.xml is stripped from /en|/fr by
+# _plugins/strip_localized_sitemaps.rb; listing it here alone is not enough.)
 exclude_from_localization:
   - assets
-  - sitemap.xml
   - robots.txt
   - CNAME
   - google3e4b083f6284aa55.html
