@@ -1,6 +1,6 @@
 # Site settings
 # NOTE: title stays Italian in all languages (brand name). description is the
-# Italian default for plugins (jekyll-feed, jekyll-sitemap); localized
+# Italian default for plugins (jekyll-sitemap); localized
 # description / about_* for templates live in _data/site-text.yml.
 title: Il cinema come amuleto
 description: Alcune osservazioni sul cinema africano e terzo cinema
@@ -57,7 +57,6 @@ plugins:
   - jekyll-polyglot
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
 
 # Articles in _posts/ use the post layout by default (no layout: in front matter).
 defaults:

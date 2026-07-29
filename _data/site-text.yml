@@ -5,7 +5,7 @@
 # not a localized key here. description / about_* / pages.* may differ by language.
 #
 # NOTE: Italian `description` is also kept in _config.yml because plugins
-# (jekyll-feed, jekyll-sitemap) read it from site config. Keep those two in sync.
+# (jekyll-sitemap) read it from site config. Keep those two in sync.
 #
 # pages.<content_id>.title|description override front matter when
 # page.content_id is set (shared Liquid pages: about, archive, tags,

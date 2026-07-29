@@ -10,6 +10,5 @@ gem 'jekyll', '~> 4.4.1'
 group :jekyll_plugins do
   gem 'jekyll-paginate', '~> 1.1'
   gem 'jekyll-sitemap', '~> 1.4'
-  gem 'jekyll-feed', '~> 0.17'
   gem 'jekyll-polyglot', '~> 1.13'
 end
