@@ -77,7 +77,7 @@ Andrée Blouin, mandata dalla Guinea in Congo per organizzare un movimento femmi
 
 ![andree](/assets/img/posts/soundtrack-copertina.jpg)
 
-In Koli Jean Bofane autore di[Congo Inc. Il testamento di Bismarck](https://66thand2nd.com/products/congo-inc)ci ricorda come il Congo, un algoritmo in continua evoluzione tra Washington, London, Brussels and Kigali, sia stato il fornitore globale di materie prime indispensabili alle guerre globali: gomma per la Prima Guerra Mondiale, uranio per le bombe atomiche sganciate a Hiroshima e Nagasaki, rame per i proiettili in Vietnam. Senza dimenticare le materie prime necessarie a portare la guerra nello spazio.
+In Koli Jean Bofane autore di [Congo Inc. Il testamento di Bismarck](https://66thand2nd.com/products/congo-inc) ci ricorda come il Congo, un algoritmo in continua evoluzione tra Washington, London, Brussels and Kigali, sia stato il fornitore globale di materie prime indispensabili alle guerre globali: gomma per la Prima Guerra Mondiale, uranio per le bombe atomiche sganciate a Hiroshima e Nagasaki, rame per i proiettili in Vietnam. Senza dimenticare le materie prime necessarie a portare la guerra nello spazio.
 
 La testimonianza di Corron Cruise O'Brien, allora a capo del Contingente Onu in Katanga, sul genocidio dei Balubakat per mano di mercenari provenienti da Belgio, Francia, Germania e Sud Africa. Una rara testimonianza di come i poteri forti utilizzino l’Onu per influenzare le politiche internazionali.
 
@@ -108,34 +108,19 @@ Saranno le parole di Lumumba, in un discorso non previsto, a rimettere in ordine
 >
 > Dal discorso di Lumumba durante la cerimonia dell'indipendenza, 30 giugno 1960
 
-
 Guardate il film. Leggete con attenzione i titoli di coda. Ascoltate la musica.
 
-
-
 Per approfondire:
-
-
-[Johan Grimonprez](https://www.johangrimonprez.be/main/Film_SOUNDTRACK_COUP_DETAT_Synopsis.html)
-
-[_Il passato non è passato._ Intervista a Johan Grimonprez](https://cinecittanews.it/johan-grimonprez-se-la-politica-divide-la-musica-unisce/)
-
-[_My Country Africa_](https://www.andréeblouin.com) di  Andrée Blouin
-
-[_Congo Inc._](https://actes-sud.fr/congo-inc) by In Koli Jean Bofane
-
-To Katanga and Back by Connor Cruise O'Brien
-
-[_Lumumba mort d'un prophet_](https://mk2films.com/film/lumumba-death-of-a-prophet/)
-
-[_Lumumba_](https://www.youtube.com/watch?v=xRPYtkQon10) di Raoul Peck
-
-Une saison au Congo di Aimé Cesaire
-
-[_Quando L'Indipendenza era un cha cha cha_](https://www.internazionale.it/notizie/alain-mabanckou/2021/07/02/indipendenza-cha-cha)
-
-
-[_Dr. Nico e Lumumba_](https://www.pambazuka.org/congolese-rumba-legend-“dr-nico”-supported-lumumba)
+- [Johan Grimonprez](https://www.johangrimonprez.be/main/Film_SOUNDTRACK_COUP_DETAT_Synopsis.html)
+- [_Il passato non è passato._ Intervista a Johan Grimonprez](https://cinecittanews.it/johan-grimonprez-se-la-politica-divide-la-musica-unisce/)
+- [_My Country Africa_](https://www.andréeblouin.com) di  Andrée Blouin
+- [_Congo Inc._](https://actes-sud.fr/congo-inc) by In Koli Jean Bofane
+- To Katanga and Back by Connor Cruise O'Brien
+- [_Lumumba mort d'un prophet_](https://mk2films.com/film/lumumba-death-of-a-prophet/)
+- [_Lumumba_](https://www.youtube.com/watch?v=xRPYtkQon10) di Raoul Peck
+- Une saison au Congo di Aimé Cesaire
+- [_Quando L'Indipendenza era un cha cha cha_](https://www.internazionale.it/notizie/alain-mabanckou/2021/07/02/indipendenza-cha-cha)
+- [_Dr. Nico e Lumumba_](https://www.pambazuka.org/congolese-rumba-legend-“dr-nico”-supported-lumumba)
 
 
 
