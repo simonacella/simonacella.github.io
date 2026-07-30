@@ -1,11 +1,17 @@
 Licensing notice for https://simonacella.github.io/
 Personal site of Simona Cella.
 
+CONTENT
+-------
+Articles, translations, biography, and other editorial text are
+Copyright © Simona Cella. All rights reserved. Republication here does
+not place that text under the GPL.
+
+
 CODE
 ----
-The site theme and related source code (layouts, includes, CSS, JavaScript,
-and theme configuration) are licensed under the GNU General Public License
-version 3. See the file LICENSE.
+Layouts, includes, CSS, JavaScript, plugins, and theme configuration are
+licensed under the GNU General Public License version 3. See LICENSE.
 
 This project is a modified derivative of:
   https://github.com/the-mvm/the-mvm.github.io
@@ -14,19 +20,14 @@ itself based on:
   https://github.com/artemsheludko/adam-blog
   (Adam Blog by Artem Sheludko).
 
-CONTENT
--------
-All articles, author biography, and other editorial text on this site are
-Copyright © Simona Cella. All rights reserved.
+assets/css/modern-normalize.css is modern-normalize v3.0.1 (MIT)
+  — https://github.com/sindresorhus/modern-normalize
 
-Where a post notes that it was originally published elsewhere (e.g. Nigrizia),
-that first publication’s terms may also apply; republication here does not
-place the text under the GPL.
 
-Images under assets/img/ remain the property of their respective rights
-holders and are not licensed under the GPL.
+FONTS AND ICONS
+---------------
+Lora and Source Sans Pro: SIL Open Font License 1.1
+  (see assets/fonts/README.md).
 
-FONTS
------
-Self-hosted Lora and Source Sans Pro files under assets/fonts/ are licensed
-under the SIL Open Font License 1.1. See assets/fonts/README.md.
+Font Awesome Free 7.x subset: Icons CC BY 4.0 · Fonts SIL OFL 1.1 · Code MIT
+  (see assets/fonts/font-awesome/LICENSE.txt).
