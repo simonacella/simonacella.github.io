@@ -8,11 +8,8 @@
   <meta name="description" content="{% if page_description %}{{ page_description }}{% else %}{{ site_description }}{% endif %}">
   {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% elsif preview_lang %}<meta name="robots" content="noindex, follow">{% elsif paginator.page > 1 %}<meta name="robots" content="noindex, follow">{% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4e3e51">
   {% include SEO.html %}
-  <!-- Windows Phone -->
-  <meta name="msapplication-navbutton-color" content="#311e3e">
-  <!-- iOS Safari -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="#311e3e">
   <link rel="stylesheet" href="/assets/css/fonts.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
