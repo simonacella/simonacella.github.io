@@ -1,12 +1,10 @@
 
 @charset "utf-8";
-/* Main Color palette and fonts */
-
 html {
-  --accent:       #DB504A;    /* accent     */
-  --accent-dark:  #4e3e51;    /* accent 2   */
-  --main:         #326273;    /* main color */
-  --main-dim:     #879dab;    /* dimmed version of main color */
+  --accent:       #DB504A;
+  --accent-dark:  #4e3e51;
+  --main:         #326273;
+  --main-dim:     #879dab;
   --text:         #2B323B;
   --grey1:        #5F5E58;
   --grey2:        #8D897C;
@@ -16,8 +14,8 @@ html {
   --background:   #ffffff;
   --shadow:       rgba(32,30,30,.3);
   --github:       #333;
-  --font1: 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
-  --font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* headers and titles   */
+  --font1: 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font1-light:      400;
   --font1-regular:    400;
   --font1-bold:       600;
@@ -28,8 +26,6 @@ html {
 
 /* = = = = = = = = = = Main Styles = = = = = = = = = = */
 html, body {
-  /* Clip sideways pan (off-screen .main-nav, accidental wide children).
-     Keep vertical overflow visible so sticky/shadows still work. */
   overflow-x: hidden;
   overflow-x: clip;
   overflow-y: visible;
@@ -94,6 +90,7 @@ a:focus:not(:focus-visible) {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font2);
   color: var(--accent-dark);
+  line-height: 1.15;
 }
 
 h1 {
@@ -215,7 +212,6 @@ svg {
 /* = = = = = = = = = = Header = = = = = = = = = = */
 .main-header {
   font-family: var(--font2), sans-serif;
-  /* Single vertical rhythm: no extra .wrapper margins inside the header. */
   padding: 0.7rem 0 0.55rem;
   background-color: var(--background);
   box-shadow: 0px -5px 15px var(--shadow);
@@ -231,7 +227,6 @@ svg {
   min-height: 2.5rem;
 }
 .main-header .logo {
-  /* Center column: shrink before side controls; never claim % of the row. */
   flex: 0 1 auto;
   min-width: 0;
   width: auto;
@@ -246,7 +241,6 @@ svg {
   font-size: 37px;
   text-decoration: none;
   display: block;
-  /* Brand line — not the body 1.75 leading inherited from html. */
   line-height: 1.1;
 }
 .main-header .logo img {
@@ -286,8 +280,6 @@ svg {
 }
 .menu-icon-container,
 .search-icon-container {
-  /* Equal flex sides keep the title optically centered even when
-     the right side is wider (lang switcher + search). */
   flex: 1 0 0;
   min-width: min-content;
   display: flex;
@@ -337,7 +329,6 @@ svg {
   font-size: 18px;
   color: var(--main);
   transition: all .4s;
-  /* Hit area without making the header row much taller than the title. */
   padding: 0.45rem;
   background: transparent;
   border: 0;
@@ -378,7 +369,7 @@ svg {
 }
 .search-grid {
   position: relative;
-  width: min(720px, 90%);
+  width: min(720px, 90vw);
   margin: 12vh auto 2rem;
   padding: 1.75rem 1.5rem 1rem;
   background: var(--background);
@@ -422,7 +413,6 @@ svg {
   border-bottom: 1px solid #d9d9d9;
 }
 
-/* "no results" / "search unavailable" are single status lines, not results. */
 .results-search li.results-status {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -511,13 +501,9 @@ svg {
 
 .tag {
   text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  white-space: nowrap
 }
 .tag:hover {
   text-decoration: underline;
-  color: var(--grey4);
 }
 .post-card-title-and-meta {
   margin:0;
@@ -640,7 +626,6 @@ svg {
     display:none;
   }
 }
-/*- Font-awesome icons centered within their containers by default -*/
 .fa{margin:auto}
 
 /* = = = = post's read time and date (meta data) = = = = */
@@ -721,14 +706,6 @@ svg {
 }
 ul.tags {
   justify-content: center;
-}
-a.tag {
-  line-height: 1;
-  white-space: pre-wrap;
-  text-align:center;
-}
-a.tag.side {
-  padding: 3px 0px 3px 0px;
 }
 .share-options {
   cursor: default;
@@ -835,25 +812,31 @@ div.tag-cloud{
     display: flex;
     flex-wrap: wrap;
 }
-.tags li a {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    line-height: 20px;
+.tags a {
+    margin: 0 10px 10px 0;
+    line-height: 1.25;
     font-size: 12px;
     text-decoration: none;
-    color: var(--grey1) !important;
-    border: 2px solid transparent;
+    color: var(--grey1);
     background: var(--grey5);
     border-radius: 15px;
     padding: 3px 15px;
     font-family: var(--font2);
     font-weight: var(--font2-regular);
     display: block;
-    text-transform: lowercase}
-.tags li a:hover {
+    text-align: center;
+    text-transform: lowercase;
+    white-space: normal;
+}
+.tags a:hover {
     background: var(--accent);
-    color: white !important;
-    text-decoration: none}
+    color: #fff;
+    text-decoration: none;
+}
+.tags.side a {
+    padding: 3px 0;
+    margin-right: 0;
+}
 
 /* = = = = = = = = = = Code = = = = = = = = = = */
 .highlighter-rouge {
@@ -882,6 +865,11 @@ div.tag-cloud{
   object-position: center;
 }
 
+.page > .wrapper {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .page-content {
   margin: auto;
   margin-top: -80px;
@@ -892,11 +880,7 @@ div.tag-cloud{
   box-shadow: 0px 2px 4px var(--shadow);
   max-width: 800px;
 }
-/* Image captions — documented in README («Come formattare il testo»).
-Usage (in markdown, small immediately under the image, no blank line):
-![alt text](/assets/img/posts/example.jpg)
-<small>Visible caption under the photo</small>
-*/
+/* Image captions: <small> directly under the image (see README). */
 img + small, img + br + small {
     display: block;
     font-size:.6em;
@@ -1202,7 +1186,7 @@ img + small, img + br + small {
 .about-header h1 {
   font-size: 1.17em;
   font-weight: bold;
-  line-height: inherit;
+  line-height: 1.2;
   margin: 1em 0;
 }
 
@@ -1295,7 +1279,6 @@ img + small, img + br + small {
     margin-bottom: 1.5em;
     padding-bottom: 1em
 }
-/* Tag pages: same rule under the last entry before the cloud. */
 .tag-master:has(+ .tag-cloud) .post:last-child {
     border-bottom: 1px solid var(--grey4);
     margin-bottom: 1.5em;
@@ -1306,6 +1289,7 @@ a.post-list-title {
     font-family: var(--font2);
     font-weight: var(--font2-bold);
     font-size: 2em;
+    line-height: 1.15;
 }
 a.read-more {
     color: var(--accent);
@@ -1361,13 +1345,12 @@ a.read-more:hover {
 }
 
 @keyframes fadeInDown {
+  /* Opacity only — transform would break position:sticky. */
   from {
     opacity: 0.01;
-    transform: translateY(-20px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
@@ -1392,7 +1375,6 @@ a.read-more:hover {
 .copy-link:hover{color:var(--accent)}
 
 /* = = = = = = = = = = Media = = = = = = = = = = */
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .main-header .logo a {
     font-size: 22px;
@@ -1494,8 +1476,7 @@ a.read-more:hover {
   }
 }
 
-/* iPhone SE is 375px in DevTools — use 390 so that preset is included.
-   nowrap keeps the brand on one line; sides keep their min-content width. */
+/* ≤390px: SE/narrow — one-line title beside lang switcher */
 @media only screen and (max-width: 390px) {
   .main-header {
     padding: 0.55rem 0 0.45rem;
