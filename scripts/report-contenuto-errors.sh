@@ -5,17 +5,19 @@
 set -euo pipefail
 
 {
-  echo "## Pubblicazione interrotta"
-  echo ""
   if [ -f contenuto-errori.md ]; then
     cat contenuto-errori.md
   elif grep -q "Contenuto:" /tmp/jekyll-build.log 2>/dev/null; then
+    echo "## Pubblicazione interrotta"
+    echo ""
     echo "Dettaglio dagli errori di build:"
     echo ""
     echo '```'
     grep "Contenuto:" /tmp/jekyll-build.log || true
     echo '```'
   elif grep -q "YAML Exception" /tmp/jekyll-build.log 2>/dev/null; then
+    echo "## Pubblicazione interrotta"
+    echo ""
     echo "Errore YAML nel blocco in alto di un articolo o in un file \`.yml\`."
     echo ""
     echo "Controlla le \`---\`, le virgolette intorno a \`description\` e l'indentazione."
@@ -24,6 +26,8 @@ set -euo pipefail
     grep -A2 "YAML Exception" /tmp/jekyll-build.log || true
     echo '```'
   else
+    echo "## Pubblicazione interrotta"
+    echo ""
     echo "La build è fallita. Apri il log del passo **Build with Jekyll** per i dettagli."
   fi
 } >> "$GITHUB_STEP_SUMMARY"

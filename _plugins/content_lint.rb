@@ -352,7 +352,7 @@ module Jekyll
 
     def format_report(issues)
       lines = []
-      lines << "# Pubblicazione interrotta"
+      lines << "## Pubblicazione interrotta"
       lines << ""
       lines << "Correggi quanto segue e riprova. Finché questi errori restano, il sito pubblico non si aggiorna."
       lines << ""
