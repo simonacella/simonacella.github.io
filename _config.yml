@@ -79,3 +79,4 @@ exclude:
   - LICENSE
   - NOTICE
   - renovate.json
+  - contenuto-errori.md

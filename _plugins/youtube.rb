@@ -1,10 +1,7 @@
 # frozen_string_literal: true
 
-# {% youtube "https://youtu.be/…" %} — extract the video id and render
-# _includes/youtube.html through the live Liquid context (so locale / ui-text
-# work). Replaces the jekyll-youtube gem, which rendered the include through a
-# bare Liquid::Template with File.read and no encoding, blocking i18n and
-# non-ASCII bytes.
+# {% youtube "https://youtu.be/…" %} — render _includes/youtube.html with a
+# video id. Bad URLs in posts are caught by content_lint; here we just skip.
 
 module Jekyll
   class YouTubeTag < Liquid::Tag
@@ -18,10 +15,7 @@ module Jekyll
     def render(context)
       url = Liquid::Variable.new(@markup, parse_context).render(context).to_s.strip
       id = extract_id(url)
-      if id.nil?
-        Jekyll.logger.warn "YouTube:", "could not parse video id from #{url.inspect} — skipping embed"
-        return ""
-      end
+      return "" if id.nil?
 
       site = context.registers[:site]
       path = site.in_source_dir("_includes", "youtube.html")

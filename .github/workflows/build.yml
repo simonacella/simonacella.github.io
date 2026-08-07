@@ -25,6 +25,7 @@ jobs:
           cache-version: 0
 
       - name: Build with Jekyll
+        id: jekyll
         run: |
           set -o pipefail
           bundle exec jekyll build 2>&1 | tee /tmp/jekyll-build.log
@@ -34,3 +35,7 @@ jobs:
           fi
         env:
           JEKYLL_ENV: production
+
+      - name: Report content errors
+        if: failure() && steps.jekyll.outcome == 'failure'
+        run: bash scripts/report-contenuto-errors.sh

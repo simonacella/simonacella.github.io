@@ -144,15 +144,15 @@ Il sito può pubblicare la stessa pagina in italiano, inglese e francese.
 L’italiano resta l’originale; le altre lingue si aggiungono **solo quando la traduzione è pronta**.
 
 1. **Copia** il file dell’articolo in `_posts/`.
-2. **Rinomina** la copia aggiungendo `.en` o `.fr` prima di `.md` (stessa data e stesso nome):
+2. **Rinomina** la copia aggiungendo `.en` o `.fr` prima di `.md` (**stessa data e stesso nome** — così le versioni condividono lo stesso indirizzo):
    - Originale: `2024-01-15-Touki-Bouki.md`
    - Inglese: `2024-01-15-Touki-Bouki.en.md`
    - Francese: `2024-01-15-Touki-Bouki.fr.md`
 3. Nel blocco in alto della copia, cambia `lang: it` in `lang: en` oppure `lang: fr`.
-4. Traduci `description` e il testo sotto il blocco. Lascia il `title:` uguale all’italiano (di solito è il titolo del film e non si traduce): così le versioni restano collegate.
+4. Traduci `title:` (se serve), `description` e il testo sotto il blocco.
 5. **Non cambiare** i `tags:`: restano in italiano (compaiono tradotti nel menu dove serve, vedi [Tradurre le etichette dei tag](#tradurre-le-etichette-dei-tag-avanzato-facoltativo)).
 
-Finché non esiste la traduzione, le pagine `/en/` e `/fr/` mostrano ancora il testo italiano — non è un errore, è previsto.
+Finché non crei il file `.en.md` o `.fr.md`, quell’articolo non compare nelle versioni inglese o francese — non è un errore, è previsto.
 
 ### Anteprima delle lingue (senza annunciarlo)
 
@@ -267,3 +267,13 @@ Regole pratiche:
 - [ ] Se c’è una versione su Nigrizia (o altro): sia `publisher` sia `publication_link`
 - [ ] Se hai modificato bio, contatti o descrizione del sito: hai lavorato nel file giusto e nella lingua giusta?
 - [ ] Le righe che hai copiato hanno ancora le stesse virgolette, due punti e spazi iniziali dell’originale?
+
+### Se il sito non si aggiorna dopo una modifica
+
+La pubblicazione si interrompe se qualcosa nel contenuto non va (per esempio `lang:` sbagliato, immagine mancante, file tradotto con un nome diverso). In quel caso:
+
+1. Apri la scheda **Actions** sul repository GitHub.
+2. Apri l’esecuzione **rossa** più recente.
+3. Leggi il riquadro **Summary** in alto: elenca il file, il problema e cosa fare.
+
+Correggi quanto indicato, salva e riprova. Finché la spunta non torna verde, il sito pubblico resta com’era.
