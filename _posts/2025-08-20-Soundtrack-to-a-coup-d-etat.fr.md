@@ -4,7 +4,7 @@ lang: fr
 date: 2025-08-20
 img: posts/soundtrack-cover.png
 tags: [Patrice Lumumba, Johan Grimonprez, RDC, Cinema, Archivi]
-description: "Soundtrack to a coup d’état di Johan Grimonprez: jazz, archivi e il complotto dietro l’omicidio di Patrice Lumumba."
+description: "Soundtrack to a coup d’état de Johan Grimonprez : jazz, archives et le complot derrière l’assassinat de Patrice Lumumba."
 ---
 
 La batterie de Max Roach rythme les mots d’une promesse qui s’affiche sous forme de texte sur un écran noir.

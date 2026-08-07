@@ -2,21 +2,23 @@
 {%- comment -%}
 Language switcher. Links use static_href so polyglot does not rewrite them.
 
-Every language version of a page shares the same path (posts: same title → same
-URL under :title:output_ext; see README / _data/site-text.yml), so page.url is
-the correct path — just prepend the target language's prefix.
-
-Deliberately NOT using page.permalink_lang here: polyglot populates it with
-the raw, unresolved `permalink:` front matter value (e.g. "about:output_ext"
-instead of "/about.html"), which produced broken switcher links.
+For posts, limit links to page.available_languages (real translations only).
+Other pages (home, about, …) keep all site.languages — their available_languages
+list is not a translation map.
 
 Soft launch (lang_switcher_public: false): hide on Italian pages; show on
 /en/ and /fr/ so the author can preview without advertising translations.
 {%- endcomment -%}
 {% if site.lang_switcher_public or site.active_lang != site.default_lang %}
+{% if page.collection == 'posts' and page.available_languages and page.available_languages.size > 0 %}
+  {% assign switcher_langs = page.available_languages %}
+{% else %}
+  {% assign switcher_langs = site.languages %}
+{% endif %}
 <nav class="lang-switcher" aria-label="{{ ui.language }}">
   <ul>
   {% for lang in site.languages %}
+    {% if switcher_langs contains lang %}
     {% assign lang_path = page.url %}
     {% if lang_path == '/' %}
       {% assign lang_path = '' %}
@@ -35,6 +37,7 @@ Soft launch (lang_switcher_public: false): hide on Italian pages; show on
         <a class="lang-switcher__link" hreflang="{{ lang }}" {% static_href %}href="{{ lang_href }}"{% endstatic_href %}>{{ lang | upcase }}</a>
       {% endif %}
     </li>
+    {% endif %}
   {% endfor %}
   </ul>
 </nav>

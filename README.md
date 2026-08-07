@@ -274,6 +274,6 @@ La pubblicazione si interrompe se qualcosa nel contenuto non va (per esempio `la
 
 1. Apri la scheda **Actions** sul repository GitHub.
 2. Apri l’esecuzione **rossa** più recente.
-3. Leggi il riquadro **Summary** in alto: elenca il file, il problema e cosa fare.
+3. Leggi il riquadro **build summary**: elenca il file, il problema e cosa fare.
 
 Correggi quanto indicato, salva e riprova. Finché la spunta non torna verde, il sito pubblico resta com’era.

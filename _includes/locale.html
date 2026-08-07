@@ -24,10 +24,9 @@ Post translations: same date + filename stem + `.en.md`/`.fr.md`, set
 {%- endcomment -%}
 {%- comment -%}
 `preview_lang` is true on /en/ and /fr/ while the translations are not yet
-announced (lang_switcher_public: false). Those pages currently serve Italian
-prose behind a localized interface, so they are kept out of search indexes and
-out of the hreflang set until real translations exist — declaring hreflang="en"
-over Italian text is an hreflang mismatch. Flips automatically with the switcher.
+announced (lang_switcher_public: false). Soft-launch previews stay noindex.
+Post bodies without a real `.en`/`.fr` file are not copied under /en|/fr
+(see _plugins/strip_post_fallbacks.rb).
 {%- endcomment -%}
 {%- assign preview_lang = false -%}
 {%- if site.active_lang and site.active_lang != site.default_lang and site.lang_switcher_public != true -%}
