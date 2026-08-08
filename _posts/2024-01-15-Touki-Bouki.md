@@ -9,7 +9,6 @@ description: "Su Touki Bouki di Djibril Diop Mambety, capolavoro senegalese del 
 
 > Un film profetico. Bellissimo, sconvolgente e inatteso che ci fa dubitare di noi stessi.
 
-Ciao!
 
 Così Souleymane Cissé definisce [_Touki Bouki_](https://www.raiplay.it/programmi/toukiboukiilviaggiodellaiena), primo lungometraggio di Djibril Diop Mambety, un film girato a Dakar nel 1973 che ancora risplende di un’attualità e di una lucidità sorprendente, soprattutto in tempi bui come quelli che stiamo vivendo. 
 > Estatico, violento, divertente, sorprendente
