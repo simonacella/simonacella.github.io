@@ -8,6 +8,7 @@ description: "Pacification di Albert Serra, una riflessione sulla fine di un par
 ---
 
 > Se posso fare a modo mio, Tetiaroa rimarrà per sempre un luogo che ricorda ai tahitiani cosa sono e cosa erano secoli fa.
+
 Marlon Brando
 
 
