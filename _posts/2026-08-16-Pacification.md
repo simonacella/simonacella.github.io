@@ -19,8 +19,6 @@ Accanto a lui, splendono tre personaggi femminili, apparentemente estranei o qua
 Shoanna, hostess dell’hotel che sogna di diventare il vice di De Roller e riesce a conquistarsi la sua fiducia. Interpretata da Pahoa Mahagafanau, Shoanna, né uomo, né donna, è Mahu, termine che indica, nella cultura tradizionale polinesiana, una persona che incarna sia lo spirito maschile sia quello femminile collocandosi in uno spazio fluido tra i generi. Uomini per nascita che scelgono di accogliere l’energia femminile e agiscono come donne. Non c’è discriminazione per questo terzo genere. [Gauguin] (https://www.tate.org.uk/tate-etc/issue-20-autumn-2010/men-women-pacific) stesso che li aveva ritratti, veniva definito Mahu, per le sgargianti camicie che indossava. 
 
 
-![Gauguin](/assets/img/posts/Gauguin.jpg)
-
 Un’armonia sociale distrutta dall’arrivo dei soldati francesi coinvolti nei programmi nucleari che, visto la mancanza di donne, spinsero alla prostituzione molti Mahu. 
 Racconta Serra che a Cannes Shoanna era attesa con grande curiosità, come se fosse una drag queen. 
 
