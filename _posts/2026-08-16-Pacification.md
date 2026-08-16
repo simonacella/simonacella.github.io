@@ -7,7 +7,8 @@ tags: [Albert Serra, Cinema]
 description: "Pacification di Albert Serra, una riflessione sulla fine di un paradiso e la minaccia di una nuova guerra nucleare"
 ---
 
-> Se posso fare a modo mio, Tetiaroa rimarrà per sempre un luogo che ricorda ai tahitiani cosa sono e cosa erano secoli fa. Marlon Brando
+> Se posso fare a modo mio, Tetiaroa rimarrà per sempre un luogo che ricorda ai tahitiani cosa sono e cosa erano secoli fa.
+Marlon Brando
 
 
 Girato in 25 giorni a Tahiti durante il lockdown dell’Agosto 2021 [_Pacification_](https://youtu.be/izbsQ00e9eg?si=V2pk_UOiLtecrdvY), 
