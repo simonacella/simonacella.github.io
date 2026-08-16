@@ -2,7 +2,7 @@
 title: Pacification
 lang: it
 date: 2026-08-16
-img: posts/pacification.jpg
+img: posts/pacifiction.jpg
 tags: [Albert Serra, Cinema]
 description: "Pacification di Albert Serra, una riflessione sulla fine di un paradiso e la minaccia di una nuova guerra nucleare"
 ---
