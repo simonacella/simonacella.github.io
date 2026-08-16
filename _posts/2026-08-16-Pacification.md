@@ -37,7 +37,7 @@ Per costruire il suo mondo si ispira agli scenari ultra artificiali dei film hol
 Il risultato è un neo noir tropicale,  un pastiche cinematografico paradossalmente coerente nel quale si ritrovano tracce di _Apocalypse Now_, ma anche le atmosfere oniriche di David Lynch, personaggi che potrebbero essere usciti da _Rosso Sangue_ di Leos Carax, da _Beau Travail_ o _White Material_  di Claire Denis.
 
 Nelle interviste Serra dice di aver lavorato con una sceneggiatura senza dialoghi, quasi un romanzo breve che riporta gli stati d’animo dei personaggi. La mancanza dei dialoghi, sussurrati agli attori, subito prima delle riprese per aumentare l’ambiguità dei personaggi, così come la comunicazione minima sul set dava spazio ad intuizioni e ispirazione degli attori.
-Una troupe minima, un direttore della fotografia, tre camere al quale il regista affida la sua visione perché possono vedere e registrare cose che l’occhio umano non vede. Le videocamere non si stancano, non si annoiano, non sentono il suono e non hanno idee. Sarò poi il regista e il montatore a dover estrapolare e fare emergere dalle 540 ore di girato, il materiale utile a comporre la visione.
+Una troupe minima, un direttore della fotografia, tre camere al quale il regista affida la sua visione perché possono vedere e registrare cose che l’occhio umano non vede. Le videocamere non si stancano, non si annoiano, non sentono il suono e non hanno idee. Sará poi il regista e il montatore a dover estrapolare e fare emergere dalle 540 ore di girato, il materiale utile a comporre la visione.
 
 Più che un film _Pacification_ è un saggio e andrebbe visto più di una volta per comprenderne le implicazioni extra cinematografiche.
 Serra dice di non aver voluto dire niente sul colonialismo ma è evidente che il materiale è culturalmente denso ed incandescente. 
@@ -49,7 +49,7 @@ Figlia di un pescatore dell’isola di Bora Bora con sangue cinese Tarita viene 
 ![Bounty](/assets/img/posts/bounty1.jpg)
 
 Il matrimonio fu un disastro ma Brando rimase stregato dall’isola e si comprò l’isola Tetiaroa, ora diventato resort di Lusso
-La mia mente è sempre calma quando mi immagino seduto di notte sulla mia isola dei Mari del Sud” affermò  "Se posso fare a modo mio, Tetiaroa rimarrà per sempre un luogo che ricorda ai tahitiani cosa sono e cosa erano secoli fa”. Atteggiamento predatorio e paternalista che in qualche modo ricorda Coppola che scelse di girare nelle Filippine del sanguinario Marcos per fare un film contro la guerra in Vietnam.
+"La mia mente è sempre calma quando mi immagino seduto di notte sulla mia isola dei Mari del Sud” affermò  "Se posso fare a modo mio, Tetiaroa rimarrà per sempre un luogo che ricorda ai tahitiani cosa sono e cosa erano secoli fa”. Atteggiamento predatorio e paternalista che in qualche modo ricorda Coppola che scelse di girare nelle Filippine del sanguinario Marcos per fare un film contro la guerra in Vietnam.
 
 _Pacification_ contiene l'ineluttabile destino di un’isola. Lo annuncia nelle prime scene e lo sigla nel finale. 
 Tahiti e con lei il vecchio mondo, è inesorabilmente sparita.
