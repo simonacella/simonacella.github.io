@@ -17,6 +17,7 @@ Perennemente vestito di bianco, indossa occhiali da sole, dispositivi altamente 
 Aggrappato disperatamente ad un potere che sembra sgretolarsi ma in realtà è immortale, De Roller è l’incarnazione perfetta dell’uomo bianco contemporaneo postcoloniale. Forse l'ultimo testimone in un mondo destinato ad essere popolato da militari zombie e cyborg. Frutti impazziti di un mondo che non esiste più. 
 
 Accanto a lui, splendono tre personaggi femminili, apparentemente estranei o quantomeno indifferenti alle manovre politico militari dell’establishment francese.
+
 Shoanna, hostess dell’hotel che sogna di diventare il vice di De Roller e riesce a conquistarsi la sua fiducia. Interpretata da Pahoa Mahagafanau, Shoanna, né uomo, né donna, è Mahu, termine che indica, nella cultura tradizionale polinesiana, una persona che incarna sia lo spirito maschile sia quello femminile collocandosi in uno spazio fluido tra i generi. Uomini per nascita che scelgono di accogliere l’energia femminile e agiscono come donne. Non c’è discriminazione per questo terzo genere. [Gauguin](https://www.tate.org.uk/tate-etc/issue-20-autumn-2010/men-women-pacific) stesso che li aveva ritratti, veniva definito Mahu, per le sgargianti camicie che indossava. 
 
 
@@ -25,14 +26,13 @@ Shoanna, hostess dell’hotel che sogna di diventare il vice di De Roller e ries
 Un’armonia sociale distrutta dall’arrivo dei soldati francesi coinvolti nei programmi nucleari che, visto la mancanza di donne, spinsero alla prostituzione molti Mahu. 
 Racconta Serra che a Cannes Shoanna era attesa con grande curiosità, come se fosse una drag queen. 
 
-Interessante la coreografa che studia i movimenti delle lotte dei galli. apparentemente messa in scena per i turisti ma in realtà metafora degli uomini che si scontrano nel film, una preparazione che rimane in filigrana lungo tutto il racconto.
+C'è poi la coreografa che studia i movimenti delle lotte dei galli per migliorare lo spettacolo di danza per turisti che è in  realtà acuta metafora degli uomini che si scontrano nel film. Uno studio che rimane in filigrana lungo tutto il racconto.
 
 ![Galli](/assets/img/posts/galli.jpg)
 
-Scrittrice che torna e finisce presentazione sembra quasi alludere a il suo lavoro con il cinema
-come la descrive spirito libero che porta avanti una guerra contro political correct e oscurantismo, fare sistere una lingua straniera capace di creare confusione più che facili classificazioni 
+Infine una scrittrice in cerca d'ispirazione che nella descrizione che ne fa De Roller sembra forse alludere alla poetica dello stesso Serra. Uno spirito libero che porta avanti una guerra contro il political correct e l'oscurantismo, dando vita ad una lingua straniera capace di creare confusione più che facili classificazioni. 
 
-Parzialmente ispirato a _Marlon Brando. Il mio amore, la mia ferita_ autobiografia di Tarita Teriipaia _Pacification_ è una fantasia che racchiude il contemporaneo, aumentando l'intensità della percezione. L’isola di Tahiti,  immersa in un tempo fluido dove si spalancano improvvise voragini di disagio, diventa scenario mentale.  I feticci esotici (onde, palme, giungla, sculture, vulcano) immersi in colori spinti alla massima saturazione si confondono con le luci al neon delle insegne. Serra non filma la realtà, non cerca coerenza, né pertinenza, né onestà. Immagina uno scenario con il suo sguardo autoriale e deformante e sceglie di inserire nella sua visione un’ unica scena realistica che filma una folla di turisti e abitanti che aspettano la grande onda, cavalcata dai surfisti.
+ _Pacification_ è una fantasia che racchiude il contemporaneo, aumentando l'intensità della percezione. L’isola di Tahiti,  immersa in un tempo fluido dove si spalancano improvvise voragini di disagio, diventa scenario mentale.  I feticci esotici (onde, palme, giungla, sculture, vulcano) immersi in colori spinti alla massima saturazione si confondono con le luci al neon delle insegne. Serra non filma la realtà, non cerca coerenza, né pertinenza, né onestà. Immagina uno scenario con il suo sguardo autoriale e deformante e sceglie di inserire nella sua visione un’ unica scena realistica che filma una folla di turisti e abitanti che aspettano la grande onda, cavalcata dai surfisti.
 Per costruire il suo mondo si ispira agli scenari ultra artificiali dei film hollywoodiani degli anni ‘50 e ‘60  che confondono realtà e finzione riuscendo a sospendere l’incredulità e ad emozionare. Studia i film degli anni Settanta. _Parallax View_ di Alan Pakula, _Chinatown_ e _Ghost Write_ di Roman Polanski, _The Killing of a Chinese Bookie_ di John Cassavetes. 
 Il risultato è un neo noir tropicale,  un pastiche cinematografico paradossalmente coerente nel quale si ritrovano tracce di _Apocalypse Now_, ma anche le atmosfere oniriche di David Lynch, personaggi che potrebbero essere usciti da _Rosso Sangue_ di Leos Carax, da _Beau Travail_ o _White Material_  di Claire Denis.
 
@@ -43,7 +43,7 @@ Più che un film _Pacification_ è un saggio e andrebbe visto più di una volta 
 Serra dice di non aver voluto dire niente sul colonialismo ma è evidente che il materiale è culturalmente denso ed incandescente. 
 Il primo incontro tra De Roller e i rappresentanti delle popolazioni locali è immerso in un clima dove i locali richiedono e i francesi promettono. Un dialogo dai toni political correct su questioni legate al nucleare e alla tutela dell’oceano che si chiude con la richiesta di poter frequentare il Casino per non essere segregati e la promessa da parte dell’Alto Commissario di invitare tutta la popolazione a festeggiare il 14 Luglio al Casino e al Tropical Night. Il secondo incontro con il rappresentante più giovane si gioca su toni diversi e alla presenza di un misterioso alleato della causa. Qui non si chiede permesso ai francesi. Si comunica e basta. Siamo più dalle parti di un combattimento tra galli.
 
-Il memoir di Tarita Teriipaia non è solo il racconto di un amore tossico ma contiene un’amara riflessione sulla distruzione del paradiso, invaso e cannibalizzato dagli ingegneri nucleari francesi, dalle riprese dei film americani e dal turismo. 
+Nelle retrovie un'altro personaggio femminile, Tarita Teriipaia che nella sua autobiografia _Marlon Brando. Il mio amore, la mia ferita_  restituisce un’amara riflessione sulla distruzione del paradiso, invaso e cannibalizzato dagli ingegneri nucleari francesi, dalle riprese dei film americani e dal turismo. 
 Figlia di un pescatore dell’isola di Bora Bora con sangue cinese Tarita viene scelta da Lewis Mileston, regista di _Mutiny of The Bounty_ per interpretare Maimiti, la figlia del re di Tahiti che si innamora del luogotenente Fletcher Christian, interpretato da Brando. Tarita e Marlon si innamorarono veramente e si sposarono. 
 
 ![Bounty](/assets/img/posts/bounty1.jpg)
@@ -52,7 +52,7 @@ Il matrimonio fu un disastro ma Brando rimase stregato dall’isola e si comprò
 La mia mente è sempre calma quando mi immagino seduto di notte sulla mia isola dei Mari del Sud” affermò  "Se posso fare a modo mio, Tetiaroa rimarrà per sempre un luogo che ricorda ai tahitiani cosa sono e cosa erano secoli fa”. Atteggiamento predatorio e paternalista che in qualche modo ricorda Coppola che scelse di girare nelle Filippine del sanguinario Marcos per fare un film contro la guerra in Vietnam.
 
 _Pacification_ contiene l'ineluttabile destino di un’isola. Lo annuncia nelle prime scene e lo sigla nel finale. 
-Tahiti è inesorabilmente sparita.
+Tahiti e con lei il vecchio mondo, è inesorabilmente sparita.
 
 
 
