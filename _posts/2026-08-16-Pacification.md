@@ -23,7 +23,7 @@ Shoanna, hostess dell’hotel che sogna di diventare il vice di De Roller e ries
 
 ![Gauguin](/assets/img/posts/Gauguin.jpg)
 
-–Le Sorcier d'Hiva Oa– (Marquesan Man in a Red Cape) (1902). 
+Paul Gauguin, _Le Sorcier d'Hiva Oa_ (1902). 
 Musée d'art moderne et d'art contemporain de Liège
 
 Un’armonia sociale distrutta dall’arrivo dei soldati francesi coinvolti nei programmi nucleari che, visto la mancanza di donne, spinsero alla prostituzione molti Mahu. 
