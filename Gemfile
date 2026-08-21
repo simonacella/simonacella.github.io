@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Declared so Renovate can bump Bundler (BUNDLED WITH alone is not an update target).
-gem 'bundler', '~> 4.0', '>= 4.0.17'
+gem 'bundler', '~> 4.0', '>= 4.0.19'
 
 # Only gems this site chooses. Transitive deps (csv, kramdown, …) stay in
 # Gemfile.lock via Jekyll/plugins; Renovate lockfile maintenance keeps them fresh.

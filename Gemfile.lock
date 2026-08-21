@@ -88,11 +88,11 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundler (~> 4.0, >= 4.0.17)
+  bundler (~> 4.0, >= 4.0.19)
   jekyll (~> 4.4.1)
   jekyll-paginate (~> 1.1)
   jekyll-polyglot (~> 1.13)
   jekyll-sitemap (~> 1.4)
 
 BUNDLED WITH
-  4.0.17
+  4.0.19
