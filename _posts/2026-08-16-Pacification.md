@@ -28,7 +28,7 @@ Shoanna, hostess dell’hotel che sogna di diventare il vice di De Roller e ries
 Paul Gauguin, _Le Sorcier d'Hiva Oa_ (1902). 
 Musée d'art moderne et d'art contemporain de Liège
 
-Un’armonia sociale distrutta dall’arrivo dei soldati francesi coinvolti nei programmi nucleari che, visto la mancanza di donne, spinsero alla prostituzione molti Mahu. 
+Un’armonia sociale distrutta dall’arrivo dei soldati francesi coinvolti nei programmi nucleari che spinsero alla prostituzione molti Mahu. 
 Racconta Serra che a Cannes Shoanna era attesa con grande curiosità, come se fosse una drag queen. Un atteggiamento voyeuristico che aveva imbarazzato l'attrice.
 
 C'è poi la coreografa che studia i movimenti delle lotte dei galli per migliorare lo spettacolo di danza per turisti che è in  realtà acuta metafora degli uomini che si scontrano nel film. Uno studio che rimane in filigrana lungo tutto il racconto.
