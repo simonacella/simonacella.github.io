@@ -22,7 +22,7 @@ E’ un discorso su dittatori populisti che attraverso la mitizzazione della lor
 E’ un  ciclo che continua a ripetersi. 
 Magellano non è vecchio o nuovo. E’ qui da sempre. 
 
-Se per noi è uno dei tanti esploratori per le Filippine è il protagonista di una storia epica come quella di Ulisse narrata da Omero. E’ parte della psicologia delle Filippine, quasi un’ossessione che ha ispirato canzoni, fumetti, film, libri. Un’ossessione e al tempo stesso un tabù perché non è mai stato fatto uno studio approfondito che possa contrapporsi alla prospettiva imposta dall’Occidente. Ed è qui che il cinema di Diaz si posiziona, come una diga contro l’oblio portato  avanti dal colonialismo spagnolo, americano, giapponese, dalla dittatura di Marcos e dalla presidenza di Duterte. 
+Se per noi è uno dei tanti esploratori, per le Filippine è il protagonista di una storia epica come quella di Ulisse narrata da Omero. E’ parte della psicologia del paese, quasi un’ossessione che ha ispirato canzoni, fumetti, film, libri. Un’ossessione e al tempo stesso un tabù perché non è mai stato fatto uno studio approfondito che possa contrapporsi alla prospettiva imposta dall’Occidente. Ed è qui che il cinema di Diaz si posiziona, come una diga contro l’oblio portato  avanti dal colonialismo spagnolo, americano, giapponese, dalla dittatura di Marcos e dalla presidenza di Duterte. 
 La tormentata vicenda di Magellano incide infatti la prima traccia storica della lotta dei popoli indigeni contro il colonialismo europeo.  
 
 
