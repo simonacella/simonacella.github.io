@@ -57,7 +57,7 @@ Il matrimonio fu un disastro ma Brando rimase stregato dall’isola e si comprò
 "La mia mente è sempre calma quando mi immagino seduto di notte sulla mia isola dei Mari del Sud” affermò  "Se posso fare a modo mio, Tetiaroa rimarrà per sempre un luogo che ricorda ai tahitiani cosa sono e cosa erano secoli fa”. Atteggiamento predatorio e paternalista che in qualche modo ricorda Coppola che scelse di girare nelle Filippine del sanguinario Marcos per fare un film contro la guerra in Vietnam.
 
 _Pacification_ contiene l'ineluttabile destino di un’isola. Lo annuncia nelle prime scene e lo sigla nel finale. 
-Tahiti e con lei il vecchio mondo, è inesorabilmente sparita.
+Tahiti e con lei il vecchio mondo, sono inesorabilmente spariti.
 
 
 
