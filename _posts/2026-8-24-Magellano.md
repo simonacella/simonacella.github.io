@@ -69,7 +69,7 @@ Emblema del nazionalismo filippino, celebrato in monumenti ed insegne, presente 
 Magellano lo deride. E’ un fantasma, un mito, nessuno lo ha mai visto. Un inganno, una chimera che però gli sarà fatale.
 
 ![Mactan](/assets/img/posts/Battlemactan.jpg)
-_ La Battaglia di Mactan, 27 Aprile 1521, la prima resistenza Filippina contro ls colonizzazione_ 
+_La Battaglia di Mactan, 27 Aprile 1521, la prima resistenza Filippina contro ls colonizzazione_ 
 
 Di questa complessità il film restituisce ipnotiche visioni di foreste, maestosi fiumi e infiniti oceani. Una natura incontaminata ma che appare puntellata di cadaveri, di corpi che uccidono o cercano la salvezza in antichi riti ancestrali che sembrano soccombere a nuove forze.
 Ne risulta un sontuoso affresco a tinte fosche dove il bianco e nero, segno distintivo della filmografia del regista, lascia spazio a colori dai toni fiamminghi, spesso immersi nell’ombra e illuminati da candele.
