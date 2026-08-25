@@ -10,7 +10,7 @@ description: "Magellano di Lav Diaz, rievocazione della conquista delle Filippin
 > Un giorno l’uomo bianco verrà e ci salverà.
 
 Su questa credenza indio Lav Diaz costruisce la prima potente sequenza di [_Magellano_](https://youtu.be/8h7rriQD1qc?si=Z5zYSkJRzhsNRKwC) 
-presentato a Cannes in forma di poema o meglio  di acid trip, come dice lo stesso Diaz. Un’anteprima di un film che potrebbe avere la durata di 9 o 10 ore e che in questa versione ridotta veicola, attraverso la potente interpretazione di Gael Garcia Bernard, visioni ed emozioni più che informazioni. 
+presentato a Cannes in forma di poema o meglio  di acid trip, come dice lo stesso Diaz. Un’anteprima di un film che potrebbe avere la durata di 9 o 10 ore e che in questa versione ridotta veicola, attraverso la potente interpretazione di Gael Garcìa Bernal, visioni ed emozioni più che informazioni. 
 
 
 
@@ -72,11 +72,11 @@ Ne risulta un sontuoso affresco a tinte fosche dove il bianco e nero, segno dist
 Girato in 4:3 per evocare le immagini coloniali, _Magellano_ è un susseguirsi di quadri che attraversa i generi della storia dell’arte: il paesaggio, il ritratto, il quadro storico, l’arte contemporanea quando l’inquadratura si fa storta e mette griglie di fronte al visibile. 
 Un lungo processo di ricerca della verità che passa anche dal suono. Niente colonne sonore ma solo suoni d’ambiente che vengono lavorati e ampliati nella fase di postproduzione.
 
-Magellano è anche un ideale romantico, incarna l'esploratore che sogna nuovi territori, ed è per Diaz anche metafora di cinema.
+Magellano è un ideale romantico, incarna l'esploratore che sogna nuovi territori, ed è per Diaz metafora di cinema.
 
 > Per me è anche la vocazione del cinema. Possiamo sempre spingerci oltre. Sono convinto che se continuiamo a superare i limiti del cinema, scopriremo qualcosa di nuovo, qualcosa di più significativo. Dobbiamo abbattere i muri della paura per scoprire nuovi orizzonti. Possiamo ancora trovare isole d'oro da qualche parte.
   
-Diaz ha trovato in Bernal Gael Garcia un complice perfetto. Immergendosi nel personaggio e nelle sue ombre, imparando il portoghese, studiando, leggendo, incarnando Magellano l’attore dice di avere compreso sfumature che potrebbero sfuggire a giornalisti, studiosi e psicologi. 
+Diaz ha trovato in Gael Garcìa Bernal un complice perfetto. Immergendosi nel personaggio e nelle sue ombre, imparando il portoghese, studiando, leggendo, incarnando Magellano l’attore dice di avere compreso sfumature che potrebbero sfuggire a giornalisti, studiosi e psicologi. 
 
 Un lavoro sul corpo, la lingua, l’ethos del tempo che ci ricorda che per comprendere la storia è necessario  ascoltare, cercare e comprendere le piccole cose. 
 La narrazione e il cinema sono questioni complesse e impongono tempi dilatati di visione e ascolto.
