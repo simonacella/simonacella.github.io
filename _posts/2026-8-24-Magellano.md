@@ -39,7 +39,7 @@ Il regista affronta la vicenda come se fosse un cold case, si immerge per 7 anni
 Una mole di lavoro immensa se si pensa che solo nell’archivio di Siviglia ci sono 50 milioni di pagine da consultare.  
 Diaz costruisce il personaggio di Magellano intorno a due perni: la violenza e la religione. 
 Magellano si è formato nell’ethos di una  violenza predatrice che per mano del Re Manuel e di Francisco De Almeida tra il 1504 e il 1511 ha portato all’uccisione di 2000 persone al giorno tra India e Marocco. 
-E’ la violenza della conquista che si intreccia all’ambizione di dominio per il commercio delle spezie, allo schiavismo e ovviamente alla religione, il secondo perno intorno al quale si modella la figura di Magellano.  Durante gli infiniti mesi di navigazione nell’Oceano Pacifico Magellano decapita in nome del Papa due uomini sospresi a fare sesso, abbraccia la statua del Santo Niño e quando finalmente sbarca sull’isola di Cebu si fa evangelizzatore delle popolazioni autoctone. 
+E’ la violenza della conquista che si intreccia all’ambizione di dominio per il commercio delle spezie, allo schiavismo e ovviamente alla religione, il secondo perno intorno al quale si modella la figura di Magellano.  Durante gli infiniti mesi di navigazione nell’Oceano Pacifico Magellano, forse per non impazzire si aggrappa alla religione. Decapita in nome del Papa due uomini sospresi a fare sesso, abbraccia con enfasi la statua del Santo Niño e quando finalmente sbarca sull’isola di Cebu si fa evangelizzatore delle popolazioni autoctone. 
 
 ![Nino](/assets/img/posts/Nino.jpg)
                              _Santo Niño di Cebu_
@@ -48,8 +48,8 @@ Qui un ruolo chiave lo avrà Enrique, schiavo che Magellano aveva acquistato 10 
 ![idoli](/assets/img/posts/idoli.jpg)
 _Enrique e gli idoli bruciati dall'equipaggio di Magellano_
 
-Enrique è un personaggio chiave che riesce a mutare il suo destino. Vittima della schiavitù, testimone nella traversata, mediatore e infine conquistatore della propria libertà. Traditore come il suo padrone ma non per potere ma per giustizia.
-Potente il momento in cui Enrique durante l’infinita traversata racconta la sua vita al figlio di Magellano. E’ un racconto che si limita all’elenco di padroni che lo hanno acquistato e poi venduto. Una triste litania di nomi e luoghi che lo fanno involontario viaggiatore. In altri momenti del film Enrique invoca il nome di divinità a cui chiede sostegno e che accusa di averlo abbandonato.
+Enrique è un personaggio chiave che riesce a mutare il suo destino. Vittima della schiavitù, testimone nella traversata, mediatore e infine conquistatore della propria libertà. Traditore come il suo padrone ma non per potere bensì per giustizia.
+In una delle scene più toccanti del film Enrique durante l’infinita traversata racconta la sua vita al figlio di Magellano. E’ un racconto che si limita all’elenco di padroni che lo hanno acquistato e poi venduto. Una triste litania di nomi e luoghi che lo fanno involontario viaggiatore. In altri momenti del film Enrique invoca il nome di divinità a cui chiede sostegno e che accusa di averlo abbandonato.
 Ironia vuole che non fu Magellano la prima persona che tecnicamente completò la circumnavigazione del globo, qualcuno sostiene che sia stato proprio Enrique, finalmente tornato a casa.  
 Il discorso della schiavitù corre parallelo a quello della conquista e Diaz ricorda con il personaggio di Bartolomé de las Casas che nel Cinquecento non esisteva un consenso monolitico sulla schiavitù anche se fu solo nel 1570, che nuove leggi poi limitarono il commercio di schiavi. 
 
