@@ -10,7 +10,7 @@ description: "Magellano di Lav Diaz, rievocazione della conquista delle Filippin
 > Un giorno l’uomo bianco verrà e ci salverà.
 
 Su questa credenza indio Lav Diaz costruisce la prima potente sequenza di [_Magellano_](https://youtu.be/8h7rriQD1qc?si=Z5zYSkJRzhsNRKwC) 
-presentato a Cannes in forma di poema o meglio  di acid trip, come dice lo stesso Diaz. Un’anteprima di un film che potrebbe avere la durata di 9 o 10 ore e che in questa versione ridotta veicola, attraverso la potente interpretazione di Gael Garcìa Bernal, visioni ed emozioni più che informazioni. 
+presentato a Cannes in forma di poema o meglio  di acid trip, come dice lo stesso Diaz. Anteprima di un film che potrebbe avere la durata di 9 o 10 ore e che in questa versione ridotta veicola, attraverso la potente interpretazione di Gael Garcìa Bernal, visioni ed emozioni più che informazioni. 
 
 
 
@@ -55,9 +55,9 @@ Il discorso della schiavitù corre parallelo a quello della conquista e Diaz ric
 
 Quasi invisibili ma non per questo meno importanti, altri due personaggi si confrontano con Magellano. 
 
-La moglie Beatriz Barbosa de Magallanes, dolce presenza in Portogallo e Spagna che lo accompagna, fantasma o visione anche durante l’impresa. Due volte nelle lunghe notti sull’Oceano appare per annunciare la sua morte e quello del figlio  e l’ultima volta sull’isola di Cebu, triste osservatrice della morte di Magellano. 
+La moglie Beatriz Barbosa de Magallanes, dolce presenza in Portogallo e Spagna che lo accompagna, fantasma o visione anche durante l’impresa. Due volte nelle lunghe notti sull’Oceano appare per annunciare la sua morte e quella del figlio  e l’ultima volta sull’isola di Cebu, triste osservatrice della morte di Magellano. 
 Quando nel 2019 Diaz inizia a sviluppare il progetto Beatriz doveva essere la protagonista, ma il regista che voleva uscire dai confini portoghesi per dare spazio alla prospettiva dei nativi la lascia a margine. 
-Le immagini però ci sono e _Beatriz, The Wife_, potrebbe essere il sequel e/oprequel che si concentra sulla prospettiva della donna rimasta a Siviglia.
+Le immagini però ci sono e _Beatriz, The Wife_, potrebbe essere il sequel e/o prequel che si concentra sulla prospettiva della donna rimasta a Siviglia.
 
 
 ![Beatriz](/assets/img/posts/Beatriz.jpg)
