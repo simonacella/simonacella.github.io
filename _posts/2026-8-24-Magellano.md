@@ -42,9 +42,11 @@ Magellano si è formato nell’ethos di una  violenza predatrice che per mano de
 E’ la violenza della conquista che si intreccia all’ambizione di dominio per il commercio delle spezie, allo schiavismo e ovviamente alla religione, il secondo perno intorno al quale si modella la figura di Magellano.  Durante gli infiniti mesi di navigazione nell’Oceano Pacifico Magellano decapita in nome del Papa due uomini sospresi a fare sesso, abbraccia la statua del Santo Niño e quando finalmente sbarca sull’isola di Cebu si fa evangelizzatore delle popolazioni autoctone. 
 
 ![Nino](/assets/img/posts/Nino.jpg)
+_Santo Niño di Cebu_
 
 Qui un ruolo chiave lo avrà Enrique, schiavo che Magellano aveva acquistato 10 anni prima in Malacca, attuale Malesia. Probabilmente nato e cresciuto in quella zona delle Filippine, farà da mediatore con Humabon, re dell’isola, primo autoctono, insieme alla moglie, a convertirsi e farsi battezzare.
 ![idoli](/assets/img/posts/idoli.jpg)
+_Enrique e gli idoli bruciati dall'equipaggio di Magellano_
 
 Enrique è un personaggio chiave che riesce a mutare il suo destino. Vittima della schiavitù, testimone nella traversata, mediatore e infine conquistatore della propria libertà. Traditore come il suo padrone ma non per potere ma per giustizia.
 Potente il momento in cui Enrique durante l’infinita traversata racconta la sua vita al figlio di Magellano. E’ un racconto che si limita all’elenco di padroni che lo hanno acquistato e poi venduto. Una triste litania di nomi e luoghi che lo fanno involontario viaggiatore. In altri momenti del film Enrique invoca il nome di divinità a cui chiede sostegno e che accusa di averlo abbandonato.
@@ -59,6 +61,7 @@ Le immagini però ci sono e _Beatriz, The Wife_, potrebbe essere il sequel e/opr
 
 
 ![Beatriz](/assets/img/posts/Beatriz.jpg)
+_Beatriz, The Wife_
 
 L’altro fantasma è solo un’evocazione.  
 Lapu Lapu, spirito, eroe della resistenza o invenzione di Humabon che lo descrive come un bevitore di sangue per spaventare Magellano e i suoi uomini che volevano giustiziare chi rifiutava di convertirsi. 
@@ -66,6 +69,7 @@ Emblema del nazionalismo filippino, celebrato in monumenti ed insegne, presente 
 Magellano lo deride. E’ un fantasma, un mito, nessuno lo ha mai visto. Un inganno, una chimera che però gli sarà fatale.
 
 ![Mactan](/assets/img/posts/Battlemactan.jpg)
+_ La Battaglia di Mactan, 27 Aprile 1521, la prima resistenza Filippina contro ls colonizzazione_ 
 
 Di questa complessità il film restituisce ipnotiche visioni di foreste, maestosi fiumi e infiniti oceani. Una natura incontaminata ma che appare puntellata di cadaveri, di corpi che uccidono o cercano la salvezza in antichi riti ancestrali che sembrano soccombere a nuove forze.
 Ne risulta un sontuoso affresco a tinte fosche dove il bianco e nero, segno distintivo della filmografia del regista, lascia spazio a colori dai toni fiamminghi, spesso immersi nell’ombra e illuminati da candele.
@@ -84,7 +88,7 @@ Il cinema di Diaz, amuleto di verità, esiste per ricordarcelo.
 
 
 
-Interviste 
+_Interviste_ 
 
 [Intervista Diaz e Bernal](https://youtu.be/9Px995AQ2AU?si=usWGUkpA-YlFuA9M)
 
@@ -92,7 +96,7 @@ Interviste
 
 
 
-Biografie di Magellano
+_Biografie di Magellano_
 
 [Relazione del primo viaggio intorno al mondo](https://www.lafeltrinelli.it/relazione-del-primo-viaggio-intorno-libro-antonio-pigafetta/e/9791255048732utm_source=google&utm_medium=cpc&utm_campaign=PMax_Shopping_Kelkoo_Libri_Varia&gad_source=1&gad_campaignid=17182894279&gbraid=0AAAAAC8kHMQ7FbTXr1zFhev0P8NArkRN4&gclid=Cj0KCQjw16_UBhCqARIsAIdOaXyAOstwb1_pLxJtHkovIjD2Tp46iZ0SConCXDnyBAHu7slXkvT957QaAg5BEALw_wcB), Antonio Pigafetta,Edizioni Feltrinelli 
 
