@@ -1,0 +1,10 @@
+---
+description: Never create git commits
+alwaysApply: true
+---
+
+# Git commits
+
+**Never** create a git commit in this repo — not when asked casually, not after migrations, not “to save work.” The maintainer commits locally.
+
+Do not run `git commit`, `git commit --amend`, or equivalent. Staging (`git add`) is fine when preparing a review of the diff; leave committing to the human.

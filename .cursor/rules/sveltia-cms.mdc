@@ -19,4 +19,4 @@ Pending work: `.cursor/plans/sveltia-cms.md` (hub). Do not invent a parallel aut
 - Slugs: `encoding: ascii`, `clean_accents: true`, `lowercase: false`; post slug `{{year}}-{{month}}-{{day}}-{{slug}}`.
 - Cover `public_folder: posts`; body media `/assets/img/posts`.
 - `output.omit_empty_optional_fields: true`.
-- Republication: optional object `republication` with `publisher` + `publication_link` — not flat keys. Template and `content_lint` expect the nest.
+- Republication: CMS writes optional object `republication` (`publisher` + `publication_link`). Existing posts may still use flat keys; lint accepts either shape (not both). Template reads both.

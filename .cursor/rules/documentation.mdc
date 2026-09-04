@@ -26,6 +26,7 @@ alwaysApply: true
 | Location | Purpose |
 |---|---|
 | `MAINTAINER.md` | **You** — current Sveltia effort (only human living doc) |
+| `.cursor/rules/` | Agent invariants (incl. never commit) |
 | `README.md` | Author content ops (Italian); not CMS-first until a plan says so |
 | `.cursor/plans/` | Pending actionable work only |
 | `.cursor/ideas/` | Options and explorations — not shipped truth |
