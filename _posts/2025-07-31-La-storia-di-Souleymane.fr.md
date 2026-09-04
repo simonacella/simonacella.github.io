@@ -2,11 +2,12 @@
 title: L'histoire de Souleymane
 lang: fr
 date: 2025-07-31
-img: posts/LastoriadiSouleymane.jpg
+img: /assets/img/posts/LastoriadiSouleymane.jpg
 tags: [Boris Lojkine, Migrazione, Cinema]
 description: "L'histoire de Souleymane de Boris Lojkine : deux jours à Paris dans l'attente d'une décision d'asile, récompensé à Cannes en 2024."
-publisher: Nigrizia
-publication_link: https://www.nigrizia.it/notizia/la-storia-di-souleymane-film-premio-cannes-boris-lojkine
+republication:
+  publisher: Nigrizia
+  publication_link: https://www.nigrizia.it/notizia/la-storia-di-souleymane-film-premio-cannes-boris-lojkine
 ---
 
 _L'histoire de Souleymane_ de Boris Lojkine, récompensé à Cannes en 2024 dans la section _Un certain regard_ par le Prix du jury et le Prix du meilleur acteur, est le récit haletant de deux jours de la vie de Souleymane, arrivé à Paris en provenance de Guinée et en attente de son entretien avec l’Ofpra (l’Office français de protection des réfugiés et apatrides) qui décidera de son sort, en acceptant ou en rejetant sa demande d’asile politique.

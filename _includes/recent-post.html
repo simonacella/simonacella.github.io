@@ -8,7 +8,9 @@
       {% if post.title %}
         <div class="recent-item">
           <a href="{{ post.url }}" class="recent-item-img">
-            <img src="/assets/img/{{ post.img }}" alt="{{ post.title }}" loading="lazy">
+            {% assign cover_img = post.img %}
+            {% include cover_src.html %}
+            <img src="{{ cover_src }}" alt="{{ post.title }}" loading="lazy">
             <div class="recent-item-title">
               <span>{{ post.title }}</span>
               {% include post_meta.html type="recent-item-meta" date="none" %}

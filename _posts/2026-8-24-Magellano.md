@@ -2,7 +2,7 @@
 title: Magellano
 lang: it
 date: 2026-08-24
-img: posts/Garcia.jpg
+img: /assets/img/posts/Garcia.jpg
 tags: [Lav Diaz, Cinema, Terzo Cinema]
 description: "Magellano di Lav Diaz, rievocazione della conquista delle Filippine e della resistenza contro il colonialismo"
 ---

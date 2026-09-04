@@ -2,11 +2,15 @@
 title: Il cinema del reale di Boris Lojkine
 lang: it
 date: 2025-08-01
-img: posts/Hopetitolo.jpg
-tags: [Boris Lojkine, Francia, Cinema]
-description: "Conversazione con Boris Lojkine su Hope, Camille e La storia di Souleymane, la sua trilogia africana tra documentario e fiction."
-publisher: Nigrizia
-publication_link: https://www.nigrizia.it/notizia/sulle-tracce-della-vita-boris-lojkine-storia-souleymane-hope-camille
+img: /assets/img/posts/Hopetitolo.jpg
+tags:
+  - Boris Lojkine
+  - Francia
+  - Cinema
+description: Conversazione con Boris Lojkine su Hope, Camille e La storia di Souleymane, la sua trilogia africana tra documentario e fiction.
+republication:
+  publisher: Nigrizia
+  publication_link: https://www.nigrizia.it/notizia/sulle-tracce-della-vita-boris-lojkine-storia-souleymane-hope-camille
 ---
 
 **Intervista a Boris Lojkine**
@@ -24,7 +28,6 @@ Con attitudine da documentarista ma con la forte convinzione di voler realizzare
 
 {% youtube "https://youtu.be/Fycw0Q0ahlo?si=H2RfwpCeU9KrMzLk" %}
 
-
 “In Marocco era molto chiara la potenza della comunità nigeriana. Ho deciso che sarebbe stato interessante affiancare ad una ragazza nigeriana un personaggio camerunese, proprio per il contrasto tra le due comunità.” Il cast è totalmente formato da attori non professionisti che provengono dal mondo dei ghetti e ne conoscono molto bene le dinamiche. “Ho trovato tutti gli attori in Marocco. Durante i casting le persone sono più propense a parlare.” Così le regole e i meccanismi sociali si svelano al regista che trova la sua drammaturgia. Nei 5 mesi passati in Marocco il regista ricostruisce i ghetti, aiutati dagli attori e dalle comparse. Con una troupe leggera, segue i ritmi del cinema di finzione. C’ è una sola scena  documentaristica, quella dove nella foresta di Gourougou i migranti raccontano l’attacco alla barriera che protegge l’enclave spagnola di Melilla. Era importante che ad un certo punto del film, la finzione incontrasse una realtà indiscutibile per ricordarci che tutto questo non è solo cinema.
 
 ![Camille](/assets/img/posts/camilletesto.jpg)
@@ -36,4 +39,3 @@ _Hope_ è presentato alla Settimana della Critica di Cannes ma l’avventura afr
 Da quegli stessi Atelier ci ricorda è uscito Rafiki Fariola regista di [_Nos étudiants_](https://youtu.be/-qVHdb0FZ0Q?si=zrSqd2w8V2VQS9vz) presentato alla Berlinale 2022 e prodotto dallo stesso Lojkine insieme a Daniele Incalcaterra. 
 Anche per _La storia di Souleymane_, la materia documentaria è stata la base per costruire una drammaturgia precisa. Lunghe interviste con i rider e con i richiedenti asilo, due anni di scrittura e un casting selvaggio. E soprattutto una troupe fluida che si adatta alle esigenze dei diversi set. Il risultato è un resoconto à bout de souffle di due giorni della vita di Souleymane, arrivato a Parigi dalla Guinea e in attesa del colloquio  che determinerà il suo destino, accettando o respingendo la sua domanda di richiesta di asilo politico. 
 Quando gli chiediamo del destino di Souleymane, sorride e ci dice che è l’unica risposta alla quale non risponderà mai.
-

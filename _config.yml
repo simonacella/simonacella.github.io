@@ -50,6 +50,7 @@ parallel_localization: false
 # _plugins/strip_localized_sitemaps.rb; listing it here alone is not enough.)
 exclude_from_localization:
   - assets
+  - admin
   - robots.txt
   - CNAME
   - google3e4b083f6284aa55.html
@@ -76,6 +77,7 @@ include: [_pages]
 exclude:
   - scripts/
   - README.md
+  - MAINTAINER.md
   - LICENSE
   - NOTICE
   - renovate.json

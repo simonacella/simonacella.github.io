@@ -2,11 +2,12 @@
 title: They come from North
 lang: fr
 date: 2024-06-01
-img: posts/theycomefromnorth.jpg
+img: /assets/img/posts/theycomefromnorth.jpg
 tags: [Prasad Hettiarachchi, Sri Lanka, Mostre]
 description: "À propos de l'exposition They come from North de Prasad Hettiarachchi : Colombo, la gentrification et les nouveaux pouvoirs néocoloniaux au Sri Lanka."
-publisher: Kaiya Collective
-publication_link: https://kaiyacollective.com/projects/theycomefromnorth/index_ita.php
+republication:
+  publisher: Kaiya Collective
+  publication_link: https://kaiyacollective.com/projects/theycomefromnorth/index_ita.php
 ---
 
 **Visions et récits d’une ville disparue**  \

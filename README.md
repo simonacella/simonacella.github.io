@@ -68,7 +68,7 @@ Un’ultima cosa: alcuni file (`_data/site-text.yml`, `_data/ui-text.yml`) conte
 title: Titolo dell’articolo
 lang: it
 date: 2025-08-20
-img: posts/nome-immagine.jpg
+img: /assets/img/posts/nome-immagine.jpg
 tags: [Regista, Paese, Cinema]
 description: "Una o due frasi che riassumono l’articolo."
 publisher: Nigrizia
@@ -83,7 +83,7 @@ Cosa mettere in ciascun campo:
 | `title` | Il titolo che si vede sulla pagina |
 | `lang` | Lingua dell’articolo: `it` per l’italiano; nelle traduzioni `en` o `fr` |
 | `date` | Data di **pubblicazione sul sito**, formato `2025-08-20` (non l’anno del film) |
-| `img` | Nome della copertina, già salvata in `assets/img/posts/` — es. `posts/dahomey.jpg` |
+| `img` | Percorso della copertina in `assets/img/posts/` — es. `/assets/img/posts/dahomey.jpg` |
 | `tags` | Parole chiave tra parentesi quadre, separate da virgole |
 | `description` | **Riassunto in 1–2 frasi** (circa 140–160 caratteri), **sempre tra virgolette** `"…"`. Serve a Google e alle anteprime sui social. Non scrivere solo «Recensione di…» o «Intervista a…». Le virgolette vanno sempre, per sicurezza |
 | `publisher` | Solo se l’articolo è già uscito altrove (es. `Nigrizia`) |

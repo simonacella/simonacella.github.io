@@ -4,7 +4,13 @@
 {% assign seo_title = page_title | default: site_title %}
 {% assign seo_description = page_description | default: site_description %}
 {% if page.img %}
-  {% assign seo_image = site.url | append: '/assets/img/' | append: page.img %}
+  {% assign cover_img = page.img %}
+  {% include cover_src.html %}
+  {% if cover_src contains '://' %}
+    {% assign seo_image = cover_src %}
+  {% else %}
+    {% assign seo_image = site.url | append: cover_src %}
+  {% endif %}
 {% else %}
   {% assign seo_image = site.url | append: site.logo %}
 {% endif %}

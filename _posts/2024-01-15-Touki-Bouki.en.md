@@ -2,7 +2,7 @@
 title: Touki Bouki
 lang: en
 date: 2024-01-15
-img: posts/touki-bouki.jpg
+img: /assets/img/posts/touki-bouki.jpg
 tags: [Djibril Diop Mambety, Senegal, Cinema]
 description: "On Djibril Diop Mambety’s Touki Bouki, a 1973 Senegalese masterpiece about the European dream and rebellion in Dakar."
 ---

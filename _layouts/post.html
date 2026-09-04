@@ -7,7 +7,9 @@ layout: default
   <main id="main-content" tabindex="-1">
     <article class="page">
       <div class="page-image">
-        <img class="cover-image" src="/assets/img/{{ page.img }}" alt="{{ page.title }}">
+        {% assign cover_img = page.img %}
+        {% include cover_src.html %}
+        <img class="cover-image" src="{{ cover_src }}" alt="{{ page.title }}">
       </div>
       <div class="wrapper">
         <div class="page-content">
@@ -17,9 +19,11 @@ layout: default
           </div>
           {% include sidebar.html context="post" class="side" id="sidebar" %}
           {{ content }}
-          {% if page.publication_link and page.publisher %}
+          {% assign orig_pub = page.republication.publisher | default: page.publisher %}
+          {% assign orig_link = page.republication.publication_link | default: page.publication_link %}
+          {% if orig_link and orig_pub %}
             <p class="page_meta">
-              {{ ui.originally_published }}&nbsp;<a href="{{ page.publication_link }}" target="_blank" rel="noopener noreferrer">{{ page.publisher }}</a>
+              {{ ui.originally_published }}&nbsp;<a href="{{ orig_link }}" target="_blank" rel="noopener noreferrer">{{ orig_pub }}</a>
             </p>
           {% endif %}
           {% include sidebar.html context="post" class="inline" id="post-end" %}

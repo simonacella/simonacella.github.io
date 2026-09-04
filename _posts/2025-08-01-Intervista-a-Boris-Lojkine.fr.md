@@ -2,11 +2,15 @@
 title: Le cinéma du réel de Boris Lojkine
 lang: fr
 date: 2025-08-01
-img: posts/Hopetitolo.jpg
-tags: [Boris Lojkine, Francia, Cinema]
-description: "Entretien avec Boris Lojkine à propos de Hope, Camille et L'histoire de Souleymane, sa trilogie africaine à mi-chemin entre le documentaire et la fiction."
-publisher: Nigrizia
-publication_link: https://www.nigrizia.it/notizia/sulle-tracce-della-vita-boris-lojkine-storia-souleymane-hope-camille
+img: /assets/img/posts/Hopetitolo.jpg
+tags:
+  - Boris Lojkine
+  - Francia
+  - Cinema
+description: Entretien avec Boris Lojkine à propos de Hope, Camille et L'histoire de Souleymane, sa trilogie africaine à mi-chemin entre le documentaire et la fiction.
+republication:
+  publisher: Nigrizia
+  publication_link: https://www.nigrizia.it/notizia/sulle-tracce-della-vita-boris-lojkine-storia-souleymane-hope-camille
 ---
 
 **Entretien avec Boris Lojkine**

@@ -135,13 +135,32 @@ module Jekyll
               "Usa la forma tags: [Regista, Paese, Cinema]")
         end
 
-        pub = data["publisher"]
-        link = data["publication_link"]
-        pub_s = pub.nil? ? "" : pub.to_s.strip
-        link_s = link.nil? ? "" : link.to_s.strip
-        if (pub_s.empty? && !link_s.empty?) || (!pub_s.empty? && link_s.empty?)
-          add(issues, rel, "publisher e publication_link devono essere entrambi presenti o entrambi assenti",
-              "Compila tutte e due le righe, oppure cancellale entrambe.")
+        flat_pub = data.key?("publisher") || data.key?("publication_link")
+        nested = !data["republication"].nil?
+
+        if flat_pub && nested
+          add(issues, rel, "non mescolare publisher a livello radice e republication:",
+              "Usa solo il blocco republication:, oppure solo le due righe piatte (non entrambi).")
+        elsif nested
+          rep = data["republication"]
+          unless rep.is_a?(Hash)
+            add(issues, rel, "republication: deve essere un blocco (non una stringa)",
+                "Usa la forma:\nrepublication:\n  publisher: Nigrizia\n  publication_link: https://…")
+          else
+            pub_s = rep["publisher"].nil? ? "" : rep["publisher"].to_s.strip
+            link_s = rep["publication_link"].nil? ? "" : rep["publication_link"].to_s.strip
+            if pub_s.empty? || link_s.empty?
+              add(issues, rel, "republication: serve sia publisher sia publication_link",
+                  "Compila tutte e due le sottorighe, oppure cancella tutto il blocco republication.")
+            end
+          end
+        elsif flat_pub
+          pub_s = data["publisher"].nil? ? "" : data["publisher"].to_s.strip
+          link_s = data["publication_link"].nil? ? "" : data["publication_link"].to_s.strip
+          if pub_s.empty? || link_s.empty?
+            add(issues, rel, "publisher e publication_link devono essere entrambi presenti o entrambi assenti",
+                "Compila tutte e due le righe, oppure cancellale entrambe. (Il CMS scrive il blocco republication:.)")
+          end
         end
 
         if data.key?("permalink")
@@ -183,17 +202,21 @@ module Jekyll
       img_s = img.to_s.strip
       if img_s.empty?
         add(issues, rel, "img: è vuoto",
-            "Metti il percorso relativo tipo posts/nome-immagine.jpg")
+            "Metti il percorso tipo /assets/img/posts/nome-immagine.jpg")
         return
       end
 
-      if img_s.start_with?("/", "assets/") || !img_s.start_with?("posts/")
+      # CMS writes /assets/img/posts/…; legacy posts/… still accepted.
+      if img_s.start_with?("/assets/img/")
+        full = File.join(site.source, img_s.delete_prefix("/"))
+      elsif img_s.start_with?("posts/")
+        full = File.join(site.source, "assets", "img", img_s)
+      else
         add(issues, rel, "img: ha un formato sbagliato (\"#{img_s}\")",
-            "Usa solo posts/nome-file.jpg — senza /assets/ e senza barra iniziale.")
+            "Usa /assets/img/posts/nome-file.jpg (o il vecchio posts/nome-file.jpg).")
         return
       end
 
-      full = File.join(site.source, "assets", "img", img_s)
       return if File.file?(full)
 
       add(issues, rel, "immagine di copertina non trovata (img: #{img_s})",

@@ -2,7 +2,7 @@
 title: Soundtrack to a coup d'état
 lang: en
 date: 2025-08-20
-img: posts/soundtrack-cover.png
+img: /assets/img/posts/soundtrack-cover.png
 tags: [Patrice Lumumba, Johan Grimonprez, RDC, Cinema, Archivi]
 description: "Soundtrack to a coup d’état by Johan Grimonprez: jazz, archive footage and the conspiracy behind the assassination of Patrice Lumumba."
 ---

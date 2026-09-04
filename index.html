@@ -7,7 +7,9 @@ layout: home-page
   <li>
     <div class="post-card">
       <a href="{{ post.url }}" title="{{ post.title }}" class="post-card-image">
-        <img src="/assets/img/{{ post.img }}" alt="{{ post.title }}"{% if forloop.index > 2 %} loading="lazy"{% endif %}>
+        {% assign cover_img = post.img %}
+        {% include cover_src.html %}
+        <img src="{{ cover_src }}" alt="{{ post.title }}"{% if forloop.index > 2 %} loading="lazy"{% endif %}>
       </a>
       <div class="post-card-body">
         <p class="post-card-title-and-meta">

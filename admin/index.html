@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>CMS — Il cinema come amuleto</title>
+  </head>
+  <body>
+    <!-- Prototype: pin the version. Bump deliberately after checking release notes. -->
+    <!-- 0.205.3: image/asset thumbnail blob URLs (#944). -->
+    <script src="https://unpkg.com/@sveltia/cms@0.205.3/dist/sveltia-cms.js"></script>
+    <script>
+      // Workaround: with i18n (second locale pane + sync scroll), opening an entry
+      // often leaves the edit pane mid-form. No matching upstream bug filed yet;
+      // remove if Sveltia fixes initial scroll/focus. Retries cover late layout.
+      (function () {
+        function scrollEditorsToTop() {
+          document.querySelectorAll(".content").forEach(function (el) {
+            if (el.scrollHeight > el.clientHeight + 8) el.scrollTop = 0;
+          });
+        }
+
+        function maybeReset() {
+          if (!/#\/collections\/[^/]+\/(entries\/|new)/.test(location.hash)) return;
+          scrollEditorsToTop();
+          requestAnimationFrame(scrollEditorsToTop);
+          setTimeout(scrollEditorsToTop, 100);
+          setTimeout(scrollEditorsToTop, 400);
+        }
+
+        window.addEventListener("hashchange", maybeReset);
+        ["pushState", "replaceState"].forEach(function (name) {
+          var orig = history[name];
+          history[name] = function () {
+            var ret = orig.apply(this, arguments);
+            maybeReset();
+            return ret;
+          };
+        });
+      })();
+    </script>
+  </body>
+</html>

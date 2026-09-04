@@ -2,11 +2,12 @@
 title: Hyènes, un western tropical
 lang: fr
 date: 2024-08-18
-img: posts/hyenes.jpg
+img: /assets/img/posts/hyenes.jpg
 tags: [Djibril Diop Mambety, Senegal, Cinema]
 description: "Les Hyènes de Djibril Diop Mambety à Cannes en 1992 : un western tropical sur le retour aux sources, la vengeance et le prix du développement."
-publisher: L'Harmattan Italia
-publication_link: https://www.amazon.it/Djibril-rivoluzione-cinematografica-visionario-senegalese/dp/8878923605
+republication:
+  publisher: L'Harmattan Italia
+  publication_link: https://www.amazon.it/Djibril-rivoluzione-cinematografica-visionario-senegalese/dp/8878923605
 ---
 
 ![Ramatou et les Amazones](/assets/img/posts/hyenes2.jpg)

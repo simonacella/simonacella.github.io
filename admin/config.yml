@@ -1,0 +1,140 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms@0.205.3/schema/sveltia-cms.json
+#
+# Prototype CMS for authoring posts without the GitHub web UI.
+# Auth for this spike: Sign in with a GitHub personal access token
+# (no OAuth worker yet). Do not put /admin in the public nav.
+
+backend:
+  name: github
+  repo: simonacella/simonacella.github.io
+  branch: main
+  auth_methods: [token]
+  # Prefer Save without thrashing Pages while we experiment.
+  skip_ci: true
+
+site_url: https://simonacella.github.io
+display_url: https://simonacella.github.io
+
+# Match README-ish stems (Title-Case) and avoid Unicode filenames (Hyènes…).
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+  lowercase: false
+  timezone: local
+
+# Cover + body images share this path (public URL must match disk for CMS thumbnails).
+media_folder: /assets/img/posts
+public_folder: /assets/img/posts
+
+# Drop empty optional fields from YAML (no bare last_modified_at / empty republication).
+output:
+  omit_empty_optional_fields: true
+
+i18n:
+  structure: multiple_files
+  locales: [it, en, fr]
+  default_locale: it
+  omit_default_locale_from_file_path: true
+  # Italian-only posts are normal during soft launch.
+  initial_locales: [it]
+
+collections:
+  - name: posts
+    label: Articoli
+    label_singular: Articolo
+    folder: _posts
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    i18n: true
+    editor:
+      preview: false
+    summary: "{{title}} — {{date}}"
+    sortable_fields:
+      fields:
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    view_filters:
+      - label: Solo italiano
+        field: lang
+        pattern: it
+    fields:
+      - name: title
+        label: Titolo
+        widget: string
+        i18n: true
+
+      # Auto-filled from the active locale tab (it / en / fr). Required by content_lint.
+      - name: lang
+        widget: hidden
+        default: "{{locale}}"
+        i18n: true
+
+      - name: date
+        label: Data di pubblicazione
+        widget: datetime
+        type: date
+        i18n: duplicate
+
+      # Same public path as body images so the CMS can resolve thumbnails.
+      - name: img
+        label: Immagine di copertina
+        widget: image
+        required: false
+        i18n: duplicate
+        hint: "File in assets/img/posts/ → salvato come /assets/img/posts/nome.jpg."
+
+      - name: description
+        label: Descrizione (SEO)
+        widget: text
+        i18n: true
+        hint: 1–2 frasi di riassunto, non solo «Recensione di…».
+
+      - name: body
+        label: Testo
+        widget: markdown
+        i18n: true
+        hint: "Immagini nel testo → /assets/img/…. Video → {% youtube \"https://youtu.be/…\" %}"
+
+      - name: tags
+        label: Tag
+        widget: list
+        i18n: duplicate
+        hint: Sempre in italiano, anche nelle traduzioni.
+        field:
+          label: Tag
+          name: tag
+          widget: string
+
+      # Meta after body so the editor opens on title → writing, not mid-form.
+      - name: republication
+        label: Uscito anche altrove
+        widget: object
+        required: false
+        i18n: duplicate
+        collapsed: true
+        summary: "{{publisher}}"
+        hint: Attiva solo se l’articolo è già uscito (es. Nigrizia). Altrimenti lascia spento.
+        fields:
+          - name: publisher
+            label: Editore
+            widget: string
+          - name: publication_link
+            label: Link all’originale
+            widget: string
+            type: url
+            pattern:
+              - '^https://.+'
+              - Deve iniziare con https://
+
+      - name: last_modified_at
+        label: Ultima modifica
+        widget: datetime
+        type: date
+        required: false
+        i18n: duplicate

@@ -1,0 +1,15 @@
+{% comment %}
+  Input: cover_img — front-matter path.
+  Output: cover_src — site path or absolute URL for <img src> / Open Graph.
+  Accepts /assets/img/posts/… (CMS) or legacy posts/… .
+{% endcomment %}
+{% if cover_img contains '://' %}
+  {% assign cover_src = cover_img %}
+{% else %}
+  {% assign _cover_first = cover_img | slice: 0 %}
+  {% if _cover_first == '/' %}
+    {% assign cover_src = cover_img %}
+  {% else %}
+    {% assign cover_src = '/assets/img/' | append: cover_img %}
+  {% endif %}
+{% endif %}
