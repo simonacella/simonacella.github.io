@@ -6,17 +6,18 @@ alwaysApply: false
 
 # Sveltia CMS / posts
 
-Pending work: `.cursor/plans/sveltia-cms.md` (hub). Do not invent a parallel auth or soft-launch approach.
+Pending work: `.cursor/plans/sveltia-cms.md` (hub). Current phase: **local CMS only** (Local Repository). Do not invent a parallel auth or soft-launch approach.
 
 ## Must preserve
 
 - Pin `@sveltia/cms` in `admin/index.html` (versioned unpkg URL); bump deliberately.
-- Auth: `auth_methods: [token]` until OAuth is un-parked (plan). No client secret in this repo.
+- Backend config may declare GitHub + `auth_methods: [token]` for later remote use; day-to-day spike is Local Repository (no PAT required).
+- No client secret in this repo. OAuth stays parked until un-parked explicitly.
 - Workflow: simple commit to `main` (not editorial). `skip_ci: true` unless changing publish policy on purpose.
 - i18n: `multiple_files`, `default_locale: it`, `omit_default_locale_from_file_path: true` → `Stem.md` / `Stem.en.md` / `Stem.fr.md`.
 - `lang`: hidden widget, `default: "{{locale}}"`, `i18n: true` — never a manual select.
 - Dates: `type: date` (ISO). Day.js — `YYYY-MM-DD` / not `yyyy-MM-dd` (`dd` is weekday).
 - Slugs: `encoding: ascii`, `clean_accents: true`, `lowercase: false`; post slug `{{year}}-{{month}}-{{day}}-{{slug}}`.
-- Cover `public_folder: posts`; body media `/assets/img/posts`.
+- Cover and body media: `media_folder` / `public_folder` both `/assets/img/posts` (leading slash on public — required for thumbnails). Front matter `img: /assets/img/posts/…`.
 - `output.omit_empty_optional_fields: true`.
 - Republication: CMS writes optional object `republication` (`publisher` + `publication_link`). Existing posts may still use flat keys; lint accepts either shape (not both). Template reads both.
