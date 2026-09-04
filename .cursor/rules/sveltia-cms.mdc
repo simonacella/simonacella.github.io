@@ -1,0 +1,22 @@
+---
+description: Sveltia CMS and post front-matter invariants
+globs: admin/**/*,_posts/**/*.md,_layouts/post.html,_plugins/content_lint.rb
+alwaysApply: false
+---
+
+# Sveltia CMS / posts
+
+Pending work: `.cursor/plans/sveltia-cms.md` (hub). Do not invent a parallel auth or soft-launch approach.
+
+## Must preserve
+
+- Pin `@sveltia/cms` in `admin/index.html` (versioned unpkg URL); bump deliberately.
+- Auth: `auth_methods: [token]` until OAuth is un-parked (plan). No client secret in this repo.
+- Workflow: simple commit to `main` (not editorial). `skip_ci: true` unless changing publish policy on purpose.
+- i18n: `multiple_files`, `default_locale: it`, `omit_default_locale_from_file_path: true` → `Stem.md` / `Stem.en.md` / `Stem.fr.md`.
+- `lang`: hidden widget, `default: "{{locale}}"`, `i18n: true` — never a manual select.
+- Dates: `type: date` (ISO). Day.js — `YYYY-MM-DD` / not `yyyy-MM-dd` (`dd` is weekday).
+- Slugs: `encoding: ascii`, `clean_accents: true`, `lowercase: false`; post slug `{{year}}-{{month}}-{{day}}-{{slug}}`.
+- Cover `public_folder: posts`; body media `/assets/img/posts`.
+- `output.omit_empty_optional_fields: true`.
+- Republication: optional object `republication` with `publisher` + `publication_link` — not flat keys. Template and `content_lint` expect the nest.
