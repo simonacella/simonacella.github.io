@@ -166,35 +166,24 @@ Lì compaiono i pulsanti per passare da una lingua all’altra. Quando è il mom
 
 ## Modificare la tua biografia
 
-La tua biografia vive nel file `_data/site-text.yml`, in tre versioni (`it:`, `en:`, `fr:`). Cerca il blocco della lingua che vuoi aggiornare:
+Dal CMS: **Pagine → Chi sono** (italiano / inglese / francese). In alternativa, modifica `_data/about.yml` a mano:
 
 ```yaml
 it:
+  title: "Chi sono"
+  description: "Profilo di Simona Cella…"
   about_author: "Sceneggiatrice, produttrice, critica cinematografica"
   about_author_long: |
-    Esperta di cinema africano e terzo cinema, Simona Cella si è laureata in Storia del Cinema
-    presso l’Università degli Studi di Parma con una tesi sul cinema di Djibril Diop Mambety.
+    Esperta di cinema africano e terzo cinema…
 ```
 
-- `about_author` è la riga breve che appare vicino alle icone di contatto, in fondo agli articoli. Tienila corta e tra virgolette.
-- `about_author_long` è il testo lungo della pagina «Chi sono». Si scrive in **Markdown**, come negli articoli (grassetto, corsivo, link, elenchi, titoli…). Attenzione a tre cose:
-  - la barra verticale `|` subito dopo i due punti **non va toccata**: dice al sito «tutto il testo indentato qui sotto fa parte della biografia».
-  - ogni riga del testo deve restare indentata come le righe intorno (di solito 4 spazi).
-  - lascia una **riga vuota** (sempre indentata) tra un paragrafo e l’altro. Non lasciare **spazi alla fine** di una riga: in Markdown due spazi finali forzano un a capo a metà frase.
+- `about_author` è la riga breve vicino alle icone di contatto, in fondo agli articoli. Tienila corta.
+- `about_author_long` è il testo lungo della pagina «Chi sono» (Markdown: grassetto, link, elenchi…).
+- `title` / `description` sono titolo e SEO della pagina «Chi sono».
 
-Esempio di formattazione:
+Se modifichi il YAML a mano: la barra verticale `|` dopo `about_author_long:` non va toccata; ogni riga del testo resta indentata; lascia una **riga vuota** (indentata) tra paragrafi. Non lasciare **spazi alla fine** di una riga.
 
-```yaml
-  about_author_long: |
-    Primo paragrafo della biografia.
-
-    Secondo paragrafo, con un [link](https://esempio.it) e del _corsivo_.
-
-    - un punto elenco
-    - un altro punto
-```
-
-Per aggiornare la versione inglese o francese, scorri fino al blocco `en:` o `fr:` e modifica le stesse due voci lì. Se non hai ancora una traduzione, lascia il testo com’è: è meglio di una traduzione a metà o di una riga vuota.
+Per aggiornare inglese o francese, usa le schede lingua nel CMS oppure i blocchi `en:` / `fr:` nello stesso file.
 
 ## Modificare titolo e descrizione del sito
 

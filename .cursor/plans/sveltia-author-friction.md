@@ -11,6 +11,7 @@
 - [x] Date fields use `type: date` (ISO `YYYY-MM-DD`; fixed bad `yyyy-MM-dd` → `yyyy-08-Su`)
 - [x] i18n file naming aligned with polyglot (`multiple_files`, omit default locale)
 - [x] Cover + body media share `/assets/img/posts` (field-level `public_folder: posts` broke thumbnails — treated as entry-relative)
+- [x] **About page in CMS** — `_data/about.yml` + file collection Pagine → Chi sono (split from site-text so saves stay safe)
 - [x] `skip_ci: true` so Save does not wait on Pages every typo
 - [x] Investigation + author-UX canvases (IDE); OAuth/Hetzner parked with brief
 

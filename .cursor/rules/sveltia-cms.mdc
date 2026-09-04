@@ -1,6 +1,6 @@
 ---
 description: Sveltia CMS and post front-matter invariants
-globs: admin/**/*,_posts/**/*.md,_layouts/post.html,_plugins/content_lint.rb
+globs: admin/**/*,_posts/**/*.md,_data/about.yml,_layouts/post.html,_plugins/content_lint.rb
 alwaysApply: false
 ---
 
@@ -19,5 +19,6 @@ Pending work: `.cursor/plans/sveltia-cms.md` (hub). Current phase: **local CMS o
 - Dates: `type: date` (ISO). Day.js — `YYYY-MM-DD` / not `yyyy-MM-dd` (`dd` is weekday).
 - Slugs: `encoding: ascii`, `clean_accents: true`, `lowercase: false`; post slug `{{year}}-{{month}}-{{day}}-{{slug}}`.
 - Cover and body media: `media_folder` / `public_folder` both `/assets/img/posts` (leading slash on public — required for thumbnails). Front matter `img: /assets/img/posts/…`.
+- About / bio: `_data/about.yml` (locale keys `it`/`en`/`fr`); CMS file collection **Pagine → Chi sono** with `i18n: true` on collection and file. Do not put about fields only in `site-text.yml` (CMS would wipe sibling keys on save).
 - `output.omit_empty_optional_fields: true`.
 - Republication: CMS writes optional object `republication` (`publisher` + `publication_link`). Existing posts may still use flat keys; lint accepts either shape (not both). Template reads both.

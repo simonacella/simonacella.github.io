@@ -5,8 +5,9 @@ Resolve the active language once and expose interface/site copy.
                falls back to site.locale, then 'it').
 - `ui`       : interface strings for `locale` (see _data/ui-text.yml).
 - `sitetext` : localized site copy for `locale` (see _data/site-text.yml).
-- `page_title` / `page_description` : prefer sitetext.pages[page.content_id]
-               when set, else page front matter.
+- `about`    : about / bio copy for `locale` (see _data/about.yml).
+- `page_title` / `page_description` : prefer about.yml when content_id is about;
+               else sitetext.pages[page.content_id] when set; else page front matter.
 
 Both lookups fall back to Italian when a locale is missing entirely, so
 templates can reference `ui.*` / `sitetext.*` safely. Include this at the top
@@ -45,10 +46,14 @@ paths inside JavaScript or JSON.
 {%- assign locale = site.active_lang | default: site.locale | default: 'it' -%}
 {%- assign ui = site.data.ui-text[locale] | default: site.data.ui-text['it'] -%}
 {%- assign sitetext = site.data.site-text[locale] | default: site.data.site-text['it'] -%}
+{%- assign about = site.data.about[locale] | default: site.data.about['it'] -%}
 {%- assign tag_labels = site.data.tag-labels[locale] -%}
 {%- assign page_title = page.title -%}
 {%- assign page_description = page.description -%}
-{%- if page.content_id and sitetext.pages[page.content_id] -%}
+{%- if page.content_id == 'about' and about -%}
+  {%- if about.title -%}{%- assign page_title = about.title -%}{%- endif -%}
+  {%- if about.description -%}{%- assign page_description = about.description -%}{%- endif -%}
+{%- elsif page.content_id and sitetext.pages[page.content_id] -%}
   {%- assign _page_loc = sitetext.pages[page.content_id] -%}
   {%- if _page_loc.title -%}{%- assign page_title = _page_loc.title -%}{%- endif -%}
   {%- if _page_loc.description -%}{%- assign page_description = _page_loc.description -%}{%- endif -%}

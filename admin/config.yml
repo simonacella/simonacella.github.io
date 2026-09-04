@@ -50,7 +50,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     i18n: true
     editor:
-      preview: false
+      preview: true
     summary: "{{title}} — {{date}}"
     sortable_fields:
       fields:
@@ -138,3 +138,40 @@ collections:
         type: date
         required: false
         i18n: duplicate
+
+  # About lives in its own data file so CMS saves cannot wipe other site-text keys.
+  # Collection + file both need i18n: true so locale keys (it/en/fr) unwrap into the form.
+  - name: pages
+    label: Pagine
+    i18n: true
+    files:
+      - name: about
+        label: Chi sono
+        file: _data/about.yml
+        format: yaml
+        i18n: true
+        editor:
+          preview: true
+        fields:
+          - name: title
+            label: Titolo pagina
+            widget: string
+            i18n: true
+
+          - name: description
+            label: Descrizione (SEO)
+            widget: text
+            i18n: true
+            hint: 1–2 frasi per Google e le anteprime social.
+
+          - name: about_author
+            label: Bio breve
+            widget: string
+            i18n: true
+            hint: Una riga sotto il nome, anche in fondo agli articoli.
+
+          - name: about_author_long
+            label: Biografia
+            widget: markdown
+            i18n: true
+            hint: Testo della pagina «Chi sono». Paragrafi separati da una riga vuota.
