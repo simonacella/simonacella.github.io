@@ -27,6 +27,11 @@ slug:
 media_folder: /assets/img/posts
 public_folder: /assets/img/posts
 
+# Match content_lint / README: no spaces (or odd chars) in uploaded asset names.
+media_libraries:
+  all:
+    slugify_filename: true
+
 # Drop empty optional fields from YAML (no bare last_modified_at / empty republication).
 output:
   omit_empty_optional_fields: true
@@ -99,7 +104,7 @@ collections:
         label: Testo
         widget: markdown
         i18n: true
-        hint: "Immagini nel testo → /assets/img/…. Video → {% youtube \"https://youtu.be/…\" %}"
+        hint: "Immagini: pulsante Immagine. Video: Inserisci → YouTube (o {% youtube \"https://youtu.be/…\" %})."
 
       - name: tags
         label: Tag

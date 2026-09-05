@@ -7,13 +7,11 @@
     <title>CMS — Il cinema come amuleto</title>
   </head>
   <body>
-    <!-- Prototype: pin the version. Bump deliberately after checking release notes. -->
-    <!-- 0.205.3: image/asset thumbnail blob URLs (#944). -->
+    <!-- Pin the version. Bump deliberately after checking release notes. -->
     <script src="https://unpkg.com/@sveltia/cms@0.205.3/dist/sveltia-cms.js"></script>
     <script>
-      // Workaround: with i18n (second locale pane + sync scroll), opening an entry
-      // often leaves the edit pane mid-form. No matching upstream bug filed yet;
-      // remove if Sveltia fixes initial scroll/focus. Retries cover late layout.
+      // Workaround: opening an entry often leaves the edit pane mid-form.
+      // Reset .content to top; drop when Sveltia fixes initial scroll/focus.
       (function () {
         function scrollEditorsToTop() {
           document.querySelectorAll(".content").forEach(function (el) {
@@ -37,6 +35,60 @@
             maybeReset();
             return ret;
           };
+        });
+      })();
+    </script>
+    <script>
+      // Insert → YouTube writes the site Liquid tag {% youtube "…" %}.
+      (function () {
+        function youtubeId(url) {
+          if (!url) return "";
+          var m =
+            url.match(/youtu\.be\/([A-Za-z0-9_-]{11})/) ||
+            url.match(/(?:v=|\/embed\/|\/v\/|\/shorts\/)([A-Za-z0-9_-]{11})/);
+          return m ? m[1] : "";
+        }
+
+        CMS.registerEditorComponent({
+          id: "youtube",
+          label: "YouTube",
+          icon: "youtube_activity",
+          fields: [
+            {
+              name: "url",
+              label: "URL del video",
+              widget: "string",
+              hint: "youtu.be/… oppure youtube.com/watch?v=…",
+            },
+          ],
+          pattern: /\{\%\s*youtube\s+["'](?<url>[^"']+)["']\s*\%\}/m,
+          toBlock: function (data) {
+            var url = (data && data.url ? String(data.url) : "").trim();
+            return '{% youtube "' + url + '" %}';
+          },
+          toPreview: function (data) {
+            var url = (data && data.url ? String(data.url) : "").trim();
+            var id = youtubeId(url);
+            if (!id) {
+              return url
+                ? "<p><code>{% youtube &quot;" +
+                    url.replace(/&/g, "&amp;").replace(/</g, "&lt;") +
+                    "&quot; %}</code></p>"
+                : "";
+            }
+            // Thumbnail only — live iframes hit YouTube error 153 without a
+            // usable Referer (CMS preview / strict referrer policies).
+            return (
+              '<p><a href="https://www.youtube.com/watch?v=' +
+              id +
+              '" target="_blank" rel="noopener noreferrer">' +
+              '<img src="https://i.ytimg.com/vi/' +
+              id +
+              '/hqdefault.jpg" alt="Anteprima YouTube" ' +
+              'width="480" height="360" ' +
+              'style="max-width:100%;height:auto;border:0;border-radius:4px"></a></p>'
+            );
+          },
         });
       })();
     </script>

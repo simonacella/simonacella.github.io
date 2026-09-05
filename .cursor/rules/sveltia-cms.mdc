@@ -10,7 +10,7 @@ Pending work: `.cursor/plans/sveltia-cms.md` (hub). Current phase: **local CMS o
 
 ## Must preserve
 
-- Pin `@sveltia/cms` in `admin/index.html` (versioned unpkg URL); bump deliberately.
+- Pin `@sveltia/cms` in `admin/index.html` (versioned unpkg URL); bump deliberately. YouTube Insert via `CMS.registerEditorComponent` (writes `{% youtube "…" %}`). Temporary scroll-to-top on entry open (reset `.content`); no IndexedDB UI seeding.
 - Backend config may declare GitHub + `auth_methods: [token]` for later remote use; day-to-day spike is Local Repository (no PAT required).
 - No client secret in this repo. OAuth stays parked until un-parked explicitly.
 - Workflow: simple commit to `main` (not editorial). `skip_ci: true` unless changing publish policy on purpose.
@@ -18,7 +18,7 @@ Pending work: `.cursor/plans/sveltia-cms.md` (hub). Current phase: **local CMS o
 - `lang`: hidden widget, `default: "{{locale}}"`, `i18n: true` — never a manual select.
 - Dates: `type: date` (ISO). Day.js — `YYYY-MM-DD` / not `yyyy-MM-dd` (`dd` is weekday).
 - Slugs: `encoding: ascii`, `clean_accents: true`, `lowercase: false`; post slug `{{year}}-{{month}}-{{day}}-{{slug}}`.
-- Cover and body media: `media_folder` / `public_folder` both `/assets/img/posts` (leading slash on public — required for thumbnails). Front matter `img: /assets/img/posts/…`.
+- Cover and body media: `media_folder` / `public_folder` both `/assets/img/posts` (leading slash on public — required for thumbnails). Front matter `img: /assets/img/posts/…`. Uploads: `media_libraries.all.slugify_filename: true` (uses global `slug` options; keeps `content_lint` space rule happy).
 - About / bio: `_data/about.yml` (locale keys `it`/`en`/`fr`); CMS file collection **Pagine → Chi sono** with `i18n: true` on collection and file. Do not put about fields only in `site-text.yml` (CMS would wipe sibling keys on save).
 - `output.omit_empty_optional_fields: true`.
 - Republication: CMS writes optional object `republication` (`publisher` + `publication_link`). Existing posts may still use flat keys; lint accepts either shape (not both). Template reads both.

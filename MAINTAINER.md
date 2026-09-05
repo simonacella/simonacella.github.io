@@ -10,7 +10,7 @@ Replace GitHub’s awkward web UI with **`/admin`** (Sveltia) so Simona can writ
 
 **Local only for now.** Run `jekyll serve`, open `http://127.0.0.1:4000/admin/`, choose **Work with Local Repository**. Saves write the working tree; you commit in git yourself. Brave may need the File System Access flag. No PAT / remote `/admin` handoff yet. Sveltia pinned at **0.205.3**.
 
-**Prototype config** in `admin/` — pinned Sveltia, GitHub backend still declared for later remote use, Italian-first locales, cover + body both `/assets/img/posts`, **Pagine → Chi sono** (`_data/about.yml`), auto `lang`, sane dates, `skip_ci`, empty optionals omitted, optional **`republication`** checkbox. Posts with a prior publisher use nested `republication` front matter. Cover front matter is `img: /assets/img/posts/…`. Preview pane on for posts/about.
+**Prototype config** in `admin/` — pinned Sveltia, GitHub backend still declared for later remote use, Italian-first locales, cover + body both `/assets/img/posts`, **`slugify_filename`** on uploads (spaces → `-` via global `slug`), **Pagine → Chi sono** (`_data/about.yml`), Insert → YouTube for `{% youtube %}`, auto `lang`, sane dates, `skip_ci`, empty optionals omitted, optional **`republication`** checkbox. Posts with a prior publisher use nested `republication` front matter. Cover front matter is `img: /assets/img/posts/…`. Preview pane on for posts/about.
 
 **Auth (later):** PAT on published `/admin`, then parked OAuth (Hetzner brief in `_review/`). Not blocking current UX work.
 
@@ -20,7 +20,7 @@ Replace GitHub’s awkward web UI with **`/admin`** (Sveltia) so Simona can writ
 
 ## Next (local UX first)
 
-1. Editor open scroll — workaround in `admin/index.html` (reset `.content` on entry open; drop when upstream fixes). Field order keeps body before meta.
+1. Editor open scroll — scroll-to-top workaround restored in `admin/index.html` (reset `.content` on entry open; drop when upstream fixes). Field order keeps body before meta.
 2. More local friction fixes (hints, smoke on disk + `jekyll build`) — `.cursor/plans/sveltia-author-friction.md`.
 3. Later: remote PAT / OAuth, selective soft launch, README CMS-first.
 

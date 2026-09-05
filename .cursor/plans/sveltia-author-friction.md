@@ -11,13 +11,14 @@
 - [x] Date fields use `type: date` (ISO `YYYY-MM-DD`; fixed bad `yyyy-MM-dd` → `yyyy-08-Su`)
 - [x] i18n file naming aligned with polyglot (`multiple_files`, omit default locale)
 - [x] Cover + body media share `/assets/img/posts` (field-level `public_folder: posts` broke thumbnails — treated as entry-relative)
-- [x] **About page in CMS** — `_data/about.yml` + file collection Pagine → Chi sono (split from site-text so saves stay safe)
+- [x] **About page in CMS** — `_data/about.yml` + file collection Pagine → Chi sono
+- [x] **YouTube in CMS** — Insert → YouTube → `{% youtube "…" %}` via `registerEditorComponent` in `admin/index.html`
 - [x] `skip_ci: true` so Save does not wait on Pages every typo
 - [x] Investigation + author-UX canvases (IDE); OAuth/Hetzner parked with brief
 
 ## Next / open
 
-- [x] **Editor opens mid-form** — workaround in `admin/index.html` (+ body before meta). Revisit if Sveltia fixes initial scroll/focus.
+- [ ] **Editor opens mid-form** — not a known open upstream bug; no `index.html` hacks. A/B: Sync Scrolling / Show Second Pane.
 - [ ] **Smoke gate (local):** open triad + new IT-only draft via Local Repository; inspect files on disk; `JEKYLL_ENV=production bundle exec jekyll build`; discard junk
 - [x] `omit_empty_optional_fields: true` — empty optionals omitted (no `publisher: ''`)
 - [x] Optional `republication` object (checkbox; nested `publisher` + `publication_link`)
