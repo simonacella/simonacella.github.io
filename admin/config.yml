@@ -9,8 +9,7 @@ backend:
   repo: simonacella/simonacella.github.io
   branch: main
   auth_methods: [token]
-  # Prefer Save without thrashing Pages while we experiment.
-  skip_ci: true
+  skip_ci: false
 
 site_url: https://simonacella.github.io
 display_url: https://simonacella.github.io
