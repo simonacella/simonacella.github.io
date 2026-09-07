@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms@0.205.3/schema/sveltia-cms.json
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms@0.206.0/schema/sveltia-cms.json
 #
 # Prototype CMS for authoring posts without the GitHub web UI.
 # Auth for this spike: Sign in with a GitHub personal access token
