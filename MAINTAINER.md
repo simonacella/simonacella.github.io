@@ -8,7 +8,7 @@ Replace GitHub’s awkward web UI with **`/admin`** (Sveltia) so Simona can writ
 
 ## Where we are
 
-**Local only for now.** Run `jekyll serve`, open `http://127.0.0.1:4000/admin/`, choose **Work with Local Repository**. Saves write the working tree; you commit in git yourself. Brave may need the File System Access flag. No PAT / remote `/admin` handoff yet. Sveltia pinned at **0.205.3**.
+**Local only for now.** Run `jekyll serve`, open `http://127.0.0.1:4000/admin/`, choose **Work with Local Repository**. Saves write the working tree; you commit in git yourself. Brave may need the File System Access flag. No PAT / remote `/admin` handoff yet. Sveltia pinned at **0.205.3** (Renovate watches the unpkg pins in `admin/`; review those PRs, don’t automerge).
 
 **Prototype config** in `admin/` — pinned Sveltia, GitHub backend still declared for later remote use, Italian-first locales, cover + body both `/assets/img/posts`, **`slugify_filename`** on uploads (spaces → `-` via global `slug`), **Pagine → Chi sono** (`_data/about.yml`), Insert → YouTube for `{% youtube %}`, auto `lang`, sane dates, `skip_ci`, empty optionals omitted, optional **`republication`** checkbox. Posts with a prior publisher use nested `republication` front matter. Cover front matter is `img: /assets/img/posts/…`. Preview pane on for posts/about.
 

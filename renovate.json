@@ -13,6 +13,18 @@
 		"enabled": true,
 		"schedule": ["at any time"]
 	},
+	"customManagers": [
+		{
+			"customType": "regex",
+			"description": "Pinned @sveltia/cms unpkg URLs in admin (script + schema)",
+			"managerFilePatterns": ["/^admin\\/(index\\.html|config\\.yml)$/"],
+			"matchStrings": [
+				"unpkg\\.com/(?<depName>@sveltia/cms)@(?<currentValue>[^/\"'\\s?#]+)"
+			],
+			"datasourceTemplate": "npm",
+			"versioningTemplate": "npm"
+		}
+	],
 	"packageRules": [
 		{
 			"description": "Jekyll and its plugins",
@@ -27,6 +39,12 @@
 			"description": "GitHub Actions",
 			"matchManagers": ["github-actions"],
 			"groupName": "github actions"
+		},
+		{
+			"description": "Sveltia CMS CDN pins — review release notes before merge",
+			"matchPackageNames": ["@sveltia/cms"],
+			"groupName": "sveltia cms",
+			"automerge": false
 		}
 	]
 }

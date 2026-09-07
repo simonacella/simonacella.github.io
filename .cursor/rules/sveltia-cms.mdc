@@ -10,7 +10,7 @@ Pending work: `.cursor/plans/sveltia-cms.md` (hub). Current phase: **local CMS o
 
 ## Must preserve
 
-- Pin `@sveltia/cms` in `admin/index.html` (versioned unpkg URL); bump deliberately. YouTube Insert via `CMS.registerEditorComponent` (writes `{% youtube "…" %}`). Temporary scroll-to-top on entry open (reset `.content`); no IndexedDB UI seeding.
+- Pin `@sveltia/cms` in `admin/index.html` and matching schema URL in `admin/config.yml` (same version). Renovate regex manager bumps both together (`groupName: sveltia cms`); merge only after checking release notes — no automerge. YouTube Insert via `CMS.registerEditorComponent` (writes `{% youtube "…" %}`). Temporary scroll-to-top on entry open (reset `.content`); no IndexedDB UI seeding.
 - Backend config may declare GitHub + `auth_methods: [token]` for later remote use; day-to-day spike is Local Repository (no PAT required).
 - No client secret in this repo. OAuth stays parked until un-parked explicitly.
 - Workflow: simple commit to `main` (not editorial). `skip_ci: true` unless changing publish policy on purpose.
