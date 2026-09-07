@@ -8,25 +8,28 @@ Replace GitHub’s awkward web UI with **`/admin`** (Sveltia) so Simona can writ
 
 ## Where we are
 
-**Local only for now.** Run `jekyll serve`, open `http://127.0.0.1:4000/admin/`, choose **Work with Local Repository**. Saves write the working tree; you commit in git yourself. Brave may need the File System Access flag. No PAT / remote `/admin` handoff yet. Sveltia pinned at **0.205.3** (Renovate watches the unpkg pins in `admin/`; review those PRs, don’t automerge).
+**Remote `/admin` in use.** Production `https://simonacella.github.io/admin/` with GitHub classic PAT (`auth_methods: [token]`). Saves commit to `main`. **`skip_ci: false`** — every Save triggers Pages (build + deploy). Local Repository still works for maintainer spikes (`jekyll serve` → Local Repository). Sveltia pinned at **0.205.3** (Renovate watches the unpkg pins in `admin/`; review those PRs, don’t automerge).
 
-**Prototype config** in `admin/` — pinned Sveltia, GitHub backend still declared for later remote use, Italian-first locales, cover + body both `/assets/img/posts`, **`slugify_filename`** on uploads (spaces → `-` via global `slug`), **Pagine → Chi sono** (`_data/about.yml`), Insert → YouTube for `{% youtube %}`, auto `lang`, sane dates, `skip_ci`, empty optionals omitted, optional **`republication`** checkbox. Posts with a prior publisher use nested `republication` front matter. Cover front matter is `img: /assets/img/posts/…`. Preview pane on for posts/about.
+**Config** in `admin/` — pinned Sveltia, Italian-first locales, cover + body both `/assets/img/posts`, **`slugify_filename`** on uploads, **Pagine → Chi sono** (`_data/about.yml`), Insert → YouTube for `{% youtube %}`, auto `lang`, sane dates, empty optionals omitted, optional **`republication`** checkbox. Nested `republication` front matter for prior publishers. Cover `img: /assets/img/posts/…`. Preview pane on for posts/about. Scroll-to-top workaround in `admin/index.html`.
 
-**Auth (later):** PAT on published `/admin`, then parked OAuth (Hetzner brief in `_review/`). Not blocking current UX work.
+**Auth:** PAT now; OAuth later (Hetzner brief in `_review/`).
 
 **Soft launch:** still all-or-nothing (`lang_switcher_public: false`). Selective soft launch is **later**.
 
-**Author docs:** `README.md` stays YAML-by-hand until we’re past local UX + a real handoff path.
+**Author docs:** `README.md` still YAML-by-hand; CMS-first checklist later.
 
-## Next (local UX first)
+## Next
 
-1. Editor open scroll — scroll-to-top workaround restored in `admin/index.html` (reset `.content` on entry open; drop when upstream fixes). Field order keeps body before meta.
-2. More local friction fixes (hints, smoke on disk + `jekyll build`) — `.cursor/plans/sveltia-author-friction.md`.
-3. Later: remote PAT / OAuth, selective soft launch, README CMS-first.
+1. Author friction (Italian hints, smoke, `/admin` checklist) — `.cursor/plans/sveltia-author-friction.md`.
+2. Later: OAuth, selective soft launch, README CMS-first.
 
 ## Try it
 
 ```bash
+# Maintainer local spike
 bundle exec jekyll serve          # http://127.0.0.1:4000/admin/ → Local Repository
 JEKYLL_ENV=production bundle exec jekyll build
+
+# Author path
+# https://simonacella.github.io/admin/ → Sign in with GitHub PAT
 ```

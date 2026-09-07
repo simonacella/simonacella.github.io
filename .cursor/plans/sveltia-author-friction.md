@@ -13,7 +13,7 @@
 - [x] Cover + body media share `/assets/img/posts` (field-level `public_folder: posts` broke thumbnails — treated as entry-relative)
 - [x] **About page in CMS** — `_data/about.yml` + file collection Pagine → Chi sono
 - [x] **YouTube in CMS** — Insert → YouTube → `{% youtube "…" %}` via `registerEditorComponent` in `admin/index.html`
-- [x] `skip_ci: true` so Save does not wait on Pages every typo
+- [x] `skip_ci: false` — Save triggers Pages (was `true` during early spike; policy flipped on purpose)
 - [x] Investigation + author-UX canvases (IDE); OAuth/Hetzner parked with brief
 
 ## Next / open
@@ -23,7 +23,7 @@
 - [x] `omit_empty_optional_fields: true` — empty optionals omitted (no `publisher: ''`)
 - [x] Optional `republication` object (checkbox; nested `publisher` + `publication_link`)
 - [ ] Tighten Italian labels/hints in `admin/config.yml`
-- [ ] Short Italian `/admin` checklist — **after** local UX; remote PAT steps only when leaving local-only
+- [ ] Short Italian `/admin` checklist (PAT sign-in + Save → deploy)
 - [ ] Selective soft launch — **later** ([sveltia-selective-soft-launch.md](./sveltia-selective-soft-launch.md))
 - [ ] Pin `@sveltia/cms` version already done in `admin/index.html` — bump deliberately on upgrade
 

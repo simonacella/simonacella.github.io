@@ -8,7 +8,8 @@ backend:
   name: github
   repo: simonacella/simonacella.github.io
   branch: main
-  auth_methods: [token]
+  base_url: https://auth.tientjeketama.nl
+  auth_methods: [oauth]
   skip_ci: false
 
 site_url: https://simonacella.github.io
