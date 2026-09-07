@@ -11,3 +11,11 @@ tags:
 ## Chi siamo
 
 Antico Baglio Siciliano è una struttura ricettiva immersa nella natura e nella storia della Sicilia occidentale. Offriamo un’accoglienza autentica, con ambienti confortevoli e un’atmosfera rilassante.
+
+## Vivi il nostro giardino siciliano
+
+Il cuore dell’Antico Baglio Siciliano è la natura che lo circonda: un autentico agrumeto e un uliveto secolare avvolgono la struttura, regalando profumi, ombra e silenzio.
+
+Tra gli alberi si apre una zona relax sotto una grande tettoia antica, dove puoi leggere, riposare su una sdraio o condividere momenti speciali con chi ami.
+
+A disposizione anche un’area barbecue perfetta per cene all’aperto, tra il verde e la pietra viva del nostro baglio.
