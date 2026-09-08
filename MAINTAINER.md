@@ -8,11 +8,11 @@ Replace GitHub’s awkward web UI with **`/admin`** (Sveltia) so Simona can writ
 
 ## Where we are
 
-**Remote `/admin` in use.** Production `https://simonacella.github.io/admin/` with GitHub classic PAT (`auth_methods: [token]`). Saves commit to `main`. **`skip_ci: false`** — every Save triggers Pages (build + deploy). Local Repository still works for maintainer spikes (`jekyll serve` → Local Repository). Sveltia pinned at **0.205.3** (Renovate watches the unpkg pins in `admin/`; review those PRs, don’t automerge).
+**Remote `/admin` in use.** Production `https://simonacella.github.io/admin/` with **Sign in with GitHub** (OAuth). Auth proxy: `https://auth.tientjeketama.nl` (`backend.base_url`; `auth_methods: [oauth]`). Saves commit to `main`. **`skip_ci: false`** — every Save triggers Pages (build + deploy). Local Repository still works for maintainer spikes (`jekyll serve` → Local Repository). Sveltia pinned at **0.206.0** (Renovate watches the unpkg pins in `admin/`; review those PRs, don’t automerge).
 
 **Config** in `admin/` — pinned Sveltia, Italian-first locales, cover + body both `/assets/img/posts`, **`slugify_filename`** on uploads, **Pagine → Chi sono** (`_data/about.yml`), Insert → YouTube for `{% youtube %}`, auto `lang`, sane dates, empty optionals omitted, optional **`republication`** checkbox. Nested `republication` front matter for prior publishers. Cover `img: /assets/img/posts/…`. Preview pane on for posts/about. Scroll-to-top workaround in `admin/index.html`.
 
-**Auth:** PAT now; OAuth later (Hetzner brief in `_review/`).
+**Auth:** OAuth via Hetzner proxy (secret stays on the VPS, not in this repo). PAT path disabled. Implementor brief kept in `_review/` for the server project.
 
 **Soft launch:** still all-or-nothing (`lang_switcher_public: false`). Selective soft launch is **later**.
 
@@ -20,8 +20,8 @@ Replace GitHub’s awkward web UI with **`/admin`** (Sveltia) so Simona can writ
 
 ## Next
 
-1. Author friction (Italian hints, smoke, `/admin` checklist) — `.cursor/plans/sveltia-author-friction.md`.
-2. Later: OAuth, selective soft launch, README CMS-first.
+1. Author friction (Italian hints, smoke, `/admin` checklist with OAuth) — `.cursor/plans/sveltia-author-friction.md`.
+2. Later: selective soft launch, README CMS-first.
 
 ## Try it
 
@@ -31,5 +31,5 @@ bundle exec jekyll serve          # http://127.0.0.1:4000/admin/ → Local Repos
 JEKYLL_ENV=production bundle exec jekyll build
 
 # Author path
-# https://simonacella.github.io/admin/ → Sign in with GitHub PAT
+# https://simonacella.github.io/admin/ → Sign in with GitHub
 ```

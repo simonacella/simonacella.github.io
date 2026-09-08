@@ -1,0 +1,14 @@
+---
+description: Project-local living docs (Sveltia MAINTAINER.md)
+globs: MAINTAINER.md,README.md,_plugins/content_lint.rb,_review/**
+alwaysApply: false
+---
+
+# Maintainer extras (this repo)
+
+Shared documentation rules are the personal skill `agent-docs`. Do not restate them here.
+
+- **Human living doc:** [`MAINTAINER.md`](../../MAINTAINER.md) — Sveltia effort only (what, where, next). Update it in the same session when that story changes. Do not add a second maintainer file.
+- **Author ops:** `README.md` (Italian); not CMS-first until a plan says so.
+- **Executable contracts:** `_plugins/content_lint.rb`.
+- **One-shot handoffs:** `_review/` — not living topic docs.

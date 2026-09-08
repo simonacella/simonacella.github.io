@@ -6,12 +6,12 @@ alwaysApply: false
 
 # Sveltia CMS / posts
 
-Pending work: `.cursor/plans/sveltia-cms.md` (hub). Current phase: **remote `/admin`** (PAT). Local Repository optional for maintainer spikes. Do not invent a parallel auth or soft-launch approach.
+Pending work: `.cursor/plans/sveltia-cms.md` (hub). Current phase: **remote `/admin`** (OAuth). Local Repository optional for maintainer spikes. Do not invent a parallel auth or soft-launch approach.
 
 ## Must preserve
 
 - Pin `@sveltia/cms` in `admin/index.html` and matching schema URL in `admin/config.yml` (same version). Renovate regex manager bumps both together (`groupName: sveltia cms`); merge only after checking release notes — no automerge. YouTube Insert via `CMS.registerEditorComponent` (writes `{% youtube "…" %}`). Temporary scroll-to-top on entry open (reset `.content`); no IndexedDB UI seeding.
-- Backend: GitHub + `auth_methods: [token]` (PAT on production `/admin`). No client secret in this repo. OAuth stays parked until un-parked explicitly.
+- Backend: GitHub + `base_url: https://auth.tientjeketama.nl` + `auth_methods: [oauth]`. No client secret in this repo (secret lives on the auth VPS). Do not re-enable PAT unless intentional.
 - Workflow: simple commit to `main` (not editorial). `skip_ci: false` — Save triggers Pages; change only on purpose.
 - i18n: `multiple_files`, `default_locale: it`, `omit_default_locale_from_file_path: true` → `Stem.md` / `Stem.en.md` / `Stem.fr.md`.
 - `lang`: hidden widget, `default: "{{locale}}"`, `i18n: true` — never a manual select.

@@ -1,0 +1,12 @@
+---
+description: Simona Cella identity — Jekyll film blog + Sveltia
+alwaysApply: true
+---
+
+# simonacella.github.io
+
+Jekyll blog for Simona Cella (Italian-first, EN/FR translations). User Pages: `https://simonacella.github.io/`. Repo is `simonacella/simonacella.github.io`, not under `rednaw`.
+
+Authors use **Sveltia** at `/admin` (GitHub OAuth via `https://auth.tientjeketama.nl`). CMS invariants: `.cursor/rules/sveltia-cms.mdc`. Human Sveltia status: `MAINTAINER.md`. No Dev Container.
+
+`README.md` is Italian author ops, not CMS-first until a plan says so.

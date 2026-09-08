@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://unpkg.com/@sveltia/cms@0.206.0/schema/sveltia-cms.json
 #
-# Prototype CMS for authoring posts without the GitHub web UI.
-# Auth for this spike: Sign in with a GitHub personal access token
-# (no OAuth worker yet). Do not put /admin in the public nav.
+# CMS for authoring posts without the GitHub web UI.
+# Auth: Sign in with GitHub via OAuth proxy (base_url). Do not put /admin in the public nav.
 
 backend:
   name: github
