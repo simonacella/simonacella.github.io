@@ -10,3 +10,5 @@ Jekyll blog for Simona Cella (Italian-first, EN/FR translations). User Pages: `h
 Authors use **Sveltia** at `/admin` (GitHub OAuth via `https://auth.tientjeketama.nl`). CMS invariants: `.cursor/rules/sveltia-cms.mdc`. Human Sveltia status: `MAINTAINER.md`. No Dev Container.
 
 `README.md` is Italian author ops, not CMS-first until a plan says so.
+
+Part of the **rednaw portfolio**. Do not web-search it. Skill `rednaw-map`.
