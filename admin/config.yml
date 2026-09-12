@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms@0.206.0/schema/sveltia-cms.json
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms@0.209.2/schema/sveltia-cms.json
 #
 # CMS for authoring posts without the GitHub web UI.
 # Auth: Sign in with GitHub via OAuth proxy (base_url). Do not put /admin in the public nav.
