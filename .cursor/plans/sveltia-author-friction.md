@@ -15,7 +15,7 @@
 - [x] **YouTube in CMS** — Insert → YouTube → `{% youtube "…" %}` via `registerEditorComponent` in `admin/index.html`
 - [x] `skip_ci: false` — Save triggers Pages (was `true` during early spike; policy flipped on purpose)
 - [x] Investigation + author-UX canvases (IDE)
-- [x] OAuth via `https://auth.tientjeketama.nl` (`auth_methods: [oauth]`) — Sign in with GitHub works
+- [x] OAuth via `https://auth.rednaw.nl` (`auth_methods: [oauth]`) — Sign in with GitHub works
 
 ## Next / open
 

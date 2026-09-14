@@ -7,7 +7,7 @@ backend:
   name: github
   repo: simonacella/simonacella.github.io
   branch: main
-  base_url: https://auth.tientjeketama.nl
+  base_url: https://auth.rednaw.nl
   auth_methods: [oauth]
   skip_ci: false
 

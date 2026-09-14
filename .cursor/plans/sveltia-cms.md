@@ -1,6 +1,6 @@
 # Sveltia CMS (main hub)
 
-**Mode now:** remote `/admin` (GitHub OAuth via `auth.tientjeketama.nl`). Soft launch later. **Shipped invariants:** `.cursor/rules/sveltia-cms.mdc`. **Human map:** [`MAINTAINER.md`](../../MAINTAINER.md).
+**Mode now:** remote `/admin` (GitHub OAuth via `auth.rednaw.nl`). Soft launch later. **Shipped invariants:** `.cursor/rules/sveltia-cms.mdc`. **Human map:** [`MAINTAINER.md`](../../MAINTAINER.md).
 
 ## Status
 

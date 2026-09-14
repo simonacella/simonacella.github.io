@@ -5,9 +5,9 @@
 
 ## Shipped
 
-- Auth proxy origin: `https://auth.tientjeketama.nl` (Hetzner VPS; secret not in this repo)
+- Auth proxy origin: `https://auth.rednaw.nl` (Hetzner VPS; secret not in this repo)
 - CMS: `backend.base_url` + `auth_methods: [oauth]` in `admin/config.yml`
-- GitHub OAuth App callback: `https://auth.tientjeketama.nl/callback`
+- GitHub OAuth App callback: `https://auth.rednaw.nl/callback`
 - Verified: Sign in with GitHub completes on production `/admin`
 
 ## Why this exists
