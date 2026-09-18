@@ -6,7 +6,7 @@ layout: home-page
   {% for post in paginator.posts %}
   <li>
     <div class="post-card">
-      <a href="{{ post.url }}" title="{{ post.title }}" class="post-card-image">
+      <a {% include post_link_attrs.html post=post %} title="{{ post.title }}" class="post-card-image">
         {% assign cover_img = post.img %}
         {% include cover_src.html %}
         <img src="{{ cover_src }}" alt="{{ post.title }}"{% if forloop.index > 2 %} loading="lazy"{% endif %}>
@@ -14,7 +14,7 @@ layout: home-page
       <div class="post-card-body">
         <p class="post-card-title-and-meta">
           
-          <a href="{{ post.url }}" class="post-card-link">
+          <a {% include post_link_attrs.html post=post %} class="post-card-link">
           {{ post.title }}
           </a>
           {% include post_meta.html type="post-card-meta" date="none" %}

@@ -5,7 +5,11 @@ sitemap: false
 {%- include locale.html -%}
 [
   {% for post in site.posts %}
-    {%- assign search_url = lang_prefix | append: post.url -%}
+    {%- if post.lang == site.active_lang -%}
+      {%- assign search_url = lang_prefix | append: post.url -%}
+    {%- else -%}
+      {%- assign search_url = post.url -%}
+    {%- endif -%}
     {
       "title"       : {{ post.title | jsonify }},
       "tags"        : {{ post.tags | join: ', ' | jsonify }},

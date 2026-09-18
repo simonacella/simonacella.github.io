@@ -24,16 +24,6 @@ Post translations: same date + filename stem + `.en.md`/`.fr.md`, set
 `.fr`); `title:` may differ per language. See README / _data/site-text.yml.
 {%- endcomment -%}
 {%- comment -%}
-`preview_lang` is true on /en/ and /fr/ while the translations are not yet
-announced (lang_switcher_public: false). Soft-launch previews stay noindex.
-Post bodies without a real `.en`/`.fr` file are not copied under /en|/fr
-(see _plugins/strip_post_fallbacks.rb).
-{%- endcomment -%}
-{%- assign preview_lang = false -%}
-{%- if site.active_lang and site.active_lang != site.default_lang and site.lang_switcher_public != true -%}
-  {%- assign preview_lang = true -%}
-{%- endif -%}
-{%- comment -%}
 `lang_prefix` is '' on Italian and '/en' / '/fr' elsewhere. Templates use
 root-absolute paths, and polyglot prefixes plain `href` attributes on its own —
 so this is only needed where its rewriter does not reach: query-string URLs and
@@ -44,6 +34,12 @@ paths inside JavaScript or JSON.
   {%- assign lang_prefix = '/' | append: site.active_lang -%}
 {%- endif -%}
 {%- assign locale = site.active_lang | default: site.locale | default: 'it' -%}
+{%- comment -%}Posts: langs polyglot actually paired. Chrome: always IT/EN/FR.{%- endcomment -%}
+{%- if page.collection == 'posts' -%}
+  {%- assign public_langs = page.available_languages -%}
+{%- else -%}
+  {%- assign public_langs = site.languages -%}
+{%- endif -%}
 {%- assign ui = site.data.ui-text[locale] | default: site.data.ui-text['it'] -%}
 {%- assign sitetext = site.data.site-text[locale] | default: site.data.site-text['it'] -%}
 {%- assign about = site.data.about[locale] | default: site.data.about['it'] -%}

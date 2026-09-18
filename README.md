@@ -12,7 +12,7 @@ Questa guida serve per pubblicare articoli **e** per aggiornare le altre parti d
 - [Come formattare il testo](#come-formattare-il-testo)
 - [Niente spazi nei nomi dei file](#niente-spazi-nei-nomi-dei-file)
 - [Tradurre un articolo (inglese o francese)](#tradurre-un-articolo-inglese-o-francese)
-- [Anteprima delle lingue (senza annunciarlo)](#anteprima-delle-lingue-senza-annunciarlo)
+- [Pubblicare una traduzione](#pubblicare-una-traduzione)
 - [Modificare la tua biografia](#modificare-la-tua-biografia)
 - [Modificare titolo e descrizione del sito](#modificare-titolo-e-descrizione-del-sito)
 - [Modificare i contatti e la foto profilo](#modificare-i-contatti-e-la-foto-profilo)
@@ -141,7 +141,7 @@ Se rinomini un’immagine, aggiorna anche il nome dove compare nel blocco in alt
 ## Tradurre un articolo (inglese o francese)
 
 Il sito può pubblicare la stessa pagina in italiano, inglese e francese.
-L’italiano resta l’originale; le altre lingue si aggiungono **solo quando la traduzione è pronta**.
+L’italiano resta l’originale; EN/FR diventano pubblici solo con **Pubblica questa lingua**.
 
 1. **Copia** il file dell’articolo in `_posts/`.
 2. **Rinomina** la copia aggiungendo `.en` o `.fr` prima di `.md` (**stessa data e stesso nome** — così le versioni condividono lo stesso indirizzo):
@@ -151,18 +151,15 @@ L’italiano resta l’originale; le altre lingue si aggiungono **solo quando la
 3. Nel blocco in alto della copia, cambia `lang: it` in `lang: en` oppure `lang: fr`.
 4. Traduci `title:` (se serve), `description` e il testo sotto il blocco.
 5. **Non cambiare** i `tags:`: restano in italiano (compaiono tradotti nel menu dove serve, vedi [Tradurre le etichette dei tag](#tradurre-le-etichette-dei-tag-avanzato-facoltativo)).
+6. Nel CMS, tab EN o FR, accendi **Pubblica questa lingua** (oppure nel file: `translation_public: true`). Senza quello, la traduzione resta nel repository ma **non** va sul sito.
 
-Finché non crei il file `.en.md` o `.fr.md`, quell’articolo non compare nelle versioni inglese o francese — non è un errore, è previsto.
+### Pubblicare una traduzione
 
-### Anteprima delle lingue (senza annunciarlo)
+Home, Chi sono, archivio e tag hanno i pulsanti IT / EN / FR.
 
-I pulsanti IT / EN / FR **non compaiono** sulle pagine italiane finché le traduzioni non sono pronte da mostrare a tutti.
+Sull’articolo i pulsanti compaiono quando quella lingua è pubblica.
 
-Per controllare inglese o francese: apri il sito aggiungendo `/en/` o `/fr/` dopo il nome del sito, per esempio:
-- `https://simonacella.github.io/en/`
-- `https://simonacella.github.io/fr/about.html`
-
-Lì compaiono i pulsanti per passare da una lingua all’altra. Quando è il momento di annunciare le traduzioni, in `_config.yml` cambia `lang_switcher_public: false` in `true`.
+Le home inglese e francese elencano **tutti** gli articoli. Se la traduzione non è pubblica, il link apre la versione italiana.
 
 ## Modificare la tua biografia
 

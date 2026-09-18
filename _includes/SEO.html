@@ -86,8 +86,7 @@
 <meta property="og:image:alt" content="{{ seo_title }}">
 <meta property="og:site_name" content="{{ site_title }}">
 <meta property="og:locale" content="{{ ui.og_locale | default: 'it_IT' }}">
-{% if site.lang_switcher_public %}
-{% for lang in site.languages %}
+{% for lang in public_langs %}
   {% unless lang == locale %}
     {% assign alt_ui = site.data.ui-text[lang] %}
     {% if alt_ui and alt_ui.og_locale %}
@@ -95,18 +94,12 @@
     {% endif %}
   {% endunless %}
 {% endfor %}
-{% endif %}
 {% comment %}
-Canonical always points at the current URL. hreflang is only emitted once the
-translations are announced (lang_switcher_public: true) — while /en/ and /fr/
-still serve Italian prose they are noindex (see _includes/locale.html), and
-hreflang pointing at noindex pages is both ignored and reported as an error.
-Polyglot's own I18n_Headers is not used because it skips langs that have no
-paired translation file.
+hreflang follows public_langs (posts: paired langs; chrome: all).
+Polyglot I18n_Headers is not used (it skips unpaired langs).
 {% endcomment %}
 <link rel="canonical" href="{{ seo_url }}">
-{% if site.lang_switcher_public %}
-{% for lang in site.languages %}
+{% for lang in public_langs %}
   {% if lang == site.default_lang %}
     {% assign hreflang_href = site.url | append: page.url %}
   {% else %}
@@ -117,7 +110,6 @@ paired translation file.
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
   {% endif %}
 {% endfor %}
-{% endif %}
 {% if is_post %}
 <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 <meta property="article:modified_time" content="{{ seo_modified | date_to_xmlschema }}">

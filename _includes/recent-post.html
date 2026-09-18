@@ -7,7 +7,7 @@
     {% for post in recent_posts limit:4 %}
       {% if post.title %}
         <div class="recent-item">
-          <a href="{{ post.url }}" class="recent-item-img">
+          <a {% include post_link_attrs.html post=post %} class="recent-item-img">
             {% assign cover_img = post.img %}
             {% include cover_src.html %}
             <img src="{{ cover_src }}" alt="{{ post.title }}" loading="lazy">

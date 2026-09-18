@@ -16,6 +16,7 @@
 - [x] `skip_ci: false` — Save triggers Pages (was `true` during early spike; policy flipped on purpose)
 - [x] Investigation + author-UX canvases (IDE)
 - [x] OAuth via `https://auth.rednaw.nl` (`auth_methods: [oauth]`) — Sign in with GitHub works
+- [x] Selective soft launch — `translation_public` on EN/FR; chrome switcher; Italian fallback links on `/en` `/fr` listings
 
 ## Next / open
 
@@ -25,7 +26,6 @@
 - [x] Optional `republication` object (checkbox; nested `publisher` + `publication_link`)
 - [ ] Tighten Italian labels/hints in `admin/config.yml`
 - [ ] Short Italian `/admin` checklist (Sign in with GitHub + Save → deploy)
-- [ ] Selective soft launch — **later** ([sveltia-selective-soft-launch.md](./sveltia-selective-soft-launch.md))
 - [ ] Pin `@sveltia/cms` version already done in `admin/index.html` — bump deliberately on upgrade
 
 ## Not her problem (keep invisible)

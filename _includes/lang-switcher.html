@@ -1,24 +1,10 @@
 {% include locale.html %}
-{%- comment -%}
-Language switcher. Links use static_href so polyglot does not rewrite them.
-
-For posts, limit links to page.available_languages (real translations only).
-Other pages (home, about, …) keep all site.languages — their available_languages
-list is not a translation map.
-
-Soft launch (lang_switcher_public: false): hide on Italian pages; show on
-/en/ and /fr/ so the author can preview without advertising translations.
-{%- endcomment -%}
-{% if site.lang_switcher_public or site.active_lang != site.default_lang %}
-{% if page.collection == 'posts' and page.available_languages and page.available_languages.size > 0 %}
-  {% assign switcher_langs = page.available_languages %}
-{% else %}
-  {% assign switcher_langs = site.languages %}
-{% endif %}
+{%- comment -%}static_href: polyglot must not rewrite these. Hidden when only one lang.{%- endcomment -%}
+{% if public_langs.size > 1 %}
 <nav class="lang-switcher" aria-label="{{ ui.language }}">
   <ul>
   {% for lang in site.languages %}
-    {% if switcher_langs contains lang %}
+    {% if public_langs contains lang %}
     {% assign lang_path = page.url %}
     {% if lang_path == '/' %}
       {% assign lang_path = '' %}

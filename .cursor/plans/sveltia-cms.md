@@ -1,6 +1,6 @@
 # Sveltia CMS (main hub)
 
-**Mode now:** remote `/admin` (GitHub OAuth via `auth.rednaw.nl`). Soft launch later. **Shipped invariants:** `.cursor/rules/sveltia-cms.mdc`. **Human map:** [`MAINTAINER.md`](../../MAINTAINER.md).
+**Mode now:** remote `/admin` (GitHub OAuth via `auth.rednaw.nl`). **Shipped invariants:** `.cursor/rules/sveltia-cms.mdc`. **Human map:** [`MAINTAINER.md`](../../MAINTAINER.md).
 
 ## Status
 
@@ -11,7 +11,7 @@
 | Auto `lang` / dates / omit empty / `republication` / slugify uploads | Done | see rule |
 | OAuth (Hetzner) | **Done** | [sveltia-oauth-hetzner.md](./sveltia-oauth-hetzner.md) → `_review/…` |
 | Author friction | **Next** | [sveltia-author-friction.md](./sveltia-author-friction.md) |
-| Selective soft launch | Later | [sveltia-selective-soft-launch.md](./sveltia-selective-soft-launch.md) |
+| Selective soft launch | **Done** | `translation_public`; see rule |
 | README → CMS-first | Later | after author checklist |
 
 ## Next action

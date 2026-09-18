@@ -1,0 +1,2 @@
+{%- comment -%}Active-lang post: let polyglot prefix. Otherwise lock the Italian URL.{%- endcomment -%}
+{%- if include.post.lang == site.active_lang -%}href="{{ include.post.url }}"{%- else -%}{% static_href %}href="{{ include.post.url }}"{% endstatic_href %}{%- endif -%}

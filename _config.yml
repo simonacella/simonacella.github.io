@@ -38,10 +38,7 @@ highlighter: rouge
 # Polyglot (IT default unprefixed; EN/FR under /en/ and /fr/)
 languages: ["it", "en", "fr"]
 default_lang: "it"
-# Soft launch: hide IT/EN/FR buttons on Italian pages so the site does not
-# look fully translated yet. Author preview: open any URL under /en/ or /fr/
-# (e.g. /en/about.html) — the switcher appears there. Set true to announce.
-lang_switcher_public: false
+# EN/FR article URLs exist only when translation_public: true (CMS: Pubblica questa lingua).
 # Keep parallel off so custom plugins (image intrinsic size) and paginate
 # run predictably in each language build.
 parallel_localization: false

@@ -40,7 +40,7 @@ i18n:
   locales: [it, en, fr]
   default_locale: it
   omit_default_locale_from_file_path: true
-  # Italian-only posts are normal during soft launch.
+  # Italian-only posts are normal until a translation is published.
   initial_locales: [it]
 
 collections:
@@ -68,6 +68,17 @@ collections:
         field: lang
         pattern: it
     fields:
+      # First visible field so EN/FR publish is not buried under Testo.
+      # Opt-in for EN/FR only; strip_post_fallbacks ignores this on Italian.
+      # CMS writes false (omit_empty does not drop it). Only `true` is public.
+      - name: translation_public
+        label: Pubblica questa lingua
+        widget: boolean
+        required: false
+        i18n: true
+        default: false
+        hint: "Solo EN/FR: accendi quando la traduzione è pronta. L’italiano è sempre pubblico."
+
       - name: title
         label: Titolo
         widget: string

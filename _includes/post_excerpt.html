@@ -3,5 +3,5 @@ Formatted teaser from the start of the post (keeps emphasis, links, etc.).
 Images / YouTube facades are hidden via CSS so list pages stay light.
 {%- endcomment -%}
 <div class="post-excerpt">
-  {{ post.content | truncatewords: 100 }}<a class="read-more" href="{{ post.url }}"> {{ ui.read_more }}</a>
+  {{ post.content | truncatewords: 100 }}<a class="read-more" {% include post_link_attrs.html post=post %}> {{ ui.read_more }}</a>
 </div>
