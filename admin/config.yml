@@ -77,7 +77,7 @@ collections:
         required: false
         i18n: true
         default: false
-        hint: "Solo EN/FR: accendi quando la traduzione è pronta. L’italiano è sempre pubblico."
+        hint: "Accendi quando la traduzione è pronta. L’italiano è sempre pubblico."
 
       - name: title
         label: Titolo
