@@ -1,40 +1,28 @@
 # Author friction / handoff
 
-**Parent:** [sveltia-cms.md](./sveltia-cms.md)  
-**Status:** Open  
-**Goal:** Lowest-friction path for a non-developer author using `/admin`.
+Lowest-friction path for a non-developer author using `/admin`. Parent: [sveltia-cms.md](./sveltia-cms.md). Shipped CMS behaviour is `.cursor/rules/sveltia-cms.mdc` — do not relitigate it here.
 
-## Done
+## Decided
 
-- [x] Form-based posts instead of GitHub “Create file”
-- [x] Auto `lang` via hidden `default: "{{locale}}"` + `i18n: true`
-- [x] Date fields use `type: date` (ISO `YYYY-MM-DD`; fixed bad `yyyy-MM-dd` → `yyyy-08-Su`)
-- [x] i18n file naming aligned with polyglot (`multiple_files`, omit default locale)
-- [x] Cover + body media share `/assets/img/posts` (field-level `public_folder: posts` broke thumbnails — treated as entry-relative)
-- [x] **About page in CMS** — `_data/about.yml` + file collection Pagine → Chi sono
-- [x] **YouTube in CMS** — Insert → YouTube → `{% youtube "…" %}` via `registerEditorComponent` in `admin/index.html`
-- [x] `skip_ci: false` — Save triggers Pages (was `true` during early spike; policy flipped on purpose)
-- [x] Investigation + author-UX canvases (IDE)
-- [x] OAuth via `https://auth.rednaw.nl` (`auth_methods: [oauth]`) — Sign in with GitHub works
-- [x] Selective soft launch — `translation_public` on EN/FR; chrome switcher; Italian fallback links on `/en` `/fr` listings
+| | |
+|--|--|
+| Invisible to her | Git branches/PRs (editorial off); YAML indent for posts; polyglot pairing; Brave File System Access (local-dev only). |
+| Success | She publishes a new Italian article (cover, body image, optional YouTube) without opening the GitHub file editor. |
 
-## Next / open
+## Decide
 
-- [ ] **Editor opens mid-form** — not a known open upstream bug; no `index.html` hacks. A/B: Sync Scrolling / Show Second Pane.
-- [ ] **Smoke gate (local):** open triad + new IT-only draft via Local Repository; inspect files on disk; `JEKYLL_ENV=production bundle exec jekyll build`; discard junk
-- [x] `omit_empty_optional_fields: true` — empty optionals omitted (no `publisher: ''`)
-- [x] Optional `republication` object (checkbox; nested `publisher` + `publication_link`)
-- [ ] Tighten Italian labels/hints in `admin/config.yml`
-- [ ] Short Italian `/admin` checklist (Sign in with GitHub + Save → deploy)
-- [ ] Pin `@sveltia/cms` version already done in `admin/index.html` — bump deliberately on upgrade
+None.
 
-## Not her problem (keep invisible)
+## Do
 
-- Git branches/PRs (editorial workflow off)
-- YAML indent/quotes for posts (CMS writes front matter)
-- Polyglot pairing rules (filename + `lang` automation)
-- Brave File System Access flag (local-dev only; she uses remote `/admin`)
+### 0. Editor opens mid-form
 
-## Success test
+can start now — not a known open upstream bug; no `index.html` hacks. A/B: Sync Scrolling / Show Second Pane.
 
-She publishes a new Italian article (cover, body image, optional YouTube line) without opening the GitHub file editor.
+### 1. Smoke gate (local)
+
+can start now — open triad + new IT-only draft via Local Repository; inspect files on disk; `JEKYLL_ENV=production bundle exec jekyll build`; discard junk.
+
+### 2. Italian labels and checklist
+
+can start now — tighten Italian labels/hints in `admin/config.yml`. Short Italian `/admin` checklist (Sign in with GitHub + Save → deploy).
