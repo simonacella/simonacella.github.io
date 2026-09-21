@@ -9,7 +9,8 @@ Remote `/admin` (GitHub OAuth via `auth.rednaw.nl`). Shipped invariants: `.curso
 | Mode | Remote `/admin`. `base_url` + `auth_methods: [oauth]`. `skip_ci: false`. |
 | Local Repository | Optional, maintainer spikes only. |
 | Soft launch | `translation_public` on EN/FR — see the rule. |
-| README | Italian author ops, not CMS-first until author friction lands. |
+| Field copy | Author-facing Italian labels/hints in `admin/config.yml` (no paths, Liquid, or «SEO»). |
+| README | Italian author ops; CMS-first only when the checklist below ships. |
 
 ## Decide
 
@@ -17,10 +18,6 @@ None.
 
 ## Do
 
-### 0. Author friction
+### 0. README → CMS-first
 
-can start now — [sveltia-author-friction.md](./sveltia-author-friction.md).
-
-### 1. README → CMS-first
-
-after author friction — only if that plan’s Italian `/admin` checklist is in use.
+can start now — short Italian `/admin` checklist in `README.md` (Sign in with GitHub → Nuovo articolo → Salva → aspetta il sito), then treat README as CMS-first author ops.

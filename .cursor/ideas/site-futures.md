@@ -36,7 +36,7 @@ Pattern: sibling `anticobagliosiciliano` Lodgify workflow (cron → secret → c
 
 ## Drafts, private media, gated audience
 
-Author friction → `.cursor/plans/sveltia-author-friction.md`. Today: CMS → `main` (see `sveltia-cms.mdc`).
+Today: CMS → `main` (see `sveltia-cms.mdc`).
 
 - Private drafts — second private repo; bot promotes into public. Free on GitHub; sovereign = Forgejo on VPS. Sveltia supports Forgejo 12.0+ (`base_url`/`api_root`); no Editorial Workflow, REST slower — fine since we already commit to `main`.
 - Private media masters — VPS or Hetzner Storage Box (€3.20/mo); build publishes only low-res crops (rights boundary).
