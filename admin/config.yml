@@ -112,12 +112,6 @@ collections:
         i18n: true
         hint: Due frasi di riassunto per anteprime e ricerche. Non solo «Recensione di…».
 
-      - name: body
-        label: Testo
-        widget: markdown
-        i18n: true
-        hint: Scrivi qui. Immagini col pulsante Immagine; video con Inserisci → YouTube.
-
       - name: tags
         label: Tag
         widget: list
@@ -128,7 +122,6 @@ collections:
           name: tag
           widget: string
 
-      # Meta after body so the editor opens on title → writing, not mid-form.
       - name: republication
         label: Uscito anche altrove
         widget: object
@@ -150,6 +143,12 @@ collections:
             pattern:
               - '^https://.+'
               - Deve iniziare con https://
+
+      - name: body
+        label: Testo
+        widget: markdown
+        i18n: true
+        hint: Scrivi qui. Immagini col pulsante Immagine; video con Inserisci → YouTube.
 
       - name: last_modified_at
         label: Ultima modifica
