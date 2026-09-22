@@ -9,6 +9,6 @@ alwaysApply: false
 Shared documentation rules are the personal skill `agent-docs`. Do not restate them here.
 
 - **Human living doc:** [`MAINTAINER.md`](../../MAINTAINER.md) — Sveltia effort only (what, where, next). Update it in the same session when that story changes. Do not add a second maintainer file.
-- **Author ops:** `README.md` (Italian); not CMS-first until a plan says so.
+- **Author ops:** `README.md` (Italian, CMS visual story); file hand-edit: `GUIDA-FILE.md`.
 - **Executable contracts:** `_plugins/content_lint.rb`.
 - **One-shot handoffs:** `_review/` — not living topic docs.

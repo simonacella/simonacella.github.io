@@ -73,7 +73,9 @@ include: [_pages]
 # would otherwise publish needs listing here.
 exclude:
   - scripts/
+  - screenshots/
   - README.md
+  - GUIDA-FILE.md
   - MAINTAINER.md
   - LICENSE
   - NOTICE

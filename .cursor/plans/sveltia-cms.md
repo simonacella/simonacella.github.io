@@ -10,7 +10,11 @@ Remote `/admin` (GitHub OAuth via `auth.rednaw.nl`). Shipped invariants: `.curso
 | Local Repository | Optional, maintainer spikes only. |
 | Soft launch | `translation_public` on EN/FR — see the rule. |
 | Field copy | Author-facing Italian labels/hints in `admin/config.yml` (no paths, Liquid, or «SEO»). |
-| README | Italian author ops; CMS-first only when the checklist below ships. |
+| README aim | Demystify Sveltia vs GitHub file UI. One concrete Italian publish win. |
+| Spine / login / form / close | Concrete win · bottone + Authorize · three form crops · live site shot. |
+| Example piece | [L’Africa al Lido…](https://www.nigrizia.it/notizia/cinema-africano-venezia-83-film-mostra); fragments OK; republication Nigrizia. |
+| Author docs | `README.md` = CMS visual story; `GUIDA-FILE.md` = YAML hand-edit; both excluded from Pages. |
+| Screenshots | `assets/img/admin-guide/01-accedi.png` … `08-online.png` (wired in `README.md`). |
 
 ## Decide
 
@@ -18,6 +22,6 @@ None.
 
 ## Do
 
-### 0. README → CMS-first
+### 0. Optional reshoots
 
-can start now — short Italian `/admin` checklist in `README.md` (Sign in with GitHub → Nuovo articolo → Salva → aspetta il sito), then treat README as CMS-first author ops.
+can start now — GitHub **Authorize** (permission) if preferred over sign-in; dedicated Publish click; YouTube/Immagine insert. Replace files in `assets/img/admin-guide/` keeping the same names (or adjust README).

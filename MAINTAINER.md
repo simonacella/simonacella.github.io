@@ -16,11 +16,11 @@ Replace GitHub’s awkward web UI with **`/admin`** (Sveltia) so Simona can writ
 
 **Soft launch:** language buttons on chrome. Posts show the switcher only when a translation is public (`translation_public`). EN/FR listings show every article; unpublished langs open Italian.
 
-**Author docs:** `README.md` still YAML-by-hand; Italian field hints live in `admin/config.yml`. CMS-first checklist still pending (`sveltia-cms.md`).
+**Author docs:** `README.md` = CMS visual story with shots in `assets/img/admin-guide/`. YAML hand-edit: `GUIDA-FILE.md`. Field hints: `admin/config.yml`.
 
 ## Next
 
-1. README CMS-first — short Italian `/admin` checklist (see `.cursor/plans/sveltia-cms.md`).
+1. Optional: reshoot Authorize / Publish click / YouTube insert (see `.cursor/plans/sveltia-cms.md`).
 
 ## Try it
 
