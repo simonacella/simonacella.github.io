@@ -28,18 +28,16 @@ Compare l’elenco degli articoli. Sono gli stessi pezzi di sempre — solo che 
 
 <img src="assets/img/admin-guide/03-articoli.png" alt="Elenco Articoli — clicca New" width="800" />
 
-## 4. Due colonne (non farti confondere)
+## 4. Compila il modulo
 
-L’editor ha **due riquadri affiancati**, ciascuno con le proprie linguette:
+**Non farti confondere**: l’editor ha due riquadri affiancati. Per ora lascia così:
 
-- **Sinistra** — dove scrivi (qui: Italian). English / French servono quando traduci.
-- **Destra** — di solito **Preview** (anteprima). Puoi anche aprirci un’altra lingua per confrontare.
+- **Sinistra** → **Italian** (dove scrivi)
+- **Destra** → **Preview** (anteprima)
 
-Non sono due articoli diversi: è lo stesso pezzo, visto da due lati.
+Non sono due articoli diversi: è lo stesso pezzo, visto da due lati. English / French serviranno più avanti per le traduzioni.
 
-<img src="assets/img/admin-guide/04b-due-colonne.png" alt="Linguette sinistra (lingua) e destra (Preview)" width="800" />
-
-## 5. Compila il modulo
+<img src="assets/img/admin-guide/04-compila.png" alt="Modulo Creating Articolo — campi da compilare a sinistra" width="800" />
 
 In ordine, a sinistra:
 
@@ -50,30 +48,28 @@ In ordine, a sinistra:
 - **Tag** — sempre in italiano (es. `cinema`, `venezia`)
 - **Uscito anche altrove** (se serve) — Editore `Nigrizia`, Link = URL del pezzo
 
-<img src="assets/img/admin-guide/04-nuovo-titolo.png" alt="Modulo: titolo, data, copertina" width="800" />
-
-## 6. Media (copertina e immagini)
+## 5. Media (copertina e immagini)
 
 Per la **copertina** (e più avanti per le immagini nel testo) si apre la finestra **Select Image**: scegli un file già sul sito oppure **Upload** per caricarne uno nuovo. Evita spazi nel nome del file.
 
-<img src="assets/img/admin-guide/06-media.png" alt="Finestra Select Image — libreria media" width="800" />
+<img src="assets/img/admin-guide/05-media.png" alt="Finestra Select Image — libreria media" width="800" />
 
-## 7. Testo (e video)
+## 6. Testo (e video)
 
 Scrivi in **Testo**. Basta un paragrafo o due per iniziare.
 
-- Immagini nel corpo: pulsante **Immagine** (stessa finestra della sezione 6)
+- Immagini nel corpo: pulsante **Immagine** (stessa finestra della sezione 5)
 - Video: **Inserisci → YouTube** (incolla il link del video)
 
-<img src="assets/img/admin-guide/07-testo-media.png" alt="Testo dell’articolo" width="800" />
+<img src="assets/img/admin-guide/06-testo-media.png" alt="Testo dell’articolo" width="800" />
 
 Poi premi **Publish** in alto a destra. Il sito si aggiorna da solo (ci vogliono uno o due minuti).
 
-## 8. Online
+## 7. Online
 
 Apri https://simonacella.github.io/ e cerca il titolo. L’articolo è pubblico.
 
-<img src="assets/img/admin-guide/08-online.png" alt="Articolo online sul sito" width="800" />
+<img src="assets/img/admin-guide/07-online.png" alt="Articolo online sul sito" width="800" />
 
 ---
 
