@@ -1,17 +1,18 @@
 # Localized display labels for tag keys.
-# Tag keys in post front matter stay Italian (stable keys). Display labels can
-# differ by language. URLs use a slug of the Italian key (/tag/alain-gomis.html).
+# Tag keys are Italian and lowercased at build time. Keys here must match that
+# (lowercase). Display labels can differ by language. URLs use a slug of the
+# key (/tag/alain-gomis.html).
 
 en:
-  Francia: "France"
-  Migrazione: "Migration"
-  Archivi: "Archives"
-  Mostre: "Exhibitions"
-  RDC: "DRC"
+  francia: "France"
+  migrazione: "Migration"
+  archivi: "Archives"
+  mostre: "Exhibitions"
+  rdc: "DRC"
 
 fr:
-  Cinema: "Cinéma"
-  Francia: "France"
-  Migrazione: "Migration"
-  Archivi: "Archives"
-  Mostre: "Expositions"
+  cinema: "Cinéma"
+  francia: "France"
+  migrazione: "Migration"
+  archivi: "Archives"
+  mostre: "Expositions"

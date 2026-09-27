@@ -1,6 +1,6 @@
 # Sveltia CMS
 
-Remote `/admin` (GitHub OAuth via `auth.rednaw.nl`). Shipped invariants: `.cursor/rules/sveltia-cms.mdc`. Human map: [`MAINTAINER.md`](../../MAINTAINER.md). OAuth proxy contract: iac `docs/future/oauth-auth-proxy-implementor-brief.md` and `_review/` in this repo — do not re-implement from Jekyll.
+Remote `/admin` (GitHub OAuth via `auth.rednaw.nl`). Shipped invariants: `.cursor/rules/sveltia-cms.mdc`. Human map: [`MAINTAINER.md`](../../MAINTAINER.md). OAuth proxy contract: iac `.cursor/completed/oauth-auth-proxy-implementor-brief.md` and `_review/` in this repo — do not re-implement from Jekyll.
 
 ## Decided
 

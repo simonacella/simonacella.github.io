@@ -233,15 +233,15 @@ Se però vuoi che un tag venga **mostrato** tradotto quando qualcuno legge il si
 
 ```yaml
 en:
-  Migrazione: "Migration"
+  migrazione: "Migration"
 
 fr:
-  Migrazione: "Migration"
+  migrazione: "Migration"
 ```
 
 Regole pratiche:
 
-- A sinistra dei due punti va **esattamente** il tag come lo scrivi negli articoli (stessa maiuscola/minuscola).
+- A sinistra dei due punti va il tag in **minuscolo** (il sito normalizza i tag così in fase di build; `Migrazione` e `migrazione` sono lo stesso tag).
 - A destra, tra virgolette, va la traduzione da mostrare.
 - Nomi propri (persone, paesi, registi) di solito non hanno bisogno di traduzione: aggiungi qui solo le parole che cambiano davvero (es. «Migrazione» → «Migration»).
 - Se non sei sicura, lascia perdere questo file: il tag continuerà a comparire in italiano, che non è un errore.
