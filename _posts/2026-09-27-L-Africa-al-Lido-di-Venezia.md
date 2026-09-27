@@ -3,7 +3,7 @@ translation_public: false
 title: L'Africa al Lido di Venezia
 lang: it
 date: 2026-09-27
-img: /assets/img/posts/IMG_20260917_090901_461.jpg
+img: /assets/img/posts/artou.jpg
 description: Recensione dei film africani in concorso al Festival di  Venezia 2026
 tags:
   - cinema
@@ -76,12 +76,8 @@ Eppure nonostante le lusinghe di una possibile casa con vista mare, gli adulti n
 
 La loro è una vita dura, fatta di gesti semplici e ripetitivi come tagliare le spighe di grano con il falcetto, riempire secchi d’acqua per innaffiare i campi, cogliere i cavoli con le mani, alzarsi di notte per cogliere i gelsomini da trasformare in ghirlande.
 
-È un film corale nonostante sembra che Amal, una ragazza incinta, sia il fulcro della storia. La regista la segue ma nel frattempo non dimentica la famiglia che le sta intorno. La nonna, i genitori, le sorelle minori. La cugina che lavora come estetista al Cairo. La regista ci racconta la loro vita faticosa ma piena di amore e dignità.
+È un film corale nonostante Amal, una ragazza incinta, sia il fulcro della storia. La regista la segue ma nel frattempo non dimentica la famiglia che le sta intorno. La nonna, i genitori, le sorelle minori. La cugina che lavora come estetista al Cairo. La regista ci racconta la loro vita faticosa ma piena di amore e dignità.
 
 La loro è una casa, spoglia, con muri segnati dal passaggio del tempo. Intorno a loro oltre i campi, illuminati da macchie di fiori gialli, la città cresce, le case vengono costruite, i treni promettono nuovi orizzonti. La regista ha girato nel suo villaggio facendo recitare i suoi parenti.
 
 Creando uno spazio dove potessero raccontare la loro storia, influenzando così la sceneggiatura. Unica attrice professionista è Reem Amer che interpreta con grande intensità e rigore il personaggio di Amal e che diventa il perno emotivo sul quale strutturare le scene e i dialoghi.
-
-![](/assets/img/posts/AVZ-CONGO-7671.jpg)
-
-In attesa di vedere gli ultimi titoli in concorso ci riempiamo gli occhi con le opere della [Biennale Arte](https://www.labiennale.org/it/news/biennale-arte-2026-minor-keys) curata da Koyo Kouoh e quasi interamente concepita a Dakar.
