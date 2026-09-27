@@ -15,6 +15,7 @@ Remote `/admin` (GitHub OAuth via `auth.rednaw.nl`). Shipped invariants: `.curso
 | Example piece | [L’Africa al Lido…](https://www.nigrizia.it/notizia/cinema-africano-venezia-83-film-mostra); fragments OK; republication Nigrizia. |
 | Author docs | `README.md` = CMS visual story; `GUIDA-FILE.md` = YAML hand-edit; both excluded from Pages. |
 | Screenshots | `assets/img/admin-guide/01-accedi.png` … `08-online.png` (wired in `README.md`). |
+| First author publish | Simona used remote `/admin` and published a post (2026-09). |
 
 ## Decide
 

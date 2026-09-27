@@ -40,7 +40,8 @@
 .fa-instagram:before,
 .fa-reddit:before,
 .fa-imdb:before,
-.fa-substack:before {
+.fa-substack:before,
+.fa-whatsapp:before {
   font-family: "Font Awesome 7 Brands";
   font-weight: 400;
 }
@@ -65,3 +66,4 @@
 .fa-reddit:before { content: "\f1a1"; }
 .fa-imdb:before { content: "\f2d8"; }
 .fa-substack:before { content: "\e8b8"; }
+.fa-whatsapp:before { content: "\f232"; }

@@ -29,7 +29,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = path.join(root, 'assets/fonts/font-awesome/webfonts');
 
 const solid = ['bars', 'xmark', 'magnifying-glass', 'angle-left', 'angle-right', 'envelope'];
-const brands = ['linkedin', 'github', 'instagram', 'facebook', 'reddit', 'imdb', 'substack'];
+const brands = ['linkedin', 'github', 'instagram', 'facebook', 'reddit', 'imdb', 'substack', 'whatsapp'];
 
 let fontawesomeSubset;
 try {
