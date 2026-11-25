@@ -1,6 +1,6 @@
 # Maintainer notes — Sveltia
 
-Sveltia effort status for you. Agents: rewrite when the story changes; no second maintainer doc. Invariants: `.cursor/rules/sveltia-cms.mdc`.
+Sveltia effort status for you. Agents: rewrite when the story changes; no second maintainer doc. Invariants: local `.cursor/rules/sveltia-cms.mdc` mount (private portfolio store; not on GitHub).
 
 ## What
 
